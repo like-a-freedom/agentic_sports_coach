@@ -28,12 +28,12 @@ For each lab set, try to capture:
 ## If results are in PDFs
 Preferred workflow:
 1) Convert to text/markdown.
-   - In this repo you can keep originals in `knowledge/blood_tests/`.
+   - In this repo you can keep originals in `knowledge/personal/blood_tests/`.
    - Extract a plain-text copy if needed for analysis.
 2) Normalize into a compact “structured summary” (date-stamped) so trend analysis is easy.
 
 Suggested naming for summaries:
-- `knowledge/blood_tests/YYYY-MM-DD_summary.md`
+- `knowledge/personal/blood_tests/YYYY-MM-DD_summary.md`
 
 ## Interpretation workflow (repeatable)
 ### Step 1: Identify the question
@@ -117,5 +117,5 @@ If the user explicitly asks for a revised week plan, follow the project output c
 - Put the “why” inside workout descriptions using `-` lines.
 
 ## Repo references
-- Blood test originals: `knowledge/blood_tests/`
+- Blood test originals: `knowledge/personal/blood_tests/`
 - Evidence-based reasoning boundaries: `.github/skills/kinesiology-foundations/SKILL.md`
