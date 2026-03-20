@@ -1,0 +1,1293 @@
+Haugen et al. Sports Medicine - Open   (2022) 8:46
+https://doi.org/10.1186/s40798-022-00438-7
+
+
+
+
+ REVIEW ARTICLE                                                                                                                                               Open Access
+
+The Training Characteristics of World‑Class
+Distance Runners: An Integration of Scientific
+Literature and Results‑Proven Practice
+Thomas Haugen1* , Øyvind Sandbakk2,3, Stephen Seiler4 and Espen Tønnessen1
+
+
+
+  Abstract
+  In this review we integrate the scientific literature and results-proven practice and outline a novel framework for
+  understanding the training and development of elite long-distance performance. Herein, we describe how funda-
+  mental training characteristics and well-known training principles are applied. World-leading track runners (i.e., 5000
+  and 10,000 m) and marathon specialists participate in 9 ± 3 and 6 ± 2 (mean ± SD) annual competitions, respec-
+  tively. The weekly running distance in the mid-preparation period is in the range 160–220 km for marathoners and
+  130–190 km for track runners. These differences are mainly explained by more running kilometers on each session
+  for marathon runners. Both groups perform 11–14 sessions per week, and ≥ 80% of the total running volume is
+  performed at low intensity throughout the training year. The training intensity distribution vary across mesocycles
+  and differ between marathon and track runners, but common for both groups is that volume of race-pace running
+  increases as the main competition approaches. The tapering process starts 7–10 days prior to the main competition.
+  While the African runners live and train at high altitude (2000–2500 m above sea level) most of the year, most lowland
+  athletes apply relatively long altitude camps during the preparation period. Overall, this review offers unique insights
+  into the training characteristics of world-class distance runners by integrating scientific literature and results-proven
+  practice, providing a point of departure for future studies related to the training and development in the Olympic
+  long-distance events.
+  Keywords: Endurance, Training periodization, Aerobic conditioning, Olympic athletes, Training logs
+
+
+Key Points                                                                                         runners, with both groups performing 11–14 ses-
+                                                                                                   sions per week, and ≥ 80% of the total running vol-
+  • This review bridges the gap between science and                                                ume at low intensity
+    results-proven practice regarding how training prin-                                         • Training intensity distribution varies across meso-
+    ciples and training methods should be applied for the                                          cycles and differs between marathon and track run-
+    Olympic long-distance events and identified clear                                              ners, but common for both groups is that volume of
+    distinctions in training organization between track                                            race-pace running increases as the main competition
+    runners and marathon specialists                                                               approaches
+  • The weekly running distance is in the range 160–
+    220 km for marathoners and 130–190 km for track
+                                                                                              Background
+                                                                                              Training for long-distance running (LDR) aims to
+*Correspondence: thomas.haugen@kristiania.no                                                  improve the “big three” performance-determining vari-
+1
+  School of Health Sciences, Kristiania University College, PB 1190,                          ables: maximum oxygen uptake (­VO2max; the highest
+Sentrum, 0107 Oslo, Norway
+Full list of author information is available at the end of the article                        rate at which the body can take up and utilize oxygen
+
+                                            © The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+                                            permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+                                            original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+                                            other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+                                            to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+                                            regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+                                            licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/.
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                               Page 2 of 18
+
+
+
+
+during severe exercise), fractional utilization (the ability    community would reasonably argue that we can only
+to sustain a high percentage of ­VO2max when running),          know that this is results-proven practice, not if it is best
+and running economy ­( VO2 at a given submaximal run-           practice. Combining and cross-checking data sources
+ning velocity). Together, these variables integrate the sus-    from available research evidence and results-proven
+tained ability to produce adenosine triphosphate (ATP)          practice provides a valid point of departure for outlin-
+aerobically and convert muscular work to power/speed            ing current training recommendations and for generating
+[1–11]. International runners demonstrate different com-        new hypotheses to be tested in future research [33–36].
+binations of these determinants, as an “acceptable value”       This integrative approach also facilitates unique insights
+in one variable can be compensated for with extremely           into training characteristics that previously have been
+high values in the other variables. In addition, a “fourth      scarcely investigated, altogether allowing a more holistic
+variable,” neuromuscular power/anaerobic capacity, plays        picture of “state-of-the-art” LDR training.
+an important role in the decisive end phase of tactical            The objective of this review is therefore to integrate
+track races [12]. Further, classic laboratory testing may       scientific and results-proven practice literature regard-
+not capture a “fifth variable,” fatigue resistance associated   ing the training and development of elite LDR perfor-
+with specific adaptations that delay muscular deteriora-        mance. Within this context, we will particularly explore
+tion and fatigue and enable maintaining race pace over          areas where the scientific literature offers limited infor-
+the final 7–10 km of an elite marathon [13, 14]. Different      mation compared to results-proven training information.
+time courses in the development of these performance            Moreover, the distinctions between training characteris-
+determinants are very likely. This is exemplified by a case     tics of the most successful marathon runners and track
+study of former marathon world record holder Paula              runners (i.e., 5000 and 10,000-m specialists) will be high-
+Radcliffe who improved running economy by ~ 15%                 lighted since they organize their training year differently.
+between 1991 and 2003, while V̇O2max remained essen-            Although anchored in the standard Olympic running
+tially stable at ~ 70 ml ­kg−1 ­min−1 [5].                      distances, this review is also relevant for other endurance
+  Most world-class long-distance runners engage in sys-         sports.
+tematic training for 8–10 years prior to reaching a high
+international standard [15]. Different pathways to excel-       Methodological Considerations
+lence have been described, as both early and late spe-          The scientific literature supporting this narrative review
+cialization, and different backgrounds from other sports,       was obtained from PubMed, using varying combinations
+can provide a platform for later elite LDR performance          of the search terms “endurance,” “long distance,” “mara-
+[15–18]. Several scientific publications during the last        thon,” “training,” “conditioning,” “running,” “elite,” “high
+two decades have described the training characteristics         performing,” world-class,” “runners, ” and “athletes.” In
+of world-leading distance runners [17–31]. However,             addition, we searched for non-scientific, publicly avail-
+our understanding of best-practice LDR continues to             able, and English-language training information related
+evolve, and it is fair to say that positive developments in     to podium contestants from international champion-
+modern long-distance training methods have often been           ships (i.e., Olympic Games [OG], World Championships
+driven by experienced coaches and athletes rather than          [WC], and continental championships) and world mara-
+sports scientists [32]. Sport scientists have historically      thon majors. Most of the training data were obtained
+found themselves testing hypotheses regarding why elite         from websites (Runner Universe, Sweat Elite, Running
+athletes train as they do rather than driving innovation        Science, LetsRun, and RunnersTribe) dedicated to pro-
+around the how in the training process. Tightly controlled      viding the athletics community an expansive library of
+and adequately powered laboratory studies that span the         information written by top athletes and coaches. Within
+months-to-years timescales associated with maximizing           these websites, all relevant training logs and coaching
+all the above-mentioned physiological variables impact-         philosophies were purchased/downloaded and reviewed.
+ing LDR performance have been essentially infeasible if         Training information from doping-banned athletes or
+not impossible.                                                 coaches were excluded. Moreover, a Google Search for
+  Publicly available coaching philosophies and training         podium contestants (using athlete name and “training” as
+logs of podium contestants from international athlet-           search terms) and LDR books was performed. Although
+ics championships and world marathon majors consti-             we cannot guarantee that relevant data have not been
+tute a corpus of descriptive training information for the       overlooked, the search revealed training logs/informa-
+international long-distance community. It is tempting to        tion from 59 world-leading athletes and 16 coaches of
+call this corpus of information made available by inter-        podium contestants [15, 37–112] (Table 1). This informa-
+national champions a description of training “best prac-        tion ranged from “typical training week” of various meso-
+tice,” but some of our colleagues in the sports science         cycles to complete annual training logs. Interpretations
+Haugen et al. Sports Medicine - Open    (2022) 8:46                                                                         Page 3 of 18
+
+
+
+
+Table 1 Sources of results-proven practice
+Athletes [Ref.]              Personal bests (min)                           International merits
+
+Said Aouita ♂ [39]
+Stefano Baldini ♂ [69]
+                             5000 m 12:58.39 (WR)—mile 3:46.76              Olympic gold 1984, WC gold 1987
+
+
+Dieter Baumann ♂ [40]
+                             Marathon 2:07:22—Half marathon 1:00:50         Olympic gold 2004, EC gold 1998 and 2006
+
+
+Kenenisa Bekele ♂ [81]
+                             5000 m 12:54.70–3000 m 7:30.50                 Olympic gold 1992, EC gold 1994
+
+
+Joan Benoit ♀ [97]
+                             5000 m 12:37.35 (WR)—10,000 m 26:17.53 (WR)    3× Olympic gold and 5× WC gold 2003–2009
+
+
+Gelindo Bordin ♂ [70]
+                             Marathon 2:21:21—Half marathon 1:08:34         Olympic gold 1984
+
+
+Robert de Castella ♂ [82]
+                             Marathon 2:10:32—Half marathon 1:03:16         Olympic gold 1988, EC gold 1986 and 1990
+
+
+Joshua Cheptegei ♂ [41]
+                             Marathon 2:07:51 (WR)                          WC gold 1983
+
+
+Stephen Cherono ♂ [60]
+                             5000 m 12:35.36 (WR)—10,000 m 26:11.00 (WR)    Olympic gold and silver 2021, WC gold 2019
+
+
+Constantina Diță ♀ [83]
+                             5000 m 12:48.81—3000 m SC 7:53.63 (WR)         WC gold 2003 and 2005
+
+
+Brendan Foster ♂ [62]
+                             Marathon 2:21:30—Half marathon 1:08:10         Olympic gold 2008, WC bronze 2005
+
+
+Haile Gebrselassie ♂ [42]
+                             5000 m 13:14.6—10,000 m 27:30.3                Olympic bronze 1976, EC gold 1974
+
+
+Sifan Hassan ♀ [49]
+                             5000 m 12:39.36 (WR)—10,000 m 26:22.75 (WR)    2× Olympic gold and 4× WC gold 1995–2000
+
+
+Takayuki Inubushi ♂ [71]
+                             1500 m 3:51.95—10,000 m 29:36.67               2× Olympic gold 2021, 2× WC gold 2019
+
+
+Joyciline Jepkosgei ♀ [85]
+                             Marathon 2:06:57                               Former Asian record holder in the marathon
+
+
+Steve Jones ♂ [80]
+                             Marathon 2:18:40—Half marathon 1:04:51 (WR)    WC silver 2018 and winner of New York marathon 2019
+
+
+Deena Kastor ♀ [87]
+                             Marathon 2:07:13 (WR)                          Winner of London and New York marathon in the 1980s
+
+
+Meb Keflezighi ♂ [78]
+                             Marathon 2:19:36—Half marathon 1:07:34         Olympic bronze 2004
+
+
+Kip Keino ♂ [61]
+                             Marathon 2:09:08—10,000 m 27:13.98             Olympic silver 2004
+
+
+Bob Kennedy ♂ [43]
+                             5000 m 13:24.2—3000 m 7:39.6                   2× Olympic gold and 2× Olympic silver 1968–1972
+
+
+Sylvia Kibet ♀ [45]
+                             5000 m 12:58.21—3000 m 7:30.84                 6th in the Olympics (1996) and WC (1997)
+
+
+Eliud Kipchoge ♂ [76]
+                             5000 m 14:31.91—10,000 m 30:47.20              Olympic bronze 2008, WC silver 2009 and 2011
+
+
+Florence Kiplagat ♀ [46]
+                             Marathon 2:01:39 (WR)—5000 m 12:46.53          Olympic gold 2016 and 2021, WC gold 2003
+
+
+Wilson Kipsang ♂ [96]
+                             Half marathon 1:05:09—10,000 m 30:11.53        WC gold 2009 and 2010 (cross-country and half marathon)
+
+
+Abel Kirui ♂ [75]
+                             Marathon 2:03:13—Half marathon 58:59           Olympic bronze 2012, 5 World Marathon Major wins
+
+
+Daniel Komen ♂ [57]
+                             Marathon 2:05:04—Half marathon 1:00:11         WC gold 2009 and 2011, Olympic silver 2012
+
+
+Brigid Kosgei ♀ [92]
+                             5000 m 12:39.74 (WR)—3000 m 7:20.67 (WR)       WC gold 1997
+
+
+Paul M. Kosgei ♀ [93]
+                             Marathon 2:14:04 (WR)—Half marathon 1:04:49    Olympic silver 2021, 1st in four Marathon majors 2018–2020
+
+
+Ingrid Kristiansen ♀ [63]
+                             Half marathon 59:07—10,000 m 27:21.56          WC gold (half marathon) 2002
+
+
+Bernard Lagat ♂ [52]
+                             10,000 m 30:13.74 (WR)—Marathon 2:21:06 (WR)   WC gold 1987, EC gold 1986
+
+
+Thomas Longosiwa ♂ [58]
+                             5000 m 12:53.60—1500 m 3:26.34                 2× WC gold 2007, Olympic silver 2004 and bronze 2000
+
+
+Tegla Loroupe ♀ [86]
+                             5000 m 12:49.04—3000 m 7:30.09                 Olympic bronze 2012
+
+
+Lisa Martin ♀ [88]
+                             Marathon 2:20:43—10 000 m 30:32.03             3× WC gold (half marathon) and 2× WC silver 1995–1999
+
+
+Greg Meyer ♂ [79]
+                             Marathon 2:23:51—10,000 m 31:11.72             Olympic silver 1988
+
+
+Geoffrey Mutai ♂ [73]
+                             Marathon 2:09:01—10,000 m 27:53.1              Winner of Boston marathon 1981 and 1983
+
+
+Imane Merga ♂ [59]
+                             Marathon 2:04:15—Half marathon 58:58           Winner of New York, Boston and Berlin marathon 2011–2013
+
+
+Lorraine Moller ♀ [97]
+                             10 000 m 26:48.35—5000 m 12:53.58              WC bronze 2011, WC gold cross-country 2011
+
+
+David Moorcroft ♂ [51]
+                             Marathon 2:28:17                               Olympic bronze 1992
+
+
+Moses Mosop ♂ [72]
+                             5000 m 13:00.41 (WR)—3000 m 7:32.79            EC bronce 1978 and 1982
+
+
+Craig Mottram ♂ [53]
+                             Marathon 2:05:03—10,000 m 26:49.55             WC bronze 2005
+
+
+Caleb Ndiku ♂ [55]
+                             5000 m 12:55.76—3000 m 7:32.19                 WC bronze 2005
+
+
+Yobes Ondieki ♂ [56]
+                             5000 m 12:59.17—3000 m 7:30.99                 WC silver 2015
+
+
+Sonia O’Sullivan ♀ [48]
+                             10,000 m 26:58.38 (WR)—5000 m 13:01.82         WC gold 1991
+
+
+Jim Peters ♂ [64]
+                             5000 m 14:41.02—3000 m 8:21.64                 WC gold 1995, 3 × EC gold 1994–1998, Olympic silver 2000
+
+
+Gordon Pirie ♂ [65]
+                             Marathon 2:17:40                               Four marathon WRs in the 1950s
+
+
+Paula Radcliffe ♀ [89]
+                             5000 m 13:36.8—3000 m 7:52.8                   Olympic silver 1956, EC bronze 1958
+
+
+Bill Rodgers ♂ [90]
+                             Marathon 2:15:25 (WR)—10,000 m 30:01.09        WC gold, 3× WC half marathon gold, EC gold 2000–2005
+
+
+Rodgers Rop ♂ [94]
+                             Marathon 2:09:27 (WR)—10,000 m 28:04.42        Multiple winner of Boston and New York marathon 1976–1980
+                             Marathon 2:07:32—Half marathon 1:00:56         Winner of New York and Boston marathon 2002
+Molly Seidel [84]            Marathon 2:25:13—Half marathon 1:08:29         Olympic bronze 2021
+Haugen et al. Sports Medicine - Open         (2022) 8:46                                                                                             Page 4 of 18
+
+
+
+
+Table 1 (continued)
+Athletes [Ref.]                 Personal bests (min)                                           International merits
+
+Toshihiko Seko ♂ [91]
+Mubarak H. Shami ♂ [77]
+                                Marathon 2:08:27—10,000 m 27:42.17                             Winner of Boston, London and Chicago marathon in the 1980s
+
+
+Charlie Spedding ♂ [74]
+                                Marathon 2:07:19—Half marathon 1:00:47                         WC silver 2007, WC half marathon silver 2005
+
+
+Ian Stewart ♂ [66]
+                                Marathon 2:08:33—10,000 m 28:08.12                             Olympic bronze 1984
+
+
+Paul Tergat ♂ [54]
+                                10,000 m 27:43.03—5000 m 13:22.8                               EC gold 1969, Olympic bronze 1972
+                                10,000 m 26:27.85—Marathon 2:04:55 (WR)                        5× WC gold cross-country and 2× Olympic silver 1995–1900
+
+
+Lasse Viren ♂ [67]
+Andy Vernon [50]                5000 m 13:11.50—10,000 m 27:42.62                              EC silver and bronze 2014
+
+
+Grethe Waitz ♀ [68]
+                                5000 m 13:16.4 (WR)—10,000 m 27:38.35 (WR)                     4× Olympic gold 1972–1976, WC bronze 1974
+
+
+Susanne Wigene ♀ [47]
+                                Marathon 2:24:54 (WR)—Half marathon 1:07:50                    WC gold 1983 and 5× WC cross-country gold 1978–1983
+                                10,000 m 30:32.36—5000 m 14:48.53                              EC silver 2006
+Emil Zatopek [97]               5000 m 13:57.0—10,000 m 28:54.2                                4× Olympic golds and 4× EC golds 1948–1954
+Coaches [ref.]                  Successful long-distance athletes                              Athlete merits
+
+Nic Bideau [20]                 Craig Mottram                                                  WC bronze 2005
+Bill Bowerman [21]              Steve Prefontaine, Bill Dellinger, Matt Centrowitz             Bowerman trained 31 Olympic athletes
+Antonio Cabral [22]             Alberto Chaica, Fernando Couto                                 Olympic and WC finals
+Renato Canova [23, 24]          Abel Kirui, Sylvia Kibet, Imane Merga                          45 Olympic/WC medals, 15 World Marathon Major wins
+Jack Daniels [25]               Coached seven athletes to the U.S. Olympic team                Olympic finals
+John Davis [26]                 Dick Quax, Lorraine Moller                                     Olympic medals
+Brad Hudson [27]                Dathan Ritzenhein                                              Olympic finals
+Mihaly Igloi [28]               Multiple long-distance athletes in the 1950s and 1960s         A total of 49 world records
+Arthur Lydiard [29–31]          Murray Halberg, Barry Magee                                    Olympic medals in the 1960s
+Mihaly Iglói [28]               Sándor Iharos, Jim Beatty, Bob Schul                           His athletes achieved 49 WRs in the 1950s and 1960s
+Steve Magness [32]              Assistant coach and advisor for elite runners                  Seven top-15 finishes at WC
+Kim McDonald [33]               Daniel Komen, Stephen Cherono                                  Olympic and WC medals
+Terrence Mahon [34]             Deena Kastor, Jen Rhines, and Ryan Hall                        Olympic medals and finals
+Gabriele Rosa [35]              Moses Tanui, Paul Tergat, Sammy Wanjiru                        Olympic medals
+Joe Vigil [36, 37]              Coach for the US Olympic team in 1998                          Olympic finals
+Chris Wardlaw [38]              Steve Moneghetti, Rob De Castella, Craig Mottram               WC medals
+Overall, the 59 listed athletes have won 51 medals in Olympic Games (22 gold, 15 silver, 11 bronze), 62 medals in World Athletics Championships (26-14-17), 56
+medals in continental championships (25-11-17), 25 medals in World Athletics Half Marathon Championships (15-3-1), 52 medals in World Athletics Cross Country
+Championships (31-8-9), 16 medals in World Athletics Indoor Championships (10-4-2) and 48 world marathon major wins. Eighteen of the listed athletes are former or
+current world record holders
+WC world championships, EC European championships, WR former or current world record holder
+
+
+
+of longitudinal training logs were weighted more heavily                           a common framework (e.g., intensity zones) and ter-
+than “short-term” information. Similarly, training infor-                          minology can result in misinterpretations. Moreover,
+mation from the 50 s, 60 s, and 70 s was mainly used to                            the included literature cannot be controlled for pos-
+provide historical context.                                                        sible training prescription–execution differences or
+  Several limitations to our approach must be acknowl-                             changes in training programs over the years. We are
+edged. Firstly, the inclusion of results-proven training                           also aware that many unsuccessful athletes have applied
+information can be discussed since it is not based on                              the same “recipe” as successful runners. Hence, we par-
+peer-reviewed research. However, elite athletes are                                ticularly focus on common key features across varying
+systematic in their collection of training “data” and                              athlete groups. Finally, the widespread use of doping
+report their training accurately [23, 113], justifying the                         in international athletics must also be acknowledged
+extensive use of training logs as primary or second-                               [114, 115]. The outcomes of this review must therefore
+ary information sources in scientific training charac-                             be interpreted with these caveats in mind. Sensitive
+teristics studies within LDR [e.g., 17–28]. Secondly,                              to these limitations, we still contend that integrat-
+an initial review of both the scientific literature and                            ing scientific evidence and results-proven practice is a
+results-proven practice reveals several biases, includ-                            strong point of departure for outlining state-of-the-art
+ing a substantial male dominance and focus on a few                                training recommendations and for generation of new
+successful training groups. Additionally, the lack of                              hypotheses to be tested in future research.
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                               Page 5 of 18
+
+
+
+
+Training Periodization and Competition                           their training. A review of the competition schedule for
+Scheduling                                                       the athletes listed in Table 1 (based on their most suc-
+Information about the periodization pattern of LDR               cessful year in an international championship) revealed
+training over the course of a year is scarce in the scientific   that track runners participated in 9 ± 3 (mean ± SD)
+literature. Since Arthur Lydiard introduced his periodiza-       annual competitions, in which 6 ± 3 where outdoor races
+tion system in the late 1950s [46–48], leading practition-       prior to OG or WC [119]. About half of the outdoor races
+ers typically divide the training year (macrocycle) into         were so-called “under-distances” (1500–3000 m), while
+distinct, ordered phases (meso- or micro-cycles) with            the remaining half consisted of 5- or 10,000-m competi-
+the explicit goal of peaking for major competitions [15,         tions. None of the analyzed track runners competed in
+21, 26–28, 39–57, 63, 67, 73, 76, 92, 94, 99, 100]. Because      “over-distances” (e.g., half-marathon) in the 3–4 preced-
+track and marathon specialists organize their training           ing months leading up to the OG/WC. The last competi-
+year and competition schedule quite differently, we will         tion prior to OG/WC was performed 4 ± 2 weeks ahead,
+treat these groups separately in the remainder of this           and 3 ± 2 additional competitions were performed in the
+section.                                                         subsequent 2–4 weeks after their most successful cham-
+   At least three phases are typically organized within a        pionship [119].
+macrocycle for track runners: a preparation period, a              Marathon runners periodize their training year differ-
+competition period, and a transition period. The tran-           ently. The marathon runners listed in Table 1 participated
+sition period begins immediately after the conclusion            in 6 ± 2 annual competitions in their most successful year,
+of the outdoor competition season, typically consist-            or ~ 50% fewer races than the track runners. These com-
+ing of 1–2 weeks with rest or recreational training/low-         petitions were distributed across 2 ± 1 marathons (sepa-
+intensive running [15, 39–44, 49, 53–55, 63, 75, 87, 94],        rated by at least 3 months), 1 ± 1 half-marathon(s), and
+although some athletes may take ~ 4 weeks completely off         3 ± 3 races over 5–15 km [119]. Their last competition
+[73]. The preparation period is typically broken up into         prior to OG/WC or a World Marathon Major was per-
+general and specific preparation. In the general prepara-        formed 10 ± 5 weeks ahead. Marathon runners typically
+tion period, the focus is high volume to build an aerobic        apply double periodization centered around spring and
+foundation. From the specific preparation period onward,         autumn marathons, where the 7–14 days following the
+the focus gradually shifts toward higher volume of spe-          marathon competitions are completely training free or
+cific race-pace intensity [40–44, 49–56, 72, 73, 76, 92–         very easy [15, 112]. The 5–6 preceding months leading up
+94, 112]. Such organization of training has also recently        to a marathon are typically divided into general and spe-
+been verified as highly effective in the research literature     cific preparation [40–42, 52–54]. For track runners, the
+[116] and bears some resemblance with Matveyev’s tradi-          focus gradually shifts throughout the preparation period
+tional periodization model based on the training of suc-         from achieving high total running volume to achieving
+cessful Soviet athletes during the 1950s and 1960s [117].        more running volume at or near race pace. Progression is
+While the Matveyev model suggested a dramatic shift              either based on extending the athlete’s accumulated ses-
+from volume focus to intensity focus as the competition          sion duration at a goal pace [40, 41] or establishing high
+period neared, most track runners maintain a high vol-           intensity volume and then slowly increasing pace [92].
+ume of subthreshold endurance training throughout the            Some marathon runners even apply a reverse linear peri-
+preparation and competition period and are careful not           odization model, with the highest running volumes reg-
+to overuse race-pace training or introduce it too early in       istered during the preceding weeks of the tapering phase
+their annual cycle. This is somewhat in contrast to the          periods as the competition is approaching [112, 120].
+research literature, where under-performance caused by             The underlying mechanisms for the superiority of spe-
+overtraining/under-recovery tends to be closely associ-          cific periodization models in LDR remain unclear, and
+ated with high volumes and/or densities of training rather       there is no direct evidence enabling us to compare out-
+than reduced volume and increased intensity [118].               comes across various periodization methodologies [121].
+   Some track runners apply double periodization (i.e.,          Although scientific comparisons of different training
+two peaking phases), consisting of a preparation phase, an       approaches at a macro-level are challenging to perform,
+indoor or cross-country season, a new preparation phase,         future studies should aim to verify and test the concepts
+and finally an outdoor track competition season (typi-           developed by the best practitioners over the last decades.
+cally lasting 3–4 months, starting in May and ending in
+September) [56, 57, 68]. However, most world-class track         Training Methods
+runners apply single periodization; they may participate         The specific training methods for LDR consist of vary-
+in cross-country or indoor competitions during their             ing forms of continuous long runs and interval training
+preparation phase but use these competitions as part of          (Table 2). These training methods bear different labels
+Haugen et al. Sports Medicine - Open            (2022) 8:46                                                                                                   Page 6 of 18
+
+
+
+
+Table 2 Specific training methods for world-class long-distance runners
+Training method                                         Description
+
+Continuous running
+Warm-up/cooldown, easy run                              Low-intensive running (typically 3–5 km ­h−1 slower than marathon pace, i.e., 3:45–4:30 and 4:15–
+                                                        5:00 min ­km−1 for men and women), however, the last part of the warm-up may approach marathon
+                                                        pace predominantly performed on soft surface (grass, woodland, forest paths, etc.). Typical duration
+                                                        for warm-up/cooldown is 10–30 min. Easy runs are typically applied prior to or after hard training ses-
+                                                        sions, typically lasting 40–70 min
+Long run                                                Low-intensive steady-state running (~ 1–2 km ­h−1 slower than marathon pace, i.e., 3:05–3:30 and
+                                                        3:30–4:00 min ­km−1 for men and women, with marathoners in the faster ends of these ranges). Typical
+                                                        duration is 45–120 min for track runners and 75–165 min for marathon runners. The running pace is
+                                                        not necessarily constant throughout the session. This training method is more specific for maratho-
+                                                        ners than track runners
+Uphill run                                              Low-intensive steady-state running uphill (grades 3–6%). Typical duration 20–45 min (6–10 km)
+Threshold run (also called tempo run)                   A sustained run at moderate intensity/half-marathon pace (i.e., 2:50–3:05 and 3:05–3:30 min·km−1
+                                                        for men and women). Typical duration 20–50 min (7–15 km). The session should not be extremely
+                                                        fatiguing
+Fartlek                                                 An unstructured run over varying terrain lasting 30–60 min, where periods of fast running are inter-
+                                                        mixed with periods of slower running. The pacing variations are determined by the athlete’s feelings
+                                                        and rhythms, and the terrain
+Progressive long runs                                   A commonly used training form used by African runners. The first part of the session resembles an
+                                                        easy run. After about half the distance, the pace gradually quickens. In the final portion, the pace
+                                                        increases to half-marathon pace or slightly past it. Typical duration is 45–90 min. Athletes are advised
+                                                        to slow down when the pace becomes too strenuous
+Interval training
+Threshold intervals (also called tempo intervals) Intervals of 3–15 min. duration at an intensity around half-marathon pace or slightly faster. Typical
+                                                  sessions: 10–12 × 1000 m with 1 min. recovery or easy jog between intervals, 6–8 × 1500–2000 m
+                                                  with 1–2 min. recovery or easy jog between intervals, or 4 × 5000 m with 1000 m easy jog in between.
+                                                  Recommended total time for elite runners is 30–75 min. Such intervals are advantageous because
+                                                  they allow the athlete to accumulate more total time than during a continuous threshold run
+VO2max intervals                                        Intervals of 2–4 min. duration at 3–10 K pace, with 2–3 min. recovery periods between intervals.
+                                                        Typical sessions: 4–7 × 800–1000 m or 2 × (6 × 400 m) with 30–60 s and 2–3 min. recovery between
+                                                        intervals and sets, respectively. Recommended total time for elite runners is ~ 15–20 min. This training
+                                                        method is more specific for track runners than marathoners
+Lactate tolerance training                              5000-m runners perform 1–2 weekly training sessions with high levels of lactate in the pre-compe-
+                                                        tition and competition period. Such intervals typically range from 150 to 600 m at 800–1500 m race
+                                                        pace and 1–3 min. recoveries. Typical sessions: 10–16 × 200 m with 1 min. recovery between intervals,
+                                                        or 1–2 × (10 × 400 m) with 60–90 s and 3–5 min. recoveries between intervals and sets, respectively.
+                                                        Total accumulated distance ranges from 1500 to 8000 m in elite athletes
+Hill repeats                                            The main intention is overloading horizontal propulsive muscle groups while reducing ballistic
+                                                        loading. Typical incline is 5–10%, and repetition duration vary from ~ 30 s to ~ 4 min. depending on
+                                                        intensity, goal (aerobic intervals, lactate production or tolerance training) and time of season. Typi-
+                                                        cal sessions: 8–10 × 200 m with easy jog back recoveries, or 6–8 × 800–1000 m with easy jog back
+                                                        recoveries
+Speed work
+Sprints                                                 5–15 s runs with near-maximal to maximal effort and full recoveries. These can also be performed
+                                                        as strides, progressive runs, hill sprints or flying sprints, the latter where the rate of acceleration is
+                                                        reduced to allow more total distance at higher velocities. The main aim of the session is to develop or
+                                                        maintain maximal sprinting speed without producing high levels of lactate
+The outlined running velocities across the varying methods are based on running at sea level in flat terrain. The exemplified sessions evolve throughout the training
+year, either in the form of duration, number of repetitions, running velocity and/or recovery time between repetitions (depending on the goal of the session)
+Varying definitions of the term “threshold” are used in previously published literature. In this review, we refer to “threshold” as an intensity close to half-marathon pace.
+For elite runners, half marathon pace is at the upper end of the intensity range demarcated by ­LT1 and ­LT2 and approximates maximal lactate/metabolic steady state.
+This appears consistent with how distance runners interpret the term in practice
+
+
+
+among practitioners, mainly depending on the intention/                                  hard session. No scientific studies to date support this
+goal of the training. For example, “easy runs” are some-                                 assumption, but the feeling of recovery might be caused
+what misguidedly termed “recovery runs” or “regen-                                       by the low load of such short easy runs, causing very
+eration” by some coaches [40, 41], assuming that their                                   little interference with the ongoing recovery process.
+value is merely to “accelerate recovery” prior to the next                               However, accumulation of high frequency and volume
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                               Page 7 of 18
+
+
+
+
+of low-intensity training (LIT) is considered an impor-         a larger extent among highly trained long-distance run-
+tant stimulus for inducing peripheral adaptations (e.g.,        ners to provide the same central and peripheral training
+increased mitochondrial biogenesis and capillary density        stimulus with lower muscular mechanical load. Future
+of the skeletal muscle) [122]. Accumulated volume of low        long-term studies should aim to investigate the possible
+intensity running seems to be a characteristic of those         aerobic training effects of various types of cross-training.
+with better running economy [123, 124], and continuous            Less specific training forms such as strength, power
+running is probably most beneficial in stimulating these        and plyometric training in small doses (relative to run-
+adaptations [125]. High volumes of LIT likely promote           ning training dosage) are commonly applied by world-
+better “neural entrainment,” decrease movement variabil-        leading long-distance runners [15, 44, 56–58, 60, 65, 70,
+ity, and reduce energy cost of movement [126].                  93, 94, 97, 104, 111]. Even though these training forms do
+   The historical view is that, compared to a high fre-         not duplicate the holistic running movement, they likely
+quency of LIT bouts, high-intensity training (HIT) stimu-       target specific neuromuscular qualities that underlie
+lates central adaptations to a larger degree (e.g., increased   running economy. A review of the results-proven prac-
+stroke volume of the heart) [127–129]. However, in well-        tice shows that such supplementary training is typically
+trained athletes that are performing a high total volume        implemented as a combination of (1) resistance training
+of training, further increases in V̇O2max are not consist-      using free weights or apparatus (squats, cleans, lunges,
+ently observed after periods of increased HIT [130–132].        step ups, leg press, etc.) without causing noteworthy
+However, there is growing evidence that HIT better stim-        hypertrophy, (2) circuit training with body mass resist-
+ulates peripheral adaptations in fast-twitch motor units        ance, (3) core strength/stability (e.g., sit-ups and back
+via an adenosine monophosphate (AMP) sensitive sign-            exercises), and (4) plyometrics in the form of vertical and/
+aling pathway [133, 134]. In sum, HIT and LIT seem to           or horizontal multi-jumps on grass, inclines, stairs, hills
+elicit a complex suite of overlapping and complementary         (e.g., bounding, skipping, squat jumps) or jumping over
+adaptations [127, 135–137], justifying the judicious appli-     hurdles [15, 44, 56–58, 60, 65, 70, 93, 94, 97, 104, 111].
+cation of varying training intensities for performance          Overall, this supplementary training is poorly described
+development in LDR. Further, it is overly simplistic to         in terms of resistance loading, sets and repetitions, and
+dichotomize the LDR training process into “high volume”         caution must therefore be made when drawing conclu-
+and “high intensity” phases or training bouts. Whether          sions. However, it appears that more strength, power and
+discussing LIT or HIT, resulting adaptive signaling and         plyometric training are implemented during early-to-mid
+stress responses can only be understood when the con-           preparation (about twice a week) compared to the com-
+text of accumulated duration is added. Bill Bowerman,           petition period (typically zero or one weekly session)
+co-founder of Nike and US coach at the 1972 Olympics            [15, 44, 56–58, 60, 65, 70, 93, 94, 97, 104, 111]. Several
+in Munich where Frank Shorter won the marathon, sum-            studies have shown that strength, power and plyometric
+marized his training philosophy as follows: 2–3 weekly          training 2–3 times per week can improve running econ-
+interval sessions, a weekly long run, and fill the rest with    omy in long-distance runners [11, 29, 141–143]. Paula
+as much LIT as you can handle [15, 38]. This simple             Radcliffe improved her vertical jump performance from
+training description holds true for the training organi-        29 to 38 cm between 1996 and 2003, a period where she
+zation of most successful long-distance runners during          improved her running economy and marathon perfor-
+the last 5 decades (see “Intensity distribution” section).      mance considerably [5].
+However, while the interval sessions are considered “key”
+sessions for track runners, the training organization for       Training Volume
+marathoners is most often centered around their weekly          Most world-leading marathon runners train 500–
+“long runs.”                                                    700 h ­year−1, while most corresponding track runners
+   Several successful long-distance runners have sup-           are in the range 450–600 h ­year−1 [15, 40–43, 54, 73, 76,
+plemented their sport-specific training with alternative        79, 87, 94]. The relatively broad ranges in training volume
+locomotion modalities, so-called cross-training, includ-        are also present in other endurance sports [132, 144–
+ing swimming, biking, cross-country skiing, and work-           153] and are likely explained by individual differences in
+outs on elliptical machines [15, 39, 57, 94]. Arguments         mechanical training load tolerance, intensity distribution,
+supporting the inclusion of cross-training include injury       risk willingness, training age/career stage, application of
+prevention and avoidance of training monotony [138,             cross-training, genetics and perhaps also psychological
+139]. Because running is associated with lower total            factors. The present training volume observations are in
+training duration and higher mechanical/ballistic load          line with other studies of top-class long- and middle-dis-
+compared to other locomotion modalities [140], one              tance athletes [19–21, 27, 28, 34], but a larger proportion
+could speculate if cross-training should be performed to        of middle-distance training is devoted to strength, power,
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                             Page 8 of 18
+
+
+
+
+and plyometric training (particularly in 800-m runners)        initial 8–12 weeks of the macrocycle. The initial training
+[34]. Successful endurance athletes in cross-country ski-      week is performed with ~ 40–60% of peak weekly run-
+ing, biathlon, cycling, triathlon, swimming, and row-          ning volume, increasing by ~ 5–15 km each week until
+ing train considerably more (800–1200 h per year) [132,        maximal volume is reached [62, 63, 90, 94, 95, 100, 103].
+144–153]. This is likely explained by the fact that LDR is     This volume progression is mainly achieved by increasing
+a weight-bearing exercise where rapid plyometric muscle        training frequency in the initial phase, then subsequently
+actions put high loads on muscles and tendons during           raised further by lengthening individual training sessions.
+each step. Accordingly, both total training volume and         Variations in training volume progression rate seem to
+the duration of low-intensity sessions are relatively low      depend on training experience and individual predis-
+for LDR compared to the other endurance sports [140].          positions. The younger the training age, and the longer
+To obtain a relatively high training volume, world-leading     the transition period, the more careful progression from
+athletes seem to compensate by running twice a day most        early to mid-preparation within the macrocycle.
+of the week [40, 41, 56–76, 79, 83–112].                         Typical weekly running volume in the mid-preparation
+  Many long-distance runners accumulate much of their          period is ~ 160–220 km for marathon runners [15, 85–
+running kilometers on dirt roads/forest paths instead of       107, 111, 112] and 130–190 km for track runners [56–76,
+paved roads to reduce mechanical loading and maximize          112], distributed across 11–14 sessions. Peak weekly vol-
+training volume. This indicates that the running move-         ume can reach 20–30 km higher values for both groups,
+ment per se is not the main contributor to limited train-      but only for short periods (2–3 weeks) of time. These
+ing tolerance, but rather the leg-surface interaction and      wide ranges must be interpreted in the context of run-
+resulting forces [140]. Running surface is a specific aspect   ning intensity. Some marathon runners cover “only” 130–
+of training periodization for marathoners. Because major       150 km ­wk−1; however, a considerably higher proportion
+marathons are performed exclusively on hard, paved             of their volume (25–30%) is at or near marathon race
+roads, marathon specialists will build in continuous runs      pace, compared to others who cover 220–240 km ­wk−1,
+of increasing duration on asphalt or similar hard surfaces     with only 15–20% at or near marathon pace [85–107,
+as they specifically prepare for these events [15, 41].        112]. Training volume in elite LDR increases ≤ 8–10%
+  A discussion of training volume and the constraints          annually in their late teens and early 20s, before slightly
+created by mechanical interactions between runner and          declining and stabilizing in their mid-20s [17, 18, 49,
+running surface would be incomplete without mention-           53, 54]. The difference in volume between marathon
+ing running shoes. Recent developments on the foot-            and track runners is mainly explained by fewer running
+wear front have received massive attention in the LDR          kilometers per session for track runners, as training fre-
+community. The “super-shoe” was introduced to road             quency is equal for both groups. As shown in Table 2,
+running in 2016 and to track running in 2019, chronolog-       some long-run sessions for marathon runners may last
+ically coincident with a wave of LDR records. These shoes      up to 60 min longer compared to track runners.
+are now subject to strict guidelines and testing [154]. The      One could argue that the ~ 10% slower running veloc-
+footwear features behind these performance improve-            ity in women [161] should be compensated for with
+ments include shoe weight, material composition, heel          less covered distance to ensure the same running dura-
+thickness, and bending stiffness, altogether improv-           tion between sexes. A counterargument is that men and
+ing running economy (and thereby performance) sig-             women should apply equal distances during practice
+nificantly [155–158]. Importantly in the context of LDR        because they compete in the same disciplines [40, 41]. We
+training, anecdotal evidence (i.e., our discussions with       observed no sex differences in distance covered among
+national-level distance runners) also suggests less muscle     the track runners in this study. The analyzed female mar-
+soreness and increased training tolerance with the recent      athon runners covered ~ 5% (~ 10 km) less distance but
+shoe technology, altogether facilitating slightly increased    trained 30–40 min ­wk−1 longer than males [85–107]. We
+running volume. Future studies should investigate how          can only speculate if the longer training duration is to
+the current rapid development in shoe technology will          compensate for the less covered distance.
+affect LDR training characteristics.                             Overall, total running volume has remained rela-
+  While most scientific studies tend to only report            tively constant among world-leading long-distance
+training volume across macro- and mesocycles [e.g.,            runners since the 1950–1960s [15, 46–48, 78, 80–82].
+17, 21, 27, 28], the results-proven practice describes         Some athletes have applied considerably higher volumes
+more detailed fluctuations throughout the training year.       (≥ 300 km ­wk−1), seemingly experiencing more chal-
+Because most injuries are attributed to rapid and exces-       lenges related to injury management and fatigue [15].
+sive increases in training load [159, 160], elite performers   Based upon both biomechanical and physiological fac-
+increase the total running volume gradually during the         tors, it is tempting to speculate that lighter athletes
+                                                                                                                                                                                                                                 Haugen et al. Sports Medicine - Open
+
+
+
+
+Table 3 Intensity scale for long-distance runners
+Scale                          BLa              HR            VO2max          RPE           Pace reference           AWD                     Int. time        Rec           Typical training methods
+                                                                                                                                                                                                                                 (2022) 8:46
+6-zone          3-zone         mmol·L    −1
+                                                % max         %               6–20                                   min·session    −1
+                                                                                                                                             min              min
+
+7               HIT            n/a              n/a           n/a             n/a           60–400 m                 1–3                     < 0:20           1–3           Maximal or progressive sprints, hill sprints
+6               HIT            > 8.0            n/a           n/a             18–20         800–1500 m               5–20                    0:30–2:00        0:30–3        Lactate tolerance training, hill repetitions
+5               HIT            5.0–8.0           > 93         90–99           18–20         1500–5000 m              15–30                   0:30–3           0:30–5        VO2max intervals, competitions, hill repetitions
+4               HIT            3.5–5.0          88–92         85–89           16–18         10,000 m                 20–35                   3–6              1–5           VO2max intervals, hill repetitions, competitions
+3               MIT            2.0–3.5          83–87         80–84           14–16         (Half ) ­marathonb       30–60                   6–20             1–3           Threshold runs/intervals, fartlek, competitions
+2               LIT            1.0–2.0          73–82         70–79           12–14         n/a                      20–150                  n/a              n/a           Long runs, uphill runs, progressive ­runsc
+1               LIT            < 1.0            60–72         55–69           9–12          n/a                      20–150                  n/a              n/a           Warm-up/cooldowna, easy long runs
+BLa = typical blood lactate (normative blood lactate concentration values based on red-cell lysed blood); HR = typical heart rate; ­VO2max = maximal oxygen consumption; RPE = rating of perceived exertion;
+AWD = typical accumulated work duration; Int. = interval; Rec. = typical recovery time (active or passive) between repetitions; LIT = low-intensity training; MIT = moderate-intensity training; HIT = high-intensity training
+a
+    Warm-up is typically performed in zone 1–3, although with shorter duration, while cooldowns are typically performed in zone 1–2
+b
+    Progressive runs are typically performed in zone 1–3
+c
+ The difference between half-marathon and marathon speed is very small on an absolute scale among world-class long-distance runners. Hence, half-marathon pace represents the upper part of zone 3, while marathon
+pace represents the lower part of the same zone. It is also important to note that physiological measures (and RPE) normally “drift” upward considerably during a competition, reflecting a growing mismatch between
+internal and external load. For example, heart rate may increase ~ 20 beats per minute (and cross into “zone 4 or 5”) during the latter half of a marathon race. Hence, the stated values are meant as training guidelines.
+Finally, individual race pace evolves throughout the training year. For example, marathon pace may be 10–20 s slower per kilometer during early preparation period, meaning similar physiological stress when running at
+slower paces
+
+
+
+
+                                                                                                                                                                                                                                 Page 9 of 18
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                              Page 10 of 18
+
+
+
+
+tolerate higher running volumes over time compared to          However, the potential error sources seem to be out-
+their heavier counterparts. Assuming runners spend half        weighed by the improved communication between coach
+the step cycle time on the ground, then the vertical forces    and athlete that a common scale facilitates [34, 135]. The
+exerted upon the ground must be twice the athlete’s body       intensity scale outlined here (Table 3) can be used as a
+weight. Hence, the higher the body weight, the higher the      framework for both scientist and practitioners involved
+impact forces during the landing phase. Moreover, slim         in LDR.
+runners possess superior thermodynamical conditions,             Endurance athletes employ varying methods of inten-
+as their sweat surface area to heat producing volume           sity distribution quantification. These are anchored
+ratio increases with decreasing body size [162].               around blood lactate ranges, running pace references,
+                                                               “time-in-zone” heart rate analysis calibrated against pre-
+Intensity Zones                                                liminary threshold testing, or the “session goal” approach
+While training volume in endurance sports is straight-         where each training session is nominally allocated to an
+forward to quantify, training intensity quantification         intensity zone based on the intensity of the main work-
+is more complicated. The preponderance of scientific           out part [112, 135, 164, 170]. The method of intensity
+and results-proven practice recommends that intensity          quantification can affect the calculation of the intensity
+scales/zones/domains in LDR should be based on physi-          distribution [25, 168]. Based on the nature of available
+ological parameters (e.g., heart rate ranges, ventilatory/     results-proven practice [15, 37–112], the time/distance-
+lactate thresholds), external work rates (running pace         in-zone approach was applied in this review to assess the
+or types of training), or perceived exertion [17, 18, 21,      intensity distribution for the analyzed running sessions.
+22, 25, 27, 28, 30, 40–42, 54, 112, 135, 163–165], but no
+consensus has so far been established. We would argue          Intensity Distribution
+that this lack of consensus is consistent with an uncom-       The description of training intensity distribution in pre-
+fortable truth; no single intensity parameter performs         vious studies of long-distance runners can mainly be
+satisfactorily in isolation as an intensity guide due to (1)   categorized into the following three models: (1) The
+intensity–duration interactions and uncoupling of inter-       pyramidal model, characterized by a large volume of
+nal and external workload, (2) individual and day-to-day       LIT combined with a small volume of moderate-inten-
+variation, and (3) strain responses that can carry over        sity training (MIT) and an even smaller volume of HIT,
+from preceding workouts and transiently disrupt these          (2) the polarized model, where the same large volume
+relationships [13, 166, 167]. Consequently, combining          of LIT is combined with less MIT and more HIT, and
+external load, internal load, and perception regularly dur-    (3) the threshold model, where a relatively larger pro-
+ing training provides a triangulation of intensity charac-     portion of training is performed in the threshold inten-
+teristics that is probably complimentary and informative.      sity range demarcated by lactate/ventilatory thresholds
+Whatever intensity parameter that is chosen, describing        1 (LT1/VT1) and 2 LT2/VT2 [17, 18, 21, 25, 26, 28, 112,
+and comparing training characteristics requires a com-         135, 163, 164, 170–172]. Indeed, these intensity distribu-
+mon intensity scale. To address this, we have developed        tion definitions have been argued to be vague and inad-
+both a 3- and 7-zone intensity model (Table 3). These          equate, forming a basis for misinterpretations [173, 174].
+are mainly anchored around race pace and reflect the           While previous studies have tended to focus on what
+practices of world-leading track and marathon runners.         model is most optimal for performance based on aggre-
+In this way, we can analyze their training logs in more        gated data for the entire training year [17, 18, 21, 25, 26,
+detail. Compared to our previously developed intensity         28], the results-proven practice shows that athletes adjust
+scale for 800/1500-m specialists [34], this version was        intensity distribution modestly across meso- and micro-
+deemed more representative because (1) lactate produc-         cycles (see later paragraphs in this section). It should also
+tion sessions are rarely performed in LDR, (2) long-dis-       be noted that both MIT- and HIT-training sessions are
+tance runners present lower blood lactate values within        psychologically and physiologically demanding, requir-
+each intensity zone, and (3) long-distance runners exhibit     ing increased recovery time between blocks or sessions
+less pronounced velocity declines with increasing train-       compared to training at lower intensity. In this context,
+ing/repetition duration. Admittedly, presenting two “cus-      training at “moderate” intensity is relatively more meta-
+tomized” intensity scales when there is overlap among          bolically demanding in highly trained endurance athletes
+middle- and long-distance performers may be provoca-           because they can run at a very high percentage of their
+tive, but we argue that the present scale better reflects      v V̇O2max during MIT-sessions [6, 175].
+the nature of long-distance training. Indeed, standard-           The most consistent training intensity characteristic
+ized intensity zone systems are imperfect tools and have       of elite distance runners is that most of the running dis-
+been criticized for several reasons [34, 135, 168, 169].       tance (≥ 80%) is performed at low intensity throughout
+Haugen et al. Sports Medicine - Open   (2022) 8:46                                                              Page 11 of 18
+
+
+
+
+the training year (corresponding to zone 1 and 2 in our      is considered a supplement rather than the main goal
+7-zone scale) [15, 37–112], in line with previous research   of separate training sessions and is typically performed
+[15, 17–22, 25–28, 112, 135, 164, 168–172]. Most of this     during the last part of the warm-up or after easy long
+training is in turn executed in zone 1, and the duration     runs. It is generally assumed that sprint training should
+of the easy runs is very stable throughout the training      be performed without accumulation of fatigue (often
+year. Because zone 2 is closer to marathon pace, a higher    indicated by increasing levels of blood lactate). The dis-
+proportion of zone 2 is applied by marathon specialists,     tances are most commonly in the range 60–120 m, with
+particularly during the specific preparation period [40,     sufficient recovery between each repetition. Most sprint
+41, 85–97, 100]. Weekly long runs are one of the most        runs are performed with low to moderate rate of accel-
+important sessions for marathon runners in this period       eration (i.e., strides, progressive runs, hills sprints, or fly-
+[40, 41], typically performed as 30–40 km runs slightly      ing sprints), likely because the energy demands during
+below marathon pace. In contrast, an increasingly higher     maximal acceleration greatly exceed those at peak veloc-
+proportion of LIT is performed in zone 1 for track run-      ity [176]. However, high amounts of endurance training
+ners as the competition season approaches [41, 72–76].       limit the development of muscular power [177, 178], and
+  Training in zone 3 (in the 6-zone scale) represents        it is unrealistic to expect significant sprint performance
+5–15% of the total running volume in elite long-distance     development in elite long-distance runners. Hence, sprint
+runners [15, 37–112]. However, this proportion can           training is mainly performed to minimize the negative
+vary across meso- and micro-cycles. There is a trend         impact of aerobic conditioning on maximal sprint speed.
+among marathon runners toward performing a higher               In summary, the annual training intensity distribution
+proportion of zone-3 training as the major competition       is very similar for track runners and marathon specialists,
+approaches [40, 41, 85–97, 100]. Track runners seem to       as low intensity volume dominates. However, substan-
+follow an opposite organization, as the highest amount of    tial differences may be present within each mesocycle.
+zone-3 training is performed in the early-to-mid prepara-    Both groups increase the volume of race-pace running
+tion period, before decreasing when the competition sea-     as the main competition approaches. Table 4 contrasts
+son is nearing [41, 60, 72–76]. According to Casado et al.   case study examples of typical training weeks across the
+[17, 18], tempo runs (continuous running in zone 2–3 in      annual cycle for a track runner and marathon specialist.
+our model) account for ~ 20% of the total annual running
+volume in world-class Kenyan long-distance runners,          Tapering
+corresponding well with observations of Billat et al. [20]   Tapering in elite sports refers to the marked reduction
+and data compiled here.                                      of total training load prior to important competition(s).
+  Interval training in zone 4–5 also represents 5–15% of     This is a short-term balancing act, as tapering strategies
+the total running volume, but this proportion is inversely   are intended to decrease the cumulative effects of fatigue
+related to zone 3-training. That is, marathon runners        while maintaining fitness [179, 180]. Because tapering
+perform most training in zones 4–5 in the early-to-mid       strategies and outcomes are heavily dependent on the
+preparation period before replacing such training with       preceding training load, it is often challenging to separate
+more extensive bouts of zone-3 and upper end of zone-2       tapering from periodization and training programming
+training as the major competition approaches [40, 41,        in general. According to previous research, a successful
+85–97, 100]. In contrast, track runners increase the pro-    taper may enhance competition performance in well-
+portion of zone 4–5 training at the expense of zone 3 as     trained endurance athletes by ~ 1–3% [179–182]. How-
+the competition season approaches [41, 60, 72–76].           ever, this claim is challenging to verify in elite LDR, as
+  During the pre-competition and competition period,         numerous confounding external variables (race tactics/
+most world-class 5000-m runners perform 1–2 weekly           pacing, weather conditions, competitors, etc.) influence
+interval training sessions in zone 6 or in combination       performance in many important competitions where
+with zone 5 [56, 68, 72–76]. These runners may perform       runners compete for medals and not for the best possible
+10–20 km weekly in zone 5–6 between May and August,          time [183–185]. It has also been shown that outstanding
+while most marathoners avoid training with such high         performances across a 3-month competition period can
+amounts of lactic/glycolytic energy release [40, 41, 85–     be achieved, without tapering for a specific competition,
+97, 100].                                                    by merely reducing the training substantially in the last
+  Distance runners perform sprint training (zone 7 in        4–5 days prior to each competition [73].
+our model) regularly during the annual cycle, although         In cases where major competitions are arranged in
+this accounts for less than 1% of the total running volume   warm and/or humid cities, and perhaps also many
+[15, 37, 40, 42–44, 49, 51, 54–60, 66, 68–76, 85, 88, 90,    time zones away from the athletes’ regular loca-
+91, 93, 94, 97, 102, 103, 105, 109–111]. Sprint training     tion, tapering is integrated with time-, heat-, and
+Haugen et al. Sports Medicine - Open             (2022) 8:46                                                                                              Page 12 of 18
+
+
+
+
+Table 4 Case study examples of training weeks for a marathon specialist and a track runner
+Day    Eliud Kipchoge (gold medalist in Rio de Janeiro 2016 and Tokyo 2021 Olympics)
+       General preparation period                                                              Specific preparation period
+
+Mon M: 16–21 km, average pace 3:50–4:00 min·km−1 (zone 1)                                      M: 21 km, average pace 3:20 min·km−1 (zone 2)
+                                                             −1
+       E: 8–12 km, average pace 4:30–5:00 min·km                  (zone 1)                     E: 10 km, average pace 4:00 min·km−1 (zone 1)
+Tue    M: 10–15 min warm-up (~ 3 km) (zone 1). 12–15 km interval training                      M: 3 km warm-up in 5:00 min·km−1 (zone 1). 1200 m in 3:25 min (zone
+       on a dirt track (e.g., 15 × 1000 m at 2:50–2:55 min·km−1 (zone 4) with                  3), 5 × 1 km in 2:55 min (zone 3) with 90 s rest, 3 × 300 m in 42–40 s
+       90 s rest                                                                               (zone 5) with 60 s rest, 2 × 200 m in 27 s (zone 5) with 60 s rest. 3 km
+                                                                                               cooldown in 5:00 min·km−1 (zone 1)
+       E: 8–10 km, average pace 4:30–5:00 min·km−1 (zone 1)                                    E: Rest
+Wed M: 16–21 km, average pace 3:50–4:00 min·km−1 (zone 1)                                      M: 18 km, average pace 3:55–4:00 min·km−1 (zone 1)
+                                         −1
+       E: 8–12 km, 4:30–5:00 min·km           (zone 1)                                         E: 11 km, average pace 4:00 min·km−1 (zone 1)
+                                                                              −1
+Thu    M: 30 or 40 km long run, average pace 3:00–3:25 min·km                      (zone 2–3), M: 40 km tempo run (tough and muddy course), average
+       depending on terrain                                                                    pace ~ 3:40 min·km−1 (zone 1)
+       E: 8–12 km, average pace 4:30–5:00 min·km−1 (zone 1)                                    E: Rest
+Fri    M: 16–21 km, average pace 3:50–4:00 min·km−1 (zone 1)                                   M: 18 km, average pace 3:50–3:55 min·km−1 (zone 1)
+                                         −1
+       E: 8–12 km, 4:30–5:00 min·km           (zone 1)                                         E: 10 km, average pace ~ 3:55 min·km−1 (zone 1)
+Sat    M: 50–65 min fartlek (zone 1–3), either with long intervals (e.g.,                      M: 85 min fartlek including 10 min warm-up at 5:00 min·km−1 (zone 1),
+       4 × 10 min with 2 min rest) or short intervals (e.g., 25 × 1 min with                   30 × 1 min at pace 2:45 min·km−1 (zone 4) with 1 min easy jog (zone 1)
+       1 min rest)                                                                             in between, 15 min cooldown (zone 1)
+       E: 8–12 km, 4:30–5:00 min·km−1 (zone 1)                                                 E: Rest
+Sun    M: 18–22 km, average pace 3:50–4:00 min·km−1 (zone 1)                                   M: 20 km, average pace ~ 3:50 min·km−1 (zone 1)
+       E: Rest                                                                                 E: Rest
+       Weekly total of 200–220 km (82–84% LIT, 9–10% MIT, 7–8% HIT)                            Weekly total of ~ 185 km (~ 91% LIT, ~ 3% MIT, ~ 6% HIT)
+Day      Thomas Longosiwa (5000-m bronze medalist in London 2012 Olympics)
+         General preparation period                                                              Competition period
+
+Mon      M: 15 km, average pace 4:00 min·km−1 (zone 1)                                           M: 20 km, average pace 3:45–3:50 min·km−1 (zone 1)
+                                                    −1
+         E: 11 km, average pace 4:30 min·km              (zone 1). 10 × 80 m sprint uphill       E: 4 km warm-up in 5:00 min·km−1 (zone 1). 8 × 300 m steep uphill
+         (zone 6)                                                                                (zone 5)
+Tue      M: 21 km, average pace 3:30 min·km−1 (zone 1–2)                                         M: 4 km warm-up in 5:00 min·km−1 (zone 1). 19 km fartlek with
+                                                                                                 7 km average pace 2:52 min·km−1 (zone 3), 6 km with average pace
+                                                                                                 3:24 min·km−1 (zone 2), and 6 km with average pace 3:50 min·km−1
+                                                                                                 (zone 1)
+         E: 11 km, average pace 4:30 min·km−1 (zone 1)                                           E: 10 km, average pace 5:00 min·km−1 (zone 1)
+                                               −1
+Wed      M: 4 km warm-up in 5:00 min·km (zone 1). 5 × 1000 m in 2:52 min                         M: 18 km, average pace 4:10 min·km−1 (zone 1)
+         (zone 4), 6 × 600 m in 1:38 min (zone 5), 7 × 300 m in 46 s (zone 5),
+         3000 m in 9:00 min (zone 3)
+         E: 8 km, average pace 5:00 min·km−1 (zone 1)                                            E: 10 km, average pace 4:40 min·km−1 (zone 1)
+                                                            −1
+Thu      M: 17 km, average pace 4:05–4:10 min·km                 (zone 1)                        M: 4 km warm-up in 5:00 min·km−1 (zone 1). 5 × 2000 m with alter-
+                                                                                                 nating speed every 400 m, where a total of 6 km was performed with
+                                                                                                 average pace 2:35–2:45 min·km−1 (zone 5). The remaining 4 km was
+                                                                                                 performed with average pace 3:05–3:10 min·km−1 (zone 3)
+         E: 11 km, average pace 4:30 min·km−1 (zone 1)                                           E: 10 km, average pace 5:00 min·km−1 (zone 1)
+                                                    −1
+Fri      M: 15 km, average pace 4:00 min·km              (zone 1)                                M: 18 km, average pace 3:40–3:45 min·km−1 (zone 1)
+                                                    −1
+         E: 15 km, average pace 4:00 min·km              (zone 1)                                E: 10 km, average pace 4:40 min·km−1 (zone 1)
+                                                                  −1
+Sat      M: 4 km warm-up, average pace 5:00 min·km                     (zone 1). 12 km, average M: 4 km warm-up in 5:00 min·km−1 (zone 1). 3 × (5 × 600 m) in
+         pace 3:06 min·km−1 (zone 3)                                                            1:33–1:34 min (zone 5)
+         E: 11 km, average pace 4:30 min·km−1 (zone 1)                                           E: 12 km, average pace 4:10 min·km−1 (zone 1)
+Sun      M: 24 km, average pace 3:50 min·km−1 (zone 1)                                           M: Rest
+         E: Rest                                                                                 E: Rest
+         Weekly total of 193 km (86% LIT, 8% MIT, 6% HIT)                                        Weekly total of 163 km (85% LIT, 7% MIT, 8% HIT)
+Their training was performed in hilly terrain on uneven surface at 2000–2500 m altitude. The training data of Thomas Longosiwa were provided by his coach Renato
+Canova, while the training data of Eliud Kipchoge are publicly available [76]
+M morning session, E evening session, z training zone (see this table)
+Haugen et al. Sports Medicine - Open          (2022) 8:46                                                                         Page 13 of 18
+
+
+
+
+humidity-acclimatization processes. For more details                               sufficient altitude acclimatization ahead of endur-
+related to these topics, we refer readers to previously                            ance competitions at altitudes 1000 m above sea level
+published reviews [186–188].                                                       is required to perform optimally [189, 190]. How-
+   The general scientific guidelines for effective taper-                          ever, many athletes additionally use longer sojourns
+ing in endurance sports include a 2- to 3-week period                              at altitude to enhance aerobic endurance capacity and
+with 40–60% reduction in training volume adopting                                  thereby performance at sea level, mainly with the goal
+a progressive nonlinear format, while training inten-                              of increasing red blood cell mass [191]. Since 1968,
+sity and frequency are maintained [179–182]. However,                              > 90% of all OG/WC medals from the 800 m through
+most long-distance runners do not report a substantial                             the marathon have been won by athletes who have lived
+decrease in training volume until the last 7–10 days prior                         or systematically trained at altitude [9, 15, 103].
+to competition [61, 69, 74, 75, 85–95, 97]. Table 5 pre-                              The potential effect of altitude training is influenced
+sents training volume distribution across intensity zones                          by the hypoxic dose, which is a function of the dura-
+for 10 world-class marathon runners during the count-                              tion of the stay and the altitude [192]. Most world-
+down to a major competition.                                                       class African runners apply the "live high—train high”
+   A review of the competition schedule for the athletes                           model, as they live and carry out LIT-, MIT-, and HIT-
+listed in Table 1 (based on their most successful year in                          sessions relatively high (2000–2500 m above sea level)
+an international championship) revealed that the last                              [9]. Athletes from lowlands typically perform relatively
+competition was performed 10 ± 5 and 4 ± 2 weeks prior                             long altitude camps during the preparation period and
+to the season’s main competition for marathon run-                                 one camp 2–4 weeks prior to the most important com-
+ners and track runners, respectively [119]. Arrival at the                         petition, with most emphasis on LIT and MIT-sessions
+championship destination typically occurs 7–10 days                                [57, 85, 100, 103, 111]. However, the optimal time of
+ahead of competition [39, 54, 57, 94]. The last intensive                          return from altitude camps to lowland competition is
+session (e.g., 10 × 200 m at race pace with optional recov-                        disputed [193] and warrants further investigations. The
+eries) is typically performed 3–5 days ahead of the main                           ability to train effectively at altitude may be one feature
+championship event [40, 61, 74, 75, 100].                                          that distinguishes African runners from their European,
+                                                                                   American, and Asian competitors [9]. In all cases, suc-
+Altitude Training                                                                  cessful use of altitude training by the best long-distance
+The LDR community became aware of the impact of                                    runners is characterized by individualized, well-bal-
+altitude on endurance performance in the late 1960s                                anced training load and optimized recovery strategies
+and particularly in connection with the 1968 Olym-                                 through adequate sleep, rest and nutritional factors as
+pics in Mexico City (2300 m above sea level). Clearly,                             described in detail elsewhere [e.g., 19, 194].
+                                                                                      It has been questioned whether altitude training has
+                                                                                   positive effects on endurance capacity and sea-level
+                                                                                   performance beyond the effects achieved with similar
+Table 5 Training volume across intensity zones for 10 world-
+class marathon runners during the countdown to a major                             training performed at sea level. Here, high-quality sci-
+competition                                                                        entific evidence is limited, and researchers interpret
+                                                                                   the current scientific data differently [195, 196]. Alti-
+                 Week 5       Week 4       Week 3       Week 2       Week ­1a
+                                                                                   tude training research is methodologically demanding
+Total volume     191 ± 29     184 ± 24     188 ± 17     170 ± 30     116 ± 27      due to the difficulty of standardizing the intervention,
+Zone 1           150 ± 29     138 ± 22     150 ± 22     134 ± 30      98 ± 22      including control groups, and controlling other psycho-
+Zone 2            18 ± 15      27 ± 15      11 ± 13      13 ± 13       5±5         logical and physiological confounders during altitude
+Zone 3            17 ± 8       12 ± 9       21 ± 11      16 ± 15      10 ± 12      training. Although research provides limited support
+Zone 4              3±7          7±7         5±6            5±4        2±2         for a positive effect of altitude training on sea-level
+Zone 5              2±4          1±2         0±1            2±4        2±2         performance in endurance sports, these studies remain
+                                                                                   scarce and underpowered to detect the small adapta-
+All data are stated in km (mean ± SD)
+a
+  Major competition not included. Zone 6–7 training accounted for < 0.5 km
+                                                                                   tions that may be of importance in elite LDR. This is
+on average in these weeks. The data are collected from training logs from          illustrated through the large individual differences in
+the following athletes (and competitions): Stefano Baldini (Olympic gold in        blood responses documented in connection with alti-
+Athens 2004 with 2:10:55), Kenenisa Bekele (winner of Berlin Marathon 2019
+with2:01:41), Gelindo Bordin (Olympic gold in Seoul 1988 with 2:10:32), Takayuki   tude training [197]. Consequently, a nuanced view on
+Inubushi (2nd in Berlin Marathon 1999 with 2:06:57), Meb Keflezighi (winner of     altitude training is warranted.
+Boston Marathon 2014 with 2:08:37), Eliud Kipchoge (winner of Berlin Marathon
+2017 with 2:03:32), Abel Kirui (World Championship gold in Daegu 2011 with
+2:07:37), Moses Mosop (2nd in Boston Marathon 2011 with 2:03:06), Geoffrey
+Mutai (winner of New York Marathon 2011 with 2:05:05), Mubarak Hassan Shami
+(winner of Paris Marathon 2007 with 2:07:17)
+Haugen et al. Sports Medicine - Open             (2022) 8:46                                                                                            Page 14 of 18
+
+
+
+
+Conclusions                                                                            Declarations
+This review integrates the scientific literature and
+                                                                                       Competing interests
+results-proven practice regarding the training and                                     The authors declare that they have no competing interests.
+development of world-class LDR performance. Herein,
+we have outlined a framework for specific character-                                   Author details
+                                                                                       1
+                                                                                         School of Health Sciences, Kristiania University College, PB 1190, Sentrum,
+istics (i.e., training methods, volume, and intensity)                                 0107 Oslo, Norway. 2 Department of Neuromedicine and Movement Science,
+and identified the training organization differences                                   Centre for Elite Sports Research, Norwegian University of Science and Tech-
+between track runners and marathon specialists. Mar-                                   nology, 7491 Trondheim, Norway. 3 School of Sport Sciences, UiT The Arctic
+                                                                                       University of Norway of Health Sciences, Tromsø, Norway. 4 Faculty of Health
+athon and track runners participate in 6 ± 2 and 9 ± 3                                 and Sport Sciences, University of Agder, PB 422, 4604 Kristiansand, Norway.
+(mean ± SD) annual competitions, respectively. Typical
+weekly running volume in the mid-preparation period                                    Received: 18 December 2021 Accepted: 22 March 2022
+
+is in the range 160–220 km for marathon runners and
+130–190 km for track runners. These differences are
+mainly explained by fewer running kilometers for each
+                                                                                       References
+session for track runners, as training frequency (11–14                                  1. Costill DL. The relationship between selected physiological vari-
+sessions per week) is equal for both groups. Moreo-                                          ables and distance running performance. J Sports Med Phys Fitness.
+ver, ≥ 80% of total running distance is performed at                                         1967;7:61–6.
+                                                                                         2. Costill DL. Metabolic responses during distance running. J Appl Physiol.
+low intensity throughout the training year. In the gen-                                      1970;28:251–5.
+eral preparation period, the focus is to build an aero-                                  3. Joyner MJ. Modeling: optimal marathon performance on the basis of
+bic foundation by a large total running volume. From                                         physiological factors. J Appl Physiol. 1991;70:683–7.
+                                                                                         4. Joyner M, Coyle EF. Endurance performances: the physiology of cham-
+the specific preparation period onward, the volume                                           pions. J Physiol. 2008;586:35–44.
+of race-pace running increases as the main competi-                                      5. Jones AM. The physiology of the world record holder for the women’s
+tion approaches. Hence, training intensity distribution                                      marathon. Int J Sports Sci Coach. 2006;1:101–16.
+                                                                                         6. Jones AM, Kirby BS, Clark IE, Rice HM, Fulkerson E, Wylie LJ, Wilkerson DP,
+models vary across mesocycles and differ between mar-                                        Vanhatalo A, Wilkins BW. Physiological demands of running at 2-hour
+athon and track runners. While the African runners                                           marathon race pace. J Appl Physiol. 2021;130:369–79.
+live and train at high altitude (2000–2500 m above sea                                   7. Barnes KR, Kilding AE. Running economy: measurement, norms, and
+                                                                                             determining factors. Sports Med Open. 2015;1:8.
+level), most lowland athletes apply relatively long alti-                                8. Larsen HB, Sheel AW. The Kenyan runners. Scand J Med Sci Sports.
+tude camps during the preparation period. The tapering                                       2015;25:110–8.
+process starts 7–10 days prior to the main competition,                                  9. Wilber RL, Pitsiladis YP. Kenyan and Ethiopian distance runners: What
+                                                                                             makes them so good? Int J Sports Physiol Perform. 2012;7:92–102.
+typically preceded by a 2–4-week altitude camp. Over-                                   10. Joyner MJ, Hunter SK, Lucia A, Jones AM. Physiology and fast mara-
+all, this review offers novel insights into areas of LDR                                     thons. J Appl Physiol. 2020;128:1065–8.
+training that formerly have been scarcely studied in the                                11. Barnes KR, Kilding AE. Strategies to improve running economy. Sports
+                                                                                             Med. 2015;45:37–56.
+scientific literature, providing a point of departure for                               12. Kirby BS, Winn BJ, Wilkins BW, Jones AM. Interaction of exercise bioener-
+future studies and may serve as a position statement                                         getics with pacing behavior predicts track distance running perfor-
+related to the training and development in the Olympic                                       mance. J Appl Physiol. 2021;131:1532–42.
+                                                                                        13. Maunder E, Seiler S, Mildenhall MJ, Kilding AE, Plews DJ. The Impor-
+long-distance events.                                                                        tance of “durability” in the physiological profiling of endurance athletes.
+                                                                                             Sports Med. 2021;51:1619–28.
+Acknowledgements                                                                        14. Clark IE, Vanhatalo A, Thompson C, Joseph C, Black MI, Blackwell JR,
+The authors want to thank Renato Canova, Michele Zanini, Sondre Nordstad                     et al. Dynamics of the power-duration relationship during prolonged
+Moen, and Kristian Ulriksen for their thoughtful and valuable inputs and con-                endurance exercise and influence of carbohydrate ingestion. J Appl
+tributions during a process of “stress testing” our interpretation of elite training         Physiol. 2019;127:726–36.
+practice with top practitioners.                                                        15. Sandrock M. Running with the legends: training and racing insights
+                                                                                             from 21 great runners. Champaign: Human Kinetics; 1996.
+Authors’ Contributions                                                                  16. Tjelta LI. Three Norwegian brothers all European 1500 m champions:
+TH, ØS and ET planned the review. TH and ET retrieved the relevant literature.               What is the secret? Int J Sport Sci Coach. 2019;14:694–700.
+All authors (TH, SS, ØS, EE, and ET) were engaged in drafting and revising the          17. Casado A, Hanley B, Santos-Concejero J, Ruiz-Pérez LM. World-class
+manuscript. All authors read and approved the final version of the manuscript.               long-distance running performances are best predicted by volume of
+                                                                                             easy runs and deliberate practice of short-interval and tempo runs. J
+Funding                                                                                      Strength Cond Res. 2019 [Online ahead of print].
+No sources of funding were used to assist in the preparation of this article.           18. Casado A, Hanley B, Ruiz-Pérez LM. Deliberate practice in training dif-
+                                                                                             ferentiates the best Kenyan and Spanish long-distance runners. Eur J
+Availability of Data and Materials                                                           Sport Sci. 2020;20:887–95.
+All data and materials support the published claims and comply with field               19. Billat VL, Demarle A, Slawinski J, Paiva M, Koralsztein JP. Physical and
+standards.                                                                                   training characteristics of top-class marathon runners. Med Sci Sports
+                                                                                             Exerc. 2001;33:2089–97.
+Code Availability                                                                       20. Billat V, Lepretre PM, Heugas AM, Laurence MH, Salim D, Koralsztein
+Not applicable.                                                                              JP. Training and bioenergetic characteristics in elite male and female
+                                                                                             Kenyan runners. Med Sci Sports Exerc. 2003;35:297–304.
+Haugen et al. Sports Medicine - Open              (2022) 8:46                                                                                                  Page 15 of 18
+
+
+
+
+ 21. Tjelta LI. The training of international level distance runners. Int J Sports        47. Lydiard A. Running with Lydiard: greatest running coach of all time.
+     Sci Coach. 2016;11:122–34.                                                               3rd ed. Oxford: Meyer & Meyer Sport; 2017.
+ 22. Stellingwerff T. Case study: nutrition and training periodization in three           48. Livingstone K. Healthy intelligent training: the proven principles of
+     elite marathon runners. Int J Sport Nutr Exerc Metab. 2012;22:392–400.                   Arthur Lydiard. Aachen: Meyer & Meyer Fachverlag und Buchhandel
+ 23. Spilsbury KL, Fudge BW, Ingham SA, Faulkner SH, Nimmo MA. Taper-                         GmbH; 2010.
+     ing strategies in elite British endurance runners. Eur J Sport Sci.                  49. Steve Magness training philosophy. https://​www.​runne​rprog​ram.​
+     2015;15:367–73.                                                                          com/​produ​ct/​steve-​magne​ss-​train​ing-​philo​sophy/. Assessed 1 Sept
+ 24. Lucia A, Esteve-Lanao J, Oliván J, Gómez-Gallego F, San Juan AF, Santi-                  2021.
+     ago C, Pérez M, Chamorro-Viña C, Foster C. Physiological characteristics             50. Kim McDonald training system. https://​www.​runne​rprog​ram.​com/​
+     of the best Eritrean runners-exceptional running economy. Appl Physiol                   produ​ct/​k im-​mcdon​ald-​train​ing-​system/. Assessed 1 Sept 2021.
+     Nutr Metab. 2006;31:530–40.                                                          51. Terrence Mahon training philosophy. https://​www.​runne​rprog​ram.​
+ 25. Kenneally M, Casado A, Gomez-Ezeiza J, Santos-Concejero J. Training                      com/​produ​ct/​terre​nce-​mahon-​train​ing-​philo​sophy/. Assessed Sep-
+     intensity distribution analysis by race pace vs. physiological approach                  tember ­1st 2021.
+     in world-class middle- and long-distance runners. Eur J Sport Sci.                   52. Gabriele Rosa Marathon training philosophy. https://​www.​runne​
+     2020;20:1–8.                                                                             rprog​ram.​com/​produ​ct/​gabri​ele-​rosa-​train​ing-​philo​sophy/. Assessed
+ 26. Kenneally M, Casado A, Gomez-Ezeiza J, Santos-Concejero J. Training                      1 Sept 2021.
+     characteristics of a World Championship 5000-m finalist and multiple                 53. Joe Vigil training philosophy. https://​www.​runne​rprog​ram.​com/​
+     continental record holder over the year leading to a World Champion-                     produ​ct/​joe-​vigil-​train​ing-​philo​sophy/. Assessed September ­1st 2021.
+     ship final. Int J Sports Physiol Perform. 2021. [Online ahead of print]              54. Vigil JI. Road to the top: a systematic approach to training distance
+ 27. Tjelta LI, Tønnessen E, Enoksen E. Case study of the training of nine                    runners. 1st ed. Overland Park: Morning Star Communications; 1995.
+     times New York marathon winner Grete Waitz. Int J Sports Sci Coach.                  55. Chris Wardlaws training system. https://​www.​runne​rprog​ram.​com/​
+     2014;9:139–57.                                                                           produ​ct/​chris-​wardl​aws-​train​ing-​system/. Assessed 1 Sept 2021.
+ 28. Enoksen E, Tjelta AR, Tjelta LI. Distribution of training volume and inten-          56. Said Aouita training program. https://​www.​runne​rprog​ram.​com/​
+     sity of elite male and female track and marathon runners. Int J Sports                   produ​ct/​said-​aouita-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     Sci Coach. 2011;6:273–93.                                                            57. Dieter Baumann training. https://​www.​runne​rprog​ram.​com/​produ​
+ 29. Balsalobre-Fernández C, Santos-Concejero J, Grivas GV. Effects of                        ct/​dieter-​bauma​nn-​train​ing-​by-​isabe​lle-​bauma​nn/. Assessed 1 Sept
+     strength training on running economy in highly trained runners: a sys-                   2021.
+     tematic review with meta-analysis of controlled trials. J Strength Cond              58. The making of Joshua Cheptegei and training insights of the Ugandan
+     Res. 2016;30:2361–8.                                                                     team. https://​www.​sweat​elite.​co/​making-​joshua-​chept​egei-​train​ing-​
+ 30. Billat LV. Interval training for performance: a scientific and empirical                 insig​hts-​ugand​an-​team-​part1/ and https://​www.​sweat​elite.​co/​making-​
+     practice. Special recommendations for middle- and long-distance run-                     joshua-​chept​egei-​train​ing-​insig​hts-​ugand​an-​team-​part2/. Assessed
+     ning. Part I: aerobic interval training. Sports Med. 2001;31:13–31.                      September ­1st 2021.
+ 31. Billat LV. Interval training for performance: a scientific and empirical             59. Haile Gebrselassie training. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​
+     practice. Special recommendations for middle- and long-distance run-                     train​ing-​log/​haile-​gebrs​elass​ie/. Assessed 1 Sept 2021.
+     ning. Part II: anaerobic interval training. Sports Med. 2001;31:75–90.               60. Bob Kennedy training. https://​www.​runne​rprog​ram.​com/​produ​ct/​bob-​
+ 32. Midgley AW, McNaughton LR, Jones AM. Training to enhance the physi-                      kenne​dy-​5000m-​train​ing-​before-​atlan​ta-​og-​96/. Assessed 1 Sept 2021.
+     ological determinants of long-distance running performance: Can valid                61. Sylvia Kibet training program. https://​www.​runne​rprog​ram.​com/​produ​
+     recommendations be given to runners and coaches based on current                         ct/​sylvia-​kibet-​train​ing-​progr​am-​by-​renato-​canova/. Assessed 1 Sept
+     scientific knowledge? Sports Med. 2007;37:857–80.                                        2021.
+ 33. Haugen T, Seiler S, Sandbakk Ø, Tønnessen E. The training and develop-               62. Florence Kiplagat training program. https://​www.​runne​rprog​ram.​com/​
+     ment of elite sprint performance: an integration of scientific and best                  produ​ct/​flore​nce-​kipla​gat-​train​ing-​progr​am-​renato-​canova/. Assessed
+     practice literature. Sports Med Open. 2019;5:44.                                         1 Sept 2021.
+ 34. Haugen T, Sandbakk Ø, Enoksen E, Seiler S, Tønnessen E. Crossing the                 63. Susanne Wigene training. https://​www.​letsr​un.​com/​forum/​flat_​read.​
+     golden training divide: the science and practice of training world-class                 php?​thread=​94875​1&​page=2. Assessed 1 Sept 2021.
+     800- and 1500-m runners. Sports Med. 2021;51:1835–54.                                64. Sonia O’Sullivan training program. https://​www.​runne​rprog​ram.​com/​
+ 35. Haugen T. Key success factors for merging sport science and best                         produ​ct/​sonia-​osull​ivan-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     practice. Int J Sports Physiol Perform. 2019;15:297.                                 65. Sifan Hassan training program. https://​www.​runne​rprog​ram.​com/​
+ 36. Haugen T. Best-practice coaches: an untapped resource in sport-                          produ​ct/​sifan-​hassan-​train​ing-​by-​honore-​hoedt/. Assessed 1 Sept 2021.
+     science research. Int J Sports Physiol Perform. 2021;16:1215–6.                      66. Andy Vernon training. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​train​
+ 37. Nic Bideau. Coaching middle and long distance runners: A commen-                         ing-​log/​andy-​vernon/. Assessed 1 Sept 2021.
+     tary. https://​beaco​nhill​strid​ers.​co.​uk/​wp-​conte​nt/​uploa​ds/​2015/​05/M-​   67. David Moorcroft training program. https://​www.​runne​rprog​ram.​com/​
+     L-​Dista​nce-​Train​ing-​Nic-​Bideau.​pdf. Assessed 1 Sept 2021.                         produ​ct/​david-​moorc​roft-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+ 38. Bowerman B. High performance training for track and field. Champaign:                68. Bernard Lagat training. https://​www.​runne​rprog​ram.​com/​produ​ct/​
+     Leisure Press; 1991.                                                                     james-​li-​train​ing-​berna​rd-​lagat/. Assessed 1 Sept 2021.
+ 39. Antonio Cabral. Marathon training—Portuguese style. https://​www.​                   69. Craig Mottram training program. https://​www.​runne​rprog​ram.​com/​
+     runne​rprog​ram.​com/​produ​ct/​portu​guese-​marat​hon-​train​ing-​style-​               produ​ct/​craig-​mottr​am-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     anton​io-​cabral/. Assessed 1 Sept 2021.                                             70. Paul Tergat training program. https://​www.​runne​rprog​ram.​com/​produ​
+ 40. Arcelli E, Canova R. Marathon training: a scientific approach. London:                   ct/​paul-​tergat-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     International Athletic Foundation; 1999.                                             71. Caleb Ndiku training program. https://​www.​runne​rprog​ram.​com/​produ​
+ 41. The complete Renato Canova coaching collection. https://​www.​runne​                     ct/​caleb-​ndiku-​train​ing-​progr​am-​by-​renato-​canova/. Assessed 1 Sept
+     rprog​ram.​com/​produ​ct/​the-​compl​ete-​renato-​canova-​coach​ing-​colle​              2021.
+     ction/. Assessed 1 Sept 2021.                                                        72. Yobes Ondieki training program. https://​www.​runne​rprog​ram.​com/​
+ 42. Daniels J. Daniel’s running formula. 3rd ed. Champaign: Human Kinetics;                  produ​ct/​yobes-​ondie​ki-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     2013.                                                                                73. Daniel Komen training program. https://​www.​runne​rprog​ram.​com/​
+ 43. Davis J. Modern training and physiology for middle and long-distance                     produ​ct/​daniel-​komen-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     runners. Philadelphia: Running Writings; 2013.                                       74. Thomas Longosiwa training program. https://​www.​runne​rprog​ram.​
+ 44. Brad Hudson training system. https://​www.​runne​rprog​ram.​com/​produ​                  com/​produ​ct/​thomas-​longo​siwa-​train​ing-​progr​am-​by-​renato-​canova/.
+     ct/​brad-​hudson-​train​ing-​system/. Assessed 1 Sept 2021.                              Assessed 1 Sept 2021.
+ 45. Mihaly Igloi training system. https://​www.​runne​rprog​ram.​com/​produ​             75. Imane Merga training program. https://​www.​runne​rprog​ram.​com/​
+     ct/​mihaly-​igloi-​train​ing-​system-​by-​bob-​schul/. Assessed 1 Sept 2021.             produ​ct/​imane-​merga-​train​ing-​progr​am-​renato-​canova/. Assessed 1
+ 46. Lydiard A, Gilmour G. Running to the top. Oxford: Meyer & Meyer; 1997.                   Sept 2021.
+Haugen et al. Sports Medicine - Open               (2022) 8:46                                                                                                    Page 16 of 18
+
+
+
+
+ 76. Stephen Cherono training program. https://​www.​runne​rprog​ram.​com/​                  107. Toshihiko Seko training log. https://​www.​runne​rprog​ram.​com/​produ​ct/​
+     produ​ct/​steph​en-​chero​no-​train​ing-​progr​am-​renato-​canova/. Assessed                 toshi​hiko-​seko-​train​ing-​log-​1977-​1978/. Assessed 1 Sept 2021.
+     1 Sept 2021.                                                                            108. Brigid Kosgei training. https://​www.​sweat​elite.​co/​kenyan-​elite-​train​ing-​
+ 77. Kip Keino training. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​train​ing-​         series-​brigid-​kosgei-​6428-​half-​marat​hon-​21820-​marat​hon/. Assessed 1
+     log/​kipch​oge-​keino/. Assessed 1 Sept 2021.                                                Sept 2021.
+ 78. Brendan Foster training program. https://​www.​runne​rprog​ram.​com/​                   109. Paul Kosgei training log. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​
+     produ​ct/​brend​an-​foster-​train​ing-​progr​am/. Assessed 1 Sept 2021.                      train​ing-​log/​paul-​kosgei/. Assessed 1 Sept 2021.
+ 79. Ingrid Kristiansen training. https://​www.​runne​rprog​ram.​com/​produ​ct/​             110. Rodgers Rop training log. https://​www.​runne​rprog​ram.​com/​produ​ct/​
+     ingrid-​krist​iansen-​train​ing-​1986/. Assessed 1 Sept 2021.                                rodge​rs-​rop-​train​ing-​log/. Assessed 1 Sept 2021.
+ 80. Jim Peters training. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​train​ing-​   111. Wilson Kipsang—4th fastest marathoner ever—training program.
+     log/​jim-​peters/. Assessed 1 Sept 2021.                                                     https://​www.​sweat​elite.​co/​wilson-​kipsa​ng-​4th-​faste​st-​marat​honer-​
+ 81. Gordon Pirie training. https://​www.​runne​rprog​ram.​com/​produ​ct/​                        ever-​train​ing-​progr​am/. Assessed 1 Sept 2021.
+     gordon-​pirie/. Assessed 1 Sept 2021.                                                   112. Casado A, Tjelta LI. Training volume and intensity distribution among
+ 82. Ian Stewart training program. https://​www.​runne​rprog​ram.​com/​produ​                     elite middle- and long-distance runners. In: Blagrove RC, Hayes PR,
+     ct/​ian-​stewa​rt-​train​ing-​progr​am/. Assessed 1 Sept 2021.                               editors. The science and practice of middle and long distance running.
+ 83. Lasse Viren training. https://​www.​runne​rprog​ram.​com/​produ​ct/​lasse-​                  London: Routledge; 2021.
+     viren-​train​ing-​by-​rolf-​haikk​ola/. Assessed 1 Sept 2021.                           113. Sylta Ø, Tønnessen E, Seiler S. Do elite endurance athletes report their
+ 84. Grete Waitz training program. https://​www.​runne​rprog​ram.​com/​produ​                     training accurately? Int J Sports Physiol Perform. 2014;9:85–92.
+     ct/​grete-​waitz-​train​ing-​progr​am/. Assessed 1 Sept 2021.                           114. Faiss R, Saugy J, Zollinger A, Robinson N, Schuetz F, Saugy M, Garnier
+ 85. Stefano Baldini training log. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​          PY. Prevalence estimate of blood doping in elite track and field athletes
+     train​ing-​log/​stefa​no-​baldi​ni/. Assessed 1 Sept 2021.                                   during two major international events. Front Physiol. 2020;25(11):160.
+ 86. Gelindo Bordin training log before winning the Olympic Games in                         115. Ulrich R, Pope HG Jr, Cléret L, Petróczi A, Nepusz T, Schaffer J, et al.
+     Seoul. https://​www.​runne​rprog​ram.​com/​produ​ct/​gelin​do-​bordin-​train​                Doping in two elite athletics competitions assessed by randomized-
+     ing-​log-​before-​winni​ng-​the-​olymp​ic-​games-​in-​seoul/. Assessed 1 Sept                response surveys. Sports Med. 2018;48:211–9.
+     2021.                                                                                   116. Filipas L, Bonato M, Gallo G, Codella R. Effects of 16 weeks of pyramidal
+ 87. Takayuki Inubushi Marathon training. https://​www.​runne​rprog​ram.​                         and polarized training intensity distributions in well-trained endurance
+     com/​produ​ct/​takay​uki-​inubu​shi-​marat​hon-​train​ing/. Assessed 1 Sept                  runners. Scand J Med Sci Sports. 2022;32:498–511.
+     2021.                                                                                   117. Matveyev LP. Periodisierung des sportlichen trainings. 2nd ed. Berlin:
+ 88. Moses Mosop training log. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​              Bartels & Wernitz; 1975.
+     train​ing-​log/​moses-​mosop/. Assessed 1 Sept 2021.                                    118. Meeusen R, Duclos M, Foster C, Fry A, Gleeson M, Nieman D, et al.
+ 89. Geoffrey Mutai training log. https://​www.​letsr​un.​com/​forum/​flat_​read.​                Prevention, diagnosis, and treatment of the overtraining syndrome:
+     php?​thread=​89734​93. Assessed 1 Sept 2021.                                                 joint consensus statement of the European College of Sport Science
+ 90. Charlie Spedding training log. https://​www.​runne​rprog​ram.​com/​produ​                    and the American College of Sports Medicine. Med Sci Sports Exerc.
+     ct/​charl​ie-​spedd​ing-​train​ing-​log/. Assessed 1 Sept 2021.                              2013;45:186–205.
+ 91. Abel Kirui training. https://​www.​runne​rprog​ram.​com/​produ​ct/​abel-​               119. World Athletics athlete search. https://​www.​world​athle​tics.​org/​athle​tes.
+     kirui-​train​ing-​winni​ng-​world-​champ​ionsh​ip-​gold-​renato-​canova/.                    Assessed 1 Sept 2021.
+     Assessed 1 Sept 2021.                                                                   120. Kenneally M, Casado A, Santos-Concejero J. The effect of periodiza-
+ 92. Eliud Kipchoge training program. https://​www.​runne​rprog​ram.​com/​                        tion and training intensity distribution on middle-and long-distance
+     produ​ct/​eliud-​kipch​oge-​train​ing-​progr​ams/. Assessed 1 Sept 2021.                     running performance: a systematic review. Int J Sports Physiol Perform.
+ 93. Mubarak Hassan Shami training. https://​www.​runne​rprog​ram.​com/​                          2018;13:1114–21.
+     produ​ct/​mubar​ak-​hassan-​shami-​marat​hon-​train​ing/. Assessed 1 Sept               121. Kiely J. Periodization paradigms in the 21st century: evidence-led or
+     2021.                                                                                        tradition-driven? Int J Sports Physiol Perform. 2012;7:242–50.
+ 94. Meb Keflezighi training. https://​www.​runne​rprog​ram.​com/​produ​ct/​                 122. Bishop D, Botella J, Grantha C. CrossTalk opposing view: exercise
+     meb-​morta​ls-​run-​think-​eat-​like-​champ​ion- marathoner/. Assessed 1                     training volume is more important than training intensity to promote
+     Sept 2021.                                                                                   increases in mitochondrial content. J Physiol. 2019;597:4115–8.
+ 95. Greg Meyer training log. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​          123. Morgan DW, Bransford DR, Costill DL, Daniels JT, Howley ET, Krahenbuhl
+     train​ing-​log/​greg-​meyer/. Assessed 1 Sept 2021.                                          GS. Variation in the aerobic demand of running among trained and
+ 96. Steve Jones training program. https://​www.​runne​rprog​ram.​com/​produ​                     untrained subjects. Med Sci Sports Exerc. 1995;27:404–9.
+     ct/​steve-​jones-​train​ing-​progr​am/. Assessed 1 Sept 2021.                           124. Nelson RC, Gregor RJ. Biomechanics of distance running: a longitudinal
+ 97. Kenenisa Bekele’s training. https://​www.​sweat​elite.​co/​kenen​isa-​bekel​                 study. Res Q. 1976;47:417–28.
+     es-​train​ing/. Assessed 1 Sept 2021.                                                   125. González-Mohíno F, Santos-Concejero J, Yustres I, González-Ravé JM.
+ 98. Robert de Castella training program. https://​www.​runne​rprog​ram.​com/​                    The effects of interval and continuous training on the oxygen cost of
+     produ​ct/​robert-​de-​caste​lla-​train​ing-​progr​am/. Assessed 1 Sept 2021.                 running in recreational runners: a systematic review and meta-analysis.
+ 99. Constantina Dita training program. https://​www.​runne​rprog​ram.​com/​                      Sports Med. 2020;50:283–94.
+     produ​ct/​const​antina-​dita-​train​ing-​progr​am/. Assessed 1 Sept 2021.               126. Chapman AR, Vicenzino B, Blanch P, Hodges PW. Is running less skilled
+100. Molly Seidel - Strava pro runner profile. https://​www.​strava.​com/​pros/​                  in triathletes than runners matched for running training history? Med
+     bygol​lymol​ly. Assessed 1 Sept 2021.                                                        Sci Sports Exerc. 2008;40:557–65.
+101. Joyciline Jepkosgei training. https://​runni​ngsci​ence.​co.​za/​elite-​athle​tes-​     127. Laursen PB. Training for intense exercise performance: High-intensity or
+     train​ing-​log/​joyci​line-​jepko​sgei/. Assessed 1 Sept 2021.                               high-volume training? Scand J Med Sci Sports. 2010;20:1–10.
+102. Tegla Lourope training program. https://​www.​runne​rprog​ram.​com/​                    128. Hughes DC, Ellefsen S, Baar K. Adaptations to endurance and strength
+     produ​ct/​tegla-​lorou​pe-​marat​hon-​train​ing-​progr​am/. Assessed 1 Sept                  training. Cold Spring Harb Perspect Med. 2018;8:a029769.
+     2021.                                                                                   129. Helgerud J, Høydal K, Wang E, Karlsen T, Berg P, Bjerkaas M, et al. Aerobic
+103. Deena Kastor training program. https://​www.​runne​rprog​ram.​com/​                          high-intensity intervals improve VO2max more than moderate training.
+     produ​ct/​deena-​kastor-​train​ing-​progr​am/. Assessed 1 Sept 2021.                         Med Sci Sports Exerc. 2007;39:665671.
+104. Lisa Martin training. https://​www.​runne​rstri​be.​com/​expert-​advice/​train​         130. Losnegaard T, Myklebust H, Spencer M, Hallen J. Seasonal variations
+     ing-​of-​famous-​runne​rs/​lisa-​ondie​ki-​track-​and-​milea​ge-​to-​the-​extre​me/.         in ­VO2max, ­O2-cost, ­O2-deficit, and performance in elite cross-country
+     Assessed 1 Sept 2021.                                                                        skiers. J Strength Cond Res. 2013;27:1780–90.
+105. Paula Radcliffe training program. https://​www.​runne​rprog​ram.​com/​                  131. Jones AM. A five-year physiological case study of an Olympic runner. Br
+     produ​ct/​paula-​radcl​iffe-​train​ing-​progr​am/. Assessed 1 Sept 2021.                     J Sports Med. 1998;32:39–43.
+106. Bill Rodgers training log. https://​www.​runne​rprog​ram.​com/​produ​ct/​               132. Zapico AG, Calderón FJ, Benito PJ, González CB, Parisi A, Pigozzi F, Di
+     bill-​rodge​rs-​1977-​train​ing-​log/. Assessed 1 Sept 2021.                                 Salvo V. Evolution of physiological and haematological parameters
+Haugen et al. Sports Medicine - Open            (2022) 8:46                                                                                           Page 17 of 18
+
+
+
+
+       with training load in elite male road cyclists: a longitudinal study. J         156. Hunter I, McLeod A, Valentine D, Low T, Ward J, Hager R. Running
+       Sports Med Phys Fitness. 2007;47:191–6.                                              economy, mechanics, and marathon racing shoes. J Sports Sci.
+133.   Van der Zaaard S, Brocherie F, Jaspers RT. Under the hood: Skeletal                  2019;37:2367–73.
+       muscle determinants of endurance performance. Front Physiol.                    157. Dyer B. A pragmatic approach to resolving technological unfairness:
+       2021;7:19434.                                                                        the case of Nike’s Vaporfly and Alphafly running footwear. Sports Med
+134.   MacInnis MJ, Skelly LE, Gibala MJ. CrossTalk proposal: exercise                      Open. 2020;6:21.
+       training intensity is more important than volume to promote                     158. Hébert-Losier K, Finlayson SJ, Driller MW, Dubois B, Esculier JF, Beaven
+       increases in human skeletal muscle mitochondrial content. J Physiol.                 CM. Metabolic and performance responses of male runners wearing
+       2019;597:4111–3.                                                                     3 types of footwear: Nike Vaporfly 4%, Saucony Endorphin racing flats,
+135.   Seiler S. What is best practice for training intensity and duration                  and their own shoes. J Sport Health Sci. 2020 [Online ahead of print].
+       distribution in endurance athletes? Int J Sports Physiol Perform.               159. Bertelsen ML, Hulme A, Petersen J, Brund RK, Sørensen H, Finch CF,
+       2010;5:276–91.                                                                       Parner ET, Nielsen RO. A framework for the etiology of running-related
+136.   Talsnes RK, van den Tillaar R, Sandbakk Ø. Effects of increased load of              injuries. Scand J Med Sci Sports. 2017;27:1170–80.
+       low- versus high-intensity endurance training on performance and                160. Videbaek S, Bueno AM, Nielsen RO, Rasmussen S. Incidence of running-
+       physiological adaptations in endurance athletes. Int J Sports Physiol                related injuries per 1000 h of running in different types of runners: a
+       Perf. 2021 [Online ahead of print]                                                   systematic review and meta-analysis. Sports Med. 2015;45:1017–26.
+137.   Buchheit M, Laursen PB. High-intensity interval training, solutions to          161. Sandbakk Ø, Solli GS, Holmberg HC. Sex differences in world-record
+       the programming puzzle. Part II: anaerobic energy, neuromuscular                     performance: the influence of sport discipline and competition dura-
+       load and practical applications. Sports Med. 2013;43:927–54.                         tion. Int J Sports Physiol Perform. 2018;13:2–8.
+138.   Loy SF, Hoffmann JJ, Holland GJ. Benefits and practical use of cross-           162. Notley SR, Lamarche DT, Meade RD, Flouris AD, Kenny GP. Revisiting the
+       training in sports. Sports Med. 1995;19:1–8.                                         influence of individual factors on heat exchange during exercise in dry
+139.   Foster C. Monitoring training in athletes with reference to overtrain-               heat using direct calorimetry. Exp Physiol. 2019;104:1038–50.
+       ing syndrome. Med Sci Sports Exerc. 1998;30:1164–8.                             163. Seiler KS, Kjerland GØ. Quantifying training intensity distribution in
+140.   Sandbakk Ø, Haugen T, Ettema G. The influence of exercise modal-                     elite endurance athletes: Is there evidence for an “optimal” distribution?
+       ity on training load management. Int J Sports Physiol Perform.                       Scand J Med Sci Sport. 2006;16:49–56.
+       2021;16:605–8.                                                                  164. Seiler S, Tønnessen E. Intervals, thresholds, and long slow distance:
+141.   Rønnestad BR, Mujika I. Optimizing strength training for running and                 the role of intensity and duration in endurance training. Sportscience.
+       cycling endurance performance: a review. Scand J Med Sci Sports.                     2009;13:32–53.
+       2014;24:603–12.                                                                 165. Tønnessen E, Svendsen I, Rønnestad B, Hisdal J, Haugen T, Seiler S. The
+142.   Blagrove RC, Howatson G, Hayes PR. Effects of strength training on                   annual training periodization of 8 World Champions in orienteering. Int
+       the physiological determinants of middle- and long-distance run-                     J Sports Physiol Perform. 2015;10:29–38.
+       ning performance: a systematic review. Sports Med. 2018;48:1117–49.             166. Mann T, Lamberts RP, Lambert MI. Methods of prescribing relative exer-
+143.   Berryman N, Mujika I, Arvisais D, Roubeix M, Binet C, Bosquet L.                     cise intensity: physiological and practical considerations. Sports Med.
+       Strength training for middle- and long-distance performance: a                       2013;43:613–25.
+       meta-analysis. Int J Sports Physiol Perform. 2018;13:57–63.                     167. Le Meur Y, Pichon A, Schaal K, Schmitt L, Louis J, Gueneron J, Vidal PP,
+144.   Fiskerstrand A, Seiler KS. Training and performance characteristics                  Hausswirth C. Evidence of parasympathetic hyperactivity in functionally
+       among Norwegian international rowers 1970–2001. Scand J Med Sci                      overreached athletes. Med Sci Sports Exerc. 2013;45:2061–71.
+       Sports. 2004;14:303–10.                                                         168. Bellinger P, Arnold B, Minahan C. Quantifying the training-intensity
+145.   Tønnessen E, Sylta Ø, Haugen T, Hem E, Svendsen I, Seiler S. The road                distribution in middle-distance runners: The influence of different
+       to gold: training and peaking characteristics in the year prior to a                 methods of training-intensity quantification. Int J Sports Physiol Per-
+       gold medal endurance performance. PLoS ONE. 2014;9:e101796.                          form. 2019 [Online ahead of print].
+146.   Solli GS, Tønnessen E, Sandbakk Ø. The training characteristics of the          169. Jamnick NA, Pettitt RW, Granata C, Pyne DB, Bishop DJ. An examination
+       world’s most successful female cross-country skier. Front Physiol.                   and critique of current methods to determine exercise intensity. Sports
+       2017;8:1069.                                                                         Med. 2020;50:1729–56.
+147.   Sandbakk Ø, Holmberg HC. Physiological capacity and training                    170. Stöggl TL, Sperlich B. The training intensity distribution among well-
+       routines of elite cross-country skiers: approaching the upper limits of              trained and elite endurance athletes. Front Physiol. 2015;6:295.
+       human endurance. Int J Sports Physiol Perform. 2017;12:1003–11.                 171. Rosenblat MA, Perrotta AS, Vicenzino B. Polarized vs. threshold training
+148.   Schumacher OY, Mueller P. The 4000-m team pursuit cycling world                      intensity distribution on endurance sport performance: a systematic
+       record: theoretical and practical aspects. Med Sci Sports Exerc.                     review and meta-analysis of randomized controlled trials. J Strength
+       2002;34:1029–36.                                                                     Cond Res. 2018;33:3491–500.
+149.   Gao J. A study on pre-game training characteristics of Chinese elite            172. Kenneally M, Casado A, Santos-Concejero J. The effect of periodiza-
+       swimmers. J Beijing Sport Univ. 2008;31:832–4.                                       tion and training intensity distribution on middle- and long-distance
+150.   Siewierski M. Volume and structure of training loads of top swimmers                 running performance: a systematic review. Int J Sports Physiol Perform.
+       in direct starting preparation phase for main competition. Pol J Sport               2018;13:1114–21.
+       Tour. 2010;17:227–32.                                                           173. Foster C, Casado A, Esteve-Lanao J, Haugen T, Seiler S. Polarized training
+151.   Guellich A, Seiler S, Emrich E. Training methods and intensity dis-                  is optimal for endurance athletes. Med Sci Sports Exerc. 2022 [Online
+       tribution of young world-class rowers. Int J Sports Physiol Perform.                 ahead of print].
+       2009;4:448–60.                                                                  174. Burnley M, Bearden SE, Jones AM. Polarized training is not optimal for
+152.   Neal CM, Hunter AM, Galloway SD. A 6-month analysis of training                      endurance athletes. Med Sci Sports Exerc. 2022 [Online ahead of print].
+       intensity distribution and physiological adaptation in Ironman triath-          175. Seiler S, Haugen O, Kuffel E. Autonomic recovery after exercise in
+       letes. J Sports Sci. 2009;29:1515–23.                                                trained athletes: intensity and duration effects. Med Sci Sports Exerc.
+153.   Mujika I. Olympic preparation of a world-class female triathlete. Int J              2007;39:1366–73.
+       Sports Physiol Perform. 2014;9:727–31.                                          176. di Prampero PE, Fusi S, Sepulcri L, Morin JB, Belli A, Antonutto G. Sprint
+154.   World Athletics. Athletic shoe regulations. https://​www.​world​athle​               running: a new energetic approach. J Exp Biol. 2005;208:2809–16.
+       tics.​org/​news/​press-​relea​ses/​new-​athle​tic-​shoe-​regul​ations-​appro​   177. Wilson JM, Marin PJ, Rhea MR, Wilson SM, Loenneke JP, Anderson JC.
+       ved-​2022. Assessed February 28.                                                     Concurrent training: a meta-analysis examining interference of aerobic
+155.   Barnes KR, Kilding AE. A randomized crossover study investigating                    and resistance exercises. J Strength Cond Res. 2012;26:2293–307.
+       the running economy of highly-trained male and female distance                  178. Nader GA. Concurrent strength and endurance training: from mol-
+       runners in marathon racing shoes versus track spikes. Sports Med.                    ecules to man. Med Sci Sports Exerc. 2006;38:1965–70.
+       2019;49:331–42.                                                                 179. Mujika I, Padilla S. Scientific bases for precompetition tapering strate-
+                                                                                            gies. Med Sci Sports Exerc. 2003;35:1182–7.
+Haugen et al. Sports Medicine - Open           (2022) 8:46                           Page 18 of 18
+
+
+
+
+180. Pyne DB, Mujika I, Reilly T. Peaking for optimal performance: Research
+     limitations and future directions. J Sports Sci. 2009;27:195–202.
+181. Mujika I. Intense training: the key to optimal performance before and
+     during the taper. Scand J Med Sci Sports. 2010;20:24–31.
+182. Bosquet L, Montpetit J, Arvisais D, Mujika I. Effects of tapering on perfor-
+     mance: a meta-analysis. Med Sci Sports Exerc. 2007;39:1358–65.
+183. Hanley B. Pacing, packing and sex-based differences in Olympic and
+     IAAF World Championship marathons. J Sports Sci. 2016;34:1675–81.
+184. Hanley B, Hettinga FJ. Champions are racers, not pacers: an analysis of
+     qualification patterns of Olympic and IAAF World Championship mid-
+     dle distance runners. J Sports Sci. 2018;36:2614–20.
+185. Casado A, Hanley B, Jiménez-Reyes P, Renfree A. Pacing pro-
+     files and tactical behaviors of elite runners. J Sport Health Sci.
+     2020;S2095–2546(20):30077–86.
+186. Forbes-Robertson S, Dudley E, Vadgama P, Cook C, Drawer S, Kilduff
+     L, et al. Circadian disruption and remedial interventions: effects and
+     interventions for jet lag for athletic peak performance. Sports Med.
+     2012;42:185–208.
+187. Racinais S, Alonso JM, Coutts AJ, Flouris AD, Girard O, González-Alonso,
+     et al. Consensus recommendations on training and competing in the
+     heat. Br J Sports Med. 2015;49:1164–73.
+188. Racinais S, Casa D, Brocherie F, Ihsan M. Translating science into prac-
+     tice: the perspective of the Doha 2019 IAAF World Championships in
+     the heat. Front Sports Act Living. 2019;1:39.
+189. Burtscher M, Niedermeier M, Burtscher J, Pesta D, Suchy J, Strasser
+     B. Preparation for endurance competitions at altitude: physiological,
+     psychological, dietary and coaching aspects. A narrative review. Front
+     Physiol. 2018;9:1504.
+190. Chapman RF, Laymon AS, Levine BD. Timing of arrival and pre-acclima-
+     tization strategies for the endurance athlete competing at moderate to
+     high altitudes. High Alt Med Biol. 2013;14:319–24.
+191. Mujika I, Sharma AP, Stellingwerff T. Contemporary periodization of
+     altitude training for elite endurance athletes: a narrative review. Sports
+     Med. 2019;49:1651–69.
+192. Chapman RF, Karlsen T, Resaland GK, Ge RL, Harber MP, Witkowski
+     S, et al. Defining the “dose” of altitude training: how high to live
+     for optimal sea level performance enhancement. J Appl Physiol.
+     2014;116:595–603.
+193. Constantini K, Wilhite DP, Chapman RF. A clinician guide to altitude
+     training for optimal endurance exercise performance at sea level. High
+     Alt Med Biol. 2017;18:93–101.
+194. Stellingwerff T, Peeling P, Garvican-Lewis LA, Hall R, Koivisto AE, Heikura
+     IA, Burke LM. Nutrition and altitude: strategies to enhance adaptation,
+     improve performance and maintain health: a narrative review. Sports
+     Med. 2019;49:169–84.
+195. Siebenmann C, Dempsey JA. Hypoxic training is not beneficial in elite
+     athletes. Med Sci Sports Exerc. 2020;52:519–22.
+196. Millet GP, Brocherie F. Hypoxic training is beneficial in elite athletes. Med
+     Sci Sports Exerc. 2020;52:515–8.
+197. Nummela A, Eronen T, Koponen A, Tikkanen H, Peltonen JE. Variability in
+     hemoglobin mass response to altitude training camps. Scand J Med Sci
+     Sports. 2021;31:44–51.
+
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+

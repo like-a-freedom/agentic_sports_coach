@@ -1,0 +1,390 @@
+                   Training Principles and Issues
+                    for Ultra-endurance Athletes
+                            Calvin Zaryski, MKin and David J. Smith, PhD*
+
+
+Address                                                                3000-mile Race Across America cycling race, multistage
+*Human Performance Laboratory, Faculty of Kinesiology, University of   events (Marathon Des Sables), and Ultraman Triathlons.
+Calgary, 2500 University Drive NW, Calgary, AB T2N 2N4, Canada.
+E-mail: djsmith@kin.ucalgary.ca
+                                                                       Defining ultra-endurance
+Current Sports Medicine Reports 2005, 4:165–170
+                                                                       Some investigators identify the term ultra-endurance as
+Current Science Inc. ISSN 1537-890x
+Copyright © 2005 by Current Science Inc.                               exertion greater than 4 hours [1,2]. However, a definition
+                                                                       of ultra-endurance could be based on physiologic or
+                                                                       psychologic reasoning. For example, the 26.2-mile mara-
+  Ultra-endurance competition is defined as events that
+                                                                       thon is an event that is completed on average near 4 hours,
+  exceed than 6 hours in duration. The longer events rely
+                                                                       and it has become popular in its association with fundrais-
+  on long-term preparation, sufficient nutrition, accommo-
+                                                                       ing and societies. Physiologically the marathon can be
+  dation of environmental stressors, and psychologic tough-
+                                                                       labeled as ultra-endurance, but relative to the vast number
+  ness. Successful ultra-endurance performance is
+                                                                       of events that exceed this duration, a marathon might be
+  characterized by the ability to sustain a higher absolute
+                                                                       classified simply as a long-distance race. For the purpose of
+  speed for a given distance than other competitors. This
+                                                                       this article, it is proposed that ultra-endurance events refer
+  can be achieved through a periodized training plan and by
+                                                                       to those that are greater than 6 hours in duration. These
+  following key principles of training. Periodization is an
+                                                                       longer events rely more on adequate exercise management
+  organization of training into large, medium and small
+                                                                       and long term preparation, optimal rate of movement,
+  training blocks which are referred to as macro-, meso-,
+                                                                       sufficient nutrition to accommodate environmental stres-
+  and microcycles, respectively. When the sequencing of
+                                                                       sors, and psychologic toughness. Generally, the longer the
+  training is correctly applied, athletes can achieve a high
+                                                                       event, the more important preparation becomes in success-
+  state of competition readiness and during the months of
+                                                                       fully finishing with functional health.
+  hard training, avoid the overtraining syndrome. A plan is
+  executed in accordance with the following principles of
+  training: all-around development, overload, specificity,
+                                                                       Variables of Training
+  individualization, consistent training, and structural toler-
+                                                                       There are many variables that affect the outcome of an
+  ance. Training relies heavily on the athlete’s tolerance to
+                                                                       ultra-endurance event. These variables can be considered
+  repetitive strain. Today’s ultra-endurance athlete must
+                                                                       as characteristics of preparation. The successful execution
+  also follow appropriate nutritional practices in order to
+                                                                       of an ultra-endurance event is dependent on preparation
+  recover and prepare for daily training and remain injury
+                                                                       and attention given to nutritional requirements, injury
+  free and healthy. Rehydration after exercise, together with
+                                                                       prevention, tissue regeneration, and avoidance of acute
+  the timing and method of increased food intake to cope
+                                                                       tissue trauma and overtraining.
+  with heavy training, are essential for optimal performance.
+                                                                            The training required for ultra-endurance events is no dif-
+  Furthermore, the treatment of soft tissue after training or
+                                                                       ferent than that required for other sports with respect to
+  racing is necessary to control inflammation.
+                                                                       underlying principles; successive stresses must be applied to
+                                                                       the body over time in order to provide a stimulus to
+                                                                       initiate an adaptation so that subsequent training or
+Introduction                                                           performance is accomplished at a higher absolute intensity
+Current trends in endurance participation now include                  or for a longer period of time. Successful ultra-endurance per-
+much longer athletic events. Some events, such as the                  formance is characterized by the ability to sustain a higher
+90-km Comrades ultra-endurance running race founded                    a b s o l u t e s p e e d f o r a g i ve n d i s t a n c e t h a n o t h e r
+in 1925, have stood the test of time. Others, including                competitors. From a holistic point of view, the athlete should
+Ironman triathlons, have increased in availability and                 be considered as a living psycho-social-physiologic system
+popularity. Furthermore, new events have been created                  [3]. This holistic approach can be expanded into five areas
+to appeal to those athletes who still seek longer more                 that, when combined, culminate in an integrated view of
+grueling pastimes. These include adventure racing, the                 performance: physiology, biomechanics, psychology, tactics,
+166        Training
+
+
+and health/lifestyle. All these components need to be func-                      average percent heart rate reserve during an exercise session
+tioning at near-optimal levels in order to achieve a successful                  [9]. These two methods of quantifying training load
+performance or a maximum training adaptation.                                    (TRIMP and session RPE) allow an athlete to track his or
+                                                                                 her training in order to evaluate the effectiveness of differ-
+Frequency, intensity, and duration of training                                   ent training sequences.
+The fundamental variables of physiologic stress are the
+intensity, duration, and frequency of training. The intensity                    Periodization of training
+of effort it a qualitative component and in ultra-endurance                      The sequence in which training loads or volumes are
+activities where distance and time are factors, absolute                         applied, as a series of training blocks, is critical to the
+intensity can be recorded as speed. Relative intensity, on the                   final outcome for an ultra-endurance athlete. Periodiza-
+other hand, can be quantified as a proportion of an                              tion, as popularized by Bompa [10], is a training concept
+athlete's maximum speed, or by a physiologic variable such                       in which the year is divided into large, medium and
+as percentage of maximum heart rate or percent heart rate                        small training blocks referred to as macro-, meso-, and
+reserve. Intensity is generally considered to be the most criti-                 microcycles. A microcycle refers to a structure of separate
+cal factor of training. Within the training process, the                         training sessions or small grouping of several sessions;
+correct balance of low-, medium-, and high-intensity train-                      mesocycles (3–5 weeks) are a grouping of several micro-
+ing is critical to the adaptation process and if too much                        cycles with a predetermined training objective or perfor-
+moderate- or high-intensity training is undertaken, there is a                   mance goal, and macrocycles (12–16 weeks) reflect
+significant risk of fatigue which may lead to over-reaching or                   groupings of mesocycles within a semiannual or annual
+overtraining. The duration of training is a quantitative com-                    plan. Periodization provides a framework which allows a
+ponent referring to the length in time of a training                             coach to formulate a specific program to achieve
+session. Training frequency refers to the number of training                     improvements in physiologic, technical, or psychologic
+sessions within a given time frame, such as a day or a week.                     components of performance. When the sequencing of
+Athletes and coaches often refer to combinations of these                        training is correctly applied through a periodized plan,
+variables. Training volume refers to the product of duration                     athletes can achieve a high state of competition readiness
+and frequency of training (usually in a week) and training                       and during the months of hard training, avoid the over-
+load refers to the product of all three fundamental compo-                       training syndrome. The underlying concept of periodiza-
+n e n t s, f r e q u e n c y, d u r a t i o n , a n d i n t e n s i t y. T h e   tion is that training should progress from general to
+correct sequencing of changes in volume and load through-                        specific with the intention of peaking at competition
+out a training year is critical to the adaptation process.                       time. Pyne [11] listed common features of periodized
+                                                                                 training programs as follows:
+Quantification of training load
+The concept of training impulse (TRIMP), developed by                                1. The long-term performance goal for the season
+Bannister [4] and Morton et al. [5] is determined as the                                forms the basis for designing the training program.
+product of training duration and intensity where the average                         2. There is a progressive and cyclical increase in
+heart rate of a workout is multiplied by a nonlinear meta-                              training loads.
+bolic adjustment factor based on the classically described                           3. There is a logical sequence to the order of the
+blood-lactate curve. The intensity of training is calculated as                         training phases.
+a delta heart rate ratio, which equals exercise heart rate                           4. The training process is supported by a structured
+minus resting heart rate divided by maximum heart rate                                  program of scientific monitoring in the areas
+minus resting heart rate. Although a drawback to the TRIMP                              of physiology, biomechanics, psychology,
+method is that only aerobic intensities eliciting heart rate                            and physiotherapy.
+response up to maximum heart rate can be determined, for                             5. There is intensive use of recovery or regenerative
+the ultra-endurance athlete this is a minor limitation.                                 techniques throughout the training program.
+    An alternative method to the TRIMP system is the                                 6. Emphasis on skill development and refinement is
+rating of perceived exertion (RPE) originally proposed by                               maintained throughout the training program.
+Gunnar Borg in 1970. The Fitness-Category scale includes a                           7. There is an underlying component of the improve-
+wide range of intensities ranges (6–20) from “no exertion                               ment and maintenance of general athletic abilities.
+at all” (6) to "maximal exertion" (20) [6]. Foster et al. [7]                        8. Each part of the training program builds on the
+used the modified Category-Ratio scale from 0 to 10 [8] as                              preceding phase.
+a representation of a training session RPE. Training load
+was defined as the product of the rating of the global inten-                    The success of a periodized plan is thus determined by how
+sity of an entire training session and the duration of the                       the training stress is applied within the comprehensive
+session. Thus, load equals session RPE multiplied by                             plan while taking into consideration certain principles of
+duration. The session RPE was found to be related to the                         training [12•].
+                             Training Principles and Issues for Ultra-endurance Athletes • Zaryski and Smith             167
+
+
+Principles of training                                          Issues for Ultra-endurance Athletes
+Principles of training have been described by various           Today, the modern ultra-endurance athlete is acutely aware
+authors, including Harre [13] and Siff and Verkhoshansky        of the need for sustenance in order to recover and prepare
+[14]. For an ultra-endurance athlete, the following princi-     for upcoming training and racing. Rehydration and recov-
+ples may be considered critical to success:                     ery of fluid balance after exercise, together with the timing
+                                                                and method of increased food intake to cope with heavy
+    1. All-around development suggests the need for an          training, are essential for optimal performance. Further-
+       underlying general athletic ability that is supported    more, specific activities may present unique challenges in
+       by a strong psychologic platform and technical           administering the appropriate strategy. During an ultra-
+       ability in the various activities in which an athlete    mountain bike race for example, it is much more difficult
+       engages. Within the training process, overcoming         to meet nutritional demands than during a road biking or
+       training and competition stresses promotes               running race due to the nature of the event [17].
+       willpower, self-confidence, and tolerance for
+       higher training and competition demands [15].            Caloric replacement
+    2. Overload addresses the concept of progressively          Caloric replacement is one of the key fundamentals of
+       increasing the training load and volume of physi-        sustenance for ultra-endurance athletes. Some events
+       cal work so that after a recovery period, an over-       report caloric expenditure ranging from 8500 to 11,500
+       compensation and improved fitness is achieved.           kcal [2,18]. The caloric intake must be adequate to main-
+       Thus, an athlete will be able to compete or train at     tain the activity. Ultra-endurance events require energy
+       an improved absolute intensity.                          contributions from all three macronutrients (carbohy-
+    3. Specificity emphasizes the need for practice under       drates, protein, and fat) as indicated by the duration of the
+       similar conditions to those of competition and for       event and the lower intensity [19]. The relative contribu-
+       the ultra-endurance athlete is fundamental to            tion of these macronutrients is also affected by the inten-
+       success. It recognizes that specific exercises and       sity of the performance, or frequency of intensive bouts
+       skills are required to compete efficiently and           dictated by terrain and race strategy. The higher the inten-
+       effectively in an event.                                 sity, the more reliance there is on carbohydrates [20].
+    4. Individualization implies that individual athletes       Carbohydrate diets range from 5 to 7 g/kg/d to 7 to 10 g/
+       will react and adapt differently when presented          kg/d 3 to 4 days before competition [21••]. During
+       with identical training regimes [16••]. On a             prolonged running events, usage of 40 to 80 g/h have been
+       continuum, there are two broad categories of             reported [22], whereas usage of more than 90 g/h is not
+       athletes. At one end are those who are genetically       uncommon during cycling events [23]. Most endurance
+       talented and at the other end are those with a           athletes report better performances and less gastrointesti-
+       highly developed work ethic, with a system guiding       nal discomfort using liquid carbohydrates. Research has
+       their effort. Thus, there is a need for individualized   shown that liquid ingestion of 30 to 70 g of carbohydrate
+       training programs with monitoring systems                per hour or 0.2 to 0.6 g/kg body weight/h [24] can main-
+       available to evaluate individual responses to a          tain blood glucose oxidation and delay fatigue. A liquid
+       training load.                                           composition prescribed at 7.5% to 12% solution has been
+    5. Reversibility highlights the requirement for             shown to minimize the chances of hypoglycemia but
+       consistent training. As suggested by the fitness-        maximize performance as glycogen levels deteriorate [25].
+       fatigue model of Bannister [4], fitness and fatigue          A critical factor in the rate of carbohydrate ingestion is
+       are never constant and interruptions to training         individual gastric emptying physiology. Absorption occurs
+       caused by injury, illness, or social needs, break the    in the duodenum but particle size can affect the rate at
+       consistency of training that is required                 which the substrate enters. Entry via the pylorus is gained
+       to achieve improvements. Loss of fitness can occur       only if the particle size is no larger than 1 mm in diameter
+       through inconsistent training and fatigue may            [26]. Other factors that must be taken into consideration
+       occur through nontraining stress factors and             include dietary fiber, meal volume, meal temperature, and
+       inadequate recovery.                                     osmolarity [26,27]. Exercise intensity and environmental
+    6. Structural tolerance implies that the body needs         stress can affect the blood flow to the small intestine conse-
+       time to adapt to a training load. Structural             quently affecting gastric emptying and distress. The athlete
+       tolerance is the ability to withstand weeks or           must have alternate feed plans to accommodate the state of
+       months of high-volume training without the               digestion and absorption. It is important that the athletes
+       incidence of injury, illness, or fatigue that may lead   implement these feeding strategies during training at the
+       to overreaching or overtraining. Through years of        same relative intensity and if possible under the same envi-
+       general and specific training, structural tolerance      ronmental conditions as the race. Unfortunately, it is diffi-
+       can be greatly improved.                                 cult to simulate race anxiety and the affect it may have on
+168      Training
+
+
+the gastrointestinal system, but often, the more race experi-       mentation has been shown to assist in maintaining hydra-
+ence the athlete has, the less likely he or she will be affected.   tion balance during ultra-endurance events [39].
+    Liquid meal feeding has been shown to be superior                   An increasing proportion of athletes develop either
+when compared with solid food [26,28]. But for some,                hypernatremia or hyponatremia in ultra-endurance
+solid food will satisfy athlete hunger and allow for more           events that last 6 hours or more [40]. According to Shar-
+variation, which can help ensure ingestion of caloric               wood et al. [41], conservative drinking policy can be
+requirements. Again, this concept should be investigated            advocated for those Ironman triathlons that are held in
+individually as taste fatigue is a real concern in ultra-endur-     moderate environmental conditions similar to those at
+ance events. In addition, gastric emptying can be enhanced          the South Africa Ironman Triathlon, without risking the
+when the feeding solution contains sodium and other elec-           health of the athletes.
+trolytes [26]. Cooler liquids tend to be more readily
+absorbed [26], but this element may not be controllable             Prevention of injuries
+during longer training sessions. In some races that allow           In order for an athlete to complete an ultra-endurance
+support teams or provide aid stations, athletes will freeze         event, countless hours of physical preparation are required.
+their feed bottles and have them several hours later ensur-         Consistent training relies heavily on the athlete’s tolerance
+ing better liquid temperatures.                                     to repetitive strain. According to Egermann et al. [42], most
+    In ultra-endurance events and training, evidence                injuries (81.3%) occur during triathlon training hours
+suggests that protein is an essential nutrient to assist in         compared with 18.7% during actual competitions. But
+energy requirement [29], tissue repair, and glycogen                considering the hours spent training in relation to compe-
+replenishment [30]. Furthermore, Zawadzki et al. [31]               titions, there is a sixfold higher incidence for injury during
+provided evidence that a ratio of 3 g of carbohydrate to 1          competitions. This implies that athletes tend to push their
+g of protein can enhance glycogen resynthesis, although             bodies to their limits during competition even beyond
+other studies have indicated that immediate carbohy-                structural tolerance.
+drate ingestion remains the most important factor in                     Treatment of soft tissue after training and racing incor-
+recovery [32]. What seems to be the common principle                porates ice and cold water therapy to control inflamma-
+for ultra-endurance training and racing is that immedi-             tion. This practice along with proper rehydration and fuel
+ate ingestion of carbohydrate or carbohydrate-protein               replacement should be the focus immediately following
+solution is necessary to replenish muscle glycogen.                 extreme physical training. Repeated recovery care will
+Some nutritional strategies have tried to promote fat               ensure successful training sessions in the immediate future.
+oxidation for sparing muscle glycogen in order to
+enhance performance [33,34•]. In extreme ultra- endur-              Overtraining
+ance events in which tremendous caloric use occurs,                 Overtraining is an additional potential problem for ultra-
+foods high in fat tend to be appropriate not only to pro-           endurance sports performers. Athletes who exhibit perfor-
+vide caloric dense options, but to satisfy taste and satiety        mance incompetence, prolonged fatigue, or an inability to
+[35]. Often athletes in these ultra-events need small               train at expected levels are said to be suffering from over-
+rewards to maintain pace. Reward foods that do not sup-             training. Overtraining occurs when an excessive training
+port the tradition views of performance can be used.                load is not compensated by a sufficient amount of recovery
+Variations can be used to meet the athlete’s desires, such          for a sustained period of time. Overload training, a few
+as salty fat foods, or sweet savory foods. As long as the           days of hard training followed by short-term fatigue, is an
+athlete is fulfilling the fundamental requirements for              essential part of all athletes’ training [43•]. Overload train-
+continued exercise, these strategies can be quite advanta-          ing can, however, result in overreaching if recovery of 3 to 5
+geous for longer events.                                            days has not resulted in performance recovery. Overreach-
+                                                                    ing is characterized by a transient performance incompe-
+Fluid replacement                                                   tence, which is reversible within a short recovery period of
+Adequate fluid and electrolyte replacement is critical in           1 to 2 weeks, and can be rewarded by a state of supercom-
+ultra- endurance performance and training. Dehydration              pensation [44]. However, if recovery is inadequate or the
+increases core temperature and cardiac drift occurs when            training load is unmanageable, over-reaching can progress
+the body losses excessive amounts of fluids due to perspi-          to overtraining and recovery may take weeks or months
+ration [36]. Water loss can be as high as 2 L/h in hot              [45,46]. External factors that may contribute to prolonged
+weather particularly if the event pushes the athletes above         fatigue may include excessive intensity or volume of train-
+70% of VO2max [37]. In ultra-endurance events, modifica-            ing, incorrect sequencing of training or competitions, a
+tions in fluid and electrolyte ingestion have been suggested        lack of training background, and inadequate structural
+to avoid hyponatremia [38•]. Researchers recommend 500              tolerance. A progressive increase in intensive training
+to 800 mL/h during the 180-km bike portion and 300 to               volume with a considerable increase in training volume is
+500 mL/h during the marathon run, with smaller men and              the strongest cause, including an imbalance between an
+women advised to drink lower rates. Oral sodium supple-             athlete’s adaptive capacity and the recovery time required
+                             Training Principles and Issues for Ultra-endurance Athletes • Zaryski and Smith                         169
+
+
+[43•]. Furthermore, issues such as social or economic             ery of fluid balance after exercise, together with the timing
+factors, food intake, or sleep may play a role in leading to      and method of increased food intake to cope with heavy
+overreaching or overtraining. In reality, it is likely that       training, are essential for optimal performance.
+significant inter-individual variability in recovery poten-
+tial, exercise capacity, nontraining stress factors, and stress
+tolerance may explain the different vulnerability of athletes     References and Recommended Reading
+to training under identical training stress conditions [46].      Papers of particular interest, published recently, have been
+     Diagnosis of overtraining is very difficult and no exact     highlighted as:
+criterion exists. A diagnosis should be based on several          •    Of importance
+                                                                  •• Of major importance
+points, including patient history, ruling out of other
+diseases, laboratory findings [43•], and careful examina-          1.    Hawley JA, Hopkins WG: Aerobic glycolytic and aerobic
+tion of the athlete’s training log, paying particular atten-             lipolytic power systems. A new paradigm with implications
+                                                                         for endurance and ultra endurance events. Sports Med
+tion to the sequence and load of training. A blood marker                1995, 19:240–250.
+that shows promise as an indicator of overreaching/over-            2. Kreider RB: Physiological considerations of ultra endurance
+training is the glutamine/glutamate ratio [47]. A lowering               performance. Int J Sport Nutr 1991, 1:3–27.
+                                                                    3. Kenttä G, Hassmén P: Overtraining and recovery: a conceptual
+of the ratio in conjunction with a decline in performance                model. Sports Med 1998, 26:1–26.
+and altered mood state may be a useful tool for diagnosis           4. Bannister EW: Modeling elite athletic performance. In Physio-
+[48]. A common feature of overtraining is the inability to               logical Testing of the High-Performance Athlete, edn 2. Edited by
+sustain intense exercise. A performance test that has been               MacDougall JD, Wenger HA, Green HJ. Champaign, IL: Human
+                                                                         Kinetics; 1991.
+used to distinguish overtrained athletes, involves exercise         5. Morton RH, Fitz-Clarke J, Banister EW: Modeling human
+associated with the individual anaerobic threshold (IAT)                 performance in running. J Appl Physiol 1990, 69:1171–1177.
+[49]. The duration of this stress test, an all-out short-term       6. Borg G: Psychophysical bases of perceived exertion. Med Sci
+                                                                         Sports Exerc 1982, 14:377–381.
+duration exercise test performed at an intensity of 110%
+                                                                    7. Foster C, Daines E, Hector L, et al.: Athletic performance
+above IAT, has been observed to be one of the most sensi-                in relation to training load. Wis Med J 1996, 95:370–374.
+tive single objectifiable criterion in diagnosing overtraining      8. Noble BJ, Borg GA, Jacobs I, et al.: A category-ratio perceived
+[50]. At this time, there are no clear early warning signs of            exertion scale: relationship to blood and muscle lactates and
+                                                                         heart rate. Med Sci Sports Exerc 1983, 15:523–528.
+overtraining and it is suggested that the best treatment is         9. Foster C: Monitoring training in athletes with reference to
+prevention through periodization with sufficient recovery                indices of overtraining syndrome. Med Sci Sports Exerc
+built into the program.                                                  1998, 30:1164–1168.
+                                                                  10. Bompa TO: Periodization: Theory and Methodology of Training,
+                                                                         edn 4. Champaign, IL: Human Kinetics; 1999.
+                                                                  11. Pyne D: The periodization of swimming training at the
+Conclusions                                                              Australian Institute of Sport. Sports Coach 1996, 18:34–38.
+Successful ultra-endurance performance is characterized by        12.• Smith DJ: A framework for understanding the training
+                                                                         process leading to elite performance. Sports Med
+the ability to sustain a higher absolute speed for a given               2003, 33:1103–1126.
+distance than other competitors. The training required is         Recent review of training concepts, the influence of genetics and
+no different than for other sports with respect to the under-     deliberate practice on athletic performance, an overview of periodiza-
+                                                                  tion and training strategies, and an integrated model of performance.
+lying principles. Successive stresses must be applied to the
+                                                                  13. Harre D: Principles of Sports Training: Introduction to the Theory
+body over time in order to provide a stimulus to initiate                and Methods of Training (English). Berlin: Sportverlag; 1982.
+adaptation so that subsequent training or performance is          14. Siff MC, Verkhoshansky YV: Supertraining, edn 4. Denver, CO:
+accomplished at a higher absolute intensity or for a longer              Supertraining International; 1999.
+                                                                  15. Schmolinsky G: Track and Field: The East German Textbook of
+period of time. The sequence in which a series of training               Athletics. Toronto: Sport Books; 1996.
+blocks is applied is critical to the final outcome for an         16.•• Norris SIR, Smith DJ: Planning, periodization, and sequenc-
+ultra-endurance athlete. How the loads are applied is                    ing of training and competition: the rationale for a compe-
+dependent on training periodization, which is a training                 tently planned, optimally executed training and competition
+                                                                         program, supported by a multidisciplinary team. In Enhanc-
+concept in which the year is divided into large, medium                  ing Recovery: Preventing Underperformance in Athletes. Edited by
+and small training blocks that are referred to as macro-,                Kellmann M. Champaign, IL: Human Kinetics; 2002.
+meso-, and microcycles. The design of a periodized plan           This chapter focuses on the rationale surrounding the need for a
+                                                                  systematic approach to the problem of effective training, the impact
+should incorporate the following principles: all-around           of recovery, and the preparation for high performance. The authors
+development, overload, specificity, individualization, and        suggest that an optimal program should encompass both general and
+consistent training. Furthermore, structural tolerance is a       specific elements; have short-, medium-, and long-term goals; involve
+                                                                  consistant monitoring; be flexible; and use competitive experiences as
+concept that suggests that the body needs time to adapt to        well as appropriate rest and regeneration phases.
+a training load and tolerance is built up through years of        17. Burke LM: Feeding ultra-endurance athletes: an interview
+general and specific training. The modern ultra-endurance                with Dr. Helen O'Connor and Gregory Cox. Int J Sport
+                                                                         Nutr Exerc Metab 2002, 12:490–494.
+athlete requires sustenance in order to recover and prepare       18. Francescato MP, Di Prampero PE: Energy expenditure during
+for upcoming training and racing. Rehydration and recov-                 an ultra-endurance cycling race. J Sports Med Phys Fitness
+                                                                         2002, 42:1–7.
+170        Training
+
+
+19.    Applegate EA: Nutritional considerations for ultra-endurance        35.    Brown RC: Nutrition for optimal performance during
+       performance. Int J Sport Nutr 1991, 1:118–126.                             exercise: carbohydrate and fat. Curr Sports Med Rep
+20. Coyle EF: Fluid and carbohydrate replacement during                           2002, 1:222–229.
+       exercise: How much and why? Sports Science Exchange                 36. Grant SM, Green HJ, Phillips SM, et al.: Effects of acute
+       (Gatorade Sports Science Institute) 1994, 7:1–6.                           expansion of plasma volume on cardiovascular and thermal
+21.•• Burke LM, Cox GR, Cummings NK, et al.: Guidelines for daily                 function during prolonged exercise. Eur J Appl Physiol Occupat
+       carbohydrate intake: do athletes achieve them? Sports Med                  Physiol 1997, 76:356–362.
+       2001, 31:267–299.                                                   37. O'Toole ML, Douglas PS: Applied physiology of triathlon.
+Review article discussing guidelines for carbohydrate intake by                   Sports Med 1995, 19:251–267.
+athletes. Recommended carbohydrate intake for general training             38.• Speedy DB, Noakes TD, Kimber NE, et al.: Fluid balance
+versus endurance athletes. Focus on the female athlete who has                    during and after an Ironman triathlon. Clin J Sport Med
+chronic or periodic restriction of total energy intake in achieving               2001, 11:44–50.
+low levels of body fat.                                                    Athletes competing in the 1997 New Zealand Ironman. Some athletes
+22. Burke LM, Hawley JA: Carbohydrate and exercise. Curr Opin              developed hyponatremia despite modest fluid intake. Discussion of
+       Clin Nutr Metab Care 1999, 2:515–520.                               source of weight loss in ultra-endurance events.
+23. Saris WH, Goodpaster BH, Jeukendrup AE, et al.: Endogenous             39. Speedy DB, Thompson JM, Rodgers I, et al.: Oral salt supple-
+       carbohydrate oxidation from different carbohydrates sources                mentation during ultra-distance exercise. Clin J Sport Med
+       during exercise. J Appl Physiol 1993, 75:2168–2172.                        2002, 12:279–284.
+24. Applegate E: Nutritional concerns of the ultra-endurance               40. Speedy DB, Noakes TD, Schneider C: Exercise-associated
+       triathlete. Med Sci Sports Exerc 1989, 21:S205–S208.                       hyponatremia: a review. Emerg Med (Fremantle)
+25. Saris WH, Erp-Baart MA, Brouns F, et al.: Study on food                       2001, 13:17–27.
+       intake and energy expenditure during extreme sustained              41. Sharwood K, Collins M, Goedecke J, et al.: Weight changes,
+       exercise: the Tour de France. Int J Sports Med                             sodium levels, and performance in the South African
+       1989, 10(Suppl 1):S26–S31.                                                 Ironman Triathlon. Clin J Sport Med 2002, 12:391–399.
+26. Brouns F, Saris WH, Rehrer NJ: Abdominal complaints and                42. Egermann M, Brocai D, Lill CA, et al.: Analysis of injuries in
+       gastrointestinal function during long-lasting exercise.                    long-distance triathletes. Int J Sports Med 2003, 24:271–276.
+       Int J Sports Med 1987, 8:175–189.                                   43.• Uusitalo AL: Overtraining. Phys Sportsmed 2001, 29:35–50.
+27. Rehrer NJ, Brouns F, Beckers EJ, et al.: Gastric emptying with         A summary review of overtraining, definition and characteristics of
+       repeated drinking during running and bicycling. Int J Sports        overtraining, signs and symptoms, diagnostic tools, prevention as
+       Med 1990, 11:238–243.                                               best treatment, subjective and objective parameters that can be used
+28. Alpers DH: carbohydrate Digestion and absorption of                    to prevent overtraining.
+       carbohydrates and proteins. In Physiology of the gastrointestinal   44. Jeukendrup AE, Hesselink MKC, Snyder AC, et al.: Physiologi-
+       tract, edn 3. Edited by Johnson LR, Alpers DH, Christenson J,              cal changes in male competitive cyclists after two weeks of
+       Jacobson E. New York: Raven Press; 1994.                                   intensified training. Int J Sports Med 1992, 13:534–541.
+29. Lindeman AKV: Eating for endurance or ultra-endurance.                 45. Kuipers H, Keizer HA: Overtraining in elite athletes: review
+       Phys Sportsmed 1992, 20:87–88.                                             and directions for the future. Sports Med 1988, 6:79–92.
+30. Ivy JL, Goforth HW, Jr., Damon BM, et al.: Early postexercise          46. Lehmann M, Foster C, Keul J: Overtraining and endurance
+       muscle glycogen recovery is enhanced with a carbohydrate-                  athletes: a brief review. Med Sci Sports Exerc 1993, 25:854–862.
+       protein supplement. J Appl Physiol 2002, 93:1337–1344.              47. Smith DJ, Norris SR: Changes in glutamine and glutamate
+31. Zawadzki KM, Yaspelkis BB III, Ivy JL: Carbohydrate-protein                   concentrations for tracking training tolerance. Med Sci Sports
+       complex increases the rate of muscle glycogen storage after                Exerc 2000, 32:684–689.
+       exercise. J Appl Physiol 1992, 72:1854–1859.                        48. Halson SL, Lancaster GI, Jeukendorp AE, et al.: Immunological
+32. Jentjens RL, van Loon LJ, Mann CH, et al.: Addition of                        responses to overreaching in cyclists. Med Sci Sports Exerc
+       protein and amino acids to carbohydrates does not enhance                  2003, 35:861.
+       postexercise muscle glycogen synthesis. J Appl Physiol              49. Stegmann H, Kindermann W, Schnabel A: Lactate kinetics
+       2001, 91:839–846.                                                          and individual anaerobic threshold. Int J Sports Med
+33. Hawley JA: carbohydrate Nutritional strategies to enhance                     1981, 2:160–165.
+       fat oxidation during aerobic exercise. In Clinical Sports           50. Urhausen A, Gabriel HHW, Weiler B, et al.: Ergometric and
+       Nutrition, edn 2. Edited by Burke LM, Deakin V. Boston:                    psychological findings during overtraining: a long-term
+       McGraw-Hill; 2000.                                                         follow-up study in endurance athletes. Int J Sports Med
+34.• Hawley JA, Brouns F, Jeukendrup A: Strategies to enhance fat                 1998, 19:114–120.
+       utilisation during exercise. Sports Med 1998, 25:241–257.
+Discussion on the role of fat in endurance activity. Insufficient
+scientific evidence to recommend that athletes fat load during
+training or before competitions. Further research is required on
+the effects of nutritional periodization on performance during
+ultra-endurance events
+

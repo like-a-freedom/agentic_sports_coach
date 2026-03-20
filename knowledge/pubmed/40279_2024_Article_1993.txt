@@ -1,0 +1,1110 @@
+Sports Medicine (2024) 54:1249–1267
+https://doi.org/10.1007/s40279-024-01993-7
+
+    SYSTEMATIC REVIEW
+
+
+
+Do Exercise‑Based Prevention Programs Reduce Injury in Endurance
+Runners? A Systematic Review and Meta‑Analysis
+Han Wu1       · Katherine Brooke‑Wavell1           · Daniel T. P. Fong1   · Max R. Paquette2   · Richard C. Blagrove1
+
+Accepted: 11 January 2024 / Published online: 23 January 2024
+© The Author(s) 2024
+
+
+Abstract
+Background Endurance running is a popular sport and recreational activity yet is associated with a high prevalence of injury.
+Running related injuries (RRIs) are a leading cause of drop-out and represent a substantial financial burden to runners and
+healthcare services. There is clear evidence for the use of exercise-based injury prevention programs in games-based and
+youth sport settings, yet the research investigating the use of exercise to reduce injury risk in endurance runners has not been
+adequately reviewed recently.
+Objectives The aim of this review and meta-analysis was to systematically summarize the current research that has investi-
+gated the effect of exercise-based prevention programs and their state of supervision on the risk of RRIs in endurance runners.
+Methods Three databases were searched for relevant studies. Selection and review were completed by two independent
+reviewers using the following inclusion criteria: (1) study population used endurance running training for health, occupa-
+tional, or performance outcome(s); (2) participants performed running as their main form of exercise (> 50% of their total
+training time); (3) study was a randomized controlled trial; (4) a non-running-based exercise intervention was used; (5) a
+running-only or placebo exercise control group was included; (6) injury rate or incidence was reported; (7) injuries were
+recorded prospectively alongside the exercise training. Two meta-analyses were conducted using random-effects models, one
+based on log risk ratio and one based on log incidence rate ratio. The Cochrane Risk of Bias Assessment Tool 2 was used to
+evaluate the quality of studies and the Grading of Recommendations Assessment, Development and Evaluations approach
+was employed to grade the certainty of evidence.
+Results A total of nine articles containing 1904 participants were included in analysis. Overall pooled results showed no
+significant differences between intervention and control groups in injury risk (z = − 1.60; p = 0.110) and injury rate (z = − 0.98;
+p = 0.329), while a post hoc analysis evaluating supervised interventions only showed that injury risk was significantly lower
+in the intervention group compared to the control group (z = − 3.75, p < 0.001). Risk of bias assessment revealed that seven
+studies included in the analysis were of low quality.
+Conclusions Exercise-based interventions do not appear to reduce the risk and rate of running-related injuries. Supervision
+may be essential for exercise-based intervention programs to reduce risk of RRIs, possibly due to increased compliance.
+Studies with more robust designs that include supervised exercise interventions should be prioritized in the future.
+Trial Registry Clinical Trial Registration: PROSPERO CRD42021211274.
+
+
+
+
+* Richard C. Blagrove
+  R.C.Blagrove@lboro.ac.uk
+1
+     National Centre for Sport and Exercise Medicine, School
+     of Sport, Exercise and Health Sciences, Loughborough
+     University, Loughborough, UK
+2
+     College of Health Sciences, University of Memphis,
+     Memphis, TN, USA
+
+
+                                                                                                                   Vol.:(0123456789)
+1250                                                                                                                    H. Wu et al.
+
+
+                                                                   a long recovery time and are often the reason for stalled
+ Key Points                                                        progress, pre-race drop-out [10], and runners quitting the
+                                                                   sport [11]. Injuries represent a substantial financial burden
+ Injury prevalence is high in endurance runners; however,          to runners, health services and employers, which may be
+ the research investigating the use of exercise to reduce          reduced if effective injury prevention strategies were avail-
+ injury risk specifically in endurance runners has not been        able and utilized [12].
+ reviewed adequately.                                                 In the presence of a high incidence of RRIs, preventative
+ Pooled data showed that exercise-based injury preven-             recommendations have been put forward by academics and
+ tion programs provide no reduction in injury risk or              medical professionals despite an absence of compelling evi-
+ injury rate compared to running only.                             dence to support these suggestions [13–15]. Incorporation of
+                                                                   strength training activities (e.g., resistance and plyometric
+ Studies that used an element of supervision during                training) and other therapeutic exercise interventions (e.g.,
+ interventions tended to have greater compliance with the          stretching, proprioception exercises, core stability exercises)
+ exercise programs and showed significantly lower injury           into a running program are common recommendations
+ risk compared to control groups.                                  [13–15]. Indeed, it has been noted that a high proportion
+ Most studies in this area are of low quality, indicating          of endurance runners engage in strength and conditioning
+ that future research should use more robust study designs         (S&C) activities due to the belief it lowers the risk of sus-
+ with supervised exercise interventions.                           taining a RRI [16, 17]. Notwithstanding the popular use of
+                                                                   S&C activities, previous reviews showed no clear evidence
+                                                                   for stretching [18, 19] and conditioning exercises to lower
+                                                                   RRI risk [19, 20]. However, the definition of ‘runners’ has
+                                                                   been poorly defined in the two existing reviews investigating
+                                                                   the effects of S&C and therapeutic exercise on RRIs [19,
+                                                                   20]. Specifically, these two reviews included studies in mili-
+1 Introduction                                                     tary populations, which assumes injuries sustained during
+                                                                   basic military training activities are due to running activi-
+Endurance running is a popular physical activity associated        ties and are the same as endurance RRIs. Although running
+with a myriad of health benefits such as reduced risk of non-      often constitutes a large part of military training, it may not
+communicable diseases and improved mental well-being [1,           be a major component for all branches of the military used
+2]. Participation in community endurance running events            across different studies. For example, in the three overlap-
+and initiatives has increased substantially in recent years; for   ping military studies included in these two reviews, endur-
+example parkrun attracts 330,000 people across 2200 events         ance running only constituted 21% of the physical training
+worldwide every weekend [3] and over six million runs were         routine [5, 21, 22].
+completed via the UK National Health Service ‘Couch to 5k’            Prospective studies have identified that muscular weak-
+application in 2022 [4]. In addition to public participation,      ness predisposes runners to a higher incidence of patel-
+endurance running is also an integral component of mili-           lofemoral pain [23], medial tibial stress syndrome [24], and
+tary training [5], is a popular sport, and constitutes a major     Achilles tendinopathy [25]. From this standpoint, engaging
+component of training for athletes in other sports such as         in activities such as resistance training that improve mus-
+triathlon and duathlon.                                            cular strength may therefore reduce the risk of RRI. How-
+   Endurance running is associated with a high incidence           ever, a review that systematically evaluates whether these
+of running-related injuries (RRIs) [6, 7]. A recent system-        relationships are causal in nature has not been conducted
+atic review encompassing over 10,000 runners noted that            recently for endurance runners. In the broader literature,
+both injury incidence and prevalence exceed 40% [7]. In the        the protective effect of ‘neuromuscular training’ programs,
+military, running volume has been shown to be a leading            containing combinations of strength, agility, balance, core
+cause of injury, contributing to 13.5% of all injuries and         stability, plyometric and bodyweight exercises, on the inci-
+34.6% of preventable injuries [8]. Although elite runners          dence of sport injuries in games players [26, 27] and youth
+tend to have fewer RRIs compared to novice runners, injury         athletes [28] is well established. Specifically, multicom-
+incidence is still high [9]. An observational study containing     ponent exercise programs have been shown to reduce the
+4621 runners found injury incidence to be 8.78 for novice          risk of sustaining an overuse injury by almost half, whereas
+runners and 4.24 for experienced runners per 1000 h of run-        stretching alone provided no protective effect [29]. A recent
+ning [8]. RRIs are mainly lower limb overuse injuries, such        review also found that strength training provided a dose-
+as patellofemoral pain, medial tibial stress syndrome, and         dependent sports injury risk reduction [30]. Despite these
+Achilles tendinopathy [7]. Overuse injuries generally require      promising findings, these reviews did not include any studies
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                              1251
+
+that used endurance runners, who experience high volumes         • Participants were non-runners or endurance running
+of repetitive cyclical loading of musculoskeletal structures,      formed ≤ 50% of the overall training program. Restric-
+and therefore it is currently unknown whether the results are      tions were not placed upon experience/training status.
+applicable to this population.                                     Where there was doubt over the volume of endurance
+   A review of the published literature that systematically        running relative to the overall exercise training pro-
+evaluates whether exercise interventions reduce the risk of        gramme, corresponding authors were contacted.
+RRIs, specifically in endurance runners, is warranted. This      • The running training and/or intervention was not clearly
+information would be useful for sports medicine practition-        reported.
+ers, coaches and runners to make more informed decisions         • Participants were injured at baseline (i.e., a rehabilitation
+when selecting injury prevention strategies. Furthermore, a        intervention was used) or reported to be in poor physical
+detailed examination of the protocols used in previous stud-       health or symptomatic.
+ies will help identify limitations in study design and imple-    • Pharmaceutical or other non-exercise prevention strategy
+mentation, thereby directing further research in this area.        (e.g., orthotics, independent massage sessions, nutrition)
+Consequently, this systematic review and meta-analysis aims        was used alongside an exercise intervention.
+to provide an update on the current evidence surrounding the
+effect of exercise programs on the risk of RRIs.                 2.2 Systematic Search, Study Selection and Data
+                                                                      Extraction
+
+                                                                 A search was conducted in PubMed, Web of Science and
+2 Methods                                                       SPORTDiscus on 15 January 2023, with no publication date
+                                                                 or language restrictions. The search was divided into blocks
+This study was registered a priori on PROSPERO
+                                                                 of keywords and associated synonyms relating to ‘preven-
+(CRD42021211274) and the updated PRISMA statement
+                                                                 tion’, ‘injuries’, ‘non-running exercise’, ‘running’, and the
+[31] and PERSiST guidance [32] were used as a basis for
+                                                                 study design. Blocks were separated by the operator ‘AND’
+the procedures described herein.
+                                                                 and contained the operators ‘OR’ and ‘*’ (see Electronic
+                                                                 Supplementary Material (ESM) Appendix S1 for full opera-
+2.1 Inclusion and Exclusion Criteria                            tional search strings). Title/abstract screening and full-text
+                                                                 screening were conducted by two independent reviewers
+For a study to be eligible at the systematic review stage, the   (HW and RCB) using the web-based systematic review
+following inclusion criteria were met:                           tool Covidence (Veritas Health Innovation). Citations were
+                                                                 screened in the reports that were assessed for eligibility. No
+• Study population used endurance running training for           automated tools were used in the identification and screen-
+    health, occupational (e.g., military preparation), or per-   ing process. Data extraction and the risk of bias assessment
+    formance (5 km—ultra-endurance events) outcome(s).           were conducted by the same two reviewers using a modified
+    When endurance runners composed a subset of the study        version of the data extraction form recommended by the
+    population (e.g., track-and-field athletes), the study was   Cochrane Handbook for Systematic Reviews of Interven-
+    initially included and the corresponding author contacted    tions [33] and the risk of bias 2 Excel Macro Form (Beta
+    to obtain endurance runners’ data.                           version 7), respectively. Inter-rater reliability (IRR) percent-
+•   Participants performed running as their main form of         age agreement and a kappa coefficient statistic (k) were cal-
+    training, defined as running accounting for > 50% of their   culated for each stage of the process. Discrepancies regard-
+    total training time during the study period.                 ing screening, extraction, and risk of bias assessment were
+•   Study was a randomized controlled trial.                     resolved via discussion between the two reviewers.
+•   A non-running-based exercise intervention was used.
+•   A running-only or placebo exercise control group was         2.3 Meta‑Analysis
+    included.
+•   General or specific injury rate or incidence was reported    Two meta-analyses were conducted using random-effects
+    as an outcome measure.                                       models: one based on injury risk (injured divided by all ath-
+•   Injuries were recorded prospectively alongside the exer-     letes during the study period), for which the log risk ratio
+    cise training.                                               was used as the outcome measure; and a second based on
+•   Published in full in a peer-reviewed journal (excluding      injury rate (number of recorded injuries per 1000 training
+    pre-prints).                                                 hours), for which the log incidence rate ratio was used as
+                                                                 the outcome measure [34]. Corresponding authors of stud-
+    Studies were excluded if any of the following applied:       ies that lacked either injury rate or injuries per 1000 h were
+1252                                                                                                                  H. Wu et al.
+
+contacted for further data, and studies were excluded from       2.5 Grading of Recommendations, Assessment,
+meta-analysis if relevant data were not available. For studies        Development and Evaluations
+that had both intention-to-treat and subgroup analysis data
+available, intention-to-treat data were used preferentially.     To rate the certainty of the evidence provided by this review,
+For studies that had multiple intervention groups, partici-      the Cochrane GRADE approach was used [39]. Assessments
+pants from all intervention groups were pooled for analy-        were conducted on injury risk and injury rate which were the
+sis. Data analysis and presentation were conducted using         two outcomes analyzed in the meta-analyses. A GRADE evi-
+metafor (version 3.4.0), a meta-analysis tool package in R       dence profile and a summary of findings table were created
+[35]. The code used for the meta-analysis in R is provided       in accordance with GRADE Handbook instructions [39].
+in ESM Appendix 2. Cochrane’s Q-test, τ2, and I2 statistics      Each of the GRADE criteria were judged by the following
+were calculated for heterogeneity. A 95% prediction interval     methods: (1) risk of bias, by inspecting the risk of bias 2
+for the true outcome was calculated if heterogeneity was         assessment results and evaluating whether the ‘high risk’
+present, which was defined as τ2 > 0 [36]. Potential outliers    sections lowered the confidence in the estimate of effect;
+and single studies that may be too influential were identi-      (2) inconsistency, by inspecting point estimates and confi-
+fied using the studentized residuals and Cook’s distances        dence interval overlaps among studies; (3) indirectness, by
+[35]. A threshold for studentized residual was set to be         inspecting whether the study population and intervention
+100 × (1 − 0.05∕(2 × k))th percentile of a standard normal       were directly applicable to our target topic; (4) imprecision,
+distribution, and a threshold for Cook’s distance was set to     by considering the optimal information size and the overlap
+be median plus six times the interquartile range. A funnel       between the confidence interval and no effect; (5) publi-
+plot was produced for the injury risk meta-analysis, and         cation bias, by inspecting the funnel plots for inexplicable
+asymmetry was checked using Spearman’s rank correlation          asymmetries [39].
+coefficient [37] and linear regression [38].
+   An additional post hoc meta-analysis was performed on
+studies that utilized supervision during the intervention. The   3 Results
+outcome measure was set to be injury risk (the number of
+injured participants divided by the number of participants       3.1 Search Results
+in the study) and all procedures were in line with the meta-
+analysis on injury risk described above, except a funnel plot    Figure 1 shows a flowchart summarizing the screening pro-
+was not produced [33].                                           cess. The initial search yielded 5896 results with 1169 dupli-
+                                                                 cates. Citation checking yielded an additional six papers
+                                                                 leaving 4733 for title and abstract screening. The eligibil-
+2.4 Deviations from Pre‑registered Protocol                     ity screening stage excluded 4678 articles (IRR = 99.2%,
+                                                                 k = 0.65), leaving 55 articles that were taken forward for full
+The protocol described herein deviated from the PROS-            screening. Within these 55 studies, authors of eight stud-
+PERO-registered protocol in the following ways:                  ies involving military participants were contacted due to
+                                                                 an unspecified volume of running training completed relative
+• Originally, it was proposed that risk of bias would be         to total training volume. Four responses were received, each
+  evaluated using both the Cochrane tool and the PEDro           confirming that physical training in the study involved < 50%
+  scale, but to avoid confusion, only the Cochrane tool was      endurance running in both groups. All eight studies were
+  employed. An additional certainty of evidence assess-          therefore excluded from further analysis. Another 36 articles
+  ment using the Grading of Recommendations, Assess-             were also excluded at this point, meaning the number of arti-
+  ment, Development and Evaluations (GRADE) approach             cles excluded after full-text screening was 44 (IRR = 90.9%,
+  was added based on reviewer suggestions.                       k = 0.75; ESM Tables S1–S2), leaving 11 papers for data
+• It was not possible to calculate accurate Hedges’ g effect     extraction.
+  sizes values for most of the included studies, and there-          During data extraction, it was identified that two studies
+  fore these are not reported in Sect. 3.                        [40, 41] shared inexplicably similar data that could not be
+• Sub-group analysis for training modality was planned           reconciled. These two studies were conducted by the same
+  in the pre-registered protocol; however the majority of        first author, and participants within the studies shared the
+  studies used mixed-mode exercise interventions, and            same baseline data for age, height, body mass, body mass
+  sub-group analysis was therefore redundant. Sub-group          index, running experience, and several biomechanics param-
+  analysis for training supervision was added as clear dif-      eters measured during treadmill running. However, the stud-
+  ferences were noted in the way interventions were admin-       ies had different sample sizes and used interventions of dif-
+  istered in this respect.                                       ferent durations (6 vs. 8 weeks) and exercises. The studies
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                               1253
+
+Fig. 1  Systematic review
+search, screening, and selection
+process
+
+
+
+
+reported identical injury occurrences during the prospective        Studies used a variety of exercise modalities as part of
+1-year follow-up period, which meant including both in the       interventions. Most studies used a multi-modal activity
+meta-analysis would produce a duplicate data point. The cor-     approach within sessions, including jumping or plyometric
+responding author of the two articles was contacted twice;       exercises [43, 45–47], multi-joint and single-joint strength
+however, no response was received, and these two papers          exercises [42, 44, 47, 49], exercises focused on the core or
+were therefore also excluded, leaving a total of nine studies.   trunk musculature [44, 46, 47, 49], balance or propriocep-
+                                                                 tion exercises [42, 44, 45, 47], stretching or mobility exer-
+                                                                 cises [44, 47, 50], and sprint/running or agility drills [46, 47,
+3.2 Study Characteristics                                       50]. All studies mentioned that exercises were progressed
+                                                                 in terms of complexity/difficulty and/or progressive over-
+Table 1 provides a summary of the study characteristics          load was achieved via increases in volume or intensity of the
+included in the review and Table 2 summarizes the training       exercises. Of the studies that utilized an element of strength
+undertaken by participants. A total of 1904 participants were    training, bodyweight was used as resistance on most exer-
+included in the analysis. Seven studies used a mixed-sex         cises, with elastic bands used to progress intensity in two of
+cohort of participants [42–46, 48, 49], one used only males      the studies [42, 44], and free weights used in two exercises in
+[50] and one used only females [47]. Three investigations        another study [47]. One study used foot and ankle strength-
+used competitive level athletes [44, 45, 47], and six reported   ening exercises including progressive overload with elastic
+using novice or recreational runners [42, 43, 46, 48–50].        resistance [48].
+Eight studies were performed on adults [42–46, 48–50] and           Within the nine included studies, three studies used
+one used adolescents [47].                                       interventions that were supervised, meaning that online or
+Table 1  Study designs and participant characteristics
+                                                                                                                                                                                                1254
+Study            Study origin Intervention        Sex (n)       Participant n in Participants     Training status        Age (years)     Intervention     Control group    Group allocation
+                              duration                          analysis
+
+Baltich et al.   Canada         6 months          M (26)        RT: 43           Healthy novice Recreational             18–60 (Median RT (ankle          5 min shuffling, Unstratified ran-
+ [42]                                             F (103)       FSST: 43          recreational   (< 2 years’ experi-       RT: 30,      focused) vs.        skipping,        domization
+                                                                Stretch (con):                   ence)                   FSST: 33,      FSST                light run-
+                                                                  43                                                     Stretch 31)                        ning + static
+                                                                                                                                                            and dynamic
+                                                                                                                                                            stretching
+                                                                                                                                                            (25 min)
+Bredeweg et al. Netherlands 4 weeks               M (149)       Precon: 171      Healthy novice 52% with some run-       18–65           Precon (walk     No exercise      Stratified
+ [43]                         (9-week             F (283)       Con: 191          recreational   ning experience          (mean ± SD      and hop)          (including       randomiza-
+                              follow-up)                                                                                  Precon:         before run-       running)         tion (current
+                                                                                                                          39.0 ± 10.7,    ning training     before run-      sporting activi-
+                                                                                                                          control         period            ning training    ties, previous
+                                                                                                                          37.2 ± 10.9)                      period           injury, sex)
+Edouard et al.   France         40 weeks          M (490)       Int: 59          Competitive      –                      15–40           Core stabil-     Running train- Cluster stratified
+ [44]                                             F (350)       Con: 77           club level                                              ity, balance,     ing only         randomization
+                                                                                  athletes                                                strength                           within Athlet-
+                                                                                                                                          exercises,                         ics Clubs
+                                                                                                                                          stretching
+Halvarsson and Sweden           14 weeks (pre- M (32)           Int: 30          Elite orienteer- Int: 5.8 ± 3.3 years   18–40 (Int:     NM control     Running train-     Stratified
+ von Rosen                       season wk     F (30)           Con: 32           ers             Con: 6.6 ± 3.6 years    24.1 ± 3.5,     (balance and   ing only            randomization
+ [45]                            1–4, competi-                                                                            Con:            jumping exer-                      (sex)
+                                 tive season                                                                              24.2 ± 3.8)     cise)
+                                 wk 5–14)
+Lundstrom        USA            12 weeks       M (15)           Core: 12         Healthy recrea- Recreational          Core:            Core (exercises Running train-     Block stratified
+ et al. [46]                                   F (19)           Plyo: 11          tional adults                          20.2 ± 1.4      for trunk/      ing only           randomization
+                                                                Control: 11                                            Plyo: 21.0 ± 1.0 hips); plyo                         (sex)
+                                                                                                                       Control:          (jumping and
+                                                                                                                         21.0 ± 1.1      sprinting)
+Mendez-          Chile          6 weeks           F (16),       Con: 8           Adolescent     Regional or national   11–18            NM training     Running train-     Random
+ Rebolledo                                          sprinters   Int: 8            female         level (> 1 year expe- Con: 15.9         (strength,      ing only           sampling (1:1
+ et al. [47]                                        excluded                      middle- and    rience)               NM: 16.9          agility, bal-                      ratio)
+                                                                                  long-distance                                          ance, core,
+                                                                                  runners                                                plyometrics,
+                                                                                                                                         bodyweight
+                                                                                                                                         exercise)
+Taddei et al.    Brazil         12 months         M (61)        Con: 61          Healthy        Con: 6.9 years, Int:   18–55            Foot and ankle Static stretch-     Block randomi-
+ [48]                                             F (57)        Int: 57           recreational   5.4 years (20–        Con: 41.3 ± 6.8   conditioning    ing                zation
+                                                                                  long-distance  100 km per week)      Int: 40.5 ± 7.9
+                                                                                  runners
+
+
+
+                                                                                                                                                                                                H. Wu et al.
+  Exercise-Based Injury Prevention Programs in Endurance Runners                                                                                                                                                                                                                                                                                                      1255
+
+                                                                                                                                                                                                                                                                                                            in-person supervision was provided at least once per week
+
+
+
+
+                                                                                                          RCT​randomized controlled trial, M male, F female, RT resistance training, FSST functional sport-specific strength training, Precon pre-conditioning intervention, Con control group, SD stand-
+                       Group allocation
+                                                                                   Matched strati-
+                                                       Block stratified             fied randomi-
+                                                                                    zation (weekly                                                                                                                                                                                                          during the intervention period [46–48]. The other six studies
+                                                        randomization                                                                                                                                                                                                                                       used no supervision, providing instructional materials such
+                                                                                    running
+                                                                                    distance, age,
+                                                                                    knowledge on                                                                                                                                                                                                            as online videos, demonstrative booklets, and/or a single
+                                                        (sex)                       prevention of
+                                                                                    injury)                                                                                                                                                                                                                 demonstration session [42–45, 49, 50].
+                                                                                                                                                                                                                                                                                                               Overall, studies with supervision achieved better compli-
+                                                       > 18            Core, hip       Running train-
+
+                       Control group
+                                                                                                                                                                                                                                                                                                            ance. Studies calculated compliance in two different ways.
+                                                                                                                                                                                                                                                                                                            The three studies with supervision all reported number of
+                                                       Con: 36.3 ± 9.8  abductor,       ing only                                                                                                                                                                                                            attended sessions in relation to total training sessions and
+                                                       Str: 35.4 ± 9.1  quadriceps
+                                                                                                                                                                                                                                                                                                            the percentages were ≥ 88% [46–48]. All unsupervised inter-
+                                                                                                                                                                                                                                                                                                            ventions reported the percentage of participants completing
+                                                                        strength                                                                                                                                                                                                                            more than a specified number of the total sessions or ses-
+
+                       Intervention
+                                                                                                                                                                                                                                                                                                            sions per week; five of these studies reported compliance
+                                                                        exercises                                                                                                                                                                                                                           of 47–72% [43–45, 49, 50], and one reported 86–93% [42].
+                                                                                                                                                                                                                                                                                                               Intention-to-treat analysis was performed on five arti-
+                                                       < 25 n = 129;   Running drills, Running train-
+                                                                                                                                                                                                                                                                                                            cles [42, 45–49]. Within these five studies, three performed
+                                                       25–32 n = 155;   mobility and    ing only                                                                                                                                                                                                            additional subgroup analysis for compliant participants [42,
+                       Age (years)
+                                                                                                                                                                                                                                                                                                            45, 49]. Mendez-Rebolledo and colleagues [47] reported
+                                                       > 32 n = 137     stretching                                                                                                                                                                                                                          full compliance and thus intention-to-treat analysis was not
+                                                                                                                                                                                                                                                                                                            applicable.
+
+                                                       Goal mara-
+                                                                                   Running > 10 km per
+                                                                                                                                                                                                                                                                                                            3.3 Risk of Bias Assessment
+                                                        thon time 4 h
+                       Training status                                              week
+                                                                                                                                                                                                                                                                                                            Figure 2 shows the outcomes of the risk of bias assessment.
+
+
+
+
+                                                                                                          ard deviation, Int intervention group, NM neuromuscular, Plyo plyometric training group, Str strength training group
+                                                        34.0 min ± 40.8 min
+                                                                                                                                                                                                                                                                                                            Among the nine included studies, seven had high overall risk
+                                                                                                                                                                                                                                                                                                            of bias [43, 44, 46–50], one was with some concerns [45],
+                                                                                                                                                                                                                                                                                                            and one had low overall risk of bias [42]. Common reasons
+                                                       Novice mara-
+                                                                                                                                                                                                                                                                                                            for high risk of bias included participants and/or carers being
+                                                                                   Recreational
+
+                       Participant n in Participants
+                                                                                                                                                                                                                                                                                                            aware of the assignment of the intervention group during the
+                                                        thon runners                runners                                                                                                                                                                                                                 delivery of intervention (D2); outcome data not available
+                                                                                                                                                                                                                                                                                                            for some randomized participants due to dropout (D3); and
+
+
+                       analysis
+                                                                                                                                                                                                                                                                                                            outcome assessors (usually participants themselves in self-
+                                                                                                                                                                                                                                                                                                            reporting injury) being aware of the intervention received by
+                                                       Con: 368                    Con: 168                                                                                                                                                                                                                 participants (D4). GRADE evidence profile showed that the
+                                                       Str: 352                    Int: 159                                                                                                                                                                                                                 ‘injury risk’ outcome containing seven of the nine studies
+                                                                                                                                                                                                                                                                                                            had moderate certainty of evidence while the ‘injury rate’
+                                                                                                                                                                                                                                                                                                            outcome containing six of the nine studies had high certainty
+                                                                                                                                                                                                                                                                                                            of evidence (ESM Tables S3 and S4).
+                                                                                   M (327)
+                                                       M (220)
+                       Sex (n)                         F (500)
+                                                                                                                                                                                                                                                                                                            3.4 Meta‑Analysis
+
+
+
+                       Study origin Intervention
+                                                                                                                                                                                                                                                                                                            Table 3 summarizes the outcomes of each study. The meta-
+
+
+
+
+                                                                                   Netherlands 16 weeks
+                                                       12 weeks
+                                                                                                                                                                                                                                                                                                            analysis for injury risk included seven studies [42–44,
+                                                                                                                                                                                                                                                                                                            46–49], of which two had negative log risk ratios (95% CI
+                                                                                                                                                                                                                                                                                                            not overlapping zero), meaning that the intervention group
+
+                                    duration
+                                                                                                                                                                                                                                                                                                            had a lower injury risk compared to the control group. Only
+                                                                                                                                                                                                                                                                                                            Baltich et al. [42] showed a positive log risk ratio of 0.21;
+
+                                                       Toresdahl et al. USA
+                                                                                                                                                                                                                                                                                                            however, the 95% CI overlapped zero. The average log risk
+
+
+
+Table 1  (continued)
+                                                                                                                                                                                                                                                                                                            ratio was − 0.21 (95% CI; − 0.46 to 0.047), which was a
+
+                                                                                   Van Mechelen
+                                                                                                                                                                                                                                                                                                            statistically non-significant effect (z = − 1.60; p = 0.110;
+
+                                                        [49]
+                                                                                                                                                                                                                                                                                                            Fig. 3) with moderate quality of evidence (downgraded 1
+                                                                                    et al. [50]
+                                                                                                                                                                                                                                                                                                            level due to risk of bias). Q-test showed significant hetero-
+                       Study
+                                                                                                                                                                                                                                                                                                            geneity between true outcomes (Q(6) = 13.00 , p = 0.043,
+Table 2  Intervention and running training prescription
+                                                                                                                                                                                                1256
+Study                      Running training               Intervention exercises     Intervention frequency   Intervention volume         Intervention intensity    Supervision/instruction
+
+Baltich et al. [42]        RT: mean 12.5 h                RT: mini band exercises Both groups: 3–5 × per      RT: 4 sets × 10 reps;       RT: mini band (increas-   None (home-based);
+                           FSST: mean 16.3 h              FSST: lunge, squat, hops,  week for 8 weeks;         isometric 3 sets × 5 s      ing tension)              coaching fortnightly and
+                           Stretch: mean 14 h              jumps (flat ground        2 × per week for         FSST: Lunge 1 × 10,         FSST: bodyweight and       video-based instruction
+                                                           and BOSU) (+ 5 min        16 weeks                  squat × 10, hop × 5, SL     BOSU ball
+                                                           shuffling, skipping,                                standing 5 × 30 s eyes
+                                                           light running and 5 min                             open, 5 × 30 s eyes
+                                                           static/dynamic stretch-                             closed, jumps × 20
+                                                           ing)
+Bredeweg et al. [43]       Precon:                        Walk 5 min, hops;         Walk/hops 2 × per week    Hops 6 × 50–90 reps         Bodyweight                None (initial inter-
+                            301.1 ± 184.7 min              30–60 min walk           30–60 min walk 1 × per                                                           view + instruction
+                           Con: 329.7 ± 177.1 min                                    week                                                                            videos)
+                           NSD
+Edouard et al. [44]        Sub-group training not         Plank (prone/supine/        ≥ 2 × per week          ~ 15 min total              Bodyweight                Unsupervised (paper and
+                            defined                         side), single leg balance                         Planks 15–30 s per          Progressions: standing     video guidance)
+                                                            (unstable), lunges,                                 side (3–12 min total);     hip abduction with elas-
+                                                            standing hip abduction,                             balance 3 × 15–30 s;       tic resistance; balance
+                                                            hamstring stretch, ham-                             lunges/hip abduction       throw-catch with ball
+                                                            string curls, hamstring                             3–6 × 10; stretches
+                                                            bridge holds, Nordics,                              3 × 15 s; hamstring
+                                                            calf stretch, calf raises                           holds 3–6 × 6–10 s;
+                                                            (single leg)                                        Nordics 1–6 × 5–6; calf
+                                                                                                                raises 3–5 × 8–10
+Halvarsson and von         Int 7.2 h/week                 One-leg stance, runners    4 × per week             One-leg stance (eyes-       Bodyweight               Unsupervised
+ Rosen [45]                Con 7.4 h/week                  pose, one leg heel raise,                            closed, soft surface):    Progressions: One-leg    (pictures of the exercises
+                           NSD                             and one leg side hop                                 2 min/leg                  stance: add arm/leg       and verbal explanation
+                                                           (increase in difficulty                            Runners pose: 3 sets × 10    movements and knee        provided)
+                                                           fortnightly)                                         reps per leg               bends;
+                                                                                                              One-leg heel raise: 3       Runners pose: added heel
+                                                                                                                sets × 15 reps per leg     raise and soft surface
+                                                                                                              One-leg side hop: 2         Heel raise: on a stair
+                                                                                                                sets × 30 reps per leg     (larger range) without
+                                                                                                                                           support
+                                                                                                                                          Hop: 40 cm distance;
+                                                                                                                                           arms across chest,
+                                                                                                                                           cervical rotation
+
+
+
+
+                                                                                                                                                                                                H. Wu et al.
+Table 2  (continued)
+Study                     Running training            Intervention exercises        Intervention frequency   Intervention volume           Intervention intensity    Supervision/instruction
+
+Lundstrom et al. [46]     Core: 26.2 miles/week     Core: crunches, side            1 × per week             15–20 min per session         Both groups: bodyweight Yes
+                          Plyo: 28.2 miles/week       crunches sit-ups, V-sit-                               Core: 1–3 sets × 10–30        Core: slow-moderate
+                          Con: 27.2 miles/week        ups, supermans, back                                     reps per exercise or         velocity
+                          NSD                         extensions, planks, fire                                 30–60 s
+                                                      hydrant, Swiss Ball                                    Plyo: 1–3 sets of 8–20
+                                                      adductors, bridging,                                     reps per exercise or
+                                                      bird dog                                                 2–4 reps per sprinting
+                                                    Plyo: 50–60 m sprints,                                     exercise
+                                                      hops, bounds, cone
+                                                      jumps, squat jumps,
+                                                      scissor jumps, depth
+                                                      jumps, box jumps
+Mendez-Rebolledo et al.   3 × per week;             Dynamic flexibility and         3 × per week             30 min per session (6–8       Bodyweight                 Yes
+ [47]                     Con: 114 min per session    agility drills, planks,                                  exercises per session)      BOSU for Y-balance;
+                          Int: 119 min per session.   bridges, superman,                                     Agility drills: 4 × 30 m       core exercises with
+                            Included aerobic and      squats, crunches, leg                                  Jumps and hops: 1 × 10         therapeutic ball; hip
+                            anaerobic running;        raises, calf raises,                                     reps                         thrust with barbell; calf
+                                                                                                                                                                                                    Exercise-Based Injury Prevention Programs in Endurance Runners
+
+
+
+
+                            weight and circuit        Y-balance, jumps and                                   Exercises: 2 × 20 reps or      raises with dumbbells
+                            training                  hops, RDL, hip thrusts,                                  20 s holds
+                                                      lunges, Nordic curls,
+Taddei et al. [48]        Con (stretch):            Int: Massage and manipu-        Int: 4 × per week        Int: 20–30 min per ses-       Various                   Int: Supervised 1 × per
+                            97.7 ± 61.4 km/mo at      lation, foot tapping,         Con (stretch): 3 × per     sion (12 exercises)                                     week; online exercise
+                            6.6 ± 1.4 min/km          heel raises, sitting            week                   1–2 sets × 10–30 reps                                     descriptions and videos
+                          Int: 82.3 ± 59.5 km/mo at   invert/evert, band foot                                  progressing to 3–6 sets                                 additional 3 × per week
+                            6.7 ± 1.9 min/km          abduction, band toe and                                  or increasing isometric                                 with remote supervision
+                          NSD                         ankle flexion, grab-hold                                 holds or moving from                                  Con (stretch): Unsuper-
+                                                      ball/pen, toe squeezes,                                  sitting to standing to                                  vised; online descriptions
+                                                      toe abd-/add-uction,                                     single leg                                              and images
+                                                      short-foot, plantar arch                               Con (stretch): 5 min per
+                                                      raise, toe grasping                                      session; 1 set × 20 s per
+                                                    Stretch: calf wall,                                        stretch
+                                                      standing quadriceps,
+                                                      standing to toe touch,
+                                                      crossed legs standing to
+                                                      toe touch, seated adduc-
+                                                      tor, pretzel, lying lateral
+                                                      stretch
+Toresdahl et al. [49]     Con: 3.3 ± 1.1 runs per   Bodyweight squat or             3 × per week             10 min per session            Bodyweight                Unsupervised (instruc-
+                            week                      jump squats, front                                     Squats: 3 × 20 reps                                      tional video and handout
+                          Int: 3.4 ± 1.1 runs per     plank, lunges or jump                                  Single leg exercises:                                    provided)
+                            week                      lunges, side plank (or                                   2 × 10 each side
+                          NSD                         top leg raise), single                                 Plank positions:
+                                                      leg toe touches (or with                                 1 × 0–60 s
+                                                      jump)
+                                                                                                                                                                                                    1257
+  1258                                                                                                                                                                                                                                                                                                                                                               H. Wu et al.
+
+
+                                                                                                                                                                                                                                                                                                               𝜏̂2 = 0.061, I 2 = 65.02 %; 95% CI − 0.75 to 0.34). Stand-
+
+
+
+
+                                                                                                      RT resistance training, FSST functional sport-specific strength training, reps repetitions, Precon pre-conditioning intervention, Con control group, NSD not statistically different, Int intervention
+                                                 Unsupervised (instruc-
+                                                                                                                                                                                                                                                                                                                ardized residuals revealed no outliers and Cook’s distances
+
+
+
+                       Supervision/instruction
+                                                                                                                                                                                                                                                                                                                revealed no overly influential studies. A funnel plot is shown
+
+                                                  tional booklet and one
+                                                                                                                                                                                                                                                                                                                in Fig. 4, with linear regression indicating plot asymmetry
+                                                                                                                                                                                                                                                                                                                (p = 0.044); however the rank correlation test showed no sig-
+
+                                                  group coaching session)
+                                                                                                                                                                                                                                                                                                                nificant asymmetry (p = 0.381).
+                                                                                                                                                                                                                                                                                                                   The injury rate meta-analysis included six studies [42, 43,
+                                                                                                                                                                                                                                                                                                                45–47, 50]. One investigation showed a negative log inci-
+                                                                                                                                                                                                                                                                                                                dence rate ratio [47] and others did not differ from zero. The
+                                                                                                                                                                                                                                                                                                                pooled log incidence rate ratio was − 0.15 (95% CI − 0.45
+
+
+
+                       Intervention intensity
+                                                                                                                                                                                                                                                                                                                to 0.15), which was not statistically significant (z = − 0.98;
+                                                                                                                                                                                                                                                                                                                p = 0.329; Fig. 5) with high quality of evidence. Q-test
+
+                                                 Bodyweight
+                                                                                                                                                                                                                                                                                                                revealed no significant heterogeneity between true outcomes
+                                                                                                                                                                                                                                                                                                                (Q(5) = 9.23, p = 0.100 , 𝜏̂2 = 0.04 , I 2 = 28.50 %; 95% CI
+                                                                                                                                                                                                                                                                                                                − 0.65 to 0.34). No outliers were identified, and Cook’s dis-
+                                                                                                                                                                                                                                                                                                                tance revealed no studies skewing the result.
+
+                                                 Warm-up/cool-down with Running drills: 6 min
+                                                                                                                                                                                                                                                                                                                   The post hoc injury risk meta-analysis was performed on
+                                                                                                                                                                                                                                                                                                                the three studies that used supervision [46–48]. Two studies
+
+
+                       Intervention volume
+                                                                                                                                                                                                                                                                                                                showed negative log risk ratios that did not differ from zero
+
+                                                   any running sessions Loosening exercises:
+                                                                                                                                                                                                                                                                                                                [46, 48], and the pooled log risk ratio of − 0.77 (95% CI
+                                                                                                                                                                                                                                                                                                                − 1.18 to − 0.37) was statistically significant in favor of the
+                                                                                                                                                                                                                                                                                                                intervention (z = − 3.75, p < 0.001; Fig. 6). No significant
+
+                                                 Stretching 2 × per day   3 min
+                                                                                                                                                                                                                                                                                                                heterogeneity between true outcomes were found by Q test
+                                                                                                                                                                                                                                                                                                                (Q(2) = 0.13, p = 0.938, 𝜏̂2 = 0.00 , I 2 = 0.00%). Studen-
+
+
+
+
+                                                                                                      group, Plyo plyometric, NM neuromuscular, RDL Romanian deadlift
+                       Intervention frequency
+                                                                        Stretching: 10 min (3
+                                                                                                                                                                                                                                                                                                                tized residuals and Cook’s distances revealed no outliers or
+                                                                                                                                                                                                                                                                                                                overly influential studies.
+
+
+
+                                                                          sets × 10 s each stretch)
+                                                                                                                                                                                                                                                                                                               4 Discussion
+
+                                                 Warm-up: running drills,                                                                                                                                                                                                                                      The aim of this study was to review and quantify the effect
+
+
+
+
+                       Intervention exercises
+                                                  loosening exercises,                                                                                                                                                                                                                                         of non-running-based exercise programs on the risk of RRIs
+                                                  stretching (hip flexors,                                                                                                                                                                                                                                     in endurance runners. When data were pooled together,
+                                                  hamstrings, calf)
+                                                                                                                                                                                                                                                                                                               exercise-based injury prevention programs provided no sig-
+                                                                                                                                                                                                                                                                                                               nificant positive effect on either injury risk or injury rate.
+                                                 Cool-down: inverse of
+                                                                                                                                                                                                                                                                                                               However, an interesting finding was that a significant posi-
+                                                  warm-ux p
+                                                                                                                                                                                                                                                                                                               tive effect on injury risk in favor of the exercise interven-
+                                                                                                                                                                                                                                                                                                               tion group was noted when only exercise interventions with
+                                                                                                                                                                                                                                                                                                               an element of supervision were included in the analysis.
+                                                 Con: 344 ± 259 km,
+                                                   2.6 ± 1.3 per week,
+                                                                                                                                                                                                                                                                                                               These findings suggest that exercise interventions designed
+
+
+                       Running training
+                                                   12.4 ± 1.5 km/h;                                                                                                                                                                                                                                            to reduce the risk of RRI are unlikely to be successful
+                                                 Int: 370 ± 263 km,                                                                                                                                                                                                                                            unless completed under supervision, which is likely due to
+                                                   2.8 ± 1.3 per week,
+                                                                                                                                                                                                                                                                                                               increased compliance with the program.
+                                                   12.4 ± 1.7 km/h
+                                                 NSD                                                                                                                                                                                                                                                              Similar reviews on this topic are now outdated [19], cover
+                                                                                                                                                                                                                                                                                                               multi-sport participation [27, 29, 30], or did not adequately
+                                                                                                                                                                                                                                                                                                               define the proportion of training that constituted running in
+
+
+
+                                                 Van Mechelen et al. [50]
+                                                                                                                                                                                                                                                                                                               the participant population [19, 20]. This review provides an
+
+
+
+Table 2  (continued)
+                                                                                                                                                                                                                                                                                                               update, including six studies published in the last 4 years,
+                                                                                                                                                                                                                                                                                                               using more stringent inclusion criteria, and includes meta-
+                                                                                                                                                                                                                                                                                                               analyses on both injury rate and injury incidence. The find-
+                                                                                                                                                                                                                                                                                                               ings of this paper largely confirm those of previous reviews
+                       Study
+                                                                                                                                                                                                                                                                                                               [19, 20] in less well-defined endurance running populations
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                                   1259
+
+Fig. 2  Outcomes of the risk of
+bias assessment
+
+
+
+
+(athletes from running-based sports), that there is little evi-     have influenced results in these studies. Furthermore, par-
+dence to support inclusion of S&C exercises for the purpose         ticipants’ expectations and beliefs concerning the role of
+of reducing RRIs. However, compared to the positive risk            non-running-based exercise interventions in the prevention
+ratio found by Yeung et al. [19] in their conditioning exer-        of injury may have influenced reporting and study outcomes
+cises intervention result (1.20), and the risk ratio of 0.98        [52]. Only one study was considered to have a low risk of
+found by Kozinc et al. [20] for movement therapy-based              bias [42], and it could be used as an example for future stud-
+interventions, the log risk ratio (− 0.21) and log incidence        ies in this area to replicate. Despite the high risk of bias, cer-
+ratio (− 0.15) we observed are numerically more in favor            tainty of evidence for both injury risk and injury rate were
+of an exercise intervention. In contrast with these findings,       moderate and high respectively, mainly because all studies
+the review by Lauersen and co-workers [29] concluded that           were randomized controlled trials and no serious issues in
+multi-modal exercise interventions, particularly strength           consistency, directness, and precision were identified.
+training, offered a significant protective effect against over-        The three studies that provided supervision reported the
+use injury in athletes. The six studies that contributed to         lowest log risk ratios and log incidence risk ratios in both
+the meta-analysis by Lauersen et al. [29] were largely from         the injury risk and injury rate meta-analyses [46–48]. How-
+game-sports, several of which included throwing skills,             ever, it is worth noting that these studies had small sample
+and half used adolescent athletes. Although overlap exists          sizes (16 ≤ n ≤ 118) and thus relatively higher standard errors
+between the types of overuse injury reported in games sport         compared to other studies. Consequently, a post hoc meta-
+athletes and endurance runners, the mechanisms that under-          analysis was performed on these studies. The results showed
+pin these injuries may differ [51]. For example, loading on         a statistically significant difference favoring the intervention
+lower limb musculoskeletal structures tends to be higher and        with a lower log risk ratio compared to the original injury
+more varied in games sports, but is lower in magnitude and          risk meta-analysis (− 0.77, p < 0.001). Interestingly, a pre-
+distribution in endurance running. Thus, the protective effect      vious study in military cadets also reported that a group
+provided by an adjunct exercise intervention may also vary.         performing a ‘dynamic integrated movement enhancement’
+   Overall risk of bias was high in the studies included            warm-up under professional supervision had a significantly
+(seven of nine studies classified ‘high risk’), indicating that     lower injury incidence compared to a group who complied
+the quality of research in this area is currently poor. Due to      with the same program but with minimal supervision [53].
+the nature of the intervention and the characteristics of the       Further, another study in military recruits reported lower
+target population, eliminating bias in some domains is prob-        incidence of overuse anterior knee pain following a closely
+lematic. For instance, in a running community or club set-          supervised strength training and stretching warm-up inter-
+ting, it is often difficult to blind participants to each other’s   vention compared to a group following a traditional warm-
+intervention. Furthermore, a study with low compliance with         up approach [54].
+an intervention will likely have a high percentage of drop-            Two studies observed a significant protective effect of
+outs who subsequently do not contribute injury data, gener-         the intervention on injury occurrence [47, 48]. These stud-
+ating a high risk of bias in domain #3. Six studies asked par-      ies reported high adherence to the intervention program
+ticipants to self-report injuries [43–46, 49, 50], meaning the      compared to other studies, which may indicate that it is
+outcome assessor was the participant themself. Participants’        compliance with the injury prevention exercise regimen
+interpretation of what constitutes an ‘injury’ may therefore        that is important, rather than supervision per se. Indeed,
+Table 3  Outcomes of studies
+                                                                                                                                                                                            1260
+Study                   Compliance               Definition of injury   Injuries clinically    Injury incidence/     Number of recorded     Other injury metrics   Other injury metric
+                                                                        diagnosed?             prevalence            injuries               reported               results
+
+Baltich et al. [42]     RT: 93% ≥ 2 sessions     Restriction in run-    Yes                    RT: 27.7/1000 h (95% 56                     Injury severity         NSD
+                          per week                ning > 1 week                                  CI 15.1–46.5)
+                        FSST: 86% ≥ 2 ses-                                                     FSST: 25.3/1000 h
+                          sions per week                                                       (95% CI 14.7–40.5)
+                        Stretch: 86% ≥ 2 ses-                                                  Stretch: 22.4/1000 h
+                          sions per week                                                         (95% CI 11.6–39.2)
+Bredeweg et al. [43]    ≥ 10 sessions: 71.6%     Restriction in run-    No                     Precon: 31/1000 h     58                    –                       –
+                        7–9 sessions: 14.2%       ning > 1 week                                  (95% CI 24.0–38.0)
+                        4–6 sessions: 6.6%                                                     Con: 32/1000 h
+                        No sessions: 7.6%                                                        (24.0–37.0)
+Edouard et al. [44]     6 of 59 participants     Pain, physical com-    No                     Int: 38 partici-      ≥ 88 (88 participants –                       –
+                          compliant               plaint or muscu-                               pants ≥ 1 injury     experienced inju-
+                                                  loskeletal lesion                            Con: 50 partici-       ries, while multiple
+                                                  sustained during                               pants ≥ 1 injury     injuries on the same
+                                                  participation in                             Six compliant with     person were not
+                                                  training or competi-                           intervention, 3      counted)
+                                                  tion, regardless of                            injured and 3 unin-
+                                                  whether it received                            jured
+                                                  medical attention
+                                                  or its consequences
+                                                  with respect to
+                                                  impairments in con-
+                                                  nection with compe-
+                                                  tition or training
+Halvarsson & von        Mean 2.2 ± 0.6 times/    Any physical           No (Oslo Sports        Int: 9.4/1000 h       64                     Mean difference (con- CE < 2/week: − 0.1%
+ Rosen [45]              week;                    complaint result-      Trauma Research         (SD: 3.6; 95% CI                            trol vs. intervention) (OR: 0.88, 95% CI
+                        63% ≥ 2 times             ing in moderate or     Center Overuse          8.1–10.7)                                   in injury prevalence   0.35–2.25, p = 0.792)
+                        per week, 37% < 2         severe reductions      Injury Question-      Con: 11.2/1000 h                              (%) by engagement CE ≥ 2/week: − 7.9%
+                         times per                in training volume,    naire)                  (SD: 3.9; 95% CI                            with exercises         (OR: 0.26, 95% CI
+                        week                      or moderate or                                 9.8–12.6)                                                          0.07–0.92, p = 0.037)
+                                                  severe reduction
+                                                  in performance, or
+                                                  complete inability to
+                                                  participate
+Lundstrom et al. [46]   Average days missed      Training days missed No (self-report train-   Days missed:          16
+                          not due to injury       due to injury          ing log)              Core: 2.7 ± 5.1
+                          (total training days                                                 Plyo: 1.2 ± 4.9
+                          48–60):                                                              Con: 4.1 ± 2.9
+                        Core: 1.5                                                              p value
+                        Plyo: 0.5                                                                (group) = 0.103
+                        Con: 0.4
+
+                                                                                                                                                                                            H. Wu et al.
+Table 3  (continued)
+Study                   Compliance               Definition of injury     Injuries clinically   Injury incidence/      Number of recorded      Other injury metrics   Other injury metric
+                                                                          diagnosed?            prevalence             injuries                reported               results
+
+Mendez-Rebolledo        100% adherence           Participant unable to Yes                      Con: 17.7/1000 h       29
+ et al. [47]                                      fully take part in the                          (SD: 1.4; 95% CI
+                                                  training session                                9.4–25.9)
+                                                                                                Int: 4.2/1000 h
+                                                                                                  (SD: 0.8; 95% CI:
+                                                                                                  0.2–8.2)
+Taddei et al. [48]      Int: 88% adherence    Musculoskeletal pain Yes                          Con: 20 participants   28 (participants were   Kaplan–Meier           Log rank test: p = 0.027
+                          (90.4% in first      or injury caused by                                (16.9%; 95% CI        dropped out after       survival estimate     Hazard ratio con
+                          8 weeks, 83.5%       running practice that                              10.2–23.7)            experiencing first      between-group log-     were 2.42 × more
+                          weeks 8–16, 68.5%    induces changes in                               Int: 8 participants     injury)                 rank test              likely to experience
+                          weeks 16–24, 62.5% the form, duration,                                  (6.7%, 95% CI                                Cox proportional        injury after 1 year
+                          weeks 24–32, 48.9% intensity, or fre-                                   2.2–11.3%)                                    hazards analysis       (p = 0.035, 95% CI
+                          weeks 32–40)         quency of training                                                                                                      1.98–3.62)
+                        Stretch: not reported  for at least 1 week                                                                                                    Each year of age
+                                                                                                                                                                       associated with
+                                                                                                                                                                       1.07 × higher
+                                                                                                                                                                                                 Exercise-Based Injury Prevention Programs in Endurance Runners
+
+
+
+
+                                                                                                                                                                       likelihood of injury
+                                                                                                                                                                       (p = 0.015)
+Toresdahl et al. [49]   2.0 ± 1.2 sessions per   Injury limiting train-   No (self-report       Major injuries:        349                     Compliant (≥ 2 times   Compliant partici-
+                          week performed           ing                     survey)              Con: 27                                         per week comple-       pants sub-analysis
+                        176 (50%) par-                                                          Int: 25 (RR: 0.97;                              tion) vs. non-com-     for minor injuries:
+                          ticipants performed                                                     95% CI 0.57–1.63,                             pliant                 compliant 41.5% vs.
+                          average ≥ 2 times                                                       p = 0.90)                                                            non-compliant 56.2%,
+                          per week                                                              Minor injuries:                                                        p = 0.01. Major inju-
+                                                                                                Con: 186                                                               ries: compliant 9.1%
+                                                                                                Int: 163 (RR: 0.92;                                                    vs. non-complaint
+                                                                                                  95% CI 0.79–1.07,                                                    8.0%, NSD
+                                                                                                  p = 0.26)
+
+
+
+
+                                                                                                                                                                                                 1261
+  1262                                                                                                                                                                                                                                                                                                                                                                                             H. Wu et al.
+
+                                                                                                                                                                                                                                                                                                                                             sub-analysis in one other study in this review reported
+
+
+
+
+                                                                                                                                            RT resistance training, FSST functional sport-specific strength training, CI confidence interval, NSD not statistically different, Precon pre-conditioning intervention, Con control group, SD
+                                                                                                                                                                                                                                                                                                                                             that the exercise intervention provided a protective effect
+
+                       Other injury metric
+                                                                                                                                                                                                                                                                                                                                             against overuse injury only in participants who complied
+                                                                                                                                                                                                                                                                                                                                             with the program [45]. It is also possible that participants
+
+                       results
+                                                                                                                                                                                                                                                                                                                                             who adhered to the exercise program also exhibited other
+                                              Analysis by sub-      NSD                                                                                                                                                                                                                                                                      healthy behaviors associated with lower injury risk, such as
+                                               categories based     NSD                                                                                                                                                                                                                                                                      better nutrition [55] and lifestyle habits [56]; however these
+                                               upon interactions of                                                                                                                                                                                                                                                                          factors were not reported in any study. Poor adherence to
+                                               weekly running dis-
+
+                       Other injury metrics
+                                               tance, age, knowl-
+                                                                                                                                                                                                                                                                                                                                             the exercise intervention may therefore partly explain the
+                                               edge on prevention                                                                                                                                                                                                                                                                            lack of significant effect across the other studies reviewed.
+                                               of injury                                                                                                                                                                                                                                                                                     In studies including games players that reported a positive
+                       reported
+                                              Between-group differ-                                                                                                                                                                                                                                                                          impact of an exercise-based injury prevention program on
+                                               ences and location
+                                               of injury                                                                                                                                                                                                                                                                                     overuse injuries, adherence was high (≥ 77%) [57–59]. A
+                                                                                                                                                                                                                                                                                                                                             dose–response relationship has also been noted for expo-
+                                                                                                                                                                                                                                                                                                                                             sure to neuromuscular training and reduction of sport-related
+
+                       Number of recorded
+                                                                                                                                                                                                                                                                                                                                             injury risk in youth athletes [28], meaning future studies
+                                                                                                                                                                                                                                                                                                                                             should prioritize supervision as part of study design and
+
+                       injuries
+                                                                                                                                                                                                                                                                                                                                             administration, which is likely to maximize adherence to
+                                                                                                                                                                                                                                                                                                                                             the intervention and thus physiological adaptation. Based
+                                                                                                                                                                                                                                                                                                                                             upon these findings, a supervised injury prevention exercise
+                                              Warm-up as pre-       (1) Participant        No (self-report diary) Con: 4.9/1000 h (95% 49                                                                                                                                                                                                    session performed two to four times per week is most likely
+                                                scribed 68%           stopped running,                              CI 3.1–7.4)
+                                                                                                                                                                                                                                                                                                                                             to reduce risk of a RRI [45, 47, 48].
+
+                       Injury incidence/
+                                                                                                                                                                                                                                                                                                                                                Most studies included participants who were considered
+                                              Cool-down as pre-       (2) participant                             Int: 5.5/1000 h (95%                                                                                                                                                                                                       novice or recreational level runners [42, 43, 46, 49, 50]. The
+
+
+
+
+                                                                                                                                            standard deviation, Int Intervention group, CE completed exercise frequency, OR odds ratio, plyo plyometric, RR risk ratio
+                       prevalence
+                                                                                                                                                                                                                                                                                                                                             level of compliance with the intervention in these studies
+                                                scribed 65%           could not run on the                          CI 3.6–8.0)                                                                                                                                                                                                              was typically poor, whereas the two studies noting a protec-
+                                              Stretching as pre-      next occasion, (3)                          NSD
+                                                                                                                                                                                                                                                                                                                                             tive effect against injury reported on high performing ado-
+                                                                                                                                                                                                                                                                                                                                             lescent runners [47] or runners with an average experience
+                                                scribed 47%           participant could                                                                                                                                                                                                                                                      of ~ 6 years [48]. In general, it appears that more well-trained
+                       Injuries clinically                                                                                                                                                                                                                                                                                                   or experienced runners engage with injury prevention pro-
+                                              No compliance warm- not go to work                                                                                                                                                                                                                                                             tocols to a greater extent compared to their lesser trained
+                       diagnosed?               up 8%, cool-down      the next day, (4)
+                                                                                                                                                                                                                                                                                                                                             counterparts. This observation is also in-line with strength
+                                                                                                                                                                                                                                                                                                                                             training participation trends in the running community, with
+                                                11%, stretching 40%   participant needed                                                                                                                                                                                                                                                     a higher percentage of international and national standard
+                                                                                                                                                                                                                                                                                                                                             runners regularly using resistance training and plyometrics
+                                              (large % of control     medical attention,
+
+
+                       Definition of injury
+                                                                                                                                                                                                                                                                                                                                             compared to local club standard runners [16].
+                                                group performed       or (5) participant
+                                                                                                                                                                                                                                                                                                                                                A wide range of exercise modalities were used as part
+                                                                                                                                                                                                                                                                                                                                             of the interventions that found a positive effect on injury
+                                                warm-up, cool-        suffered from pain                                                                                                                                                                                                                                                     incidence [45, 47, 49]. However, the programs in these
+                                                                                                                                                                                                                                                                                                                                             investigations did not differ markedly from the types of exer-
+                                                down and stretch-     or stiffness during                                                                                                                                                                                                                                                    cises prescribed in studies observing no difference in any
+                                                ing but largely       10 subsequent days
+                                                                                                                                                                                                                                                                                                                                             injury outcomes [42–44, 46, 49, 50]. The exception was the
+                                                                                                                                                                                                                                                                                                                                             study by Taddei et al. [48] that used strengthening exercises
+                                                not comparable to     while running                                                                                                                                                                                                                                                          specifically for the foot–ankle muscles, which the authors
+                       Compliance
+                                                                                                                                                                                                                                                                                                                                             speculated would improve the structure and function of the
+                                                prescription)                                                                                                                                                                                                                                                                                foot, thus attenuating the loads runners experience during
+                                                                                                                                                                                                                                                                                                                                             the stance phase of gait. The study observed a significantly
+                                                                                                                                                                                                                                                                                                                                             lower rate of RRIs compared to a running plus static stretch-
+
+
+
+Table 3  (continued)
+                                              Van Mechelen et al.
+                                                                                                                                                                                                                                                                                                                                             ing control group by a factor of 2.42 [48]. Based on the
+                                                                                                                                                                                                                                                                                                                                             success of this intervention in reducing the rate of RRIs,
+
+                                               [50]
+                                                                                                                                                                                                                                                                                                                                             future studies should include similar programs of foot–ankle
+                                                                                                                                                                                                                                                                                                                                             strengthening to further explore the efficacy of this novel
+                       Study
+                                                                                                                                                                                                                                                                                                                                             conditioning approach. Given that adherence to a program
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                                      1263
+
+
+
+
+Fig. 3  Injury risk meta-analysis forest plot showing the observed outcomes and the estimate of the random-effects model
+
+
+                                                                          using larger sample sizes. Given the differences that exist
+                                                                          in injury types and mechanisms between game sports and
+                                                                          endurance running, it is currently not reasonable to use the
+                                                                          recommendations from other athlete populations and apply
+                                                                          these to runners. Resistance training or multi-component
+                                                                          neuromuscular training (including strength, core stability,
+                                                                          balance, plyometric and speed/agility exercises) were not
+                                                                          used in several studies that failed to demonstrate a protective
+                                                                          effect of an injury prevention program [43, 46, 50], suggest-
+                                                                          ing that the content of these interventions may not have been
+                                                                          appropriate. In particular, higher volumes and intensities of
+                                                                          strength training have demonstrated consistently favorable
+                                                                          results for overuse injury outcomes in other sports [30], yet
+Fig. 4  Injury risk funnel plot                                           only four studies in this review utilized strength-based exer-
+                                                                          cises, and these were of relatively low volume and intensity
+                                                                          [42, 44, 47, 49]. Thus, further research is warranted on the
+appeared to determine its effectiveness, it is currently not              effect of strength training on RRI risk in endurance run-
+possible to provide more specific recommendations on the                  ners. Studies that target increasing the resilience of clini-
+most appropriate types of exercise modalities to prevent                  cally relevant structures that are vulnerable to injury in run-
+injury in runners.                                                        ners are also currently lacking. This was the approach taken
+   There is strong evidence surrounding the value of sup-                 by Taddei and colleagues [48], which utilized an exercise
+plementary training to improve neuromuscular performance                  intervention for the feet; however the largest differences in
+as a strategy to reduce injury risk in team and youth sports              injury incidence between the intervention and control group
+[27–30, 60–62]. Despite low-quality evidence, neuromuscu-                 were at the knee and thigh. Given the repetitive and local-
+lar and resistance training are also recommended to reduce                ized nature of loading on musculoskeletal structures during
+injury risk in military populations [63]. The aforemen-                   endurance running, exploring exercise interventions that
+tioned reviews were based upon far higher participant num-                strengthen specific tissues should form an important avenue
+bers (n = 13,355–32,254 from 10 to 25 studies) compared                   of future research.
+to this review (n = 1904 from nine studies) indicating that                  An important feature of injury related studies is
+more research is required specifically in endurance runners               the assessment and diagnosis of injuries by a medical
+1264                                                                                                                                H. Wu et al.
+
+
+
+
+Fig. 5  Injury rate meta-analysis forest plot showing the observed outcomes and the estimate of the random-effects model
+
+
+
+
+Fig. 6  Post hoc injury risk meta-analysis forest plot showing the observed outcomes and the estimate of the random-effects model
+
+
+professional. In four of the nine studies, injuries were self-            which is also likely to have influenced results. Participants
+reported by participants and were not clinically diagnosed                in three studies were classified as being injured when they
+[43–46]. This creates an important source of bias because                 restricted their running training for over a week [42, 43, 48],
+participants may be less consistent in evaluating incidence               whereas other studies defined injury as a single missed train-
+and extent of injuries than trained clinicians. Further, the              ing run [46, 47, 50] or impairment of one or more running
+definition of an overuse injury differed between studies,                 sessions [44, 45, 49].
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                                           1265
+
+   This review has several important strengths that give              geted exercises as a novel injury prevention approach.
+credibility to the results. Firstly, the inclusion criteria           This novel approach was used in one study and a sig-
+employed in this review were more stringent than in previ-            nificant effect was found on reducing the incidence of
+ous reviews, increasing the internal validity of the findings.        RRIs. More research evidence is needed to determine
+Bias was minimized in the systematic review process by                whether this promising effect can be reproduced in dif-
+having two authors independently screen studies and extract           ferent cohorts.
+data. Finally, GRADE evidence profiles were generated to
+evaluate the level of certainty in the results obtained for the
+two main outcome measures, highlighting that the quality of
+evidence is moderate for the injury risk findings, and high       6 Conclusions
+for the injury rate outcomes. This paper also has limitations,
+which should be recognized. Intention-to-treat data were          In conclusion, there is currently insufficient evidence to
+used in meta-analyses where possible but several studies          recommend the use of exercise-based prevention strategies
+that did not report intention-to-treat data were also included,   to reduce the risk of RRIs in endurance runners. Studies to
+which creates a potential source of bias. When performing         date have largely been low-quality and used small sample
+the meta-analysis on injury risk, length of an intervention       sizes, and more well-designed randomized controlled tri-
+and follow-up duration were also not accounted for. Since         als are therefore needed in the future. This review under-
+the duration of interventions and follow-up varied widely         lines the importance of supervision when evaluating the
+across studies (from 6 weeks to 12 months), attributing equal     effect of exercise interventions on reducing RRIs. Studies
+weight to all studies may underestimate the weighting of          that had minimal or no supervision also tend to have poor
+longer interventions.                                             compliance, which diminishes the exposure to the inter-
+                                                                  vention and reduces the likelihood of a positive result.
+                                                                  Studies that observed favorable results for overuse injury
+5 Directions for Future Research                                 outcomes used multicomponent neuromuscular training
+                                                                  (strength, agility, balance, core, plyometrics, bodyweight
+Based on the aforementioned discussion, it is recommended         exercises), or targeted exercises for the foot and ankle, on
+that future research in this area:                                two to four occasions per week for longer than 6 weeks.
+                                                                  Supplementary Information The online version contains supplemen-
+• Uses supervised exercise interventions. Based on the post
+                                                                  tary material available at https://​doi.​org/​10.​1007/​s40279-​024-​01993-7.
+  hoc meta-analysis results, it is possible that supervision
+  is necessary for exercise-based intervention programs to        Declarations
+  achieve beneficial effect with reducing risks of RRIs, and
+  more research evidence is therefore needed with super-          Funding This research received a grant from the China Scholarship
+                                                                  Council (CSC) in collaboration with Loughborough University.
+  vised interventions for conclusions to be drawn.
+• Sets the frequency of the intervention at two to four times
+                                                                  Conflict of interest Han Wu, Katherine Brooke-Wavell, Daniel Fong,
+  per week. As most of the existing studies apply interven-       Max Paquette and Richard Blagrove declare that they have no conflicts
+  tions two to four times per week, it is recommended that        of interest with the content of this article.
+  future studies follow this session frequency so compari-
+  sons can be made.                                               Data availability statement The authors declare that the data sup-
+                                                                  porting the findings of this study can be found within this paper and
+• Examines whether traditional strength training reduces
+                                                                  in Electronic Supplementary Material Table S5. Should any data be
+  injury occurrence. This is proposed because the exist-          needed in an alternative format, they can be provided by the corre-
+  ing studies vary a great deal in their applied exercise         sponding author upon reasonable request.
+  modalities while traditional strength training, which has
+                                                                  Ethics approval Not applicable.
+  shown effectiveness in reducing injury occurence in other
+  settings, has seldom been used in studies with endurance        Consent to participate Not applicable.
+  runners. Traditional strength training is also one of the
+  most widely used exercise-based interventions in practice       Consent for publication Not applicable.
+  so more research is needed to separately investigate this       Author contributions All authors contributed to the study conception
+  exercise modality as a potential strategy to reduce injury      and design. Material preparation, data collection and analysis were
+  risk.                                                           performed by HW and RCB. The first draft of the manuscript was
+• Further evaluates the efficacy of ‘foot-core training’          written by HW and all authors commented on previous versions of
+                                                                  the manuscript. All authors read and approved the final manuscript.
+  (i.e., foot and ankle-based conditioning) and other tar-
+1266                                                                                                                                        H. Wu et al.
+
+Open Access This article is licensed under a Creative Commons Attri-             16. Blagrove RC, Brown N, Howatson G, Hayes PR. Strength and
+bution 4.0 International License, which permits use, sharing, adapta-                conditioning habits of competitive distance runners. J Strength
+tion, distribution and reproduction in any medium or format, as long                 Cond Res. 2020;34:1392–9.
+as you give appropriate credit to the original author(s) and the source,         17. Linton L, Valentin S. Running coaches and running group leaders’
+provide a link to the Creative Commons licence, and indicate if changes              engagement with, and beliefs and perceived barriers to preha-
+were made. The images or other third party material in this article are              bilitation and injury prevention strategies for runners. Phys Ther
+included in the article’s Creative Commons licence, unless indicated                 Sport. 2020;46:54–62.
+otherwise in a credit line to the material. If material is not included in       18. Baxter C, Mc Naughton LR, Sparks A, Norton L, Bentley D.
+the article’s Creative Commons licence and your intended use is not                  Impact of stretching on the performance and injury risk of long-
+permitted by statutory regulation or exceeds the permitted use, you will             distance runners. Res Sports Med. 2017;25:78–90.
+need to obtain permission directly from the copyright holder. To view a          19. Yeung SS, Yeung EW, Gillespie LD. Interventions for preventing
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.             lower limb soft-tissue running injuries. Cochrane Database Syst
+                                                                                     Rev. 2011;6:CD001256.
+                                                                                 20. Kozinc Ž, Šarabon N. Effectiveness of movement therapy inter-
+                                                                                     ventions and training modifications for preventing running inju-
+References                                                                           ries: a meta-analysis of randomized controlled trials. J Sports
+                                                                                     Sci Med. 2017;8:421–8.
+ 1. Shipway R, Holloway I. Running free: embracing a healthy                     21. Brushøj C, Larsen K, Albrecht-Beste E, Nielsen MB, Løye F,
+    lifestyle through distance running. Perspect Public Health.                      Hölmich P. Prevention of overuse Injuries by a concurrent exer-
+    2010;130:270–6.                                                                  cise program in subjects exposed to an increase in training load.
+ 2. Lee D, Brellenthin AG, Thompson PD, Sui X, Lee I-M, Lavie CJ.                    Am J Sports Med. 2008;36:663–70.
+    Running as a key lifestyle medicine for longevity. Prog Cardiovasc           22. Pope R, Herbert R, Kirwan J. Effects of ankle dorsiflexion range
+    Dis. 2017;60:45–55.                                                              and pre-exercise calf muscle stretching on injury risk in Army
+ 3. Reece LJ, Owen K, Graney M, Jackson C, Shields M, Turner                         recruits. Aust J Physiother. 1998;44:165–72.
+    G, et al. Barriers to initiating and maintaining participation in            23. Luedke LE, Heiderscheit BC, Williams DS, Rauh MJ. Associa-
+    parkrun. BMC Public Health. 2022;22:83.                                          tion of isometric strength of hip and knee muscles with injury
+ 4. Department of Health and Social Care, Obrien N. Millions of                      risk in high school cross country runners. Int J Sports Phys
+    runs completed using Couch to 5k app. 2023. https://​www.​gov.​                  Ther. 2015;10:868–76.
+    uk/​gover​nment/​news/​milli​ons-​of-​runs-​compl​eted-​using-​couch-​to-​   24. Becker J, Nakajima M, Wu WFW. Factors contributing to
+    5k-​app. Accessed 10 Mar 2023.                                                   medial tibial stress syndrome in runners: a prospective study.
+ 5. Pope RP, Herbert RD, Kirwan JD, Graham BJ. A randomized trial                    Med Sci Sports Exerc. 2018;50:2092–100.
+    of preexercise stretching for prevention of lower-limb injury. Med           25. Mahieu NN, Witvrouw E, Stevens V, Van TD, Roget P. Intrin-
+    Sci Sports Exerc. 2000;32:271–7.                                                 sic risk factors for the development of achilles tendon overuse
+ 6. Francis P, Whatman C, Sheerin K, Hume P, Johnson MI. The                         injury. Am J Sports Med. 2006;34:226–35.
+    proportion of lower limb running injuries by gender, anatomical              26. Al Attar WSA, Soomro N, Pappas E, Sinclair PJ, Sanders RH.
+    location and specific pathology: a systematic review. J Sports Sci               How effective are F-MARC Injury Prevention Programs for
+    Med. 2019;18:21–31.                                                              soccer players? A systematic review and meta-analysis. Sports
+ 7. Kakouris N, Yener N, Fong DTP. A systematic review of running-                   Med. 2016;46:205–17.
+    related musculoskeletal injuries in runners. J Sport Health Sci.             27. Hubscher M, Zech A, Pfeifer K, Hansel F, Vogt L, Banzer W.
+    2021;10:513–22.                                                                  Neuromuscular training for sports injury prevention. Med Sci
+ 8. Lovalekar MT, Abt JP, Sell TC, Nagai T, Keenan K, Beals K, et al.                Sports Exerc. 2010;42:413–21.
+    Descriptive epidemiology of musculoskeletal injuries in the Army             28. Steib S, Rahlf AL, Pfeifer K, Zech A. Dose-response relation-
+    101st Airborne (Air Assault) Division. Mil Med. 2016;181:900–6.                  ship of neuromuscular training for injury prevention in youth
+ 9. Kemler E, Blokland D, Backx F, Huisstede B. Differences in                       athletes: a meta-analysis. Front Physiol. 2017;8:920.
+    injury risk and characteristics of injuries between novice and               29. Lauersen JB, Bertelsen DM, Andersen LB. The effectiveness
+    experienced runners over a 4-year period. Phys Sportsmed.                        of exercise interventions to prevent sports injuries: a systematic
+    2018;46:485–91.                                                                  review and meta-analysis of randomised controlled trials. Br J
+10. Clough PJ, Shepherd J, Maughan RJ. Marathon finishers and pre-                   Sports Med. 2014;48:871–7.
+    race drop-outs. Br J Sports Med. 1989;23:97–101.                             30. Lauersen JB, Andersen TE, Andersen LB. Strength training as
+11. Kluitenberg B, van der Worp H, Huisstede BMA, Hartgens F,                        superior, dose-dependent and safe prevention of acute and over-
+    Diercks R, Verhagen E, et al. The NLstart2run study: training-                   use sports injuries: a systematic review, qualitative analysis and
+    related factors associated with running-related injuries in novice               meta-analysis. Br J Sports Med. 2018;52:1557–63.
+    runners. J Sci Med Sport. 2016;19:642–6.                                     31. Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann
+12. Lovalekar M, Hauret K, Roy T, Taylor K, Blacker SD, Newman                       TC, Mulrow CD, et al. The PRISMA 2020 statement: an
+    P, et al. Musculoskeletal injuries in military personnel-descriptive             updated guideline for reporting systematic reviews. Syst Rev.
+    epidemiology, risk factor identification, and prevention. J Sci Med              2021;10:89.
+    Sport. 2021;24:963–9.                                                        32. Ardern CL, Büttner F, Andrade R, Weir A, Ashe MC, Holden S,
+13. Hulme A, Nielsen RO, Timpka T, Verhagen E, Finch C. Risk and                     et al. Implementing the 27 PRISMA 2020 Statement items for
+    protective factors for middle- and long-distance running-related                 systematic reviews in the sport and exercise medicine, muscu-
+    injury. Sports Med. 2017;47:869–86.                                              loskeletal rehabilitation and sports science fields: the PERSiST
+14. Silva M, Ready LV, Etzel CM. Foundational health for runners:                    (implementing Prisma in Exercise, Rehabilitation, Sport medicine
+    is it the key to minimizing injury? R I Med J. 2020;103:54–8.                    and SporTs). Br J Sports Med. 2022;56:175–95.
+15. Krabak BJ, Tenforde AS, Davis IS, Fredericson M, Harrast MA,                 33. Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ,
+    d’Hemecourt P, et al. Youth distance running: strategies for train-              et al. Cochrane handbook for systematic reviews of interventions.
+    ing and injury reduction. Curr Sports Med Rep. 2019;18:53–9.                     6.3. Hoboken: Wiley Blackwell; 2022.
+Exercise-Based Injury Prevention Programs in Endurance Runners                                                                                       1267
+
+34. Hopkins WG, Marshall SW, Quarrie KL, Hume PA. Risk fac-                          program to prevent injuries in runners of the New York City
+    tors and risk statistics for sports injuries. Clin J Sport Med.                  Marathon. Sports Health. 2020;12:74–9.
+    2007;17:331.                                                               50.   van Mechelen W, Hlobil H, Kemper HCG, Voorn WJ, de Jongh
+35. Viechtbauer W. Conducting meta-analyses in R with the metafor                    HR. Prevention of running injuries by warm-up, cool-down, and
+    package. J Stat Softw. 2010;36:1–48.                                             stretching exercises. Am J Sports Med. 1993;21:711–9.
+36. Riley RD, Higgins JPT, Deeks JJ. Interpretation of random effects          51.   Aicale R, Tarantino D, Maffulli N. Overuse injuries in sport: a
+    meta-analyses. Br Med J. 2011;342:d549–d549.                                     comprehensive overview. J Orthop Surg Res. 2018;13:309.
+37. Begg CB, Mazumdar M. Operating characteristics of a rank cor-              52.   Petrie KJ, Rief W. Psychobiological mechanisms of placebo and
+    relation test for publication bias. Biometrics. 1994;50:1088.                    nocebo effects: pathways to improve treatments and reduce side
+38. Sterne JA, Egger M. Regression methods to detect publication and                 effects. Annu Rev Psychol. 2019;70:599–625.
+    other bias in meta-analysis. In: Rothstein HR, Sutton AJ, Boren-           53.   Carow SD, Haniuk EM, Cameron KL, Padua DA, Marshall SW,
+    stein M, editors. Publication bias in meta-analysis: prevention,                 DiStefano LJ, et al. Risk of lower extremity injury in a military
+    assessment and adjustments. New York: Wiley; 2005. p. 99–110.                    cadet population after a supervised injury-prevention program. J
+39. Schünemann H, Brożek J, Guyatt G, Oxman A, editors. GRADE                        Athl Train. 2016;51:905–18.
+    handbook. https://​gdt.​grade​pro.​org/​app/​handb​ook/​handb​ook.​html.   54.   Coppack RJ, Etherington J, Wills AK. The effects of exercise for
+    Accessed 10 July 2023.                                                           the prevention of overuse anterior knee pain. Am J Sports Med.
+40. Letafatkar A, Rabiei P, Farivar N, Alamouti G. Long-term effi-                   2011;39:940–8.
+    cacy of conditioning training program combined with feedback on            55.   Nieves JW, Melsop K, Curtis M, Kelsey JL, Bachrach LK, Green-
+    kinetics and kinematics in male runners. Scand J Med Sci Sports.                 dale G, et al. Nutritional factors that influence change in bone
+    2020;30:429–41.                                                                  density and stress fracture risk among young female cross-country
+41. Letafatkar A, Rabiei P, Afshari M. Effect of neuromuscular train-                runners. PM R. 2010;2:740–50.
+    ing augmented with knee valgus control instructions on lower limb          56.   Huang K, Ihm J. Sleep and injury risk. Curr Sports Med Rep.
+    biomechanics of male runners. Phys Ther Sport. 2020;43:89–99.                    2021;20:286–90.
+42. Baltich J, Emery CA, Whittaker JL, Nigg BM. Running injuries               57.   Longo UG, Loppini M, Berton A, Marinozzi A, Maffulli N,
+    in novice runners enrolled in different training interventions:                  Denaro V. The FIFA 11+ Program is effective in prevent-
+    a pilot randomized controlled trial. Scand J Med Sci Sports.                     ing injuries in elite male basketball players. Am J Sports Med.
+    2017;27:1372–83.                                                                 2012;40:996–1005.
+43. Bredeweg SW, Zijlstra S, Bessem B, Buist I. The effectiveness of           58.   Olsen O-E, Myklebust G, Engebretsen L, Holme I, Bahr R. Exer-
+    a preconditioning programme on preventing running-related inju-                  cises to prevent lower limb injuries in youth sports: cluster ran-
+    ries in novice runners: a randomised controlled trial. Br J Sports               domised controlled trial. BMJ. 2005;330:449.
+    Med. 2012;46:865–70.                                                       59.   Soligard T, Myklebust G, Steffen K, Holme I, Silvers H, Bizzini
+44. Edouard P, Steffen K, Peuriere M, Gardet P, Navarro L, Blanco                    M, et al. Comprehensive warm-up programme to prevent injuries
+    D. Effect of an unsupervised exercises-based athletics injury pre-               in young female footballers: cluster randomised controlled trial.
+    vention programme on injury complaints leading to participation                  BMJ. 2008;337:a2469–a2469.
+    restriction in athletics: a cluster-randomised controlled trial. Int J     60.   Emery CA, Roy T-O, Whittaker JL, Nettel-Aguirre A, van
+    Environ Res Public Health. 2021;18:11334.                                        Mechelen W. Neuromuscular training injury prevention strate-
+45. Halvarsson B, von Rosen P. Could a specific exercise programme                   gies in youth sport: a systematic review and meta-analysis. Br J
+    prevent injury in elite orienteerers? A randomised controlled trial.             Sports Med. 2015;49:865–70.
+    Phys Ther Sport. 2019;40:177–83.                                           61.   Herman K, Barton C, Malliaras P, Morrissey D. The effectiveness
+46. Lundstrom CJ, Russell HC, O’Donnell KJ, Ingraham SJ. Core and                    of neuromuscular warm-up strategies, that require no additional
+    plyometric training for recreational marathon runners: effects on                equipment, for preventing lower limb injuries during sports par-
+    training variables, injury, and muscle damage. Sport Sci Health.                 ticipation: a systematic review. BMC Med. 2012;10:75.
+    2019;15:167–74.                                                            62.   Lemes IR, Pinto RZ, Lage VN, Roch BAB, Verhagen E, Bolling
+47. Mendez-Rebolledo G, Figueroa-Ureta R, Moya-Mura F, Guzmán-                       C, et al. Do exercise-based prevention programmes reduce non-
+    Muñoz E, Ramirez-Campillo R, Lloyd RS. The protective effect                     contact musculoskeletal injuries in football (soccer)? A systematic
+    of neuromuscular training on the medial tibial stress syndrome in                review and meta-analysis with 13 355 athletes and more than 1
+    youth female track-and-field athletes: a clinical trial and cohort               million exposure hours. Br J Sports Med. 2021;55:1170–8.
+    study. J Sport Rehabil. 2021;30:1019–27.                                   63.   Bunn PDS, d S Sodré R, Matos MI, Saliba GF, d P Silva G, Caldas
+48. Taddei UT, Matias AB, Duarte M, Sacco ICN. Foot core train-                      R, et al. Effects of prevention programmes on injury risk in mili-
+    ing to prevent running-related injuries: a survival analysis of                  tary personnel: a systematic review with meta-analysis. BMJ Mil
+    a single-blind, randomized controlled trial. Am J Sports Med.                    Health. 2022. https://​doi.​org/​10.​1136/​bmjmi​litary-​2022-​002098.
+    2020;48:3610–9.
+49. Toresdahl BG, McElheny K, Metzl J, Ammerman B, Chang
+    B, Kinderknecht J. A randomized study of a strength training
+

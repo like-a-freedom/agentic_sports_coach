@@ -1,0 +1,1091 @@
+PLOS ONE
+
+                                                     RESEARCH ARTICLE
+
+                                                     Effects of tapering on performance in
+                                                     endurance athletes: A systematic review and
+                                                     meta-analysis
+                                                     Zhiqiang Wang1,2☯, Yong “Tai” Wang3☯, Weifeng Gao1☯, Yaping Zhong ID1,2☯*
+
+                                                     1 Sports Big-data Research Center, Wuhan Sports University, Wuhan, HuBei, China, 2 Hubei Sports and
+                                                     Health Research Center, Wuhan, HuBei, China, 3 Rochester Institute of Technology, College of Health
+                                                     Sciences and Technology, New York, Rochester, United States of America
+
+a1111111111                                          ☯ These authors contributed equally to this work.
+                                                     * zhongyaping@whsu.edu.cn
+a1111111111
+a1111111111
+a1111111111
+a1111111111                                          Abstract
+
+                                                     Objective
+                                                     To assess the responses to taper in endurance athletes using meta-analysis.
+   OPEN ACCESS
+
+Citation: Wang Z, Wang Y“, Gao W, Zhong Y
+(2023) Effects of tapering on performance in
+                                                     Methods
+endurance athletes: A systematic review and meta-    Systematic searches were conducted in China National Knowledge Infrastructure, PubMed,
+analysis. PLoS ONE 18(5): e0282838. https://doi.     Web of Science, SPORTDiscus, and EMBASE databases. Standardized mean difference
+org/10.1371/journal.pone.0282838
+                                                     (SMD) and 95% confidence interval (CI) of outcome measures were calculated as effect
+Editor: Laurent Mourot, University of Bourgogne      sizes.
+France Comté, FRANCE
+
+Received: October 1, 2022                            Results
+Accepted: February 23, 2023                          14 studies were included in this meta-analysis. Significant improvements were found
+Published: May 10, 2023                              between pre- and post-tapering in time–trial (TT) performance (SMD = −0.45; P < 0.05) and
+Copyright: © 2023 Wang et al. This is an open
+                                                     time to exhaustion (TTE) performance (SMD = 1.28; P < 0.05). However, There were no
+access article distributed under the terms of the    improvements in maximal oxygen consumption ( _   VO2max ) and economy of movement (EM)
+Creative Commons Attribution License, which          (P > 0.05) between pre- and post-tapering. Further subgroup analysis showed that tapering
+permits unrestricted use, distribution, and
+reproduction in any medium, provided the original
+                                                     combined with pre-taper overload training had a more significant effect on TT performance
+author and source are credited.                      than conventional tapering (P < 0.05). A tapering strategy that reduced training volume by
+Data Availability Statement: All relevant data are
+                                                     41–60%, maintained training intensity and frequency, lasted �7 days, 8–14 days, or 15–21
+within the paper and its Supporting Information      days, used a progressive or step taper could significantly improve TT performance (P <
+files.                                               0.05).
+Funding: This work was supported by the Science
+& Technology Development Special Project of          Conclusions
+Central Government Guides Local in Hubei
+                                                     The tapering applied in conjunction with pre-taper overload training seems to be more con-
+Province (2019ZYYD054) and the Special Project
+of Science & Technology of Winter Olympics           ducive to maximize performance gains. Current evidence suggests that a �21-day taper, in
+(2018YFF0300601-1).                                  which training volume is progressively reduced by 41–60% without changing training inten-
+Competing interests: The authors have declared       sity or frequency, is an effective tapering strategy.
+that no competing interests exist.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                  1 / 20
+PLOS ONE                                                                                   Effects of tapering on performance in endurance athletes
+
+
+
+                                           Introduction
+                                           The taper is a pre-competition training strategy that reduces training load in a progressive,
+                                           non-linear manner to induce optimal athletic performance at the right moment of the season
+                                           [1]. Based on positive (adaptations) and negative (fatigue) effects of training load on the
+                                           human body [2], the taper aims to reduce negative impact and increase positive training-
+                                           induced adaptations [3,4], by reducing training load to balance the antagonistic effects of accu-
+                                           mulated fatigue and training-induced adaptations [5]. Since 1985, when Costill et al. [6] first
+                                           experimentally evaluated the impact of pre-competition training load reduction in swimmers,
+                                           investigators have conducted numerous experimental studies on swimmers [7–9], cyclists
+                                           [10,11], and runners [12,13] to verify the effect of pre-competition taper on the athletic perfor-
+                                           mance based on physiological and psychological factors affecting such performance, and to
+                                           explore tapering strategies for different sports.
+                                               The key to the pre-competition taper as a typical strategy for improving the performance of
+                                           endurance athletes is to integrate a scientific arrangement of training variables such as training
+                                           intensity, volume, frequency, duration of taper, and type of taper [1,14]. Most of the studies
+                                           confirm that their designed pre-competition tapering strategies could improve sports perfor-
+                                           mance [15–18]. However, researchers disagree on which variables and how much to change.
+                                           Jafer et al. [19] found that a 50% reduction in training volume significantly improved long-dis-
+                                           tance runners’ performance. However, some studies have concluded that training volume
+                                           should be reduced even more, by at least 60%, to significantly improve the athletic perfor-
+                                           mance of endurance athletes in competitions [20]. In addition, a small number of studies have
+                                           modified pre-competition training load by reducing intensity [10,21]. These studies vary
+                                           widely on taper duration, ranging from 7 to 28 days. Most studies have used a duration of
+                                           8–14-day taper [22], but some have used that a shorter (� 7 days) [23] or longer (> 28 days)
+                                           [24] duration. However, all these durations of taper can yield positive training effects for ath-
+                                           letic competitions. In addition, the types of tapering including step and progressive tapers
+                                           have been proven effective [25], however, the progressive taper appears to be more successful
+                                           [26]. In summary, pre-competition tapering methods in the aforementioned studies differ sig-
+                                           nificantly, and it is still unclear about which tapering are better at improving the performance
+                                           of endurance athletes.
+                                               Previous meta-analyses (249 swimmers, 80 road cyclists, and 110 track runners) confirmed
+                                           the benefits of pre-competition tapering on improving sports performance and suggested that
+                                           a duration of 14-day, with no change in training intensity nor frequency, but with training vol-
+                                           ume exponentially reduced by 41–60%, appears to be the most effective pre-competition taper-
+                                           ing strategy [27]. Despite this meta-analysis evaluating the effects of taper component changes
+                                           on performance in competitive athletes, the limitation is that this study focused not only on
+                                           endurance athletes but also sprinters. We did not perform a comparative analysis of the
+                                           reported type of sports event, and therefore the authors could not provide more specific rec-
+                                           ommendations on endurance sports. Given the differences sport-to-sport and athlete-to-ath-
+                                           lete, these findings might not accurately reflect the characteristics of tapering for endurance
+                                           sports. Although the application effects of tapering in endurance events have received much
+                                           attention in the last decade [13,22,28–31], it is very difficult for athletes, coaches, and research-
+                                           ers to find tapering strategies to increase performance in endurance athletes. The previous sys-
+                                           tematic reviews have helped to shed light on the effects of tapering strategies on competitive
+                                           performance [30,32], and on nutrition, hydration, and recovery strategies during pre-competi-
+                                           tion taper [30]. However, these reviews did not address typical indicators used to evaluate spe-
+                                           cific sports and aerobic capacities, such as maximal oxygen consumption (VO       _ 2max ), time to
+                                           exhaustion (TTE), and economy of movement (EM), which determine endurance
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                         2 / 20
+PLOS ONE                                                                                   Effects of tapering on performance in endurance athletes
+
+
+
+                                           performance [33–38]. These limitations have a significant impact on how tapering measures
+                                           are interpreted to utilize effective evidence-based practices for endurance athletes. Therefore,
+                                           it is very difficult for athletes, coaches, and researchers to identify appropriate tapering strate-
+                                           gies to enhance performance in endurance athletes. It seems necessary to perform a systematic
+                                           review and meta-analysis of the literature on the effect of tapering on endurance performance.
+                                               A TT test is defined as an endurance performance test with a known endpoint. In this type
+                                           of test, subjects are required to complete a set distance in as fast a time as possible [37]. TT is
+                                           the measurement of the time taken to complete a given distance (e.g., a race or time trial) [36].
+                                           It can effectively simulate the physiological responses of athletes during competition, is often
+                                           used to evaluate the specific performance of athletes, and is closely related to endurance perfor-
+                                           mance [36,39]. TTE, _    VO2max, and EM are typical indicators that objectively and directly
+                                           reflect specific exercise and aerobic capabilities [34,37,39,40]. The TTE test requires subjects to
+                                           perform submaximal exercise intensity to exhaustion until they no longer maintain the
+                                                                                                          _
+                                           required work rate (e.g., speed or power output) [33,37]. VO2max         is defined as the maximal
+                                           oxygen consumption rate measured during incremental exercise [41]. EM is defined as the
+                                           oxygen consumption during exercise to generate a given running speed or cycling power out-
+                                           put at a given submaximal exercise intensity [4,38].
+                                               The purpose of this systematic review and meta-analysis was to assess the effects of tapering
+                                           on TT, TTE, _   VO2max , and EM, all of which are known to be determinants of endurance sport
+                                           performance [33–38]. Furthermore, a subgroup meta-analysis was conducted to summarize
+                                           the characteristics of training intensity, training volume, frequency, duration, and type of pre-
+                                           competition taper to determine an optimal pre-competition tapering strategy and provide
+                                           more feasible guidance for training before endurance conoetitions.
+
+                                           Methods
+                                           This systematic review was conducted following the guidelines of the Preferred Reporting
+                                           Items for Systematic Review and Meta-Analysis (PRISMA) [42].
+
+                                           Literature search
+                                           Two independent reviewers (WZQ and GWF) performed the search in the following data-
+                                           bases: China National Knowledge Infrastructure (CNKI), PubMed, Web of Science, SPORT-
+                                           Discuss, and EMBASE. An electronic search was conducted that included all publication years
+                                           (up to and including September 18, 2022). Reviewers used the following Boolean search
+                                           phrases in all of the above-mentioned databases: (taper*) AND (endurance training OR endur-
+                                           ance exercise* OR swim* OR cycli* OR runn* OR rowi* OR race walk* OR ski* OR skat* OR
+                                           sport* OR exercise*) AND (performance* OR competition* OR training). In addition to the
+                                           primary search, we also performed a secondary search that included checking the reference
+                                           lists of all included studies. Search terms were obtained from reviews of previous studies and
+                                           from common synonyms used in discussions of tapering and endurance events.
+
+                                           Eligibility criteria
+                                           We included studies that fulfilled the following criteria: 1) Participants: subjects were endur-
+                                                           _ 2max > 55 ml/kg/min) [43]. If the included studies did not provide VO
+                                           ance athletes (VO                                                                        _ 2max
+                                           values, training status was determined by the classification used in each study, and the partici-
+                                           pants were at least well-trained athletes [44,45]; 2) Interventions: the experimental design pro-
+                                           vided detailed pre-competition tapering data, including training intensity, volume, frequency,
+                                           type, and duration. A taper is a short-term (�6 days [46,47]) reduction in training load (e.g.,
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                         3 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           the alteration of training volume, intensity, and frequency); 3) Study design: randomized con-
+                                           trolled trial (RCT) or controlled trial [48,49]; 4) Outcome indicators: TT tests that required
+                                           participants to complete a set distance, TTE, _ VO2max , and EM. Measurements of TT and TTE
+                                           refer to the total time desired to achieve the whole goal quantity, including direct measure-
+                                           ments such as performance during either a constant distance (at least middle distance) or a
+                                           constant intensity test. We chose TT as the primary-outcome index for examining athletic per-
+                                           formance, and the endurance performance–related indices TTE, VO2max, _         and EM as second-
+                                           ary-outcome indices, to assess the effects of pre-competition taper on sports performance in
+                                           endurance events; and 5) Quality assessment: at least moderate study quality on the Physio-
+                                           therapy Evidence Database (PEDro) scale or better (> 4 points) [50–52].
+                                              Exclusion criteria were as follows: 1) experimental data could not be extracted and
+                                           remained unavailable after we contacted the authors; 2) the full text of the study was unavail-
+                                           able; 3) taper duration was less than 6 days; 4) published in a non-English language; or 5) TT
+                                           not based on distance. Time-based TT tests (e.g., a 60-minute time trial or a 5-minute TT), in
+                                           which an athlete attempts to travel the furthest distance or to maintain the highest average
+                                           power or velocity within a set duration, are common. However, relative to time-based TT
+                                           tests, TT tests that require participants to complete a set distance are the most common type of
+                                           TT test, which most closely represent a true race environment. They may be the most appro-
+                                           priate for endurance performance assessment [53].
+
+
+                                           Study selection and methodological quality assessment
+                                           The lead author removed duplicates of articles identified across numerous search databases
+                                           and screened the titles and abstracts of the search results. If a definitive decision could not be
+                                           made, studies were taken forward for a full study review. The eligibility of the full-text articles
+                                           was determined according to the inclusion and exclusion criteria by two authors indepen-
+                                           dently. A discussion between the two authors resolved any disagreements regarding eligibility.
+                                           If necessary, a third researcher was consulted to reach a consensus.
+                                               We used the PEDro scale to evaluate study quality. This scale has a total of 11 scoring points
+                                           ranged from 0 to 10. Scoring is as follows: 9–10 points indicate high quality, 6–8 points indi-
+                                           cate slightly high quality, 4–5 points indicate moderate quality, and < 4 points indicate low
+                                           quality. Only studies with better than moderate quality were included [50,51].
+
+
+                                           Data extraction
+                                           The two reviewers (WZQ and GWF) independently extracted information from each study,
+                                           including the characteristics of participants, tapering strategies, and outcome data (Table 1):
+                                           1. Participants: age, sex, sample size, training status, and TT distance.
+                                           2. Interventions: training intensity, volume, frequency, duration, type of tapering. In accor-
+                                              dance with the meta-analysis conducted by Bosquet et al. [27], we coded training intensity
+                                              (decreased or unchanged), volume (� 20%, 21–40%, 41–60%, or � 60%), frequency
+                                              (decreased or unchanged), duration of taper (� 7 days, 8–14 days, 15–21 days, or � 22
+                                              days), and type of tapering (progressive or step).
+                                           3. Outcome data: pre- and post-tapering mean ± standard deviation (SD) of TT, TTE, and
+                                              _ 2max . If only standard error (SE) was reported in the study, we used the formula SD = SE
+                                              VO
+                                               p
+                                              × N [54].
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                        4 / 20
+PLOS ONE                                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+Table 1. Characteristics and outcomes of included studies.
+Study                      Age            M/F       Volume (%)    Intensity (%)   Frequency (%)      Duration       Type     Outcomes               PEDro scores
+                                                                                                     (days)
+Houmard et al. [15]        32.0±2.6       10/0      −70           U               −17                21             S        TT, TTE, EM            5
+                                                                                                                             V_ _O2max
+McConnell et al. [55]      31.6±1.4       10/0      −66           −20             −50                28             S        TT, TTE EM             5
+                                                                                                                             V_ _O2max
+Houmard et al.             28.3±9.51      12/4      −85           U               U                  7              P        TT, TTE, V_ _O  2max
+                                                                                                                                                    6
+[56]
+Child et al. [57]          30.5±1.61      14/0      −85           U               −14                6              P        TT                     6
+Mujika et al. [46]         19.9±1.8       8/0       −75           U               U                  6              P        TT                     6
+                                                    −50           U               U                  6              P
+Mujika et al. [58]         19.4±3.2       9/0       −69           U               U                  6              P        TT                     6
+                                                    −65           U               −33                6              P
+Neary et al. [10]          22.6±4.7       11/0      −30           U               U                  7              S        TT                     6
+                                                    −50           U               U                  7              S
+                                                    −80           U               U                  7              S
+Neary et al. [16]          25±6           22/0      −48           U               U                  7              P        TT, V_ _O2max          6
+                                                    U             −20             U                  7              P
+Neary et al. [17]          22.6±4.7       11/0      −30           U               U                  7              S        TT                     6
+                                                    −50           U               U                  7              S
+                                                    −80           U               U                  7              S
+Luden et al. [14]          20±1           7/0       −50           U               U                  21             S        TT, V_ _O2max , EM     5
+Ishak et al. [59]          16.9±0.8       27/0      −43           U               U                  14             P        TT, V_ _O2max
+                                                                                                                                                    6
+                                                    −46.5         U               U                  14             P
+Skovgaard et al. [13]      29.2±4.5       8/3       −49           U               U                  18             S        TT, TTE, EM            5
+Spilsbury et al. [30]      21.7±3.0       10/0      -30           U               -10                7              P        TT                     6
+Spilsbury et al. [60]      21.4±4.2       8/0       -32           U               -18                7              P        TT                     5
+                                                    -56           U               -18                7              P        TT                     5
+
+U = unchanged; S = step; P = progressive; TT = time trial; TTE = time to exhaustion; V_ _O2max = maximum rate of oxygen consumption measured during incremental
+exercise; EM = economy of movement.
+
+https://doi.org/10.1371/journal.pone.0282838.t001
+
+
+
+                                                     Statistical analysis
+                                                     We used Review Manager (RevMan) version 5.4 (Cochrane Collaboration, Oxford, UK) for
+                                                     heterogeneity assessment, sensitivity analysis, synthesis of results, subgroup analysis, and forest
+                                                     map creation. Because this study included both RCTs and controlled trials, and also included
+                                                     different types of endurance events, we used the inverse-variance method for meta-analysis
+                                                     based on type of experimental design, in accordance with the Cochrane Handbook for System-
+                                                     atic Reviews of Interventions [61]. Standardized mean difference (SMD) and 95% confidence
+                                                                                _ 2max , and EM outcomes were calculated as effect sizes. Heteroge-
+                                                     interval (CI) of TT, TTE, VO
+                                                     neity was quantitatively evaluated by I2 values: 25% (low), 50% (moderate), and 75% (high)
+                                                     [62]. We used the Q statistic to test heterogeneity. The P-value for χ2 was < 0.1, indicating
+                                                     whether a study showed statistically significant levels of heterogeneity [63].
+                                                        Two investigators (WZQ and GWF) independently assessed the studies’ risk of bias by
+                                                     interpreting the funnel in the Begg and Egger tests using STATA software version 16.0 (Stata
+                                                     Corp., College Station, TX, USA).
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                          5 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           Results
+                                           Characteristics of included studies
+                                           A total of 2309 studies were identified with an additional 6 studies included from other
+                                           sources. After excluding duplicates and screening the title, abstract, or full text, we ultimately
+                                           included 14 studies in this meta-analysis (Fig 1). These 14 studies included 174 athletes, aged
+                                           17–32 years. Their sports were mainly middle-distance, long-distance, and ultra distance run-
+                                           ning, as well as cycling. We extracted TT data from all 14 studies, 4 studies provided TTE data,
+                                           8 studies provided _VO2max data, and 6 studies provided EM data (Table 1). In the included
+                                           study, TT was measured at different distances, ranging from 800 m to 40 km. Performance
+                                           was assessed on the track, treadmill, and cyclcle ergometer in the selected studies.
+                                               Table 1 shows the details of different tapering strategies included in this meta-analysis. Mul-
+                                           tiple information from the same eligible study needs to be collated. Twenty-one data sets main-
+                                           tained training intensities [10(3), 13, 14, 15, 16, 17(3), 30, 46(2), 58(2), 59(2), 60(2), 61, 62],
+                                           while two decreased it [16,55]. The range of training volume reduction was � 85%. One data
+                                           set reduced volume by � 20% [16], four data sets by 21–40% [10,17,30,60], nine data sets by
+                                           41–60% [10, 13, 14, 16, 17, 46, 58(2), 60], and nine data sets by � 60% [10, 15, 17, 46, 59(2), 63,
+                                           61, 62]. Regarding the reduction of volume, different training methods were usually applied,
+                                           such as a progressive reduction in training distance, a step reduction in both training duration
+                                           and frequency, and a step reduction in training hours during tapering days. Training fre-
+                                           quency was maintained in sixteen data sets [10(3), 13, 14, 16(2), 17(3), 46(2), 58(2), 59, 61] and
+                                           decreased in seven. The shortest duration of taper was 6 days, the longest 28 days; seventeen
+                                           data sets used � 7 days [10(3), 16(2), 17(3), 30, 46(2), 59(2), 60(2), 61, 62], two data sets used
+                                           8–14 days [58(2)], three data sets used 15–21 days [15, 58(2)], and one data set used � 22 days
+                                           [64]. Ten data sets used a step taper [10(3), 13, 14, 15, 17(3), 63], and thirteen data sets used a
+                                           progressive taper [16(2), 30, 46(2), 58(2), 59(2), 60(2), 61, 62].
+
+                                           Study quality assessment
+                                           Table 1 shows the results of the quality assessment. Study quality ranged from 5 to 6 points.
+                                           Five studies were classified as being of moderate quality, while nine were considered to have
+                                           slightly high quality.
+
+                                           Synthesis of results
+                                              Time trial performance. Fourteen studies reported data for TT. Levels of heterogeneity
+                                           were low among these studies (I2 = 8%, P > 0.1). Results for overall effects on TT performance
+                                           showed a significant improvement between pre- and post-tapering (SMD, −0.45; 95% CI,
+                                           −0.68 to −0.23; P < 0.05; Fig 2). Significant improvement was also observed in experimental
+                                           groups compared with control groups (SMD, −0.73; 95% CI, −1.25 to −0.21; P < 0.05; Fig 3),
+                                           with a low level of heterogeneity (I2 = 31%, P > 0.1). Begg and Egger tests results showed no
+                                           significant publication bias in the experimental group for TT (P > 0.1).
+                                              Subgroup analysis with or without overload training before taper showed significantly
+                                           lower heterogeneity in both subgroups, with I2 = 0% (P > 0.1) in both the overload training
+                                           group and conventional taper group. This indicated that pre-taper overload training might
+                                           have been the primary source of heterogeneity. We observed a significant difference between
+                                           groups when we compared the overload training group with the conventional taper group
+                                           (P < 0.05) (Fig 4).
+                                              To further explore potential variables affecting TT improvement in endurance athletes, we
+                                           conducted a subgroup analysis of training intensity, volume, frequency, duration of taper, and
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                        6 / 20
+PLOS ONE                                                                                           Effects of tapering on performance in endurance athletes
+
+
+
+
+                                           Fig 1. Flow chart of study selection.
+                                           https://doi.org/10.1371/journal.pone.0282838.g001
+
+
+
+
+                                           Fig 2. Forest plot of effect size between pre- and post-tapering for TT.
+                                           https://doi.org/10.1371/journal.pone.0282838.g002
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                 7 / 20
+PLOS ONE                                                                                           Effects of tapering on performance in endurance athletes
+
+
+
+
+                                           Fig 3. Forest plot of effect size between experimental and control athletes for TT.
+                                           https://doi.org/10.1371/journal.pone.0282838.g003
+
+                                           type of taper pattern. The results showed that a tapering strategy with a reduction in training
+                                           volume of 41–60% that maintained training intensity and frequency, lasted � 21 days, and
+                                           used progressive or step tapering could significantly improve the TT of endurance athletes
+                                           (P < 0.05; Table 2).
+                                           1. Training intensity subgroup analysis showed that maintaining training intensity had a
+                                              larger and significant overall effect on TT improvement (SMD, −0.55; 95% CI, −0.79 to
+                                              −0.31; P < 0.05), while decreasing training intensity did not improve TT (SMD, 0.25; 95%
+                                              CI, −0.67 to 1.17; P > 0.05) (Table 2).
+                                           2. Training volume subgroup analysis showed that a reduction in training volume of 41–60%
+                                              achieved the largest and most significant improvement in TT (SMD, −0.77; 95% CI, −1.23
+                                              to −0.30; P < 0.05). The overall effects for the � 20%, 21–40%, and � 60% groups were
+                                              smaller and did not reach significance levels (P > 0.05).
+                                           3. Training frequency subgroup analysis showed a significant improvement in TT in the sub-
+                                              groups in which training frequency was unchanged (SMD, −0.53; 95% CI, −0.82 to −0.25;
+                                              P < 0.05), compared with those in which training frequency was decreased (SMD, −0.32;
+                                              95% CI, −0.76 to 0.13; P < 0.05).
+                                           4. Subgroup analysis of taper duration showed that the subgroup with duration of 8–14-days
+                                              experienced the largest overall effect (SMD, −1.47; 95% CI, −2.75 to −0.19; P < 0.05), signif-
+                                              icantly better than the other subgroups. The 15–21-day group experienced the next-largest
+                                              effect, and the smallest was seen in the � 22-day group. All three subgroups with durations
+                                              of � 21 days significantly improved their TT (P < 0.05). Differences between subgroups
+                                              were significant (P < 0.05).
+
+
+
+
+                                           Fig 4. Forest plot of effect size between overload training group and conventional tapering group athletes for TT.
+                                           https://doi.org/10.1371/journal.pone.0282838.g004
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                    8 / 20
+PLOS ONE                                                                                                    Effects of tapering on performance in endurance athletes
+
+
+
+Table 2. Subgroup analysis of the effects of tapering on TT.
+Category                              N                   SMD (95% CI)                           P                      I2/%               Pinter-group
+Training intensity
+Decreased                             18                   0.25 (−0.67, 1.17)                    0.59                   45                 0.10
+Unchanged                             143                  −0.55 (−0.79, −0.31)                  <0.001                 0%
+Training volume
+�20%                                  8                    −0.25 (−1.27, 0.77)                   0.64                   N                  0.32
+21–40%                                40                   −0.45 (−0.90, −0.00)                  0.05                   0%
+41–60%                                54                   −0.77 (−1.23, −0.30)                  0.001                  22%
+�60%                                  59                   −0.21 (−0.58, 0.16)                   0.26                   0%
+Training frequency
+Decreased                             57                   −0.32 (−0.76, 0.13)                   0.16                   27%                0.42
+Unchanged                             104                  −0.53 (−0.82, −0.25)                  0.0002                 0%
+Duration
+�7 days                               105                  −0.36 (−0.63, −0.08)                  0.01                   0%                 0.02
+8–14 days                             18                   −1.47 (−2.75, −0.19)                  0.02                   63%
+15–21 days                            28                   −0.78 (−1.43, −0.14)                  0.02                   24%
+�22 days                              10                   0.69 (−0.22, 1.60)                    0.13                   N
+Type of taper
+Step                                  63                   −0.38(−0.73, −0.04)                   0.03                   35%                0.60
+Progressive                           98                   −0.51(−0.81, −0.20)                   0.001                  0%
+https://doi.org/10.1371/journal.pone.0282838.t002
+
+
+                                                    5. Subgroup analysis of tapering type showed that the progressive-taper subgroup saw a larger
+                                                       and more significant improvement in TT (SMD, −0.51; 95% CI, −0.81 to −0.20; P < 0.05).
+                                                       There was also significant effect of the step taper on change in TT performance(P < 0.05).
+                                                       Time to exhaustion. Four studies reported data for TTE. Moderate levels of heterogeneity
+                                                    existed among these studies (I2 = 64%, P < 0.1). Results for overall effects on TTE showed a
+                                                    significant improvement between pre- and post-tapering (SMD, 1.28; 95% CI, 0.43 to 2.12;
+                                                    P < 0.05; Fig 5).
+                                                       Maximal oxygen consumption. Six studies reported data for VO       _ 2max . We observed high
+                                                                                                     2
+                                                    levels of heterogeneity among these studies (I = 87%, P < 0.1). Results showed that there were
+                                                    no improvement on VO   _ 2max between pre- and post-tapering (SMD, 0.20; 95% CI, −0.93 to
+                                                    1.33; P > 0.05; Fig 6). However, the studies with both groups showed a significant improve-
+                                                    ment in the experimental groups compared with the control groups (SMD, 0.77; 95% CI, 0.31–
+                                                    1.23; P < 0.05; Fig 6), with a low level of heterogeneity (I2 = 0%, P > 0.1).
+                                                       Economy of movement. Four studies reported data for EM, showing moderate levels het-
+                                                    erogeneity among them (I2 = 57%, P < 0.1). Results showed that there were no improvement
+                                                    on EM between pre- and post-tapering (SMD, −0.47; 95% CI, −1.06 to 0.12; P > 0.05; Fig 7).
+
+
+
+
+                                                    Fig 5. Forest plot of effect size between pre- and post-tapering for TTE.
+                                                    https://doi.org/10.1371/journal.pone.0282838.g005
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                          9 / 20
+PLOS ONE                                                                                             Effects of tapering on performance in endurance athletes
+
+
+
+
+                                           Fig 6. Forest plot of effect size between pre- and post-tapering for V_ _O2max (A), and between experimental and control
+                                           athletes for V_ _O2max (B).
+                                           https://doi.org/10.1371/journal.pone.0282838.g006
+
+                                           Discussion
+                                           Summary of main result
+                                           The main finding of this meta-analysis was that pre-competition tapering significantly
+                                           improved TT and TTE (P < 0.05) and had no effects on VO    _ 2max and EM (P > 0.05). Further
+                                           subgroup analysis results showed that pre-competition tapering combined with pre-taper
+                                           overload training had a significant effect on TT improvement (P < 0.05), which was superior
+                                           to that of conventional tapering (P < 0.05 for the difference between groups). A tapering strat-
+                                           egy that reduced training volume progressively by 41–60%, maintained training intensity and
+                                           frequency, lasted �21 days could significantly improve TT. In endurance athletes, the primary
+                                           mechanism for tapering to improve endurance sports performance is to maintain or further
+                                           increase aerobic exercise capacity while eliminating the psychological and physiological stress
+                                           accumulated from training [23,27]. For example, cardiac pump function and work efficiency
+                                           improved [10,65]; blood testosterone and blood testosterone/cortisol ratio improved
+
+
+
+
+                                           Fig 7. Forest plot of effect size between post and pre-tapering for EM.
+                                           https://doi.org/10.1371/journal.pone.0282838.g007
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                        10 / 20
+PLOS ONE                                                                                 Effects of tapering on performance in endurance athletes
+
+
+
+                                           significantly, whereas blood creatine kinase concentration and cortisol concentration
+                                           decreased significantly [57,58,66]; heart rate to rating of perceived exertion (RPE) ratio
+                                           decreased [10], and emotional state [67,68] improved. In addition, studies have shown that
+                                           tapering in endurance athletes significantly increases blood volume, hemoglobin, and erythro-
+                                           cyte pressure volume [1], and improves mitochondrial respiratory function [68]. The improve-
+                                           ment of these indicators enables the improvement of the oxygen-carrying and oxygen-
+                                           transport capacity, maintaining a higher percentage of oxygen utilization capacity, which ulti-
+                                           mately leads to an increase in endurance performance. The results of the present meta-analysis
+                                           showed that there was no effect of pre-competition taper on VO  _ 2max (SMD, 0.20; 95% CI,
+                                           −0.93 to 1.33) and EM (SMD, −0.47; 95% CI, −1.06 to 0.12) (P > 0.05), whereas a significant
+                                           improvement was found for TTE (SMD, 1.28; 95% CI, 0.43–0.12; P < 0.05). The present study
+                                           confirms previous findings. Busso et al. [2] indicated that long-term high-intensity sports
+                                           training leads to a continuous reduction in endurance athletes’ training-induced adaptability,
+                                           which is often caused by a decline in aerobic exercise fatigue tolerance caused by fatigue accu-
+                                           mulation. TTE reflects the fatigue tolerance of these athletes [33], which is closely related to
+                                           performance [37]. The increase in TTE implied that the taper played a significant role in pro-
+                                           moting the regulation and recovery of fatigue, improving the body’s anti-fatigue ability, and
+                                           delaying the occurrence of sports fatigue.
+
+                                           Overload period preceding the taper
+                                           The tapering applied in conjunction with pre-taper overload training seems to be more condu-
+                                           cive to maximize performance gains. For further exploration the training features of overload
+                                           period preceding the taper, we further tracked the original research studies and found that the
+                                           mean training intensity of pre-taper overload training remained at 85–95% of maximum heart
+                                           rate (HRmax), an increase of 23–26% over the mean training intensity of normal training. This
+                                           was consistent with the findings of Thomas et al. [69] that an increase in pre-taper training
+                                           load of approximately 20–30% was effective in improving post-taper performance. Another
+                                           study found that pre-taper overload training produced higher training-induced adaptations
+                                           and facilitated supercompensation [70]. The studies by Hellard et al. [71] and Le Meur et al.
+                                           [72] showed that improvements in VO _ 2max and heart pumping function of athletes who under-
+                                           went overload training pre-taper were significantly higher than those of athletes who under-
+                                           went conventional tapering only.
+
+                                           Application strategy for taper
+                                              Intensity. Training intensity is an essential variable in optimising the taper. Our meta-
+                                           analysis showed that a decrease in training intensity did not increase TT (SMD, 0.25; 95% CI,
+                                           −0.67 to 1.17; P > 0.05), whereas maintenance of training intensity significantly increased TT
+                                           (SMD, −0.55; 95% CI, −0.79 to −0.31; P < 0.05). In the included studies that examined mainte-
+                                           nance of training intensity, the intensity of middle-distance running events (800 m, 1500 m)
+                                           during tapering were maintained at 95–100% of race pace, while the endurance events such as
+                                           long- and ultra-long-distance running was maintained at 85–95% VO    _ 2max (5000 m, 20 km
+                                           cycling) or 82–95% HRmax (5000 m, 10,000 m run; 20 km cycling; half marathon) during
+                                           tapering.
+                                              It should be pointed out that the above-mentioned studies mainly considered average
+                                           intensity during the tapering period. The increase in TT was also closely related to the manage-
+                                           ment of training intensity [29]. When the athlete recovered better from the previous overload,
+                                           training could be performed at a higher intensity in the later taper phase [4]. Therefore, some
+                                           studies have aeeerted that when training volume is dramatically decreased, high-intensity
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                      11 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           training (HIT) is crucial for maintaining and improving physical fitness and performance dur-
+                                           ing tapering [27,73–75]. Physiological responses to this strategy may include increases in buff-
+                                           ering capacity [56], oxidase activity, red blood cell volume, and muscle glycogen concentration
+                                           [47], all of which may contribute to improved performance during a subsequent events. This is
+                                           supported by training data from the most successful female cross-country skier globally. Solli
+                                           et al. [64] reported that the proportion of HIT progressive increased in the the 3 weeks before
+                                           the major competition, with three HIT sessions completed in the last 7 days. From the perspec-
+                                           tive of the intensity distribution characteristics included in this meta-analysis, we found that
+                                           most pre-competition tapering strategies in the research used HIT. The distribution of training
+                                           intensity in the included studies was characterized by alternation among HIT, moderate-inten-
+                                           sity continuous training (MICT), and low-intensity continuous training (LICT). However, the
+                                           included studies did not detail the intensity distribution characteristics. Generally speaking, as
+                                           the competition day was approaching, endurance athletes tended to reduce the duration of
+                                           exercise, and increase the number of exercises of a specific intensity to further increase HIT
+                                           intensity to that of race pace [19], 90% _
+                                                                                    VO2max [17,76], or > 90% HRmax [59,77]. In general,
+                                           intensity distribution grew more polarized as the major competition approached [76], espe-
+                                           cially for endurance events such as long- and ultra-long-distance running. Some middle-dis-
+                                           tance events used HIT with a higher intensity than race pace (115%) for training during the
+                                           tapering [29]. However, HIT at a higher intensity than race pace was less effective in improving
+                                           TT than HIT at race pace [29]. For middle-distance events, race pace is already relatively high
+                                           in intensity, using a continuous HIT that exceeds race pace for pre-competition training can
+                                           increase the risk of injury [28]. In addition, setting HIT intensity to match race pace also helps
+                                           athletes further adapt to the rhythm of the sport [28,58,71]. Therefore, in practice, especially
+                                           close to the competition day, the intensity of most middle-distance endurance events tends to
+                                           use race pace as HIT intensity.
+                                               Volume. Existing studies have confirmed that pre-competition volume reduction plays an
+                                           essential role in reducing accumulated fatigue and attaining maximal performance in competi-
+                                           tion. Determining the appropriate range of volume reduction is the key factor [78,79]. The
+                                           results of this meta-analysis showed that a reduction in volume of 41–60% could significantly
+                                           increase TT (SMD, −0.77; 95% CI, −1.23 to −0.30; P < 0.05). There was a greater improvement
+                                           in TT following volume reduction compared to intensity (SMD, −0.55) and frequency (SMD,
+                                           −0.53). The subgroup analysis indicates that the 41–60% volume reduction subgroup prouced
+                                           a large effect compared to the other three (� 20%, 21–40%, and � 60%) subgroups. These
+                                           results were consistent with those of Chen et al. [70] who adopted the gray modeling method
+                                           and curve parameter estimation method to construct pre-competition load change patterns
+                                           for different event groups and found that the pre-competition volume reduction for long-dis-
+                                           tance endurance events was ~46%. The above results showed that a reduction in volume
+                                           of � 40% was not enough to improve to TT performance, which might be due to a small vol-
+                                           ume reduction’s inability to eliminate exercise fatigue in a timely and rapid manner [80]. In
+                                           comparison, a reduction in volume of � 60% had no significant effect on TT improvement,
+                                           which was related to the lack of quantity and quality of endurance training due to a larger vol-
+                                           ume reduction [13]. According to Jafer et al. [19], significant physiological changes (e.g., aver-
+                                           age red blood cell count, hemoglobinconcentration, and hematocrit percentages) that improve
+                                           performance have been found by reducing volume up to 50% before a competition. Neary
+                                           et al. [10] performed a comparative study with three reductions in training volume—30%,
+                                           50%, and 80%—in cyclists and concluded that VO2 and O2 pulse were optimized only with a
+                                           50% reduction in training volume. A meta-analysis by Bosquet et al. [27] also found that a 21–
+                                           40% reduction in volume also significantly affected TT improvement (P < 0.05). This might
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                       12 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           be because our meta-analysis only included endurance events, whereas the meta-analysis
+                                           developed by Bosquet et al. [27] included both speed events (249 athletes total) and endurance
+                                           events (190 athletes total). Li et al. [79] pointed out that pre-competition volume was reduced
+                                           more significantly for endurance events than for speed events. This showed that the range of
+                                           volume reduction could vary by sport events. Whether the volume reduction range differed by
+                                           type of endurance event (middle-distance, long-distance, ultra-long-distance) is unclear. To
+                                           maximize the effect of pre-competition volume reduction on sports performance and to make
+                                           the implementation of pre-competition taper strategies more pertinent and maneuverable,
+                                           future research should further investigate differences in volume reduction between middle-
+                                           distance endurance and long-distance/ultra-long distance endurance events.
+                                               Frequency. Training load can also be adjusted by changing training frequency. However,
+                                           the results of studies on the effect of such change on sports performance are inconsistent, and
+                                           whether a clear relationship exists between them is still unclear [79]. The pooled results of the
+                                           present meta-analysis showed that a decrease in training frequency had no significant effect on
+                                           TT (SMD, −0.32; 95% CI, −0.76 to 0.13; P > 0.05) and that maintenance of training frequency
+                                           could significantly improve TT (SMD, −0.53; 95% CI, −0.83 to −0.25; P < 0.05). The reason
+                                           might be that training frequency is often closely related to the feeling of movement and the
+                                           state of competition. Maintenance of training frequency has been found to improve athletes’
+                                           pre-competition motor sensation and lead to a higher level of competitive performance, both
+                                           of them would contribute to attaining optimal performance in competition [1,81]. Mujika
+                                           et al. [58] compared the effects of training frequency changes on TT during 6 days of tapering
+                                           in 10 well-trained male middle-distance runners; the results showed that TT decreased
+                                           (1.39%) in the maintained training frequency group and a trivial (only 0.39%) in the decreased
+                                           training frequency group. The investigators attributed these results to decreased motor sensa-
+                                           tion and technical proficiency due to the decrease in training frequency. That study found no
+                                           difference in physiological response of athletes in different groups after tapering. In light of
+                                           this, some investigators have proposed that for endurance events with lower technical content
+                                           (e.g., long-distance running and cycling events), a reduction in training frequency of ~20%
+                                           might be the limit to avoid a decrease in TT [82]; for endurance events with high technical
+                                           requirements (e.g., swimming, cross-country skiing, and kayaking), maintenance of training
+                                           frequency can effectively prevent a decline in technical efficiency [25]. It should be pointed out
+                                           that the effect of decreased training frequency on performance often interacts with other train-
+                                           ing variables such as maintenance of training intensity or volume reduction; therefore, clarify-
+                                           ing its exact impact on sports performance is difficult [27]. Although further future
+                                           exploration of the interactions between changes in training frequency, intensity, and volume
+                                           remains necessary, the above results showed that training frequency maintenance during
+                                           tapering could effectively promote improvement in sports performance, especially in endur-
+                                           ance events that are highly dependent on technology and high technical proficiency.
+                                               Duration of tapering. The key to determining optimal taper duration is a scientifically
+                                           guided search for the best balance between fatigue recovery and performance improvement.
+                                           The results of this meta-analysis showed that endurance athletes achieved the largest effect size
+                                           during 8–14 days of taper (SMD, −1.47; 95% CI, −2.75 to −0.19; P < 0.05). This was similar to
+                                           the meta-analysis results of Bosquet et al. [27]. The additional finding from the present study
+                                           was that taper durations of � 7 and 15–21 days also produced positive training effects
+                                           (P < 0.05). The reason might be related to the different types of athletes included. According
+                                           to Skorski et al. [83], in addition to _VO2max and EM, anaerobic power and capacity are impor-
+                                           tant factors that determine performance in road cycling. This is because in many road cycling
+                                           races, first place can be decided in the final sprint, and cyclists with high anaerobic capacity
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                       13 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           and power can achieve better results [31,84]. Therefore, it may be important to determine the
+                                           appropriate reduction time to optimize the power and anaerobic capacity of cyclists. Studies
+                                           have indicated that 1–2 weeks of reduction is the time needed to optimize power and/or anaer-
+                                           obic capacity in cyclists [84,85]. When training stress decreases, there is a period of rapid adap-
+                                           tation and fiber hypertrophy, as evidenced by a 14.2% increase in the cross-sectional area of
+                                           type IIa fiber in cyclists [86]. However, athletes who participate in cyclic sports, such as run-
+                                           ning, may require more time (2–3 weeks) to reach peak performance [27,87]. Running perfor-
+                                           mance has also been found to improve after 1 or 4 weeks of tapering, but some athletes may
+                                           experience negative results [27]. The increase in sports-specific muscle power during tapering
+                                           tends to be greater than the improvement in aerobic fitness [88], which may be the main rea-
+                                           son for the different durations of taper in cycling and running. The results of the present meta-
+                                           analysis indicated that a period of 8–14 days appears to be the optimal taper duration for
+                                           cycling and running. However, the effect of taper is also influenced by intensity, volume, fre-
+                                           quency, and individual differences [1,89]. Recovery from a reduction in training load varies
+                                           between individuals, with no clear timeline, implying that the corresponding optimal taper
+                                           duration also varies [90]. Unfortunately, there are no experimental data on the difference in
+                                           pre-competition training load reduction between cycling and running. Future research is
+                                           needed to investigate the combination of training load reduction and its duration to find
+                                           appropriate strategies for pre-competition tapering in cycling and running. Thomas and Busso
+                                           [69] used a non-linear model to investigate factors influencing taper duration and found that
+                                           range of load reduction and the presence or absence of overload training before tapering had a
+                                           significant impact on taper duration. The results of the present meta-analysis fell within the
+                                           4–35-day taper duration range that was observed in experimental studies to effectively attain
+                                           better sports performance [1]. In summary, we concluded that a taper lasting � 21 days could
+                                           achieve better sports performance. These data can provide a quantitative framework for train-
+                                           ing before endurance competitions. Regarding the improvement effect on performance, a
+                                           taper duration of 8–14 days seems to be the best option. Still, it must be recognized that dura-
+                                           tions of � 7 and 15–21 days are also effective in improving sports performance. Therefore, for
+                                           specific practice, taper duration should be set according to the adjustment range of the training
+                                           load and the athlete’s physiological and psychological responses.
+                                               Type of tapering. Taper pattern type is an organic integration of training intensity, vol-
+                                           ume, frequency, and reduction duration. Patterns are generally divided into progressive and
+                                           step tapers [91]. The training load of the progressive taper presents linear or exponential
+                                           changes, leading to the subdivision of this pattern into linear, fast-decay, and slow-decay
+                                           tapers. The step taper is standardized to reduce training load. The results of the present meta-
+                                           analysis showed that the progressive taper significantly improved TT (SMD, −0.51; 95% CI,
+                                           −0.81 to −0.20; P < 0.05); the step taper also had an effective effect on TT (SMD, −0.38; 95%
+                                           CI, −0.73 to −0.04; P < 0.05). This indicated that the range of reduction and speed of decrease
+                                           in training load might affect improvement in TT.
+                                               Different subtypes of progressive taper have dissimilar load characteristics of changes and
+                                           therefore different effects on sports performance. We did not perform subgroup analyses of
+                                           the linear and exponential tapers in the present meta-analysis because an exhaustive progres-
+                                           sive-taper scheme was not provided in the studies we included. Osman et al. [92] found that
+                                           exponential taper improved TT in 1500-m athletes better than linear taper. When further com-
+                                           paring the effects of the fast- and slow-decay taper patterns on sports performance, most stud-
+                                           ies concluded that fast decay reduced training load more than slow decay, which was more
+                                           conducive to eliminating accumulated fatigue in early training [25]. However, some studies
+                                           found that compared with the fast-decay taper pattern, the slow-decay pattern could more
+                                           effectively improve the performance of cyclists [69]. The reasons for these inconsistent results
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                       14 / 20
+PLOS ONE                                                                                  Effects of tapering on performance in endurance athletes
+
+
+
+                                           were not only due to the differences between athletes but also in the reduction range and speed
+                                           of training load reduction caused by different taper durations. Based on the above research
+                                           results, Wilson and Wilson [81] suggested that the choice of the two exponential-taper types or
+                                           patterns should be combined with taper duration, with preference given to the fast-decay pat-
+                                           tern if taper duration is short and to the slow-decay pattern in cases of longer taper duration.
+
+                                           Limitations
+                                           1. The number of RCTs investigating pre-competition taper in endurance athletes was rela-
+                                              tively small [87]. This might have led to a decrease in the quality scores of the studies
+                                              included in this meta-analysis. More RCTs are needed to improve the methodological qual-
+                                              ity of the studies and assess the effect of taper moderators on field-based performance.
+                                           2. The endurance sports included in this meta-analysis were mainly cycling and running.
+                                              Middle- and long-distance speed skating, cross-country skiing, and kayaking were less well
+                                              represented, which could limit the application of our results to other endurance sports
+                                              events. Finally, the participants of the included studies were mostly male athletes, with few
+                                              female ones. The results may not be able to represent both male and female athletes in
+                                              endurance events.
+                                           3. Although this meta-analysis elaborated on the effect of pre-competition taper on the perfor-
+                                              mance of endurance athletes, there were specific differences in the physical and psychologi-
+                                              cal responses of athletes at different levels. Owing to the limited number of included
+                                              studies, we did not conduct a comparative analysis in greater depth of how tapering affected
+                                              athletes of different training statuses, which might have weakened or amplified the effect of
+                                              pre-competition tapering. Pre-competition tapering strategies for endurance athletes at dif-
+                                              ferent levels need further research and more experiments to confirm and maximize the pre-
+                                              competition training effect.
+
+
+                                           Conclusion
+                                           The tapering applied in conjunction with pre-taper overload training seems to be more condu-
+                                           cive to maximize performance gains. Current evidence suggests that a �21- day taper, in
+                                           which training volume is progressively reduced by 41–60% without changing training intensity
+                                           or frequency, is an effective tapering strategy. Future research should further explore individu-
+                                           alization of tapering strategy implementation and pay more attention to tapering strategies for
+                                           endurance athletes of different genders, at different levels, and participating in different types
+                                           of events to maximize pre-competition training effects.
+
+                                           Supporting information
+                                           S1 Checklist. PRISMA 2020 checklist.
+                                           (DOCX)
+
+
+                                           Acknowledgments
+                                           The authors would like to thank the Ms. Viola (www.letpub.com.cn) for providing technical
+                                           editing and writing services for the final draft of this manuscript.
+
+                                           Author Contributions
+                                           Data curation: Weifeng Gao.
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                       15 / 20
+PLOS ONE                                                                                        Effects of tapering on performance in endurance athletes
+
+
+
+
+                                           Formal analysis: Zhiqiang Wang.
+                                           Funding acquisition: Yaping Zhong.
+                                           Methodology: Yong “Tai” Wang, Weifeng Gao, Yaping Zhong.
+                                           Writing – original draft: Zhiqiang Wang.
+                                           Writing – review & editing: Zhiqiang Wang, Yaping Zhong.
+
+
+
+                                           References
+                                            1.   Mujika I, Padilla S. Scientific bases for precompetition tapering strategies. Med Sci Sports Exerc. 2003;
+                                                 35(7):1182–7. https://doi.org/10.1249/01.MSS.0000074448.73931.11 PMID: 12840640
+                                            2.   Busso T, Benoit H, Bonnefoy R, Feasson L, Lacour JR. Effects of training frequency on the dynamics of
+                                                 performance response to a single training bout. J Appl Physiol. 2002; 92(2):572–80. https://doi.org/10.
+                                                 1152/japplphysiol.00429.2001 PMID: 11796666
+                                            3.   Morton RH, Fitz-Clarke JR, Banister EW. Modeling human performance in running. J Appl Physiol.
+                                                 1990; 69(3):1171–7. https://doi.org/10.1152/jappl.1990.69.3.1171 PMID: 2246166
+                                            4.   Mujika I, Padilla S, Pyne D, Busso T. Physiological changes associated with the pre-event taper in ath-
+                                                 letes. Sports Med. 2004; 34(13): 891–927. https://doi.org/10.2165/00007256-200434130-00003 PMID:
+                                                 15487904.
+                                            5.   Banister EW, Calvert TW, Savage MV, Bach TM. A systems model of training for athletic performance.
+                                                 Aust J Sports Med. 1975; 7: 57–61.
+                                            6.   Costill DL, King DS, Thomas R, Hargreaves M. Effects of reduced training on muscular power in swim-
+                                                 mers. Phys Sportsmed. 1985; 13(2): 94–101. https://doi.org/10.1080/00913847.1985.11708748 PMID:
+                                                 27421325.
+                                            7.   Trinity JD, Pahnke MD, Reese EC, Coyle EF. Maximal mechanical power during a taper in elite swim-
+                                                 mers. Med Sci Sports Exerc. 2006; 38(9):1643–9. https://doi.org/10.1249/01.mss.0000229104.39145.
+                                                 6b PMID: 16960526
+                                            8.   Santhiago V, Da Silva AS, Papoti M, Gobatto CA. Effects of 14-week swimming training program on the
+                                                 psychological, hormonal, and physiological parameters of elite women athletes. J Strength Cond Res.
+                                                 2011; 25(3):825–32. https://doi.org/10.1519/JSC.0b013e3181c69996 PMID: 20571443.
+                                            9.   Feng WP, Hong P, Feng L SI, Zong PF. Biochemistry characters and function assessment of our elite
+                                                 swimmers pre-competition training. CHN Sport Sci. 2004;(07):19–21.
+                                           10.   Neary JP, Bhambhani YN, McKenzie DC. Effects of different stepwise reduction taper protocols on
+                                                 cycling performance. Can J Appl Physiol. 2003; 28(4):576–87. https://doi.org/10.1139/h03-044 PMID:
+                                                 12904635.
+                                           11.   Farhangimaleki N, Zehsaz F, Tiidus PM. The effect of tapering period on plasma pro-inflammatory cyto-
+                                                 kine levels and performance in elite male cyclists. J Sports Sci Med. 2009; 8(4):600–6. PMID:
+                                                 24149602.
+                                           12.   Shao W, Li BY. The features of long-distance runner’ physical function in eight weeks pre-event training
+                                                 of major competition. CHN J Appl Physiol. 2015; 31(03):229–30+37. PMID: 26387183
+                                           13.   Skovgaard C, Almquist NW, Kvorning T, Christensen PM, Bangsbo J. Effect of tapering after a period of
+                                                 high-volume sprint interval training on running performance and muscular adaptations in moderately
+                                                 trained runners. J Appl Physiol. 2018; 124(2):259–67. https://doi.org/10.1152/japplphysiol.00472.2017
+                                                 PMID: 28935825.
+                                           14.   Luden N, Hayes E, Galpin A, Minchev K, Jemiolo B, Raue U, et al. Myocellular basis for tapering in com-
+                                                 petitive distance runners. J Appl Physiol 2010; 108(6):1501–9. https://doi.org/10.1152/japplphysiol.
+                                                 00045.2010 PMID: 20299622
+                                           15.   Houmard JA, Costill DL, Mitchell JB, Park SH, Hickner RC, Roemmich JN. Reduced training maintains
+                                                 performance in distance runners. Int J Sports Med. 1990; 11(1):46–52. https://doi.org/10.1055/s-2007-
+                                                 1024761 PMID: 2318562.
+                                           16.   Neary JP, Martin TP, Quinney HA. Effects of taper on endurance cycling capacity and single muscle
+                                                 fiber properties. Med Sci Sports Exerc. 2003; 35(11):1875–81. SPHS-921345. https://doi.org/10.1249/
+                                                 01.MSS.0000093617.28237.20 PMID: 14600553
+                                           17.   Neary JP, McKenzie DC, Bhambhani YN. Muscle oxygenation trends after tapering in trained cyclists.
+                                                 Dyn Med. 2005; 4(1):4–13. https://doi.org/10.1186/1476-5918-4-4 PMID: 15790400
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                               16 / 20
+PLOS ONE                                                                                         Effects of tapering on performance in endurance athletes
+
+
+
+                                           18.   Chen X P,Liang S l, Li L. Contemporary focal issues in sports training theory and related inspiration for
+                                                 chinese training practice—comment on international training theory and practice innovative forum in
+                                                 2011 hangzhou. CHN Sport Sci. 2012; 32(02):3–13.
+                                           19.   Jafer AA, Mondal S, Abdulkedir M, Mativananan D. Effect of two tapering strategies on endurance-
+                                                 related physiological markers in athletes from selected training centres of Ethiopia. BMJ Open Sport
+                                                 Exerc. 2019; 5(1):e000509. https://doi.org/10.1136/bmjsem-2019-000509 PMID: 31191966.
+                                           20.   Auersperger I, Skof B, Leskosek B, Knap B, Jerin A, Lainscak M, et al. Biochemical, hormonal and psy-
+                                                 chological monitoring of eight weeks endurance running training program in female runners. Kinesiol-
+                                                 ogy. 2014; 46:30–9.
+                                           21.   Coutts AJ, Slattery KM, Wallace LK. Practical tests for monitoring performance, fatigue and recovery in
+                                                 triathletes. J Sci Med Sport. 2007; 10(6):372–81. https://doi.org/10.1016/j.jsams.2007.02.007 PMID:
+                                                 17466593.
+                                           22.   Henderson Z. Peaking and tapering in endurance athletes: a review. The Post. 2016; 1:1–29.
+                                           23.   Coutts AJ, Reaburn P, Piva TJ, Murphy A. Changes in selected biochemical, muscular strength, power,
+                                                 and endurance measures during deliberate overreaching and tapering in rugby league players. Int J
+                                                 Sports Med. 2007; 28(2):116–24. https://doi.org/10.1055/s-2006-924145 PMID: 16835824.
+                                           24.   Mujika I, Busso T, Lacoste L, Barale F, Geyssant A, Chatard JC. Modeled responses to training and
+                                                 taper in competitive swimmers. Med Sci Sports Exerc. 1996; 28(2):251–8. https://doi.org/10.1097/
+                                                 00005768-199602000-00015 PMID: 8775162
+                                           25.   Veli AJ. Effectiveness of tapering for competition: a brief review. J Aust Strength Cond. 2017; 25(1):61–
+                                                 6.
+                                           26.   Banister EW, Carter JB, Zarkadas PC. Training theory and taper: validation in triathlon athletes. Eur J
+                                                 Appl Physiol Occup Physiol. 1999; 79(2):182–91. https://doi.org/10.1007/s004210050493 PMID:
+                                                 10029340
+                                           27.   Bosquet L, Montpetit J, Arvisais D, Mujika I. Effects of tapering on performance: a meta-analysis. Med
+                                                 Sci Sports Exerc. 2007; 39(8):1358–65. https://doi.org/10.1249/mss.0b013e31806010e0 PMID:
+                                                 17762369
+                                           28.   Spilsbury KL, Fudge BW, Ingham SA, Faulkner SH, Nimmo MA. Tapering strategies in elite British
+                                                 endurance runners. Eur J Sport Sci. 2015; 15(5):367–73. https://doi.org/10.1080/17461391.2014.
+                                                 955128 PMID: 25189116
+                                           29.   Spilsbury KL, Nimmo MA, Fudge BW, Pringle JSM, Orme MW, Faulkner SH. Effects of an increase in
+                                                 intensity during tapering on 1500-m running performance. Appl Physiol Nutr Metab. 2019; 44(7):783–
+                                                 90. https://doi.org/10.1139/apnm-2018-0551 PMID: 30608885
+                                           30.   Le Meur Y, Hausswirth C, Mujika I. Tapering for competition: A review. Sci Sports. 2012; 27(2):77–87.
+                                                 https://doi.org/10.1016/j.scispo.2011.06.013
+                                           31.   Fortes LS, Costa BDV, Paes ST, Perez AJ, Diefenthaeler F. Effect of during of tapering on anaerobic
+                                                 power and capacity in road cyclists. Sci Sports. 2020. https://doi.org/10.1016/j.scispo.2019.10.009
+                                           32.   Grivas G. The effects of tapering on performance in elite endurance runners: a systematic review. Int J
+                                                 Sports Sci. 2018; 8(1):8–13. https://doi.org/10.5923/j.sports.20180801.02
+                                           33.   Amann M, Hopkins WG, Marcora SM. Similar sensitivity of time to exhaustion and time-trial time to
+                                                 changes in endurance. Med Sci Sports Exerc. 2008; 40(3):574–8. https://doi.org/10.1249/MSS.
+                                                 0b013e31815e728f PMID: 18379223.
+                                           34.   Lucia A, Olivan J, Bravo J, Gonzalez-Freire M, Foster C. The key to top-level endurance running perfor-
+                                                 mance: a unique example. Br J Sports Med. 2008; 42(3):172–4. https://doi.org/10.1136/bjsm.2007.
+                                                 040725 PMID: 18048445.
+                                           35.   Alghannam AF, Jedrzejewski D, Tweddle M, Gribble H, Bilzon JL, Betts JA. Reliability of time to exhaus-
+                                                 tion treadmill running as a measure of human endurance capacity. Int J Sports Med. 2016; 37(3):219–
+                                                 23. https://doi.org/10.1055/s-0035-1555928 PMID: 26669250.
+                                           36.   Russell RD, Redmann SM, Ravussin E, Hunter GR, Larson-Meyer DE. Reproducibility of endurance
+                                                 performance on a treadmill using a preloaded time trial. Med Sci Sports Exerc. 2004; 36(4):717–24.
+                                                 https://doi.org/10.1249/01.mss.0000121954.95892.c8 PMID: 15064600.
+                                           37.   Laursen PB, Francis GT, Abbiss CR, Newton MJ, Nosaka K. Reliability of time-to-exhaustion versus
+                                                 time-trial running tests in runners. Med Sci Sports Exerc. 2007; 39(8):1374–9. https://doi.org/10.1249/
+                                                 mss.0b013e31806010f5 PMID: 17762371.
+                                           38.   Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. J Physiol. 2008;
+                                                 586(1):35–44. https://doi.org/10.1113/jphysiol.2007.143834 PMID: 17901124
+                                           39.   Currell K, Jeukendrup AE. Validity, reliability and sensitivity of measures of sporting performance.
+                                                 Sports Med. 2008; 38(4):297–316. https://doi.org/10.2165/00007256-200838040-00003 PMID:
+                                                 18348590
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                17 / 20
+PLOS ONE                                                                                        Effects of tapering on performance in endurance athletes
+
+
+
+                                           40.   Foster C. VO2 max and training indices as determinants of competitive running performance. J Sports
+                                                 Sci. 1983; 1(1):13–22. https://doi.org/10.1080/02640418308729657
+                                           41.   Beltz NM, Gibson AL, Janot JM, Kravitz L, Mermier CM, Dalleck LC. Graded exercise testing protocols
+                                                 for the determination of vo2max: historical perspectives, progress, and future considerations. J Sports
+                                                 Med. 2016; 2016:3968393. https://doi.org/10.1155/2016/3968393 PMID: 28116349
+                                           42.   Moher D, Liberati A, Tetzlaff J, Altman DG. Preferred reporting items for systematic reviews and meta-
+                                                 analyses: the PRISMA statement. PLoS Med. 2009;6. https://doi.org/10.1136/bmj.b2535 PMID:
+                                                 19622551
+                                           43.   Denadai BS, de Aguiar RA, de Lima LC, Greco CC, Caputo F. Explosive training and heavy weight
+                                                 training are effective for improving running economy in endurance athletes: a systematic review and
+                                                 meta-analysis. Sports Med. 2017; 47(3):545–54. https://doi.org/10.1007/s40279-016-0604-z PMID:
+                                                 27497600.
+                                           44.   Albracht K, Arampatzis A. Exercise-induced changes in triceps surae tendon stiffness and muscle
+                                                 strength affect running economy in humans. Eur J Appl Physiol. 2013; 113(6):1605–15. https://doi.org/
+                                                 10.1007/s00421-012-2585-4 PMID: 23328797.
+                                           45.   Piacentini MF, De Ioannon G, Comotto S, Spedicato A, Vernillo G, La Torre A. Concurrent strength and
+                                                 endurance training effects on running economy in master endurance runners. J Strength Cond Res.
+                                                 2013; 27(8):2295–303. Epub 2012/12/05. https://doi.org/10.1519/JSC.0b013e3182794485 PMID:
+                                                 23207882
+                                           46.   Mujika I, Goya A, Padilla S, Grijalba A, Gorostiaga E, Ibañez J. Physiological responses to a 6-d taper
+                                                 in middle-distance runners: influence of training intensity and volume. Med Sci Sports Exerc 2000; 32
+                                                 (2): 511–7. https://doi.org/10.1097/00005768-200002000-00038 PMID: 10694140
+                                           47.   Shepley B, MacDougall JD, Cipriano N, Sutton JR, Tarnopolsky MA, Coates G. Physiological effects of
+                                                 tapering in highly trained athletes. J Appl Physiol (1985). 1992; 72(2):706–11. https://doi.org/10.1152/
+                                                 jappl.1992.72.2.706 PMID: 1559951
+                                           48.   Behm DG, Alizadeh S, Anvar SH, Drury B, Granacher U, Moran J. Non-local acute passive stretching
+                                                 effects on range of motion in healthy adults: a systematic review with meta-analysis. Sports Med. 2021;
+                                                 51(5):945–59. https://doi.org/10.1007/s40279-020-01422-5 PMID: 33459990.
+                                           49.   Vachon A, Berryman N, Mujika I, Paquet JB, Arvisais D, Bosquet L. Effects of tapering on neuromuscu-
+                                                 lar and metabolic fitness in team sports: a systematic review and meta-analysis. Eur J Sport Sci. 2021;
+                                                 21(3):300–11. https://doi.org/10.1080/17461391.2020.1736183 PMID: 32172680.
+                                           50.   Maher CG, Sherrington C, Herbert RD, Moseley AM, Elkins M. Reliability of the PEDro scale for rating
+                                                 quality of randomized controlled trials. Phys Ther. 2003; 83(8):713–21. https://doi.org/10.1093/ptj/83.8.
+                                                 713 PMID: 12882612.
+                                           51.   DE Morton NA. The PEDro scale is a valid measure of the methodological quality of clinical trials: a
+                                                 demographic study. Aust J Physiother. 2009; 55(2):129–33. https://doi.org/10.1016/s0004-9514(09)
+                                                 70043-1 PMID: 19463084
+                                           52.   Alcaraz PE, Carlos-Vivas J, Oponjuru BO, Martinez-Rodriguez A. The effectiveness of resisted sled
+                                                 training (rst) for sprint performance: A systematic review and meta-analysis. Sports Med. 2018; 48
+                                                 (9):2143–65. https://doi.org/10.1007/s40279-018-0947-8 PMID: 29926369.
+                                           53.   Rosenblat MA, Lin E, da Costa BR, Thomas SG. Programming interval training to optimize time-trial
+                                                 performance: a systematic review and meta-analysis. Sports Med. 2021; 51(8):1687–1714. https://doi.
+                                                 org/10.1007/s40279-021-01457-2 PMID: 33826121
+                                           54.   Dutaillis B, Maniar N, Opar DA, Hickey JT, Timmins RG. Lower limb muscle size after anterior cruciate
+                                                 ligament injury: a systematic review and meta-analysis. Sports Med. 2021; 51(6):1209–26. https://doi.
+                                                 org/10.1007/s40279-020-01419-0 PMID: 33492623
+                                           55.   McConell GK, Costill DL, Widrick JJ, Hickey MS, Tanaka H, Gastin PB. Reduced training volume and
+                                                 intensity maintain aerobic capacity but not performance in distance runners. Int J Sports Med. 1993; 14
+                                                 (1):33–7. https://doi.org/10.1055/s-2007-1021142 PMID: 8440543
+                                           56.   Houmard JA, Scott BK, Justice CL, Chenier TC. The effects of taper on performance in distance run-
+                                                 ners. Med Sci Sports Exerc. 1994; 26(5): 624–31. PMID: 8007812.
+                                           57.   Child RB, Wilkinson DM, Fallowfield JL. Effects of a training taper on tissue damage indices, serum anti-
+                                                 oxidant capacity and half-marathon running performance. Int J Sports Med, 2000; 21(5): 325–31.
+                                                 https://doi.org/10.1055/s-2000-3778 PMID: 10950440
+                                           58.   Mujika I, Goya A, Ruiz E, Grijalba A, Santisteban J, Padilla S. Physiological and performance responses
+                                                 to a 6-day taper in middle-distance runners: influence of training frequency. Int J Sports Med. 2002; 23
+                                                 (5):367–73. https://doi.org/10.1055/s-2002-33146 PMID: 12165889
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                               18 / 20
+PLOS ONE                                                                                         Effects of tapering on performance in endurance athletes
+
+
+
+                                           59.   Ishak A, Hashim HA, Krasilshchikov O. The effects of modified exponential tapering technique on per-
+                                                 ceived exertion, heart rate, time trial performance, VO2max and power output among highly trained
+                                                 junior cyclists. J Sports Med Phys Fitness. 2016; 56(9):961–7. PMID: 26004044.
+                                           60.   Spilsbury KL, Fudge BW, Nimmo MA, Faulkner SH. Lower volume throughout the taper and higher
+                                                 intensity in the last interval session prior to a 1500 m time trial improves performance. Appl Physiol Nutr
+                                                 Metab. 2021; 46(11): 1345–1353. https://doi.org/10.1139/apnm-2021-0103 PMID: 34062089
+                                           61.   Higgins JP, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ.
+                                                 2003; 327(7414):557–60. https://doi.org/10.1136/bmj.327.7414.557 PMID: 12958120.
+                                           62.   Hopkins WG, Marshall SW, Batterham AM, Hanin J. Progressive statistics for studies in sports medicine
+                                                 and exercise science. Med Sci Sports Exerc. 2009; 41(1):3–13. https://doi.org/10.1249/MSS.
+                                                 0b013e31818cb278 PMID: 19092709.
+                                           63.   Higgins JP GS. Cochrane handbook for systematic reviews of interventions. New York: Wiley; 2011.
+                                           64.   Solli GS, Tønnessen E, Sandbakk Ø. The training characteristics of the world’s most successful female
+                                                 cross-country skier. front physiol. 2017; 8:1069. https://doi.org/10.3389/fphys.2017.01069 PMID:
+                                                 29326603
+                                           65.   Rietjens GJ, Keizer HA, Kuipers H, Saris WH. A reduction in training volume and intensity for 21 days
+                                                 does not impair performance in cyclists. Br J Sports Med, 2001; 35(6): 431–434. https://doi.org/10.
+                                                 1136/bjsm.35.6.431 PMID: 11726481
+                                           66.   Costa P, Simão R, Perez A, Gama M, Lanchtermacher R, Musialowski R, et al. A randomized controlled
+                                                 trial investigating the effects of undulatory, staggered, and linear load manipulations in aerobic training
+                                                 on oxygen supply, muscle injury, and metabolism in male recreational runners. Sports Med Open.
+                                                 2019; 5(1):1–20. https://doi.org/10.1186/s40798-019-0200-5 PMID: 31332593
+                                           67.   Zehsaz F, Azarbaijani M A, Farhangimaleki N, Tiidus P. Effect of tapering period on plasma hormone
+                                                 concentrations, mood state, and performance of elite male cyclists. Eur J Sport Sci, 2011; 11(3): 183–
+                                                 190. https://doi.org/10.1080/17461391.2010.499976
+                                           68.   Granata C, Oliveira RS, Little JP, Renner K, Bishop DJ. Mitochondrial adaptations to high-volume exer-
+                                                 cise training are rapidly reversed after a reduction in training volume in human skeletal muscle. FASEB
+                                                 J. 2016; 30(10):3413–3423. https://doi.org/10.1096/fj.201500100R PMID: 27402675
+                                           69.   Thomas L, Busso T. A theoretical study of taper characteristics to optimize performance. Med Sci
+                                                 Sports Exerc. 2005; 37(9):1615–21. https://doi.org/10.1249/01.mss.0000177461.94156.4b PMID:
+                                                 16177616.
+                                           70.   Chen L, Li R;Liu C, Tian M J. Change features of training load in tapering period of elite individual event
+                                                 athletes. J Tianjin Univ Sport. 2017; 32(01):8–15.
+                                           71.   Hellard P, Scordia C, Avalos M, Mujika I, Pyne DB. Modelling of optimal training load patterns during the
+                                                 11 weeks preceding major competition in elite swimmers. Appl Physiol Nutr Metab. 2017; 42(10):1106–
+                                                 17. https://doi.org/10.1139/apnm-2017-0180 PMID: 28651061
+                                           72.   Le Meur Y, Louis J, Aubry A, Guéneron J, Pichon A, Schaal K, et al. Maximal exercise limitation in func-
+                                                 tionally overreached triathletes: role of cardiac adrenergic stimulation. J Appl Physiol. 2014; 117
+                                                 (3):214–22. https://doi.org/10.1152/japplphysiol.00191.2014 PMID: 24925979
+                                           73.   Stellingwerf T. Case study: Nutrition and training periodization in three elite marathon runners. Int J
+                                                 Sport Nutr Exerc Metab. 2012; 22(5):392–400. https://doi.org/10.1123/ijsnem.22.5.392 PMID:
+                                                 23011657.
+                                           74.   Hu G P, Zheng Y, Meng Y, Feng G, Feng W. The comparative study of high-intensity interval training
+                                                 and moderate-intensity continuous training on the oxygen uptake kinetics. CHN Sport Sci. 2017; 37
+                                                 (03):58–67.
+                                           75.   Mujika I. Intense training: the key to optimal performance before and during the taper. Scand J Med Sci
+                                                 Sports. 2010; 20(suppl.2): 24–31. https://doi.org/10.1111/j.1600-0838.2010.01189.x PMID: 20840559
+                                           76.   Tonnessen E, Sylta O, Haugen TA, Hem E, Svendsen IS, Seiler S. The road to gold: training and peak-
+                                                 ing characteristics in the year prior to a gold medal endurance performance. PLoS One. 2014; 9(7):
+                                                 e101796. https://doi.org/10.1371/journal.pone.0101796 PMID: 25019608.
+                                           77.   Ishak A, Hashim HA, Krasilshchikov O. The effects of modified and normal taper on mood states, corti-
+                                                 sol level and 20km time trial performance among elite junior cyclist. Int J Pharma Bio Sci. 2018; 9
+                                                 (1):88–95. https://doi.org/10.22376/ijpbs.2018.9.1.b88-95
+                                           78.   Mujika I, Chatard JC, Busso T, Geyssant A, Barale F, Lacoste L. Effects of training on performance in
+                                                 competitive swimming. Can J Appl Physiol. 1995; 20(4):395–406. https://doi.org/10.1139/h95-031
+                                                 PMID: 8563672
+                                           79.   Li Q, Jiang Z L. Study on training loads of elite sprinter zhang pei-meng in preparation. CHN Sport Sci.
+                                                 2017; 37(12):69–77.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                                  19 / 20
+PLOS ONE                                                                                        Effects of tapering on performance in endurance athletes
+
+
+
+                                           80.   BU J H. Research development of tapering mechanism and application. J Wuhan Inst Phys Educ.
+                                                 2013; 47(09):73–7+100.
+                                           81.   Wilson JM, Wilson GJ. A practical approach to the taper. Strength and Cond J. 2008; 30(2):10–7.
+                                                 https://doi.org/10.1519/SSC.0b013e3181636dd5
+                                           82.   McNeely E, Sandler D. Tapering for endurance athletes. J Strength Cond 2007; 29(5):18–24.
+                                           83.   Skorski S, Hammes D, Schwindling S, Veith S, Pfeiffer M, Ferrauti A, et al. Effects of training-induced
+                                                 fatigue on pacing patterns in 40-km cycling time trials. Med Sci Sports Exerc. 2015; 47(3):593–600.
+                                                 https://doi.org/10.1249/MSS.0000000000000439 PMID: 25003772
+                                           84.   Fortes L S, Mendonça L C V, Paes P P, Vianna J M, Diefenthaeler F. Can power and anaerobic capacity
+                                                 reduce according to disordered eating behaviors in cyclists? Motriz: Revista de Educação Fı́sica. 2017;
+                                                 23: 60–64. https://doi.org/10.1590/s1980-6574201700010009
+                                           85.   Mujika I, Padilla S, Pyne D. Swimming performance changes during the final 3 weeks of training leading
+                                                 to the Sydney 2000 Olympic Games. Int J Sports Med. 2002; 23(8):582–7. https://doi.org/10.1055/s-
+                                                 2002-35526 PMID: 12439774
+                                           86.   Neary JP, Martin TP, Reid DC, Burnham R, Quinney HA. The effects of a reduced exercise duration
+                                                 taper programme on performance and muscle enzymes of endurance cyclists. Eur J Appl Physiol
+                                                 Occup Physiol. 1992; 65(1):30–6. https://doi.org/10.1007/BF01466271 PMID: 1505537
+                                           87.   Pyne DB, Mujika I, Reilly T. Peaking for optimal performance: Research limitations and future direc-
+                                                 tions. J Sports Sci. 2009; 27(3):195–202. https://doi.org/10.1080/02640410802509136 PMID:
+                                                 19153861.
+                                           88.   Johns RA, Houmard JA, Kobe RW, Hortobágyi T, Bruno NJ, Wells JM, et al. Effects of taper on swim
+                                                 power, stroke distance, and performance. Med Sci Sports Exerc. 1992; 24(10):1141–6. PMID:
+                                                 1435162.
+                                           89.   Thomas L, Mujika I, Busso T. A model study of optimal training reduction during pre-event taper in elite
+                                                 swimmers. J Sports Sci. 2008; 26(6):643–52. https://doi.org/10.1080/02640410701716782 PMID:
+                                                 18344135
+                                           90.   Bompa TO, Buzzichelli C. Periodization: theory and methodology of training.5st ed. Human kinetics;
+                                                 2019.
+                                           91.   Mujika I. Tapering and peaking for optimal performance. Champaign IL: Human Kinertics Publishers;
+                                                 2009. p.40–45.
+                                           92.   Osman H, Essa A. Effect of linear and exponential taper for two weeks on iron level and 1500m running
+                                                 time for youth. "Ovidius" Univ Ann Ser Phys Educ Sport Sci, Mov Health. 2014; 14(1):60–5.
+
+
+
+
+PLOS ONE | https://doi.org/10.1371/journal.pone.0282838 May 10, 2023                                                                               20 / 20
+

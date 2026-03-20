@@ -1,0 +1,1156 @@
+Tiemeier et al. Sports Medicine - Open  (2024) 10:48                                                                                             Sports Medicine - Open
+https://doi.org/10.1186/s40798-024-00715-7
+
+
+
+
+ REVIEW ARTICLE                                                                                                                                                      Open Access
+
+
+Ultra-Cycling– Past, Present, Future: A
+Narrative Review
+Lucas Tiemeier1, Pantelis T. Nikolaidis2, Daniela Chlíbková3, Matthias Wilhelm1, Mabliny Thuany4, Katja Weiss5 and
+Beat Knechtle5,6*
+
+
+  Abstract
+  Background Ultra-endurance events are gaining popularity in multiple exercise disciplines, including cycling. With
+  increasing numbers of ultra-cycling events, aspects influencing participation and performance are of interest to the
+  cycling community.
+  Main body The aim of this narrative review was, therefore, to assess the types of races offered, the characteristics of
+  the cyclists, the fluid and energy balance during the race, the body mass changes after the race, and the parameters
+  that may enhance performance based on existing literature. A literature search was conducted in PubMed, Scopus,
+  and Google Scholar using the search terms ‘ultracycling’, ‘ultra cycling’, ‘ultra-cycling’, ‘ultra-endurance biking’, ‘ultra-
+  bikers’ and ‘prolonged cycling’. The search yielded 948 results, of which 111 were relevant for this review. The studies
+  were classified according to their research focus and the results were summarized. The results demonstrated changes
+  in physiological parameters, immunological and oxidative processes, as well as in fluid and energy balance. While the
+  individual race with the most published studies was the Race Across America, most races were conducted in Europe,
+  and a trend for an increase in European participants in international races was observed. Performance seems to be
+  affected by characteristics such as age and sex but not by anthropometric parameters such as skin fold thickness. The
+  optimum age for the top performance was around 40 years. Most participants in ultra-cycling events were male, but
+  the number of female athletes has been increasing over the past years. Female athletes are understudied due to their
+  later entry and less prominent participation in ultra-cycling races. A post-race energy deficit after ultra-cycling events
+  was observed.
+
+
+                                                                                                 Background
+In Table 4 (see pdf ), please move the subheading'Psychological                                  Ultra-endurance competitions are specific events extend-
+aspects and sleep' down a row so that it is not an'orphan' at                                    ing over an exceptionally long distance and time. They
+the bottom of the page and is instead situated on the first                                      are defined as distances longer than the classical mara-
+row of the second page of the table. Please also note that the
+subheading'Physiological function' has been incorrectly inserted                                 thon and longer than 6 h in duration [1]. Ultra-endurance
+in the row after'Psychological aspects and sleep'. Please delete                                 events exist for different athletic disciplines, including
+the'Physiological function' heading here and the empty row that                                  running, cycling, and swimming [2]. Considering the
+remains following its deletion.
+                                                                                                 duration of these events and the demanding preparation
+Please make the heading'Sex as a Factor in Performance' the same
+                                                                                                 of athletes, ultra-endurance imposes extreme stress on
+level/order of heading as the headings before and after it in the text
+                                                                                                 the human body, which justifies the scientific interest in
+*Correspondence:
+Beat Knechtle
+                                                                                                 this topic.
+beat.knechtle@hispeed.ch                                                                           Ultra-running events are defined as any race longer
+Full list of author information is available at the end of the article                           than a marathon of 42.195 km for distance-limited events
+
+
+                                             © The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+                                             sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+                                             the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+                                             article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+                                             in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+                                             need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                           Page 2 of 18
+
+
+
+
+ Conclusion Future studies need to investigate the causes for the observed optimum race age around 40 years of age
+ as well as the optimum nutritional supply to close the observed energy gap under consideration of the individual race
+ lengths and conditions. Another research gap to be filled by future studies is the development of strategies to tackle
+ inflammatory processes during the race that may persist in the post-race period.
+ Key Points
+ • The optimal ultra-cycling race age is around 40 years.
+ • Performance-related factors were the most investigated topic of ultra-cycling studies.
+ • There is a lack of information about strategies to tackle inflammatory processes during ultra-cycling events.
+ Keywords ultra-cycling, Race across America, Endurance, Performance
+
+
+
+and more than six hours for time-limited events [1] and        self-supported bicycle race held in Europe is the Trans-
+ultra-triathlons as any race longer than the Ironman-          continental race, in which 4,000 km need to be covered
+distance triathlon (3.8 km swimming, 180 km cycling and        (https://www.transcontinental.cc/about). Nowadays, the
+41.195 km running). In contrast, there is no compara-          Silk Mountain Bike Race is considered the world’s hard-
+tively precise definition of ultra-cycling. The Worldwide      est mountain bike race, an unsupported race in the Kyr-
+Ultracycling Association (WUCA) defines time-limited           gyzstan mountains with a length of 1,155 miles (www.
+cycling races as those encompassing a challenge of at          silkmountainrace.com). The toughest winter races in the
+least six hours duration [1–3], while distance-limited         world are the Iditarod Trail Invitational race which takes
+events must stretch over at least 125 miles (200 km)           part in Alaska where the participants travel along the
+and be completed in a single effort to be considered as        historic Iditarod Trail on bicycle, foot, or skis (https://
+an ultra-competition [3]. Thus, the definition of ultra-       itialaska.com/iti-350) and the Arctic Circle Winter races
+cycling is similar to that of ultra-running for time-limited   in the fatbike category in the Finnish Lapland (http://
+events, whereas it differs for distance-limited events due     www.arcticraces.com). The world’s toughest mountain
+to the faster nature of cycling compared to running.           bike races are La Ruta de los Conquistadores in Costa
+   Such ultra-endurance events have gained increasing          Rica with 29,000 feet of climbing over five mountain
+popularity during the past 25 years due to the rise of         ranges and a 12,000-foot volcano (http://www.racelaruta.
+master athletes [4] and the participation of female ath-       com) and the Trans Pyr in Spain involves eight days, 509
+letes [2, 5]. Nowadays, ultra-cycling competitions are         miles and over 66,601 feet of climbing (www.transpyr.
+offered around the globe in varying time and distance          com). Another mountain bike off-road ultra-cycling
+formats [6]. Moreover, due to geographical differences         event is the Cape Epic mountain bike race, which entails
+between the countries in which such races take place,          a 16,650 m elevation gain and 624 km. In comparison,
+the elevation and distances above sea level vary as well       the road race RAAM includes the longest elevation gain
+[6]. Possibly the most famous road ultra-cycling event at      with a 53,000 m climb along its course [8]. Among the
+the moment is the Paris-Brest-Paris race [7]. The ‘Race        world’s toughest mountain bike events, we can also list
+Across America’ (RAAM) in the United States is cur-            the Crocodile Trophy in Australia (eight days, 404 miles
+rently the longest non-stop road ultra-cycling event [8].      and 13,000 m of elevation), the Yak Attack in the Himala-
+It stretches over 4,800 km and has been taking place for       yas (10 stages, 310 miles and 15,000 m of elevation), the
+over 40 years [9, 10]. The Death Ride in the United States     Iron Bike in Italy (seven stages, 435 miles, 22,000 m of
+is a 103 miles long road race with 14,000 feet of eleva-       overall climb) or the Tour d’Africa (90 stages, 7,450 miles,
+tion (www.deathride.com) and ranks among the toughest          71,564 m of overall climb).
+races in the world. The Transcontinental Race self-sup-           Due to the increasing interest in participation in ultra-
+ported ride across Europe with a distance of roughly           cycling races, numerous studies have been published in
+4,000 km, the Dragon Devil in Wales (320 km, almost            recent years addressing various aspects of such races,
+5,000 m of climbing), the Dirty Kanza XL (563 km,              including the geographical differences between races,
+4,500 m of elevation in Kansas), and the Mallorca 312          anthropometric characteristics of ultra-cycling partici-
+(312 km, 5,050 m elevation) are also considered as some        pants, age- and sex-related differences between cyclists
+of the most challenging ultra-distance cycling races on        [2, 11] and methods to describe heart rate, exercise inten-
+the planet (www.redbull.com/mea-en/worlds-tough-               sity and pacing [12–18]. In addition, research has been
+est-endurance-cycling-events). The Great Divide (Tour          conducted on nutritional considerations [19–21], water
+Divide) is a mountain bike self-supported non-stop race        and electrolyte disturbances during a race and rehydra-
+with a 4,418 km distance from Canada to Mexico, the            tion [20, 22, 23], hematological and biochemical param-
+longest mountain bike race in the world. A non-stop and        eters [22, 24, 25], factors impacting on the performance
+Tiemeier et al. Sports Medicine - Open        (2024) 10:48                                                                   Page 3 of 18
+
+
+
+
+(e.g., training status, fatigue and psychological parame-                     Using this search strategy, 948 studies were identified,
+ters) [19, 26], and immunological and hormonal changes,                    with 93 results in PubMed, 21 results in Scopus, 101
+in such a race [27, 28]..                                                  studies in SPORTDiscus, and 733 in Google Scholar. In
+                                                                           Google Scholar, the search term ‘ultra-endurance cycling’
+Main Text                                                                  yielded no results, while ‘prolonged cycling’ yielded
+Aim                                                                        15,900 results and was therefore deemed too unspecific
+To date, there is no comprehensive literature review                       and omitted from the Google Scholar search. Ten of the
+available on this topic summarizing the findings of such                   21 studies identified in Scopus were duplicates of stud-
+studies on ultra-cycling. Therefore, the aim of the present                ies that had been already identified in PubMed. All 97
+narrative review was to provide an overview of the avail-                  studies identified in PubMed and all 21 studies identi-
+able data and summarize the available information on                       fied in Scopus were also identified using Google Scholar.
+ultra-cycling events and the participating cyclists. Topics                All studies identified in SPORTDiscus had already been
+of interest were geographic aspects of ultra-cycling races,                identified in PubMed and GoogleScholar. Two of the
+characteristics of ultra-cyclists, age and sex differences,                studies found in Scopus were excluded, because one was
+nutrition, fluid balance, body mass loss, and performance                  not available in either English or German, and the other
+enhancement. The information provided can be useful                        was entirely off-topic.
+for athletes and coaches to better delineate training strat-
+egies for ultra-cycling events.                                            Study Eligibility
+                                                                           In addition to relevant studies listed in these databases,
+Methods                                                                    an online search was conducted for ultra-cycling events
+Database and search strategy A literature search was con-                  and road races around the world that meet the WUCA
+ducted in three databases: Scopus (https://www.scopus.                     definition of ultra-cycling but may not have been identi-
+com/home.uri), PubMed (https://pubmed.ncbi.nlm.nih.                        fied in the scholarly databases. Studies published in Eng-
+gov/), SPORTDiscus (https://www.ebsco.com/products/                        lish or German were considered. Studies focusing on a
+research-databases/sportdiscus), and Google Scholar                        topic other than ultra-cycling were excluded, as were
+(https://scholar.google.com/). The search terms used                       studies published in other languages. Studies reporting
+were ‘ultracycling’, ‘ultra cycling’, ‘ultra-cycling’, ‘ultra-             on triathlons, which typically entail a cycling distance of
+endurance biking’, ‘ultra-bikers’ and ‘prolonged cycling’                  40 km (standard triathlon) or 180 km (Ironman), were
+and the search was conducted on December 31st, 2022.                       excluded, but ultra-triathlons covering a cycling distance
+                                                                           of > 200 km in a single event were included, as these races
+                                                                           qualify as an ultra-cycling event according to the WUCA
+Table 1 Studies identified in PubMed and Scopus categorized                definition.
+by area of interest                                                           Following the literature search, the relevant studies
+Topic of interest                        Number of     References          identified in the three databases were categorized based
+                                         studies                           on their research focus according to the main topics
+Geography/location                       12            [9, 29–39]          of interest of the present narrative review: geographic
+Characteristics of ultra-cyclists        25            [2, 4, 9, 28, 33,   aspects of ultra-cycling races, characteristics of ultra-
+                                                       40–57]              cyclists, age- and sex-differences, nutrition, fluid balance,
+Age differences                           8            [14, 30, 58–63]     body mass loss, and performance enhancement (Table 1).
+Sex differences                          15            [23, 30, 38, 53,    Several studies focused on two or more of the areas of
+                                                       59, 62, 64–72]
+                                                                           interest and are therefore listed twice or more frequently
+Nutrition                                16            [73–90]
+                                                                           in each corresponding category of Table 1.
+Fluid/mineral balance and rehydration    13            [23, 32,
+                                                       91–101]
+                                                                              For each area of interest, the studies were accessed in
+Body mass changes                        14            [11, 22, 23, 27,    full text, summarized, and the results compiled in the
+                                                       43, 44, 56, 91,     narrative review.
+                                                       102–107]
+Performance, physiology, hematologi- 41                [10, 13, 24, 26,    Results
+cal and biochemical parameters; ther-                  34–36, 52, 106,     Race Locations and Geographical Aspects
+moregulatory and humoral responses,                    108–139]
+                                                                           A total of 26 studies were identified in the search focus-
+injury, and performance enhancement,
+oxidative damage                                                           ing on a particular race or a particular location. These
+Endocrine responses                   4                [35, 119, 120,      specific races and the countries in which they took place
+                                                       140, 141]           are summarized in Table 2.
+Cardiac function, exercise intensity and 15            [12–18, 100,
+pacing, power output, VO2max                           142–148]
+Tiemeier et al. Sports Medicine - Open           (2024) 10:48                                                                       Page 4 of 18
+
+
+
+
+Table 2 Studies assessing races in different geographical regions                 not finishing the race [154]. Thus, the high rates of non-
+Country             Event                         Distance   Reference            finishers highlighted the demanding nature of ultra-
+                                                  and
+                                                                                  cycling races.
+                                                  elevation
+                                                                                    An overview of the participants in the identified pri-
+USA                 RAAM                          4,800 km,  [9, 36, 90,
+                                                  25,000 m   138, 139,            mary studies is provided in Table 3, comparing cyclists’
+                                                  elevation  149]                 characteristics such as age, sex, and training volume.
+France and          Paris-Brest-Paris and         600–720 km [46]                 Based on the existing literature incorporating the charac-
+Switzerland         RAAM qualifiers in                                            teristics of ultra-cyclists, it appears that they are predom-
+                    Switzerland                                                   inantly male and typically between 35 and 45 years old.
+France              Paris-Brest-Paris             1,230 km        [141]           Moreover, Swiss, German, and Scandinavian nationals
+Spain               Vuelta a España               3,431 km        [15, 16,        dominate in European races, whereas North American
+                                                                  142, 145]
+                                                                                  cyclists are predominant in the RAAM [8, 31, 33, 40, 41,
+France              Tour de France                3,500 km        [16, 26,
+                                                                  106, 128,       154]. Compared to other individual ultra-disciplines like
+                                                                  142, 145,       running or swimming, ultra-cyclists are slightly younger,
+                                                                  146]            have a slightly higher body mass index (BMI), and focus
+France              Paris-Roubaix                 256,6 km        [150]           more on training volume than training intensity [44, 45].
+Italy               Giro d’Italia                 3,448 km        [100, 131,
+                                                                  132, 142]       The Aspect of Age in Ultra-Cycling Performance
+Italy               Milano-Sanremo                294 km,         [151]*          Eight of the identified studies focused on the age of the
+                                                  2,000 m
+                                                  elevation
+                                                                                  cyclists as a potential factor of ultra-cycling performance
+Switzerland         Swiss Cycling Marathon        720 km,         [30, 32]
+                                                                                  (Table 1). Allen et al. compiled a systematic review and
+                                                  4,700 m                         meta-analysis on the age of elite athletes at the peak of
+                                                  elevation                       their performance [58]. They also included two studies
+Belgium             Tour of Flanders              237 km          [150, 152]      on cycling events, one of which detailed the age of per-
+Belgium             E3 Saxo Bank Classic          203 km          [150]           formers at the ultra-cycling events Furnace Creek and
+Belgium             Liège-Bastogne-Liège          259 km          [150]           Swiss Cycling Marathon [154]. Allen et al. noted that the
+Netherlands         Amstel Gold                   240 km          [153]*          top performers in ultra-cycling events were on average
+Denmark - Italy     Copenhagen-Palermo            3,000 km        [63]            38 years old and thereby the oldest compared to the top
+New Zealand         K4 cycle race                 387 km          [89, 101]       performers in all other assessed sports, including mara-
+Note: USA (the United States)                                                     thon runners [58]. Knechtle et al. assessed whether the
+*Race found by online search, no scientific study pertaining to results of this   age of Ironman triathletes influences their performance
+race was identified
+                                                                                  and found that the younger athletes (18 to 40 years) were
+                                                                                  significantly slower in the cycling component of the event
+The Ultra-Cyclist                                                                 compared to the older age groups (> 50 years), while they
+Seventeen studies were identified that focused on the                             were faster in the running and swimming events and had
+characteristics of ultra-cycling athletes (Table 3). In                           a shorter transition time [59].
+the beginning of ultra-cycling competitions, most par-                              A potential reason for this observation could be that
+ticipants were US nationals as the RAAM was the most                              the cycling performance declines relatively more slowly
+competed in race [154]. With an increasing number of                              than the swimming performance [155]. Moreover, older
+races taking place in Europe, the number of European                              athletes participating in ultra-races achieve a more even
+participants in ultra-cycling races has also increased                            pacing compared to their younger competitors [59].
+[154]. In a study investigating participation and perfor-                           Lepers et al. analyzed the performance of participants
+mance trends in both an American qualifier (i.e., the Fur-                        in the Ironman Hawaii relative to their age at the time of
+nace Creek 508) and a European qualifier for the RAAM                             competition [60]. Male and female finishers were catego-
+(i.e., the Swiss Cycling Marathon) and the RAAM itself,                           rized by their age and the performance of the top ten fin-
+the characteristics of the participants and their perfor-                         ishers in each group was evaluated over 15 years. During
+mances were assessed [154]. Using a linear regression                             this period, a relative increase in athletes aged 40 years or
+and variance analysis, it was shown that the races were                           older was observed, while a declining trend was noted for
+very selective in terms of the number of racers participat-                       the age groups under 40 years. In addition, a trend was
+ing and, ultimately, the resulting finishers. On average,                         noted towards a continuously improving performance of
+∼ 41% of participants did not finish either the RAAM or                           the top finishers aged 45 years or older, and the sex differ-
+the Furnace Creek 508, whereas ∼ 26% did not finish the                           ences in the top ten performers decreased with increas-
+Swiss Cycling Marathon, with ∼ 26–40% of all starters                             ing age, in that the finishing times of the best ten male
+Tiemeier et al. Sports Medicine - Open         (2024) 10:48                                                                                   Page 5 of 18
+
+
+
+
+Table 3 Characteristics of cyclists participating in ultra-cycling events
+Event                   Year           Participants                                                                                           References
+Cycling events
+Czech Championship 24-h 2013           Female winner, 46 years old, 15 years active, 12 finished ultra-races, 12 h training/week              [40]
+mountain biking race
+Copenhagen-Palermo      2022           Comparison of two age groups (30 ± 5 years and 65 ± 6 years) in terms of metabolic and physi-  [63]
+                                       ologic parameters
+RAAM                         2021      Male winner of RAAM, 75.2 h and 2,532 km completed as part of a team, average speed 35.9 km/h, [139]
+                                       average power 210 W, average heart rate 121 bpm
+RAAM qualifier in Switzer-   2007–     Paris-Brest-Paris qualifier: mean age 45.2 years, BMI 24.2 kg/m2, higher training volume; RAAM [46]
+land and Paris-Brest-Paris   2009      qualifier: mean age 41.4 years, BMI 23.4 kg/m2, higher training intensity
+qualifier
+RAAM                         2018 (?) 4 female cyclists, 4 male cyclists, 7 male crew members, 1 female crew member, changes in physi-        [9]
+                                      ological, psychological & perceptual parameters throughout the race in cyclists
+Ötztal ultra-cycling race    1999     Single case study, male athlete, 36 years old, BMI 22 kg/m2, 12,000 km training in the year of the      [49]
+                                      race
+RAAM                         2019 (?) Single case study, female non-athlete, training from sedentary lifestyle to ultra-event                 [28]
+24 h time-limited, self-     2022     Single case study of the biophysical characteristics of a male ultra-cyclist with two world records     [57]
+paced road race events                in ultra-cycling events
+Cape Argus Cycling Tour      2012     Differences between mountain bikers and road cyclists in ultra-races in terms of motivation to          [55]
+and Cape Epic                         participate and behavior
+Ultra-triathlons
+Double, Triple, and Deca     1985 to Increase in overall number of finishers for Double (360 km cycling) and Triple (540 km cycling)          [42]
+Iron                         2009      races, Deca (1,800 km cycling) finishers stable, women relatively slower than men with increasing
+                                       length
+Triple Iron races vs. ultra- 2007–     Cyclists participating in triple triathlons (540 km cycling) are younger, have a higher training       [44]
+marathon races               2009      volume, and have higher body mass than runners
+Ironman and Triple Iron-     2007–     Ironman participants vs. Triple Ironman (540 km cycling) participants, 49 different nationalities,     [45]
+man races                    2009      ultra-athletes with higher BMI, shorter stature, and larger training volume
+Double Iron ultra-triathlon 1985–      European participants in ultra-triathlons (360 km cycling) have faster finishing times than North      [50]
+                             2010      American athletes
+Ultra-triathlon races        1985–     Influence of experience on performance in longer ultra-triathlons (360 km, 540 km, 900 km, or          [47]
+                             2014      1,800 km cycling)
+Triple Iron ultra-triathlon  1988–     Proportionally more of the female participants finished triple iron ultratriathlons (540 km cycling)   [51]
+races                        2011      than of the male participants, race time decreased for men, increased for women
+Ultra-triathlon race         30 years’ Two male athletes with 30 years’ experience in ultra-triathlon races (360–540 km cycling), > 60        [52]
+                             time      years of age, performance decline highest for running discipline
+                             span
+Ultra-triathlon race         1985–     Fastest participants in ultra-triathlons (360 km, 540 km, 900 km, or 1,800 km cycling) are from        [53]
+                             2018      Germany, France, and Switzerland; few North Americans competing in European races; less time
+                                       for swimming and cycling, more time for running with increasing length of race
+
+
+and female performers became more and more similar                              shorter distances. An explanation of this finding might be
+over the course of time.                                                        the accumulation of training and sport experience allow-
+  Nikolaidis et al. assessed the age of peak performance                        ing the participation in longer races for older athletes.
+of men and women participating in an ultra-distance                               Pozzi et al. investigated the age of peak performance of
+duathlon, the Powerman Zofingen [61]. To do so, the                             participants in a 24-hour ultra-cycling event in Switzer-
+authors divided the participants into age groups of five                        land over a 10-year period [156]. It was observed that the
+years and measured the effect of age on race time and on                        age of peak performance did not significantly change for
+the type of race (short versus long version). The results                       male athletes over this period, but significantly decreased
+showed that age affected the performance times in both                          for females and for the overall participant pool. In turn,
+the short and the long races, with younger athletes (25 to                      the achieved cycling distance was reduced with the
+29 years) completing the race significantly faster than the                     increasing age of the athlete, and a significant effect of
+oldest athletes (70 to 74 years). Of note, the age of peak                      age on the performance was noted. The most successful
+performance in the longer run (33 years) was higher than                        participants were between 35 and 39 years old. Zingg et
+that in the shorter version (22 years) of the race, indi-                       al. focused on the influence of age on the performance of
+cating that the older athletes performed well at a higher                       participants in the Swiss Cycling Marathon and observed
+age in longer endurance competitions compared to the
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                          Page 6 of 18
+
+
+
+
+similar ages of the top performers, with an average of 35     55.5% of female participants in the Deca Iron ultra-tri-
+years for men and 38 years for women [30].                    athlons completed the race, while 82.9% of male partici-
+   The focus of a study by Wundersitz et al. was the physi-   pants finished these races.
+ological parameters during an ultra-cycling race relative       For all three races, women took longer to complete
+to the age of the athletes [14]. The main outcome was         the race. Comparing the best performance times of
+the incidence of cardiac arrhythmias after the race. The      male and female participants, women required 21.2%
+results showed an overall increase in the incidence of        more time than men to complete the cycling compo-
+cardiac arrhythmias, a decrease in aortic valve maximum       nent of Double Iron ultra-triathlons, 23% more time than
+velocity, and a slower mitral valve deceleration time. The    men to complete the cycling component of Triple Iron
+incidence of cardiac arrhythmias was highest in the older     ultra-triathlons, and 19.4% more time to complete the
+age groups (45 years or older), rendering this group par-     cycling component of Deca Iron ultra-triathlons. These
+ticularly susceptible to cardiovascular events during an      sex-related differences in performance times could be
+ultra-cycling race.                                           explained by anthropometric differences, e.g., the higher
+   Frandsen et al. conducted a 15-day intervention in         fat mass and lower skeletal muscle mass of women com-
+which cyclists completed 3000 km over a time period of        pared to men.
+15 days [63]. Before and after the intervention, VO2max,        In contrast to the observation of these studies that the
+lipid parameters (resting plasma fatty acids, low density     participation of female athletes in ultra-races increases,
+lipoprotein (LDL)-cholesterol, CD36, fatty acid binding       Rüst et al. observed that the number of male participants
+protein/FABP), proteins involved in glucose metabo-           in Triple Iron ultra-triathlons significantly increased
+lism (glucose transporter 4/GLUT4, SNAP23), and reac-         over a 13-year period, while that of female participants
+tive oxygen species production were compared between          remained stable [51]. Moreover, in contrast to the study
+younger (average age = 30 years) and older (average           on the Norseman Xtreme race, the sex gap in terms of the
+age = 65 years) participants. The results demonstrated        finishing time increased over time from 10 to 42%. The
+that the adaptive response of younger cyclists was supe-      authors speculated that this may be due to a diminished
+rior to that of older cyclists. Older cyclists exhibited      importance of the finishing time for women due to social
+impaired adaptation of their cardiovascular function          factors.
+due to the decreased adaptive response of metabolic             Lepers and Stapley investigated the issue of sex differ-
+parameters.                                                   ences in performance of participants in ultra-races and
+   Summarizing the studies on the influence of age on         summarized the sex performance gap as 10% [4]. They
+performance in ultra-cycling events, it can be concluded      identified physiological differences between men and
+that the highest performance is achieved in the mid-          women as potential factors influencing this performance
+to late thirties, and that the finishing time decreases       gap, including the larger VO2max of men, lower body fat,
+from the age of 40 years secondary to increased cardiac       greater muscle mass, and a greater hemoglobin concen-
+arrhythmia and decreased adaptation. In light of this         tration [4]. The authors noted that due to these physiolog-
+observed decline in performance, metabolic and physi-         ical differences, biological factors are not responsible for
+ological problems occur more frequently in cyclists aged      the observed change in performance over time, i.e., the
+40 or older, which likely contributes to a slower finishing   observed changes in the differences between women and
+time.                                                         men. They identified age as a potential factor to increase
+                                                              the sex gap, because less women participate in ultra-
+Sex as a Factor in Performance                                races in the higher age groups and, hence, fewer regular
+A total of 15 studies were identified that focused on sex     competitors are found among the female participators.
+differences between cyclists participating in ultra-cycling   Moreover, social factors may have prevented female par-
+events.                                                       ticipants from achieving their peak performance.
+  Knechtle et al. analyzed the participants in Double,          Scheer assessed participation trends in different ultra-
+Triple, and Deca Iron ultra-triathlons over 25 years and      races and identified an overall low participation of female
+found an overall decrease in the speed of female racers       athletes in ultra-cycling events, ranging between three
+with increasing length of the race, which was not the case    and 11% [2]. It was noted, based on the existing research,
+for male participants [42]. The number of female partici-     that the proportion of females participating in ultra-
+pants increased steadily from the first race held in 1985.    cycling event is lower than in ultra-marathon running
+The finish rate was higher for women than for men in          events [2]. In conclusion, sex-related differences in both
+the Double and Triple Iron ultra-triathlons, with 79.6%       the participation rates and performance in ultra-cycling
+of men and 84.7% of women finishing the Double Iron           events have been noted.
+ultra-triathlons and 71.7% of men and 77.0% of women
+finishing the Triple Iron ultra-triathlons. In turn, only
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                            Page 7 of 18
+
+
+
+
+Fluid and Electrolyte Balance and Rehydration                  was compared to consumption of a pre-defined amount
+Twelve studies were identified in the literature search        of liquids in terms of the participants’ performance [93].
+that focused on fluid and electrolyte balance and rehy-        Three studies on endurance cycling events were included
+dration during an ultra-cycling event. Hyponatremia            in the analysis, and while none of these studies focused
+is defined as a sodium serum level below 135 mmol/l.           on ultra-races, an overall beneficial effect of liquid intake
+Sodium serum levels below 120 mmol/l can cause neu-            on pacing was noted, while an effect on performance
+rological symptoms due to cerebral edema [157]. When           was only observed for prescribed drinking and not for
+sodium serum levels decrease below 110–115 mmol/l,             ad libitum intake [165–167]. It remains to be determined
+respiratory failure due to cardiopulmonary decompen-           whether similar effects of the fluid intake can be observed
+sation may occur [158]. Different etiologies have been         for ultra-races. One study by Gauckler et al. investigated
+described for hyponatremia, including side effects of cer-     whether the drinking pattern during ultra-cycling races
+tain pharmaceuticals and systemic causes [159]. In terms       has effects on the incidence of edema [92]. A correla-
+of sporting events, hyponatremia correlates with sodium        tion between fluid intake pattern during the race and the
+loss throughout a race, and this phenomenon is called          occurrence of kidney-related symptoms, occurring in
+exercise-associated hyponatremia (EAH) [160]. EAH              two-thirds of the participants, was determined. In this
+occurs in intense training or competition with prolonged       context, drinking as much as possible was positively cor-
+intense exertion for four to six hours or longer and is thus   related with the incidence of kidney-related problems
+a concern for athletes participating in ultra-events [161].    and edema, while drinking according to the need based
+   Before EAH was conceptualized, athletes were gener-         on the environmental conditions during a race showed a
+ally recommended not to drink during an exercise, which        negative correlation with kidney-related symptoms and
+led to hypernatremia [162]. Consequently, the American         edema. These findings point towards an advantage of
+College of Sports Medicine unfortunately recommended           controlled fluid intake during an ultra-cycling event to
+drinking as much as possible during exercise to offset         prevent occurrence of limb swelling.
+hyponatremia, thereby increasing the incidence of EAH            Chlíbková et al. assessed the hydration status of ultra-
+in athletes due to fluid overload [162, 163]. In order to      cyclists participating in mountain bike races [23]. While
+find a balance between hypo- and hypernatremia, fluid          no changes in lower limb volume were observed after the
+intake before, during, and after a race should be moni-        race, the plasma urea level as an indicator of kidney func-
+tored to reach an optimum hydration status [164].              tion and water conservation negatively correlated with
+   The literature search identified 11 studies focusing on     the ranking of the participants in the race, but this cor-
+fluid and electrolyte balance and rehydration during an        relation was only significant for male participants.
+ultra-cycling event. Moyen et al. conducted a study to           Armstrong et al. determined the body water of par-
+determine the effect of the hydration status of partici-       ticipants in an ultra-cycling event of 164 km length [91].
+pants in ultra-cycling events on their pain and mood [97].     The authors determined that changes in body mass and
+They observed that throughout a race, fatigue, thirst,         body water during the event were correlated but were
+pain, thermal sensation, and exertion increased, while         not equivalent. However, body mass loss was concluded
+tension and vigor decreased. A comparison of dehydrated        to be a suitable measurement to determine water loss
+participants with those not suffering from dehydration         during such an event and may serve as a basis for fluid
+showed that dehydration led to a stronger sensation of         replenishment.
+fatigue and pain at the beginning and in the middle of the       In terms of hyponatremia during ultra-races, four stud-
+race, whereas the hydration status did not affect any of       ies were identified focusing on sodium levels during and
+the parameters after the race. Overall, dehydration was        after ultra-races. Knechtle et al. reviewed available data
+linked to more pain, fatigue, thirst, and thermal sensation    on the prevalence of hyponatremia and the associated
+compared to euhydration, while there was no significant        clinical presentation and found evidence for a higher
+effect of urine-specific gravity on the mood stage.            prevalence of hyponatremia in triathletes with increas-
+   Black et al. assessed the fluid balance of ultracyclists    ing duration of the event (Ironman versus Triple Iron
+participating in a 387-km race by analyzing blood and          ultra-triathlon) [95, 98]. Moreover, a link between EAH
+urine samples before and after the race [101]. Low blood       and fluid overload was noted. In races where cycling was
+sodium concentrations of 135 mmol/L were measured              the only discipline, the prevalence of EAH appeared to be
+after the race, while dehydration only affected 2 of the 18    lower than in races combining multiple disciplines [95,
+participants. The authors concluded that hyponatremia          99].
+rather than dehydration is an issue that needs to be con-
+sidered in the context of fluid balance of ultracyclists.      Nutrition, Energy Expenditure, and Performance
+   In a meta-analysis by Goulet and Hoffman, the effect        The literature search revealed 18 studies dealing with
+of an ad libitum fluid intake during endurance events          nutrition during an ultra-cycling event. These articles
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                             Page 8 of 18
+
+
+
+
+could broadly be divided into four focus areas: energy          5 kg of body mass he lost during the race were due to
+expenditure/energy balance during a race [73, 74, 78, 79,       protein (muscle) or fat metabolism.
+83, 84, 90, 168], nutritional behaviour/food intake during        A comparison of different types of ultra-endurance
+a race [75, 77, 86, 89], the influence of nutrition on the      events revealed that cycling and triathlon races induce
+performance [80, 82, 85, 141], and the breakdown of indi-       an approximately three times higher energy deficit com-
+vidual nutrients [76, 81].                                      pared with ultra-endurance running events [84]. In sum-
+                                                                mary, ultra-cycling events lead to an energy deficit due
+Energy Expenditure/Energy Balance                               to the discrepancy in energy intake and the extended
+Barrero et al. conducted an analysis of the energy bal-         energy expenditure. The optimum nutritional supply to
+ance of ultra-endurance triathletes by assessing both           close this energy gap has yet to be determined and must
+the energy of the food and fluids consumed during the           be adapted to the individual race lengths and conditions.
+Extreme Man Salou-Costa Daurada triathlon in Spain
+and the expended energy according to heart rate, oxygen         Influence of Nutrition on Performance
+consumption, and body composition [73]. All partici-            In a study by Goedecke et al., the effect of supplying
+pants were male and had been recreationally participat-         athletes during an experimental ultra-cycling race with
+ing for at least three years in ultra-endurance events. The     a drink containing either carbohydrates alone or carbo-
+average energy intake amounted to 3,643 kcal, while the         hydrates and medium-chain triglycerides on their per-
+average energy expenditure was 11,009 kcal, demonstrat-         formance [80]. The idea for this trial stemmed from the
+ing a significant energy deficit during the race. It was also   hypothesis that in the later stages of such races, when gly-
+observed that the athletes consumed significantly more          cogen stores are depleted, lipids may serve as alternative
+macronutrients, solid foods, and fluids during the cycling      energy sources. Eight male athletes participated in two
+stage of the race than during the running stage. Body           trials in which one of the solutions was consumed. Per-
+mass significantly decreased, which was be primarily            formance was determined as the time to complete 75 kJ
+attributed to the loss of total body water. A similar energy    and 200 kJ trials. Both performance measures decreased
+deficit was observed by Bescós et al., conducting a case        significantly more when the solution contained carbo-
+study on a single cyclist participating in a 24-hour-ultra-     hydrates and medium-chain triglycerides compared to
+cycling event [74]. The athlete was male and predomi-           carbohydrates alone. The reason for these performance
+nantly consumed during the race solid foods rather than         differences could be the gastrointestinal symptoms and
+sports drinks, with a total energy intake of 5,571 kcal. The    delayed gastric emptying experienced after medium-
+energy deficit amounted to 9,915 kcal, which was suppos-        chain triglyceride consumption and the resultant heart
+edly met by endogenous fuel stores. These values were           rate increase early in the race. The overall fat content of
+similar to the energy expenditure determined for elite          the diet was a focus of a study by Rowlands and Hopkins,
+Ironman athletes of 9,626 kcal per race [83].                   who compared the effect of a diet with a high fat content
+  Enqvist et al. assessed the energy expenditure of ath-        (70% of the total energy from fat) on the performance of
+letes participating in a 800 km-adventure race with a           competitive male ultra-cyclists with that of a diet with a
+cycling component by determining their heart rate and           high carbohydrate content (70% of the total energy from
+oxygen intake [78]. The average energy expenditure was          carbohydrates) [85]. The diets were consumed for two
+80,000 kcal, with a range of 64,000 to 114,000 kcal during      weeks prior to the experimental race. Performance in
+the 5-day race. During an ultra-cycling race, an energy         the ultra-cycling event was measured during a 100 km
+expenditure ranging from 10,557 kcal to 44,521 kcal was         time trial. A trend was observed towards a better perfor-
+determined in five recreational athletes [79].                  mance in the high-fat diet group compared to the high-
+  Hulton et al. determined the energy expenditure of            carbohydrate diet group (4% improvement in time and
+cyclists participating in the RAAM [90]. The average            11.4% improvement in power output), but the difference
+energy expenditure amounted to 43,401 kcal and the              lacked statistical significance. Nonetheless, the difference
+daily energy expenditure to an average of 6,420 kcal.           may have been statistically significant if the effect of both
+Based on the daily food and fluid intake, an energy deficit     diets on performance had been compared in an ultra-
+of 13,878 kcal was observed. A case report by Knechtle et       endurance event.
+al. also focused on the energy intake and energy expen-           The effect of carbohydrate supplementation in com-
+diture of a cyclist participating in the RAAM [168]. The        parison with protein supplementation was assessed by
+cyclist consumed 96,124 kcal in the course of the race,         Koopman et al., who focused on the protein turnover
+with 75.2% of these calories consumed as carbohy-               during an experimental ultra-endurance race with 2.5-
+drates. The energy deficiency after the race amounted           hour bouts of cycling and intermittent one-hour running
+to 83,526 kcal., while it was not determined whether the        phases [82]. Two trials were conducted in which the same
+                                                                subjects consumed either a carbohydrate solution or a
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                          Page 9 of 18
+
+
+
+
+solution that contained both carbohydrates and protein         common post-race foods were vegetables, cheese, and
+hydrolysate. Protein turnover was measured by injecting        meat [87].
+amino acid isotope tracers. Supplementing the drink with         Wilson et al. performed an analysis of the types of sac-
+protein hydrolysate resulted in an increased protein flux,     charides contained in the carbohydrates consumed dur-
+protein synthesis rate, and whole-body protein oxidation       ing an ultra-triathlon race [86]. Saccharide content was
+compared to the drink containing carbohydrates only.           either measured by liquid chromatography or based on
+Individual amino acid analysis revealed differences in the     the values reported in the US Department of Agricul-
+measurements of protein turnover, which in turn means          ture Database. The proportions of glucose, fructose, and
+that an effect of supplementation on protein metabolism        sucrose were calculated from 80 different consumed
+depends on the composition of the protein hydrolysate.         foods, and amounted to a median of 64%, 50%, and 10%
+These results also demonstrate that protein supplementa-       of total carbohydrates, respectively.
+tion induces protein metabolism more than carbohydrate           Black et al. conducted a study on the energy intake of
+supplementation and may therefore enhance perfor-              cyclists participating in a 384-km ultraendurance race
+mance during an ultra-endurance race.                          [89]. The cyclists reported their food and fluid intake
+  Geesmann et al. evaluated the effect of energy balance       after the race and the nutrient composition of the con-
+of cyclists during an 1230-km ultracycling event on the        sumed food and drinks was assessed. The results dem-
+release of hormones that are involved in metabolism            onstrated an inverse correlation between the completion
+[141]. They discovered that several metabolic hormones,        time and energy intake, as well as a correlation between
+including leptin and testosterone, were suppressed and         carbohydrate and fat intake and completion time. The
+remained suppressed for a 12-h-period following the end        authors concluded that the energy requirement during
+of the race. The suppression of insulin-like growth fac-       such an ultraendurance event should be met with a high
+tor-1 correlated with the energy deficit during the race       energy intake during the race in order to achieve the opti-
+[141].                                                         mal performance.
+
+Nutritional Behaviour/Food Intake                              Individual Nutrients
+Bescós et al. studied the nutritional intake of male           Two studies assessed changes in the metabolism of indi-
+cyclists during a 24-hour-relay race in Barcelona [75].        vidual nutrients during ultra-endurance events. Borgen-
+While the athletes were encouraged to consume primar-          vik et al. determined the amino acid metabolism of male
+ily carbohydrates before the race to fill their endogenous     participants in an adventure race and during post-race
+glycogen stores, they were allowed to consume any food         recovery [76]. They discovered that the plasma con-
+of their choice during the race. They consumed mostly          centration of glutamine, glycine, lysine, serine, threo-
+carbohydrate-rich foods and drinks during the event,           nine, and valine was diminished by the race, while the
+with individual variations in the in-race intakes of protein   concentration of tyrosine, phenylalanine and gluta-
+and lipids. The intakes of sodium and caffeine increased       mate increased. In the muscle, only lysine significantly
+towards the later stages of the race.                          decreased. The post-exercise levels of branched-chain
+   Chlíbková et al. determined the nutritional intake          amino acids correlated with the glycogen content of the
+of ultra-cyclists before, during, and after a 24 h-ultra-      muscle, indicating a potential protein breakdown during
+cycling race [77]. Two-thirds of the athletes followed a       the race due to depleted glycogen stores. No significant
+diet rich in carbohydrates before the race, while the other    decreases in the amino acid levels were observed during
+third observed a protein- or fat-rich diet regimen. During     the recovery phase.
+the race, the athletes consumed 56 different foods and 16        Konopka et al. analyzed protein synthesis in the skel-
+different drinks. The most common foods were bananas,          etal muscle during the ColoradoTrail Race, an ultra-
+apples, oranges, raisins, pineapple, melon, chicken, bread,    endurance mountain bike race, and compared the data
+noodles, rice, biscuits, energy and muesli bars, cheese,       to a control situation without normal activity [81]. The
+chocolate, tomatoes, and dried fruits, while the most          authors discovered that protein synthesis in the skeletal
+common drink was an isotonic sport drink followed by           muscle was increased during the race, and indices of cel-
+water. After the race, the food patterns were like the in-     lular energetic stress increased.
+race pattern, with the most common foods being bread,            Summarizing the results of studies focusing on nutri-
+noodles, rice, bananas, chicken, tomatoes, and cheese.         tion during ultra-cycling events, it becomes obvious that
+The most common beverage was water. In a study assess-         there is a lack of studies on the nutritional behaviour and
+ing the nutritional habits of participants in the RAAM,        energy expenditure of female athletes, as all the studies
+similar foods were identified as in-race energy suppliers,     were conducted with male athletes. Moreover, the ques-
+primarily bananas, chicken, and bread [87]. The most           tion remains whether nutrients other than carbohydrates
+                                                               could enhance performance, particularly during the later
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                          Page 10 of 18
+
+
+
+
+stages of the race. At present, it remains unclear whether     of 1 kg, a decrease in fat mass by 0.8 kg, and a decrease in
+in-race triglyceride or protein supplements can contrib-       muscle mass by 0.9 kg [104]. In contrast, an assessment
+ute to a faster race time.                                     of eight athletes participating in the Deca Iron Triathlon
+                                                               showed no significant loss in body mass [103]. Losses of
+Changes in Body Mass                                           skeletal muscle mass (1.1 kg) and fat mass (0.9 kg) were
+The literature search retrieved 14 studies focusing on         like the losses observed in the case study [104].
+changes in body mass during an ultra-cycling race.                A correlation between the intensity of the race and the
+  Bischof et al. determined anthropometric parameters          body composition changes was noted in a study assess-
+of cyclists participating in the Swiss Cycling Marathon        ing body mass and composition changes of participants
+[102]. Anthropometric measurements included skin-              in the Triple Iron ultra-triathlon in Germany 2006 [105].
+fold thickness, limb circumferences, and body mass.            Body mass, limb circumferences, skinfold thicknesses,
+The relative proportion of body fat and muscle mass was        fat and muscle mass, and body fat percentage were mea-
+calculated from these measurements. The anthropo-              sured before and after the race. A significant decrease
+metric measurements were repeated at multiple check-           in body mass of 3.9% was noted, as well as a decrease in
+points throughout the race. The results demonstrated a         limb circumferences for all body parts except the thigh
+mean decrease in body mass by 1.5 kg and a decrease in         and the chest. There was no significant change in skeletal
+fat mass of 1.5 kg. Skeletal muscle mass and estimated         muscle mass, yet both the BMI and the relative propor-
+body water did not significantly change during the race.       tion of body fat decreased significantly. Along with these
+Decreases in skinfold thickness were noted for all mea-        observations, no decrease in skeletal muscle mass was
+sured limbs, with the abdominal skinfold thickness neg-        observed in participants in the Swiss Cycling Marathon
+atively correlating with the cycling speed. A potential        [11]. Anthropometric measurements were conducted
+explanation for these changes includes the degradation         before and after the race. Body mass decreased by 1.7 kg
+of subcutaneous adipose tissue in the body parts that          and fat mass by 1.4 kg, while total body water and skeletal
+are used most during an ultra-cycling event, such as the       muscle mass showed no significant changes. The changes
+thigh and the pectoral muscles.                                in body mass and fat mass correlated significantly, as did
+  Chlíbková et al. aimed at determining the changes in         the changes in body mass and total body water changes.
+body composition of ultra-cyclists during two 24-hour          In a review assessing the changes in anthropometric
+races [23]. Anthropometric measurements included skin-         measurements during ultra-endurance races, decreases
+fold measurements, limb circumferences, fat and muscle         in all assessed skinfolds (pectoral, mid-axilla, triceps,
+mass, body mass, as well as body water. Moreover, the          subscapular, abdominal, suprailiacal, thigh, and calf )
+changes in foot volume were assessed by plethysmog-            were noted for ultra-endurance cyclists [43].
+raphy to determine the presence of edema. Changes                 Valenti et al. assessed whether participation in a
+in body mass correlated negatively with the distance           4,400 km ultra-cycling race (NorthCape4000) impacts
+covered during the race and positively with their over-        on body composition and metabolic parameters involved
+all ranking. The ranking also correlated positively with       in myogenesis [27]. They conducted bioelectrical imped-
+changes in fat mass and negatively with fluid intake. The      ance analyses and dual energy x-ray absorptiometry to
+absolute changes in body mass and fat and muscle mass          measure body composition before and after the race and
+were calculated separately for male and female partici-        determined the level of myogenic progenitor cells indi-
+pants. Male participants lost an average of 2.0 kg of body     rectly by the level of the transcription factors required for
+mass, 1.4 kg of fat mass, and 1.4% of body fat. Skeletal       this process. Fat mass, visceral adipose tissue, and truncal
+muscle mass did not decrease significantly. Female par-        fat significantly decreased after the race, while lean mass
+ticipants lost 0.9 kg of body mass during the race, 1.2 kg     significantly increased [27]. The expression of transcrip-
+of fat mass, and 2.7% of body fat, while no significant        tion factors involved in myogenesis was elevated after the
+changes in skeletal muscle mass were observed. No sig-         race.
+nificant changes in the foot volume were noted in either
+men or women. The higher changes in the body mass of           Performance, Injury, and Performance Enhancement
+men compared to women could be explained by the fact           Forty-one studies were filtered from the search results
+that men had a higher body mass to start with, that they       that focused on factors influencing performance in an
+completed the race faster, and that men utilize intramyo-      ultra-cycling race. Five themes pertaining to their influ-
+cellular lipids more than women [169, 170].                    ence on performance were identified: physiological,
+  Knechtle et al. conducted several studies and on body        demographic and anthropometric parameters, pacing
+mass and body composition changes during ultra-endur-          strategies, injury and inflammation, and psychological
+ance events [11, 104, 105]. A case study of a participant of   aspects of sleep. These themes and the respective stud-
+a Deca Iron Triathlon revealed a decrease in body mass         ies are presented in Table 4. In terms of the physiological
+Tiemeier et al. Sports Medicine - Open        (2024) 10:48                                                                                 Page 11 of 18
+
+
+
+
+Table 4 Factors influencing performance in ultra-cycling or mixed ultra-endurance events
+Race characteristics Performance indicator                      Outcome                                                                            Refer-
+                                                                                                                                                   ence
+Physiological function
+8.5 h, 105 km wilder- Respiratory function pre- and post-    Decrease in oxygen saturation, forced expiratory volume, forced vital capac-          [123]
+ness race             race, race completion in one athlete   ity, potential airflow obstruction, no obvious respiratory symptoms, race
+                                                             completed
+Ultra-cycling event    heart rate, cycling power, speed,     861.6 km completed, average power = 210 W, average heart rate = 121 bpm,              [139]
+                       distance                              greater power during daytime
+RAAM                   VO2max, lactate, power                pyramidal training intensity distribution-based training only marginally              [138]
+                                                             increases performance
+Ultra-triathlon        Performance, heart rate, oxygen con- Lower heart rate during cycling leg than during swimming leg, race time                [108]
+                       sumption relative to race intensity   associated with difference in oxygen consumption and heart rate between
+                                                             running and swimming, but not cycling legs
+24 h-ultra-cycling     Physiological performance-related     Relative power output positively correlated with covered distance and veloc-          [13]
+relay race             parameters and influence of team size ity; no higher average intensity observed relative to number of participants
+Transcontinental       Heart rate and performance of a       Decrease in heart rate to mid-race, increase towards the end, effect of tem-          [110]
+Race 5                 single athlete                        perature and sleep quality on performance
+Experimental 24-h      Physiological parameters during       Initial increase (up to 6 h) in heart rate during cycling leg, then decreased, oxy-   [121]
+race with running,     mixed endurance race                  gen consumption increased up to 6 h and remained high until the end
+cycling, and kayaking
+Demographic and anthropometric parameters
+Ironman Triathlon,    Predictors of performance, finish time    Influence of sex, age, experience, and performance in cycling and running          [115]
+Ultra-triathlon                                                 legs on finish time
+Double and Triple     Performance changes in two athletes       0.19% and 1.12% performance decline in cycling per year, largest declines in       [52]
+Iron ultra-triathlons over three decades                        running discipline
+Triple Iron           Influence of anthropometric variables     No significant correlation between anthropometric parameters and finish            [114]
+Ultra-triathlon       and split times for each discipline on    time, performance in running and cycling, but not swimming, influences
+                      performance                               finish time
+RAAM                  Differences between finishers and         Anthropometric differences observed, finishers have lower BMI, lower               [127]
+                      non-finishers                             percentage of body fat, and lower thigh and upper arm circumference than
+                                                                non-finishers, but anthropometric measurements not related to finish time
+Pacing
+RAAM                   Influence of pacing on performance       Decrease in performance with increasing age and altitude changes, top finish- [10]
+                       over five year-period                    ers started faster, had higher peak speeds, and maintained speed longer
+24-h ultra-cycling     Influence of pacing on performance       Wind speed, temperature influence performance, pacing with beneficial         [116]
+event                                                           impact on top performance
+Swissultra           Pacing strategies in different multi-      Race distance affects running, but not cycling performance in multi-stage     [12]
+                     stage ultra-triathlon events               events, pacing strategies affected by race distance
+Injury and inflammation
+Ultra-cycling races  Shermer’s Neck in ultra-cyclists         Incident Shermer’s neck in ultra-cycling races after 800 km, prevention by           [109]
+                                                              stretching and chin support
+Ultraman Florida      Inflammatory markers pre- and post- Increase in C-reactive protein, no change in interleukins 6 and 10, positive             [124]
+Triathlon             race, finish time                       correlation between interleukin 10 levels and finish time
+24-h-mountain bike Intake of anti-inflammatory medica-        10% of participants used anti-inflammatory medication during the race,               [111]
+race                  tion before, during, and after the race mostly ibuprofen, users were significantly older than non-users
+Experimental cycling Effect of anti-oxidant consumption on Changes in endogenous oxidant and anti-oxidant processes during the test,               [112]
+test with triathletes performance                             dietary anti-oxidants effective against exercise-induced oxidative stress
+and marathon
+runners
+Hotter’N Hell         Inflammatory markers pre- and post- Increase in pro- and anti-inflammatory cytokines, shorter self-pacing associ-            [119]
+Hundred               race, influence of pacing strategies on ated with higher anti-inflammatory cytokine concentration
+                      these markers
+Hotter’N Hell         Immunological and hormonal              Testosterone decreased, growth hormone, cortisol, interleukin 6 increased,           [120]
+Hundred               changes during a race in hot climate cortisol and growth hormone levels higher in fastest compared to slowest
+                      and influence on performance            participant
+Southern Traverse     Influence of heart rate, immunologi- Heart rates declined up to mid-race and then remained stable, leukocyte                 [118]
+Adventure Race        cal parameters on performance           plasma concentrations and plasma volume increased
+Tiemeier et al. Sports Medicine - Open        (2024) 10:48                                                                                 Page 12 of 18
+
+
+
+
+Table 4 (continued)
+Race characteristics Performance indicator                   Outcome                                                                            Refer-
+                                                                                                                                                ence
+Physiological function
+Psychological aspects and sleep
+Ultra-cycling race    Effect of intermittent naps on         In-race naps decrease performance, low body fat and duration per training           [117]
+                      performance                            unit increase performance
+5 h timed race with Impact of mental workload on             Mental workload, quantified by EEG theta power, heart rate variability, and         [137]
+ultra-cyclists        performance                            psychomotor vigilance, does not affect performance in a staged ultra-cycling
+                                                             race
+10 km simulated       Sleep patterns of an ultra-cyclists    Sleep duration reduced during the race, slow-wave sleep increased                   [136]
+Road to Camarón       before, during, and after the race
+race
+RAAM                  Impact on in-race emotions             Individual differences in emotional stage, fatigue and negative or positive         [36]
+                      (Brunel Mood Scale) and sleep on       emotions may enhance or diminish performance depending on personal
+                      performance                            optimal emotional state, fluctuation of emotions throughout the race
+
+
+function, the findings were inconsistent in terms of                        compensate for such changes by taking anti-inflamma-
+the heart rate changes during the race, with an ini-                        tory medication during the race, yet it remains unclear
+tial decrease observed in one study [110] and an initial                    to what extent such an intake can prevent inflammatory
+increase observed in another study [121]. Male sex cor-                     processes during and after the race. The optimum fluid
+related positively with a better finish time [115], while                   and nutrient intake before, during, and after the race
+anthropometric measurements were not associated with                        is associated with the total body water and, hence, the
+performance [114, 127].                                                     hydration status and energy balance of the athlete. The
+  In-race changes in inflammatory markers such as cyto-                     best strategy to prevent hyponatremia of ultra-cyclists
+kines were observed in several studies [35, 112, 118–120,                   remains to be determined. EAH appears to be less of
+124]. Oxidative changes induced by exercise could be                        an issue for ultra-cyclists than for other ultra-athletes,
+modified by the dietary consumption of antioxidants                         potentially due to a more efficient control of fluid intake
+[112], and inflammation was counter-balanced by taking                      during a race, but the reason for these differences has yet
+anti-inflammatory medication [111]. Taking naps during                      to be clarified. Another open question regarding hypona-
+an extended race resulted in a diminished performance                       tremia in ultra-cycling is the apparent lack of severe neu-
+in terms of the finish time [117]. Emotions experienced                     rological consequences in hyponatremic ultra-cyclists
+during the course of an extended race could exert both                      despite critically low sodium levels [171].
+a stimulating and impairing effect on the performance,                        It appears that many ultra-cyclists already focus on
+depending on the emotional state and the perceived emo-                     maximizing their glycogen stores before the race and
+tional optimum state of the individual cyclist [36].                        consuming carbohydrate- and protein-rich foods before
+                                                                            and after it, yet an energy deficit is frequently observed.
+Discussion                                                                  Therefore, future studies should focus on the best
+The present review aimed at assessing the current lit-                      nutritional preparation for an ultra-cycling event. The
+erature about ultra-cycling races. The results showed                       observed energy deficit may be due to the fact that nutri-
+that the popularity of these events has been consis-                        ent oxidation exceeds nutrient transport in the gut, and
+tently increasing in recent years, with races being mainly                  hence, enhancing transport capacity of intestinal trans-
+offered in North America, Latin America, and Europe.                        porters may be an approach to diminish this deficit. It
+While men dominate all races in terms of their propor-                      seems that carbohydrates are the most efficient nutrient
+tion of the participants, the number of female cyclists is                  for energy supply, with no benefit of pre- or in-race tri-
+increasing.                                                                 glyceride supplementation being observed.
+  Due to the later entry of women in such events, the                         The available data on body composition indicate that
+available studies assess predominantly male athletes                        an ultra-cycling event leads to decreases in body mass
+and, hence, there is a lack of knowledge on female ath-                     and fat mass, while skeletal muscle mass does not appear
+letes pertaining to their anthropometric measurements,                      to significantly change. Nonetheless, study results differ,
+their immunological and physiological parameters dur-                       with decreases in muscle mass observed in some studies
+ing a race, and the factors influencing their performance.                  [103, 104] and no changes in total body water observed
+The studies revealed changes in inflammatory and oxida-                     in studies with a loss in body mass [11]. Body mass losses
+tive processes during an ultra-cycling race, which could                    occur as a consequence of ultra-cycling events, and these
+impact performance. In particular, older athletes try to                    losses are higher in men than in women. These changes
+Tiemeier et al. Sports Medicine - Open   (2024) 10:48                                                                        Page 13 of 18
+
+
+
+
+are putatively mostly due to the in-race degradation of       inflammatory and oxidative processes, and the female
+lipids stored intramyocellularly or in the subcutane-         athletes, as these aspects were identified as research gaps
+ous tissue. Potential explanations could be that men and      in this review. Topics that warrant further investigation
+women exhibit distinct changes in body mass, and that         include the causes for an optimum age of peak perfor-
+the anthropometry of athletes differs between individual      mance around 40 years and the optimum nutritional
+sports and combined races such as triathletes. Therefore,     supply to close the observed energy gap under consider-
+depending on the participants that are studied, different     ation of the specific race lengths and climate conditions.
+outcomes in terms of body mass changes and composi-           Another research gap to be closed by future studies is the
+tion may be expected. It is worthwhile investigating in       development of strategies to tackle inflammatory pro-
+future studies if and why skeletal muscle mass appears to     cesses during the race that may persist in the post-race
+be unaltered by ultra-endurance exercise, and whether         period.
+the loss in body mass is solely attributable to the loss in
+                                                              Abbreviations
+total body water.                                             BMI	body mass index
+   It must be acknowledged that there is no clear trend       EAH	exercise-associated hyponatremia
+for consistently observed differences between the sexes,      FABP	fatty acid binding protein
+                                                              GLUT4	glucose transporter 4
+as studies found conflicting results. This may be due to a    LDL	low density lipoprotein
+lack of comparability between these studies or the races      RAAM	Race Across America
+described therein. Several open questions regarding the       WUCA	Worldwide Ultracycling Association
+
+role of sex in race performance remain, including the         Acknowledgements
+observed differences in the peak performance age and the      not applicable.
+reasons for a comparatively lower performance improve-
+                                                              Authors’ Contributions
+ment of participating women.                                  Lucas Tiemeier collected all studies and drafted the manuscript, Pantelis T.
+   Topics that warrant further investigation are the causes   Nikolaidis, Daniela Chlíbková, Matthias Wilhelm, Mabliny Thuany, Katja Weiss,
+for the optimum race age around 40 years of age. Judging      and Beat Knechtle helped in drafting the manuscript. All authors read and
+                                                              approved the final manuscript.
+from other sports, one would expect that younger cyclists
+would have a greater physical fitness and, hence, would       Funding
+have an advantage over the 40-year-olds. Nonetheless,         not applicable.
+
+experience might be a relevant factor for an optimum          Data Availability
+performance and could outweigh potential advantages           not applicable.
+of a younger age. In addition, the mitochondrial vol-
+ume may reach an optimum in middle-aged athletes as           Declarations
+demonstrated in animal studies [172]. This in turn could
+                                                              Ethics approval and consent to participate
+lead to diminished mitochondrial function and oxidative       not applicable.
+capacity to process nutrients, and be linked to a decrease
+in muscle mass and sarcopenia [173]. Moreover, it has         Consent for publication
+                                                              not applicable.
+been suggested that the accumulated experience leads to
+a reset of central fatigue [174].                             Competing Interests
+   Research gaps pertaining to influencing factors on         not applicable.
+
+performance in ultra-cycling races are interventions to       Author details
+tackle inflammatory processes during the race that may        1
+                                                               Centre for Rehabilitation & Sports Medicine, Bern University Hospital,
+persist in the post-race period. Moreover, the currently      Inselspital, University of Bern, Bern, Switzerland
+                                                              2
+                                                               School of Health and Caring Sciences, University of West Attica, Athens,
+available studies on physiological function are difficult     Greece
+to compare, because different race durations and inten-       3
+                                                               Centre of Sports Activities, Brno University of Technology, 61669 Brno,
+sities were assessed, mostly with only a few participants.    Czech Republic
+                                                              4
+                                                               Faculty of Sports, University of Porto, Porto, Portugal
+In order to fully understand heart rate and oxygen con-       5
+                                                               Institute of Primary Care, University of Zurich, Zurich, Switzerland
+sumption changes during ultra-cycling races, the inten-       6
+                                                               Medbase St. Gallen Am Vadianplatz, Vadianstrasse 26, 9001 St. Gallen,
+sity and the number of participants must be considered.       Switzerland
+
+                                                              Received: 19 February 2023 / Accepted: 6 April 2024
+Conclusions
+In conclusion, literature on ultra-cycling races is com-
+paratively scarce, yet certain aspects, such as the types
+of athletes and fluid balance/hyponatremia have been
+investigated. Future studies should primarily focus on
+the energy balance, the occurrence and consequences of
+Tiemeier et al. Sports Medicine - Open                 (2024) 10:48                                                                                             Page 14 of 18
+
+
+
+
+References                                                                                 22. Stuempfle KJ, Lehmann DR, Case HS, Hughes SL, Evans D. Change in serum
+1. Zaryski C, Smith DJ. Training principles and issues for ultra-endurance                     sodium concentration during a cold weather ultradistance race. Clin J Sport
+    athletes. Curr Sports Med Rep. 2005;4(3):165–70. https://doi.org/10.1097/01.               Med. 2003;13(3):171–5. https://doi.org/10.1097/00042752-200305000-00008.
+    csmr.0000306201.49315.73. Epub 2005/05/24.                                                 Epub 2003/06/07.
+2. Scheer V. Participation Trends of Ultra Endurance Events. Sports medicine               23. Chlíbková D, Knechtle B, Rosemann TJ, Žákovská A, Tomášková I, Shortall M, et
+    and arthroscopy review. 2019;27(1):3–7. Epub 2019/01/03. https://doi.                      al. Changes in foot volume, body composition, and hydration status in male
+    org/10.1097/jsa.0000000000000198. PubMed PMID: 30601393.                                   and female 24-hour ultra-mountain bikers. J Int Soc Sports Nutr. 2014;11:12.
+3. WUCA. What is ultracycling? 2022 [15.07.2022]. https://www.ultracycling.                24. Valenzuela PL, Foster C, Lucía A, de la Villa P. Performance and physiologi-
+    com/what-ultracycling.                                                                     cal analysis of 500 km non-stop cycling: a case study. Res Sports Med.
+4. Lepers R, Stapley PJ. Master athletes are extending the limits of human endur-              2018;26(2):222–9. PubMed PMID: 29359592.
+    ance. Front Physiol. 2016;7:613. https://doi.org/10.3389/fphys.2016.00613.             25. Wirnitzer KC, Faulhaber M. Hemoglobin and hematocrit during an 8 day
+    Epub 2016/12/27.                                                                           mountainbike race: a field study. J Sports Sci Med. 2007;6(2):265–6.
+5. da Fonseca-Engelhardt K, Knechtle B, Rüst CA, Knechtle P, Lepers R, Rose-                   Epub 2007/01/01. PubMed PMID: 24137084; PubMed Central PMCID:
+    mann T. Participation and performance trends in ultra-endurance running                    PMCPMC3786250.
+    races under extreme conditions - ‘Spartathlon’ versus ‘Badwater’. Extrem               26. Lucia A, Hoyos J, Chicharro JL. Physiology of professional road cycling. Sports
+    Physiol Med. 2013;2(1):15. https://doi.org/10.1186/2046-7648-2-15. PubMed                  Med. 2001;31(5):325–37. https://doi.org/10.2165/00007256-200131050-
+    PMID: 23848985.                                                                            00004. Epub 2001/05/12.
+6. WUCA. World Ultracycling Association Race. Calendar 2022 [10. October                   27. Valenti MT, Braggio M, Minoia A, Dorelli G, Bertacco J, Bertoldo F, et al. Effects
+    2022]. https://www.ultracycling.com/calendar.                                              of a 4400 km ultra-cycling non-competitive race and related training on
+7. Apidura. Paris-Brest-Paris: Everything You Need to Know                                     body composition and circulating progenitors differentiation. J Transl Med.
+    2022 [11.07.2022]. https://www.apidura.com/journal/                                        2022;20(1):397. https://doi.org/10.1186/s12967-022-03591-5. Epub 20220904.
+    paris-brest-paris-everything-you-need-to-know/.                                        28. Guex K, Wicht S, Besson C, Degache F, Gojanovic B, Gremion G. From
+8. RAAM. Race across America 2022 [11.07.2022]. https://www.raamrace.org/                      sedentary and physical inactive behaviours to an Ultra Cycling race: a mixed-
+    about.                                                                                     method case report. Int J Environ Res Public Health. 2020;17(2). https://doi.
+9. Guex K, Serain E, Gremion G, Besson C, Faiss R, Majo J, et al. Participating in             org/10.3390/ijerph17020502. PubMed PMID: 31941104; PubMed Central
+    the race across AMerica in a team of eight cyclists: do not neglect Crew Prep-             PMCID: PMCPMC7014053. Epub 2020/01/17.
+    aration. Open Access J Sports Med. 2019;10:161–9. https://doi.org/10.2147/             29. Knechtle B, Rüst CA, Rosemann TJ, Martin N. 33 ironman triathlons in 33
+    oajsm.S219124. Epub 2019/12/07.                                                            days–a case study. Springerplus. 2014;3.
+10. Heidenfelder A, Rosemann T, Rüst CA, Knechtle B. Pacing strategies of Ultracy-         30. Zingg M, Knechtle B, Rüst CA, Rosemann T, Lepers R. Age and gender
+    clists in the race across AMerica. Int J Sports Physiol Perform. 2016;11(3):319–           difference in non-drafting ultra-endurance cycling performance - the
+    27. https://doi.org/10.1123/ijspp.2015-0051. Epub 2015/07/29.                              ‘Swiss Cycling Marathon’. Extrem Physiol Med. 2013;2(1):18. https://doi.
+11. Knechtle B, Wirth A, Knechtle P, Rosemann T. An ultra-cycling race leads to no             org/10.1186/2046-7648-2-18. Epub 2013/07/16.
+    decrease in skeletal muscle mass. Int J Sports Med. 2009;30(3):163–7. https://         31. Rüst CA, Knechtle B, Rosemann T, Lepers R. Men cross America faster than
+    doi.org/10.1055/s-0028-1104585. Epub 2009/02/10.                                           women–the Race across America from 1982 to 2012. Int J Sports Physiol
+12. Weiss K, Sousa CV, Thuany M, Cuk I, Nikolaidis PT, Knechtle B. Differences in              Perform. 2013;8(6):611–7. https://doi.org/10.1123/ijspp.8.6.611. Epub
+    pacing during cycling and running in ultra-triathlons - the example of ‘Swis-              2013/02/26.
+    sultra’. Eur Rev Med Pharmacol Sci. 2022;26(14):4959–68. Epub 2022/08/03.              32. Rüst CA, Knechtle B, Knechtle P, Rosemann T. No case of exercise-associated
+    doi: 10.26355/eurrev_202207_29281. PubMed PMID: 35916791.                                  hyponatraemia in top male ultra-endurance cyclists: the ‘Swiss Cycling
+13. Bescós R, Rodríguez FA, Iglesias X, Knechtle B, Benítez A, Marina M, et al.                Marathon’. Eur J Appl Physiol. 2012;112(2):689– 97. Epub 2011/06/10. https://
+    Physiological demands of cyclists during an ultra-endurance relay race: a field            doi.org/10.1007/s00421-011-2024-y. PubMed PMID: 21656229.
+    study report. Chin J Physiol. 2011;54(5):339–46. Epub 2011/12/06. PubMed               33. Rüst CA, Bragazzi NL, Signori A, Stiefel M, Rosemann TJ, Knechtle B. Nation
+    PMID: 22135913.                                                                            related participation and performance trends in ‘Norseman Xtreme Triathlon’
+14. Wundersitz D, Williamson J, Nadurata V, Nolan K, Lavie C, Kingsley M. The                  from 2006 to 2014. Springerplus. 2015;4.
+    impact of a 21-day ultra-endurance ride on the heart in young, adult and               34. Nikolaidis PT, Chtourou H, Ramirez-Campillo R, Villiger E, Rosemann T,
+    older adult recreational cyclists. Int J Cardiol. 2019;286:137–42. https://doi.            Knechtle B. The Combined Effect of Aging and Performance Level on Pacing
+    org/10.1016/j.ijcard.2019.03.016. Epub 2019/03/25. PubMed PMID: 30904280.                  in Duathlon - the ITU Powerman Long Distance Duathlon World champion-
+15. Earnest CP, Jurca R, Church TS, Chicharro JL, Hoyos J, Lucia A. Relation                   ships. Front Psychol. 2019;10:296. https://doi.org/10.3389/fpsyg.2019.00296.
+    between physical exertion and heart rate variability characteristics in profes-            Epub 2019/03/06.
+    sional cyclists during the Tour of Spain. Br J Sports Med. 2004;38(5):568–75.          35. Luk H-Y, McKenzie AL, Duplanty AA, Budnar RG, Levitt DE, Fernandez A, et al.
+    https://doi.org/10.1136/bjsm.2003.005140. Epub 2004/09/25.                                 Leukocyte subset changes in response to a 164-km road cycle ride in a hot
+16. Lucia A, Hoyos J, Santalla A, Earnest C, Chicharro JL. Tour De France versus               environment. Int J Exerc Sci. 2016;9:34–46.
+    Vuelta a España: which is harder? Med Sci Sports Exerc. 2003;35(5):872–8.              36. Lahart I, Lane A, Hulton A, Williams K, Godfrey RJ, Pedlar C, et al. Challenges
+    https://doi.org/10.1249/01.Mss.0000064999.82036.B4. Epub 2003/05/17.                       in maintaining emotion regulation in a sleep and energy deprived State
+17. Padilla S, Mujika I, Santisteban J, Impellizzeri FM, Goiriena JJ. Exercise intensity       Induced by the 4800Km Ultra-endurance Bicycle race; the race across
+    and load during uphill cycling in professional 3-week races. Eur J Appl                    AMerica (RAAM). J Sports Sci Med. 2013;12:481–8.
+    Physiol. 2008;102(4):431–8. https://doi.org/10.1007/s00421-007-0602-9.                 37. Knechtle B, Wirth A, Knechtle P, Rüst CA, Rosemann TJ. A comparison of
+    PubMed PMID: 17978835.                                                                     Ultra-endurance cyclists in a qualifying Ultra-cycling Race for Paris-Brest-
+18. Neumayr G, Pfister R, Mitterbauer G, Gaenzer H, Sturm W, Hoertnagl H. Heart                Paris and Race across America—Swiss Cycling Marathon. Percept Mot Skills.
+    rate response to ultraendurance cycling. Br J Sports Med. 2003;37(1):89–90.                2012;114:110–96.
+    https://doi.org/10.1136/bjsm.37.1.89. Epub 2003/01/28.                                 38. Knechtle B, Nikolaidis PT. Sex differences in pacing during ‘Ultraman Hawaii’.
+19. Linderman J, Demchak T, Dallas J, Buckworth J. Ultra-endurance cycling: a                  PeerJ. 2016;4:e2509. 10.7717. Epub 2016/10/06.
+    field study of human performance during a12-hour moutain bike race. J                  39. Knechtle B, Knechtle P, Andonie JL, Kohler G. Influence of anthropometry
+    Exerc Physiol Online. 2003;6:14–23.                                                        on race performance in extreme endurance triathletes: World Challenge
+20. Geesmann B, Mester J, Koehler K. Energy balance, macronutrient intake,                     Deca Iron Triathlon 2006. Br J Sports Med. 2007;41(10):644–8. https://doi.
+    and hydration status during a 1,230 km ultra-endurance bike marathon.                      org/10.1136/bjsm.2006.035014. discussion 8. Epub 2007/06/09.
+    Int J Sport Nutr Exerc Metab. 2014;24(5):497–506. https://doi.org/10.1123/             40. Chlíbková D, Rosemann TJ, Knechtle B, Nikolaidis PT, Žákovská A, Sudi K.
+    ijsnem.2013-0169. Epub 2014/03/29.                                                         Description of three female 24-h Ultra-endurance Race winners in various
+21. May GC, Doherty AR, Smeaton AF, Warrington GD. Correlating multimodal                      Weather conditions and disciplines. Chin J Physiol. 2017;60(4):231–41.
+    physical sensor information with biological analysis in ultra endur-                   41. Gallmann D, Knechtle B, Rüst CA, Rosemann T, Lepers R. Elite triathletes in
+    ance cycling. Sens (Basel). 2010;10(8):7216–35. https://doi.org/10.3390/                   ‘Ironman Hawaii’ get older but faster. Age (Dordr). 2014;36(1):407–16. https://
+    s100807216. Epub 2010/01/01.                                                               doi.org/10.1007/s11357-013-9534-y. Epub 2013/04/18.
+Tiemeier et al. Sports Medicine - Open               (2024) 10:48                                                                                          Page 15 of 18
+
+
+
+
+42. Knechtle B, Knechtle P, Lepers R. Participation and performance trends in           62. Pozzi L, Knechtle B, Knechtle P, Rosemann T, Lepers R, Rüst CA. Sex and
+    ultra-triathlons from 1985 to 2009. Scand J Med Sci Sports. 2011;21(6):e82-90.          age-related differences in performance in a 24-hour ultra-cycling draft-legal
+    Epub 2010/07/16. https://doi.org/10.1111/j.1600-0838.2010.01160.x. PubMed               event– a cross-sectional data analysis. BMC Sports Sci Med Rehabilitation.
+    PMID: 20626703.                                                                         2014;6(1):19. https://doi.org/10.1186/2052-1847-6-19.
+43. Knechtle B. Relationship of anthropometric and training characteristics with        63. Frandsen J, Sahl RE, Rømer T, Hansen MT, Nielsen AB, Lie-Olesen MM, et al.
+    race performance in endurance and ultra-endurance athletes. Asian J Sports              Extreme duration exercise affects old and younger men differently. Acta
+    Med. 2014;5(2):73–90. Epub 2015/04/04. PubMed PMID: 25834701; PubMed                    Physiol (Oxf ). 2022;235(3):e13816. https://doi.org/10.1111/apha.13816. Epub
+    Central PMCID: PMCPMC4374609.                                                           2022/03/30.
+44. Knechtle B, Knechtle P, Rosemann T. Similarity of anthropometric mea-               64. Gloor RU, Knechtle B, Knechtle P, Rüst CA, Haupt S, Rosemann T, et al.
+    sures for male ultra-triathletes and ultra-runners. Percept Mot Skills.                 Sex-related trends in participation and performance in the ‘Swiss Bike
+    2010;111(3):805–18. https://doi.org/10.2466/05.25.Pms.111.6.805-818. Epub               Masters’ from 1994–2012. Percept Mot Skills. 2013;116(2):640–54. https://doi.
+    2011/02/16.                                                                             org/10.2466/30.PMS.116.2.640-654.
+45. Knechtle B, Knechtle P, Rüst C, Rosemann T. A comparison of anthropometric          65. Knechtle B, Zingg MA, Rosemann TJ, Rüst CA. Sex difference in top perform-
+    and training characteristics of Ironman triathletes and Triple Iron ultra-triath-       ers from Ironman to double deca iron ultra-triathlon. Open Access J Sports
+    letes. J Sports Sci. 2011;29:1373–80. https://doi.org/10.1080/02640414.2011.5           Med. 2014;5:159–72.
+    87442.                                                                              66. Nikolaidis PT, Villiger E, Vancini RL, Rosemann T, Knechtle B. The Effect of
+46. Knechtle B, Wirth A, Knechtle P, Rüst CA, Rosemann T. A comparison of                   Sex and Performance Level on Pacing in Duathlon. Sports (Basel). 2018;6(4).
+    ultra-endurance cyclists in a qualifying ultra-cycling race for Paris-Brest-            Epub 2018/11/28. https://doi.org/10.3390/sports6040152. PubMed PMID:
+    Paris and Race Across America-Swiss cycling marathon. Percept Mot Skills.               30477088; PubMed Central PMCID: PMCPMC6315520.
+    2012;114(1):96–110. https://doi.org/10.2466/05.Pms.114.1.96-110. Epub               67. Rüst CA, Knechtle B, Knechtle P, Rosemann T, Lepers R. Sex differences in
+    2012/05/16.                                                                             Ultra-triathlon performance at increasing Race Distance. Percept Mot Skills.
+47. Knechtle B, Zingg MA, Rosemann T, Rüst CA. The aspect of experience in                  2013;116(2):690–706. https://doi.org/10.2466/30.06.PMS.116.2.690-706.
+    ultra-triathlon races. Springerplus. 2015;4(1):278. https://doi.org/10.1186/        68. Rüst CA, Rosemann T, Knechtle B. Performance and sex difference in ultra-
+    s40064-015-1050-3.                                                                      triathlon performance from Ironman to double Deca Iron ultra-triathlon
+48. Stiefel M, Knechtle B, Lepers R. Master triathletes have not reached limits in          between 1978 and 2013. Springerplus [Internet] 2014. 2014;3:219.
+    their Ironman triathlon performance. Scand J Med Sci Sports. 2014;24.               69. Rüst CA, Rosemann T, Lepers R, Knechtle B. Gender difference in cycling
+49. Neumayr G, Gänzer H, Sturm W, Pfister R, Mitterbauer G, Hörtnagl H. Physi-              speed and age of winning performers in ultra-cycling - the 508-mile furnace
+    ological effects of an Ultra-cycle ride in an amateur Athlete - A Case Report. J        Creek from 1983 to 2012. J Sports Sci. 2015;33(2):198–210. PubMed PMID:
+    Sports Sci Med. 2002;1:20–6.                                                            24993112.
+50. Rüst CA, Knechtle B, Knechtle P, Lepers R, Rosemann TJ, Onywera V. European         70. Salihu L, Rüst CA, Rosemann T, Knechtle B. Sex Difference in Draft-Legal Ultra-
+    athletes dominate performances in double Iron ultra-triathlons– A retrospec-            Distance Events - A Comparison between Ultra-Swimming and Ultra-Cycling.
+    tive data analysis from 1985 to 2010. Eur J Sport Sci. 2014;14:S39 - S50.               Chin J Physiol. 2016;59(2):87–99. Epub 2016/04/16. https://doi.org/10.4077/
+51. Rüst CA, Knechtle B, Knechtle P, Rosemann TJ, Lepers R. Participation and               cjp.2016.Bae373. PubMed PMID: 27080464.
+    performance trends in Triple Iron Ultra-triathlon– a cross-sectional and longi-     71. Baumgartner S, Sousa CV, Nikolaidis PT, Knechtle B. Can the Performance
+    tudinal data analysis. Asian J Sports Med. 2012;3:145–52.                               Gap between Women and Men be Reduced in Ultra-Cycling? Int J Environ
+52. Sousa CV, Knechtle B, Nikolaidis PT. Longitudinal Performance Analysis in               Res Public Health. 2020;17(7). Epub 2020/04/11. https://doi.org/10.3390/
+    Ultra-Triathlon of the World’s 2 Best Master Triathletes. Int J Sports Physiol          ijerph17072521. PubMed PMID: 32272640; PubMed Central PMCID:
+    Perform. 2020:1–5.                                                                      PMCPMC7177769.
+53. Sousa CV, Nikolaidis PT, Knechtle B. Ultra-triathlon—Pacing, performance            72. Scholz H, Sousa CV, Baumgartner S, Rosemann T, Knechtle B. Changes in
+    trends, the role of nationality, and sex differences in finishers and non-              sex difference in Time-Limited Ultra-cycling races from 6 hours to 24 hours.
+    finishers. Scand J Med Sci Sports. 2020;30(3):556–63. https://doi.org/10.1111/          Medicina. 2021;57(9):923. https://doi.org/10.3390/medicina57090923.
+    sms.13598.                                                                              PubMed PMID.
+54. Mavromati M, Kriemadis A, Gkatsis G, Psiloutsikou M, Koronios K. Motiva-            73. Barrero A, Erola P, Bescós R. Energy balance of triathletes during an ultra-
+    tion and high performance sports events: an exploratory investigation of                endurance event. Nutrients. 2014;7(1):209–22. Epub 2015/01/07. doi:
+    the motives underlying repeated participation. Int J Sport Manage Mark.                 10.3390/nu7010209. PubMed PMID: 25558906; PubMed Central PMCID:
+    2019;19:35. https://doi.org/10.1504/IJSMM.2019.10018016.                                PMCPMC4303834.
+55. Kruger M, Saayman M. How do mountain bikers and road cyclists dif-                  74. Bescós R, Rodríguez FA, Iglesias X, Benítez A, Marina M, Padullés JM, et al.
+    fer? South African Journal for Research in Sport. Phys Educ Recreation.                 High energy deficit in an ultraendurance athlete in a 24-hour ultracycling
+    2014;36:137–52.                                                                         race. Proc (Bayl Univ Med Cent). 2012;25(2):124–8. PubMed PMID: 22481841;
+56. Kupchak BR, Kazman JB, Vingren JL, Levitt DE, Lee EC, Williamson KH, et al.             PubMed Central PMCID: PMCPMC3310508.
+    Blood hemostatic changes during an Ultraendurance Road Cycling Event in             75. Bescós R, Rodríguez FA, Iglesias X, Knechtle B, Benítez A, Marina M, et
+    a hot environment. Wilderness Environ Med. 2017;28(3):197–206. https://doi.             al. Nutritional behavior of cyclists during a 24-hour team relay race:
+    org/10.1016/j.wem.2017.05.002. Epub 2017/07/26.                                         a field study report. J Int Soc Sports Nutr. 2012;9(1):3. https://doi.
+57. Knechtle B, Forte P, Weiss K, Cuk I, Nikolaidis PT, Sousa CV, et al. Biophysical        org/10.1186/1550-2783-9-3.
+    characterization of the first ultra-cyclist in the world to break the 1,000 km      76. Borgenvik M, Nordin M, Mikael Mattsson C, Enqvist JK, Blomstrand E, Ekblom
+    barrier in 24-h non-stop road cycling: a case report. Front Cardiovasc Med.             B. Alterations in amino acid concentrations in the plasma and muscle in
+    2022;9:990382. https://doi.org/10.3389/fcvm.2022.990382. Epub 2022/10/29.               human subjects during 24 h of simulated adventure racing. Eur J Appl
+58. Allen SV, Hopkins WG. Age of peak competitive performance of Elite                      Physiol. 2012;112(10):3679–88. https://doi.org/10.1007/s00421-012-2350-8.
+    athletes: a systematic review. Sports Med. 2015;45(10):1431–41. https://doi.            Epub 2012/02/22.
+    org/10.1007/s40279-015-0354-3.                                                      77. Chlíbková D, Knechtle B, Rosemann T, Tomášková I, Chadim V, Shortall M.
+59. Knechtle B, Käch I, Rosemann T, Nikolaidis PT. The effect of sex, age and               Nutrition habits in 24-hour mountain bike racers. Springerplus. 2014;3:715.
+    performance level on pacing of Ironman triathletes. Res Sports Med.                     https://doi.org/10.1186/2193-1801-3-715. Epub 2015/02/13.
+    2019;27(1):99–111. PubMed PMID: 30418036.                                           78. Enqvist JK, Mattsson CM, Johansson PH, Brink-Elfegoun T, Bakkman L, Ekblom
+60. Lepers R, Rüst C, Stapley P, Knechtle B. Relative improvements in endur-                B. Energy turnover during 24 hours and 6 days of adventure racing. J Sports
+    ance performance with age: evidence from 25 years of Hawaii Ironman                     Sci. 2010;28:947–55.
+    racing. Age (Dordrecht Netherlands). 2012;35. https://doi.org/10.1007/              79. Francescato MP, di Prampero PE. Energy expenditure during an ultra-endur-
+    s11357-012-9392-z.                                                                      ance cycling race. J Sports Med Phys Fit. 2002;42 1:1–7.
+61. Nikolaidis P, Villiger E, Ardigò L, Waśkiewicz Z, Rosemann T, Knechtle B. The       80. Goedecke JH, Clark VR, Noakes TD, Lambert EV. The effects of medium-chain
+    age of peak performance in women and men duathletes - the paradigm of                   triacylglycerol and carbohydrate ingestion on ultra-endurance exercise
+    short and long versions in ‘Powerman Zofingen’. Open Access J Sports Med.               performance. Int J Sport Nutr Exerc Metab. 2005;15(1):15–27. https://doi.
+    2018;9. https://doi.org/10.2147/OAJSM.S167735.                                          org/10.1123/ijsnem.15.1.15. PubMed PMID: 15902986.
+Tiemeier et al. Sports Medicine - Open                (2024) 10:48                                                                                            Page 16 of 18
+
+
+
+
+81. Konopka AR, Castor WM, Wolff CA, Musci RV, Reid JJ, Laurin JL, et al. Skeletal       101. Black KE, Skidmore P, Brown RC. Fluid balance of cyclists during a 387-km
+     muscle mitochondrial protein synthesis and respiration in response to                    race. Eur J Sport Sci. 2014;14(Suppl 1):S421–8. PubMed PMID: 24444237. Epub
+     the energetic stress of an ultra-endurance race. J Appl Physiol. 2017;123                2014/01/22.
+     6:1516–24.                                                                          102. Bischof M, Knechtle B, A.Rüst C, Knechtle P, Rosemann TJ. Changes in Skinfold
+82. Koopman R, Pannemans D, Jeukendrup AE, Gijsen AP, Senden JM, Halliday D,                  thicknesses and Body Fat in Ultra-endurance cyclists. Asian J Sports Med.
+     et al. Combined ingestion of protein and carbohydrate improves protein bal-              2013;4:15–22.
+     ance during ultra-endurance exercise. Am J Physiol Endocrinol Metabolism.           103. Knechtle B, Andonie JL, Salas OF, Knechtle P, Kohler G. [The effect of a multi-
+     2004;287(4):E712–20.                                                                     stage ultra-endurance triathlon over ten times an iron-man-triathlon on fat
+83. Maunder E, Kilding AE, Plews DJ. Substrate metabolism during Ironman Tri-                 mass and skeletal muscle mass–the world challenge deca iron 2006]. Praxis.
+     athlon: different horses on the same courses. Sports Med. 2018;48(10):2219–              2008;97:16885–92.
+     26. https://doi.org/10.1007/s40279-018-0938-9. Epub 2018/05/20.                     104. Knechtle B, Knechtle P, Schück R, Andonie JL, Kohler G. Effects of a Deca
+84. Nikolaidis PT, Veniamakis E, Rosemann T, Knechtle B. Nutrition in Ultra-endur-            Iron Triathlon on body composition: a case study. Int J Sports Med.
+     ance: state of the art. Nutrients. 2018;10(12):1995. https://doi.org/10.3390/            2008;29(4):343–51. https://doi.org/10.1055/s-2007-965354. Epub 2007/09/21.
+     nu10121995. PubMed PMID:.                                                           105. Knechtle B, Schwanke M, Knechtle P, Kohler G. Decrease in body fat during
+85. Rowlands DS, Hopkins WG. Effects of high-fat and high-carbohydrate diets                  an ultra-endurance triathlon is associated with race intensity. Br J Sports
+     on metabolism and performance in cycling. Metabolism. 2002;51(6):678–90.                 Med. 2008;42(7):609–13. https://doi.org/10.1136/bjsm.2007.040956. Epub
+     https://doi.org/10.1053/meta.2002.32723. Epub 2002/05/31.                                2007/12/01.
+86. Wilson PB, Rhodes GS, Ingraham SJ. Saccharide Composition of Carbo-                  106. Hue O, Voltaire B, Hertogh C, Blonc S. Heart rate, thermoregulatory and
+     hydrates Consumed during an Ultra-endurance Triathlon. J Am Coll Nutr.                   humoral responses during a 9-day cycle race in a hot and humid climate. Int
+     2015;34:497–506.                                                                         J Sports Med. 2006;27(9):690–6. https://doi.org/10.1055/s-2005-872919. Epub
+87. Knechtle B, Pitre J, Chandler C. Food habits and use of supplements in                    2006/04/06.
+     ultraendurance cyclists - the race across AMerica (RAAM) 2006. Sportmed             107. White JA, Ward C, Nelson H. Ergogenic demands of a 24 hour cycling event.
+     Sporttraumatologie. 2007;55.                                                             Br J Sports Med. 1984;18(3):165–71. https://doi.org/10.1136/bjsm.18.3.165.
+88. Armstrong LE, Casa DJ, Emmanuel H, Ganio MS, Klau JF, Lee EC, et al. Nutri-               Epub 1984/09/01.
+     tional, physiological, and perceptual responses during a summer ultraendur-         108. Barrero A, Chaverri D, Erola P, Iglesias X, Rodríguez FA. Intensity profile during
+     ance cycling event. J Strength Cond Res. 2012;26(2):307–18. https://doi.                 an ultra-endurance triathlon in relation to testing and performance. Int J
+     org/10.1519/JSC.0b013e318240f677. Epub 2011/11/23.                                       Sports Med. 2014;35(14):1170–8. https://doi.org/10.1055/s-0034-1374601.
+89. Black KE, Skidmore PM, Brown RC. Energy intakes of ultraendurance cyclists                Epub 2014/09/12.
+     during competition, an observational study. Int J Sport Nutr Exerc Metab.           109. Berglund B, Berglund L. [»Shermer’s neck« is a rare injury in long-distance
+     2012;22(1):19–23. https://doi.org/10.1123/ijsnem.22.1.19. Epub 2012/01/18.               cycle races. Association with diplopia described for the first time]. Lakar-
+90. Hulton AT, Lahart I, Williams KL, Godfrey R, Charlesworth S, Wilson M, et al.             tidningen [Internet]. 2015 2015/12//; 112:[DR7I p.]. http://europepmc.org/
+     Energy expenditure in the Race across America (RAAM). Int J Sports Med.                  abstract/MED/26671432.
+     2010;31(7):463–7. https://doi.org/10.1055/s-0030-1251992. Epub 2010/05/11.          110. Brayson D, Frigiola A, Clark JE. Dynamic heart rate response to multi-day
+91. Armstrong LE, Johnson EC, Ganio MS, Judelson DA, Vingren JL, Kupchak BR,                  unsupported ultra‐endurance cycle racing: a case report. Exp Physiol.
+     et al. Effective body water and body mass changes during summer ultra-                   2019;104:174–9.
+     endurance road cycling. J Sports Sci. 2015;33:125–35.                               111. Chlíbková D, Ronzhina M, Nikolaidis PT, Rosemann T, Knechtle B. Non-
+92. Gauckler P, Kesenheimer JS, Kronbichler A, Kolbinger FR. Edema-like symp-                 steroidal anti-inflammatory drug consumption in a Multi-stage and a 24-h
+     toms are common in ultra-distance cyclists and driven by overdrinking,                   Mountain Bike Competition. Front Physiol. 2018. https://doi.org/10.3389/
+     use of analgesics and female sex - a study of 919 athletes. J Int Soc Sports             fphys.2018.01272. 9:1272. Epub 2018/09/25.
+     Nutr. 2021;18(1):73. https://doi.org/10.1186/s12970-021-00470-0. Epub               112. Devrim-Lanpir A, Bilgic P, Kocahan T, Deliceoğlu G, Rosemann T, Knechtle B.
+     2021/12/06.                                                                              Total dietary antioxidant intake including Polyphenol Content: is it capable to
+93. Goulet EDB, Hoffman MD. Impact of Ad Libitum Versus Programmed Drinking                   fight against increased oxidants within the body of Ultra-endurance athletes?
+     on Endurance Performance: A Systematic Review with Meta-Analysis. Sports                 Nutrients [Internet]. 2020 2020/06//; 12(6):[E1877 p.].
+     Med. 2019;49(2):221– 32. Epub 2019/01/20. https://doi.org/10.1007/s40279-           113. Gamage PJ, Fortington LV, Finch C. Epidemiology of exertional heat illnesses
+     018-01051-z. PubMed PMID: 30659500.                                                      in organised sports: a systematic review. J Sci Med Sport. 2019.
+94. Knechtle B, Chlíbková D, Nikolaidis PT. [Exercise-Associated hyponatre-              114. Knechtle B, Kohler G. Running performance, not anthropometric fac-
+     mia in endurance performance]. Praxis. 2019;108(9):615–32. https://doi.                  tors, is associated with race success in a Triple Iron Triathlon. Br J Sports
+     org/10.1024/1661-8157/a003261. PubMed PMID: 31288661.                                    Med. 2009;43(6):437–41. https://doi.org/10.1136/bjsm.2007.039602. Epub
+95. Knechtle B, Chlíbková D, Papadopoulou S, Mantzorou M, Rosemann T, Niko-                   2007/12/01.
+     laidis PT. Exercise-Associated Hyponatremia in endurance and Ultra-endur-           115. Knechtle B, Zingg MA, Rosemann TJ, Stiefel M, Rüst CA. What predicts per-
+     ance performance-aspects of sex, race location, ambient temperature, sports              formance in ultra-triathlon races?– a comparison between Ironman distance
+     Discipline, and length of performance: a narrative review. Medicina (Kaunas)             triathlon and ultra-triathlon. Open Access J Sports Med. 2015;6:149–59.
+     [Internet]. 2019 2019/08//; 55(9):[E537 p.].                                        116. Knechtle B, Bragazzi NL, Rosemann T, Rüst CA. Pacing in a self-paced world
+96. Meyer M, Knechtle B, Bürge J, Knechtle P, Mrazek C, Wirth A, et al. Ad                    record attempt in 24-h road cycling. Springerplus [Internet]. 2015 2015;
+     libitum fluid intake leads to no leg swelling in male Ironman triathletes - an           4:[650 p.].
+     observational field study. J Int Soc Sports Nutr. 2012;9(1):40. https://doi.        117. Knechtle B, Wirth A, Knechtle P, Rüst CA, Rosemann T, Lepers R. No improve-
+     org/10.1186/1550-2783-9-40. Epub 2012/09/04.                                             ment in race performance by naps in male ultra-endurance cyclists in a
+97. Moyen NE, Ganio MS, Wiersma LD, Kavouras SA, Gray M, McDermott BP, et al.                 600-km ultra-cycling race. Chin J Physiol. 2012;55(2):125–33. https://doi.
+     Hydration status affects mood state and pain sensation during ultra-endur-               org/10.4077/cjp.2012.Baa022. Epub 2012/05/09. PubMed PMID: 22559737.
+     ance cycling. J Sports Sci. 2015;33:1962–9.                                         118. Lucas SJ, Anglem N, Roberts WS, Anson JG, Palmer CD, Walker RJ, et
+98. Rüst CA, Knechtle B, Knechtle P, Rosemann TJ. Higher prevalence of exercise-              al. Intensity and physiological strain of competitive ultra-endurance
+     associated hyponatremia in triple iron ultra-triathletes than reported for               exercise in humans. J Sports Sci. 2008;26(5):477–89. Epub 2008/02/16. doi:
+     ironman triathletes. Chin J Physiol. 2012;55(3):147–55.                                  10.1080/02640410701552872. PubMed PMID: 18274945.
+99. Knechtle B, Gnädinger M, Knechtle P, Imoberdorf R, Kohler G, Ballmer P, et           119. Luk H-Y, Levitt DE, Lee EC-H, Ganio MS, McDermott BP, Kupchak BR, et al. Pro-
+     al. Prevalence of exercise-associated hyponatremia in male ultraendur-                   and anti-inflammatory cytokine responses to a 164-km road cycle ride in a
+     ance athletes. Clin J Sport Med. 2011;21(3):226–32. https://doi.org/10.1097/             hot environment. Eur J Appl Physiol. 2016;116:2007–15.
+     JSM.0b013e31820cb021. Epub 2011/03/24.                                              120. Vingren JL, Budnar RG, McKenzie AL, Duplanty AA, Luk H-Y, Levitt DE, et al.
+100. Pollastri L, Lanfranconi F, Tredici G, Burtscher M, Gatterer H. Body Water Status        The acute testosterone, growth hormone, cortisol and interleukin-6 response
+     and short-term maximal power output during a Multistage Road Bicycle                     to 164-km road cycling in a hot environment. J Sports Sci. 2016;34:694–9.
+     race (Giro d’Italia 2014). Int J Sports Med. 2016;37(4):329–33. https://doi.        121. Mattsson CM, Enqvist JK, Brink-Elfegoun T, Johansson PH, Bakkman L,
+     org/10.1055/s-0035-1565105. Epub 2015/12/25.                                             Ekblom B. Reversed drift in heart rate but increased oxygen uptake at fixed
+                                                                                              work rate during 24 h ultra-endurance exercise. Scand J Med Sci Sports.
+Tiemeier et al. Sports Medicine - Open                (2024) 10:48                                                                                           Page 17 of 18
+
+
+
+
+     2010;20(2):298–304. Epub 2009/06/03. https://doi.org/10.1111/j.1600-                     performances. Int J Sports Physiol Perform. 2021;16(5):739–43. https://doi.
+     0838.2009.00878.x. PubMed PMID: 19486489.                                                org/10.1123/ijspp.2020-0515. Epub 2021/02/07.
+122. Millet GY, Martin V, Temesi J. The role of the nervous system in neuromuscu-        140. Kraemer WJ, Fragala MS, Watson G, Volek JS, Rubin MR, French DN, et al.
+     lar fatigue induced by ultra-endurance exercise. Appl Physiol Nutr Metab.                Hormonal responses to a 160-km race across frozen Alaska. Br J Sports Med.
+     2018;43(11):1151–7. https://doi.org/10.1139/apnm-2018-0161. PubMed                       2008;42(2):116–20. https://doi.org/10.1136/bjsm.2007.035535. discussion 20.
+     PMID: 29726694.                                                                          Epub 2007/07/20.
+123. Rogers IR, Speedy D, Hillman D, Noffsinger B, Ing-                                  141. Geesmann B, Gibbs JC, Mester J, Koehler K. Association between Energy Bal-
+     lis S, Wilderness. Environ Med. 2002;13(2):135–9. https://doi.                           ance and metabolic hormone suppression during Ultraendurance Exercise.
+     org/10.1580/1080-6032(2002)013[0135:RFCIAW]2.0.CO;2.                                     Int J Sports Physiol Perform. 2017;12(7):984–9. https://doi.org/10.1123/
+124. Smith KA, Kisiolek JN, Willingham BD, Morrissey MC, Leyh SM, Saracino PG, et             ijspp.2016-0061. Epub 2016/12/15.
+     al. Ultra-endurance triathlon performance and markers of whole-body and             142. El Helou N, Berthelot G, Thibault V, Tafflet M, Nassif H, Campion F, et al. Tour
+     gut-specific inflammation. Eur J Appl Physiol. 2019;120:349–57.                          De France, Giro, Vuelta, and classic European races show a unique progres-
+125. Sousa CV, Pereira RW, Rosemann T, Nikolaidis PT, Knechtle B. Self-selected               sion of road cycling speed in the last 20 years. J Sports Sci. 2010;28:789–96.
+     pacing during a World Record Attempt in 40 Ironman-Distance triath-                      https://doi.org/10.1080/02640411003739654.
+     lons in 40 days. Int J Environ Res Public Health [Internet]. 2020 2020/04//;        143. Knechtle B, Rosemann T, Nikolaidis PT. Self-Selected Pacing during a 24 h
+     17(7):E2390 p.].                                                                         Track Cycling World Record. Int J Environ Res Public Health. 2019;16(16).
+126. Knechtle B, Knechtle P, Rosemann T. No Association between Skinfold thick-               Epub 2019/08/21. https://doi.org/10.3390/ijerph16162943. PubMed PMID:
+     nesses and Race Performance in Male Ultra-endurance cyclists in a 600 km                 31426293; PubMed Central PMCID: PMCPMC6720958.
+     Ultra-cycling Marathon. Hum Mov. 2009;10(2):91–5. https://doi.org/10.2478/          144. Garvican-Lewis LA, Clark B, Martin DT, Schumacher YO, McDonald W,
+     v10038-009-0018-y.                                                                       Stephens B, et al. Impact of Altitude on Power output during Cycling Stage
+127. Knechtle B, Knechtle P, Rüst CA, Rosemann T, Lepers R. Finishers and                     Racing. PLoS ONE. 2015;10(12):e0143028. https://doi.org/10.1371/journal.
+     nonfinishers in the ‘Swiss Cycling Marathon' to qualify for the ‘Race across             pone.0143028. Epub 2015/12/03.
+     America ‘. J Strength Cond Res. 2011;25(12):3257–63. https://doi.org/10.1519/       145. Fernández-García B, Pérez-Landaluce J, Rodríguez-Alonso M, Terrados
+     JSC.0b013e31821606b3. Epub 2011/11/15.                                                   N. Intensity of exercise during road race pro-cycling competition. Med
+128. Bell PG, Furber MJ, Antón-Solanas KAVANS, Swart A. The physiological                     Sci Sports Exerc. 2000;32(5):1002–6. https://doi.org/10.1097/00005768-
+     Profile of a multiple Tour De France winning cyclist. Med Sci Sports Exerc.              200005000-00019. Epub 2000/05/05.
+     2017;49(1):115–23. https://doi.org/10.1249/mss.0000000000001068. Epub               146. Luciá A, Hoyos J, Carvajal A, Chicharro JL. Heart rate response to professional
+     2016/08/11.                                                                              road cycling: the Tour De France. Int J Sports Med. 1999;20(3):167–72. https://
+129. Almar M, Villa JG, Cuevas MJ, Rodríguez-Marroyo JA, Avila C, Gonzalez-Gal-               doi.org/10.1055/s-1999-970284. Epub 1999/05/20.
+     lego J. Urinary levels of 8-hydroxydeoxyguanosine as a marker of oxidative          147. Lucía A, Hoyos J, Pérez M, Santalla A, Chicharro JL. Inverse relationship
+     damage in road cycling. Free Radic Res. 2002;36(3):247–53. Epub 2002/06/20.              between VO2max and economy/efficiency in world-class cyclists. Med Sci
+     doi: 10.1080/10715760290019255. PubMed PMID: 12071342.                                   Sports Exerc. 2002;34(12):2079–84..Df. PubMed PMID: 12471319.
+130. Kupchak BR, McKenzie AL, Luk HY, Saenz C, Kunces LJ, Ellis LA et al. Effect of      148. Lucía A, Rabadán M, Hoyos J, Hernández-Capilla M, Pérez M, San Juan AF, et
+     cycling in the heat for 164 km on procoagulant and fibrinolytic parameters.              al. Frequency of the VO2max plateau phenomenon in world-class cyclists. Int
+     Eur J Appl Physiol. 2015;115(6):1295– 303. Epub 2015/01/22. https://doi.                 J Sports Med. 2006;27(12):984–92. https://doi.org/10.1055/s-2006-923833.
+     org/10.1007/s00421-015-3107-y. PubMed PMID: 25603777.                                    Epub 2006/06/02.
+131. Colombini A, Corsetti R, Machado M, Graziani R, Lombardi G, Lanteri P et            149. Rüst CA, Knechtle B, Rosemann TJ, Lepers R. Men cross America faster than
+     al. Serum creatine kinase activity and its relationship with renal function              women–the Race across America from 1982 to 2012. Int J Sports Physiol
+     indices in professional cyclists during the Giro d’Italia 3-week stage race. Clin        Perform. 2013;8 6:611–7.
+     J Sport Med. 2012;22(5):408– 13. Epub 2012/06/30. https://doi.org/10.1097/          150. Kholkine L, Servotte T, de Leeuw AW, De Schepper T, Hellinckx P, Ver-
+     JSM.0b013e31825e66cc. PubMed PMID: 22744001.                                             donck T, et al. A learn-to-Rank Approach for Predicting Road Cycling race
+132. Lombardi G, Lanteri P, Fiorella PL, Simonetto L, Impellizzeri FM, Bonifazi M,            outcomes. Front Sports Act Living. 2021;3:714107. https://doi.org/10.3389/
+     et al. Comparison of the hematological profile of elite road cyclists during             fspor.2021.714107. Epub 2021/10/26.
+     the 2010 and 2012 GiroBio ten-day stage races and relationships with                151. RCS_Mediagroup M-S. 2023 2024 [10.02.2024]. https://www.milanosanremo.
+     final ranking. PLoS ONE. 2013;8(4):e63092. https://doi.org/10.1371/journal.              it/en/live-archive/tappa/2023/1/.
+     pone.0063092. Epub 2013/05/07.                                                      152. Peloton. Ronde van Flaanderen Cyclo 2024 [10.02.2024]. https://www.
+133. Menaspà P, Abbiss CR, Martin DT. Performance analysis of a world-                        rondevanvlaanderen.be/en.
+     class sprinter during cycling grand tours. Int J Sports Physiol Perform.            153. Amstel. Amstel Gold Race 2024 [10.02.2024]. https://www.amstel.nl/
+     2013;8(3):336–40. https://doi.org/10.1123/ijspp.8.3.336. Epub 2012/10/06.                amstelgoldrace.
+134. Neumayr G, Pfister R, Hoertnagl H, Mitterbauer G, Prokop W, Joannidis M.            154. Shoak MA, Knechtle B, Knechtle P, Rüst CA, Rosemann T, Lepers R. Participa-
+     Renal function and plasma volume following ultramarathon cycling. Int J                  tion and performance trends in ultracycling. Open Access J Sports Med.
+     Sports Med. 2005;26(1):2–8. https://doi.org/10.1055/s-2004-815717. Epub                  2013;4:41–51. https://doi.org/10.2147/oajsm.S40142. Epub 2014/01/01.
+     2005/01/12.                                                                         155. Käch IW, Rüst CA, Nikolaidis PT, Rosemann T, Knechtle B. The age-related
+135. Chlíbková D, Knechtle B, Rosemann T, Tomášková I, Novotný J, Žákovská A, et              performance decline in Ironman Triathlon starts earlier in Swimming Than
+     al. Rhabdomyolysis and exercise-associated hyponatremia in ultra-bikers and              in Cycling and running. J Strength Cond Res. 2018;32(2):379–95. https://doi.
+     ultra-runners. J Int Soc Sports Nutr. 2015. https://doi.org/10.1186/s12970-              org/10.1519/jsc.0000000000001796. Epub 2017/02/23.
+     015-0091-x. 12:29. Epub 2015/06/27.                                                 156. Pozzi L, Knechtle B, Knechtle P, Rosemann T, Lepers R, Rüst CA. Sex and
+136. Nédélec M, Chauvineau M, Guilhem G. On the Road to Camarón: The Sleep                    age-related differences in performance in a 24-hour ultra-cycling draft-legal
+     of an Ultra-Endurance Athlete Cycling 10,000 km in 24 Days. Int J Environ                event - a cross-sectional data analysis. BMC Sports Sci Med Rehabil. 2014;6:19.
+     Res Public Health. 2022;19(8). Epub 2022/04/24. https://doi.org/10.3390/                 https://doi.org/10.1186/2052-1847-6-19. Epub 2014/06/03.
+     ijerph19084543. PubMed PMID: 35457410; PubMed Central PMCID:                        157. Carpenter J, Weinstein S, Myseros J, Vezina G, Bell MJ. Inadvertent hypona-
+     PMCPMC9025025.                                                                           tremia leading to acute cerebral edema and early evidence of herniation.
+137. Irvine D, Jobson SA, Wilson JP. Evaluating Changes in Mental Workload                    Neurocrit Care. 2007;6(3):195-9. Epub 2007/06/19. https://doi.org/10.1007/
+     in Indoor and Outdoor Ultra-Distance Cycling. Sports (Basel). 2022;10(5).                s12028-007-0032-x. PubMed PMID: 17572863.
+     Epub 2022/05/28. https://doi.org/10.3390/sports10050067. PubMed PMID:               158. Verbrugge F, Steels P, Grieten L, Nijst P, Tang W, Mullens W. Hyponatremia
+     35622476; PubMed Central PMCID: PMCPMC9146483.                                           in Acute Decompensated Heart failure depletion Versus Dilution. J Am Coll
+138. Manunzio C, Mester J, Kaiser W, Wahl P. Training intensity distribution and              Cardiol. 2015;65:480–92. https://doi.org/10.1016/j.jacc.2014.12.010.
+     changes in performance and physiology of a 2nd place Finisher Team of               159. Kheetan M, Ogu I, Shapiro JI, Khitan ZJ. Acute and Chronic Hyponatremia.
+     the race across America over a 6 Month Preparation Period. Front Physiol.                Front Med. 2021;8. https://doi.org/10.3389/fmed.2021.693738.
+     2016;7:642. https://doi.org/10.3389/fphys.2016.00642. Epub 2017/01/14.              160. Rosner MH. Exercise-associated hyponatremia. Trans Am Clin Climatol Assoc.
+139. Rothschild JA, Delcourt M, Maunder E, Plews DJ. Racing and training                      2019;130:76–87. PubMed PMID: 31516170.
+     physiology of an Elite Ultra-endurance Cyclist: Case Study of 2 record-setting
+Tiemeier et al. Sports Medicine - Open               (2024) 10:48                                                                                        Page 18 of 18
+
+
+
+
+161. Chorley J, Cianca J, Divine J. Risk factors for exercise-associated hyponatremia   168. Knechtle B, Enggist A, Jehle T. Energy turnover at the Race across AMerica
+     in non-elite marathon runners. Clin J Sport Med. 2007;17(6):471–7. https://             (RAAM) - a case report. Int J Sports Med. 2005;26(6):499–503. https://doi.
+     doi.org/10.1097/JSM.0b013e3181588790. Epub 2007/11/13.                                  org/10.1055/s-2004-821136. Epub 2005/07/23.
+162. Noakes TD. Is drinking to thirst optimum? Ann Nutr Metab. 2010;57(Suppl            169. Raschka C, Plath M. [Body fat compartment and its relationship to food intake
+     2):9–17. Epub 2010/01/01. doi: 10.1159/000322697. PubMed PMID: 21346332.                and clinical chemical parameters during extreme endurance performance].
+163. Noakes TD, Adams BA, Myburgh KH, Greeff C, Lotz T, Nathan M. The danger                 Schweiz Z Sportmed. 1992;40(1):13–25. Epub 1992/03/01. PubMed PMID:
+     of an inadequate water intake during prolonged exercise. A novel concept                1561538.
+     re-visited. Eur J Appl Physiol Occup Physiol. 1988;57(2):210–9. https://doi.       170. Zehnder M, Ith M, Kreis R, Saris W, Boutellier U, Boesch C. Gender-specific
+     org/10.1007/bf00640665. Epub 1988/01/01.                                                usage of intramyocellular lipids and glycogen during exercise. Med Sci Sports
+164. Königstein K, Niess AM, Carlsohn A, Treff G. Hydration Management in sports.            Exerc. 2005;37(9):1517-24. Epub 2005/09/24. https://doi.org/10.1249/01.
+     Dtsch Z für Sportmedizin. 2022;73(4):137–41.                                            mss.0000177478.14500.7c. PubMed PMID: 16177603.
+165. Dugas JP, Oosthuizen U, Tucker R, Noakes TD. Rates of fluid ingestion alter        171. Khodaee M, Luyten D, Hew-Butler T. Exercise-Associated Hyponatremia in an
+     pacing but not thermoregulatory responses during prolonged exercise in                  Ultra-endurance Mountain Biker A Case Report. Sports Health: Multidisci-
+     hot and humid conditions with appropriate convective cooling. Eur J Appl                plinary Approach. 2013;5:334–6. https://doi.org/10.1177/1941738113480928.
+     Physiol. 2009;105(1):69–80. https://doi.org/10.1007/s00421-008-0876-6. Epub        172. Del Campo A, Contreras-Hernández I, Castro-Sepúlveda M, Campos CA,
+     2008/10/15.                                                                             Figueroa R, Tevy MF, et al. Muscle function decline and mitochondria changes
+166. Backx K, van Someren KA, Palmer GS. One hour cycling performance                        in middle age precede Sarcopenia in mice. Aging. 2018;10(1):34–55. https://
+     is not affected by ingested fluid volume. Int J Sport Nutr Exerc Metab.                 doi.org/10.18632/aging.101358. Epub 2018/01/06.
+     2003;13(3):333–42. https://doi.org/10.1123/ijsnem.13.3.333. Epub                   173. Seo DY, Lee SR, Kim N, Ko KS, Rhee BD, Han J. Age-related changes in skeletal
+     2003/12/13.                                                                             muscle mitochondria: the role of exercise. Integr Med Res. 2016;5(3):182–6.
+167. Bardis CN, Kavouras SA, Adams JD, Geladas ND, Panagiotakos DB, Sidossis                 https://doi.org/10.1016/j.imr.2016.07.003.
+     LS. Prescribed drinking leads to Better Cycling Performance than Ad Libitum        174. Noakes TD, Gibson ASC, Lambert EV. From catastrophe to complexity: a
+     Drinking. Med Sci Sports Exerc. 2017;49(6):1244–51. https://doi.org/10.1249/            novel model of integrative central neural regulation of effort and fatigue
+     mss.0000000000001202. Epub 2017/01/13.                                                  during exercise in humans: summary and conclusions. Br J Sports Med.
+                                                                                             2005;39(2):120–4. https://doi.org/10.1136/bjsm.2003.010330.
+
+
+
+                                                                                        Publisher’s Note
+                                                                                        Springer Nature remains neutral with regard to jurisdictional claims in
+                                                                                        published maps and institutional affiliations.
+

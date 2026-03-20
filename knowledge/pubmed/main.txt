@@ -1,0 +1,655 @@
+Rehabilitation and Return to Sport in Athletes
+
+
+                 Injury Prevention, Safe Training Techniques,
+              Rehabilitation, and Return to Sport in Trail Runners
+    Heather K. Vincent, Ph.D., Michael Brownstein, M.D., and Kevin R. Vincent, M.D., Ph.D.
+
+
+
+
+Abstract: This current concept, narrative review provides the latest integrated evidence of the musculoskeletal injuries
+involved with trail running and therapeutic strategies to prevent injury and promote safe participation. Running activities
+that comprise any form of off-road running (trail running, orienteering, short-long distance, different terrain, and climate)
+are relevant to this review. Literature searches were conducted to 1) identify types and mechanisms of acute and chronic/
+overuse musculoskeletal injuries in trail runners, 2) injury prevention techniques most relevant to running trails, 3) safe
+methods of participation and rehabilitation timelines in the sport. The majority of acute and chronic trail running-related
+musculoskeletal injuries in trail running occur in the lower leg, primarily in the knee and ankle. More than 70% are due
+to overuse, and ankle sprains are the most common acute injury. Key mechanisms underlying injury and injury
+progression include inadequate neuromotor control-balance-coordination, running through fatigue, and abnormal
+kinematics on variable terrain. Complete kinetic chain prehabilitation programs consisting of dynamic ﬂexibility, neu-
+romotor strength and balance, and plyometrics exercise can foster stable, controlled movement on trails. Patient education
+about early musculoskeletal pain symptoms and training adjustment can help prevent injury from progressing to serious
+overuse injuries. Real-time adjustments to cadence, step length, and knee ﬂexion on the trail may also mitigate impact-
+related risk for injury. After injury occurs, rehabilitation will involve similar exercise components, but it will also incor-
+porate rest and active rest based on the type of injury. Multicomponent prehabilitation can help prevent musculoskeletal
+injuries in trail runners through movement control and fatigue resistance.
+
+
+
+                            Introduction                                           kilometers to 80þ kilometers, with event differences in
+
+T    rail running encompasses a broad spectrum of
+     running experiences, but it occurs off-road in the
+natural environment on surfaces with a maximum of
+                                                                                   schedule ranging from single to multiday. The Interna-
+                                                                                   tional Trail Running Association (ITRA) assigns ITRA
+                                                                                   points (0-6) to classify difﬁculty based on distance and
+20% paving. Trail running comprises a unique combi-                                elevation gain.1 Trail orienteering involves running on
+nation of variations in elevation, discontinuous running                           trails or off trails, and distances range from short (4-5K
+surfaces, global location, and a climate that ranges from                          versions) up to long courses (10K). Orienteering is a
+desert to mountain to forest. Distances range from a few                           map-reading, skill-related sport that involves navigation
+                                                                                   through trail or off-trail areas, covering distance while
+                                                                                   being timed.2 Traditional orienteering combines running
+                                                                                   with navigation through natural areas to acquire as
+   From the Department of Physical Medicine and Rehabilitation, University         many points as possible. Depending on the location and
+of Florida College of Medicine, Gainesville, Florida, U.S.A.
+   The authors report the following potential conﬂicts of interest or sources of
+                                                                                   event, the competition can be single or multiday. Run-
+funding: H.K.V. and K.R.V. are both Associate Editors for Medicine and             ners are challenged by the presence of fallen trees,
+Science in Sports and Exercise. H.K.V.’s research is supported, in part, by        branches, roots, rocks, and unanticipated variability
+Lallemand, Inc. Full ICMJE author disclosure forms are available for this          underfoot. The risks for speciﬁc injuries and injury pre-
+article online, as supplementary material.                                         vention and safe participation are unique compared to
+   Received September 1, 2021; accepted September 22, 2021.
+   Address correspondence to Heather K. Vincent, Ph.D., F.A.C.S.M.,
+                                                                                   regular outdoor running. In this current concepts article,
+Department of Physical Medicine & Rehabilitation, University of Florida            the injuries reported with participation in trail running
+Health Sports Performance Center, 3450 Hull Road, PO Box 112730, Uni-              activities are highlighted, with prehabilitation and
+versity of Florida, Gainesville, FL 32611, U.S.A. E-mail: hkvincent@uﬂ.edu         rehabilitation techniques and considerations for safe
+   Ó 2021 THE AUTHORS. Published by Elsevier Inc. on behalf of the                 participation.
+Arthroscopy Association of North America. This is an open access article under
+the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+                                                                                     Literature searches were conducted in several data-
+   2666-061X/211277                                                                bases (PubMed, CINAHL, MEDLINE Ovid, Scopus)
+   https://doi.org/10.1016/j.asmr.2021.09.032                                      from 1975 to the present to provide relevant evidence
+
+
+                               Arthroscopy, Sports Medicine, and Rehabilitation, Vol 4, No 1 (January), 2022: pp e151-e162             e151
+e152                                              H. K. VINCENT ET AL.
+
+synopses of 1) prevalence, type, and mechanisms of            patterns.13 Overall, there were 18 injuries per 1,000
+acute and chronic/overuse musculoskeletal injuries in         hours of training. Acute and chronic injuries were
+trail runners; 2) injury prevention techniques most           48.6% in foot/lower leg, 22.9% for knee, 11.9% for
+relevant to running trails; and 3) safe methods of            hip, and 6.4% for lower back. Higher distribution was
+participation in the sport.                                   shown for foot/lower leg in girls than boys (75.8% vs
+                                                              45.2%), knee injuries more common in boys. Among
+Musculoskeletal Injury Epidemiology                           orienteers, most injuries occur in the lower extremities
+  Most evidence of injury patterns with trail running are     with 72%-78% as overuse injuries.13,14 Speciﬁc
+from surveys, primarily from single-day events.3e8            diagnoses include medial shin pain, Achilles peri-
+Irrespective of global location, the lower leg (knee          tendinitis, peroneal tenosynovitis, and ITB friction
+through the foot) is the most common region for acute         syndrome.15 Prehabilitation and rehabilitation thera-
+and chronic injuries.4e7,9 One study from Greece found        pies should target lower body strengthening, and
+that the low back and the knee were the most frequently       movement control across the kinetic chain.
+injured locations, but the most severely injured location
+was the Achilles tendon.8 Speciﬁc musculoskeletal in-         Potential Mechanisms of Injury and Injury
+juries are patellofemoral pain syndrome, muscle strains                     Progression
+(quadriceps femoris, hamstrings, tibialis anterior, calf,       Running on trails requires rapid cognitive processing
+back), Achilles tendinopathy, trochanteric bursitis, ilio-    of the environment, responsiveness to variations in
+tibial band (ITB) syndrome, ankle inversion injuries,         ground surface, avoidance of obstacles, and adjustment
+plantar fasciitis, and stress fractures (foot, tibia).        to elevations in terrain. To maintain stability, runners
+                                                              use anticipatory, predictive, and reactive balance con-
+Acute Trail Running Injuries                                  trol strategies.16 Neuromotor responses are activated to
+  After the largest 161-km races in North America             react to the disturbance or obstacle in the path without
+(Western States Endurance Run, Vermont Endurance              prior planning.17,18 Trail surface materials (gravel, dirt,
+Race) entrants were provided postrace questionnaires.10       or paving) are not associated with differential tibial
+A total of 36.5% of ﬁnishers reported muscle pain, with       impact forces,19 and are not likely a primary injury
+most of the acute injuries occurring in the knee, lower       mechanism. However, inadequate dynamic muscle
+leg, hamstring, plantar fascia, and calf.10 Across multiday   strength, deﬁcits in neuromotor control about the lower
+events, such as the Al Andalus Ultra Trail (219-km, 5-        extremity joints and abnormal motion of loaded joints
+day race) in the mountainous areas of Spain, knee             are potential mechaisms.20,21 Fig 1 provides an over-
+pain was the most common complaintdafter blisters             view of mechanical challenges relating to trail running
+and chaﬁngdfollowed by ankle pain (83% were ankle             and counteractive strategies needed to promote safe
+inversion sprains).11 Among an international cohort of        motion.
+orienteers, acute injuries were captured during the
+Jukola and Venla relay competitions, which range in           Loading and Loading Impact
+duration from one to ﬁve days.12 While 70% of the in-           Compared to level running, downhill running pro-
+juries treated on-site were in the lower extremities, the     duces greater vertical and transverse peak accelerations
+most common injury was ankle sprain (25% of all acute         at the tibia, especially along the anteromedial aspect.22,23
+injuries), with most of these ankle injuries occurring in     Peak accelerations are increased at the sacrum and the
+the ﬁrst third of the race.12                                 head.22,24 To cushion impacts, runners need more knee
+                                                              ﬂexion, hip ﬂexion, and plantarﬂexion,22 which can
+Chronic/ Overuse Injuries                                     facilitate more vertical alignment of the tibia, while
+  The knee and ankle are the most common sites for            reducing ankle stiffness and increasing knee stiffness.
+overuse injury.6 Cross-sectional data collected over four     During trail runs, preparedness for repetitive braking is
+trail races revealed that of the total respondent pool,       important. Bone (especially cortical bone) is weaker
+22% had suffered ITB syndrome, 10% had Achilles               against shear than compressive strains,25 and poorly
+tendon injury, 9% had hamstring injuries, and 7% had          controlled impact loading may contribute to bone failure
+calf muscle injury over the last 12 months, with an           and stress fracture.
+additional 19% reporting chronic injuries to the knee
+and lower leg.3 Among the 2019 SkyRace competitor             Running Through Fatigue
+pool, muscle/tendon accounted for 44.1% of tissue type          Fatigue creates a myriad of biomechanical problems.
+injuries. Tendinopathy (27.5%), joint sprain (19.6%),         Redistribution of muscular activity or change in the
+and muscle injury (15.7%) were the most common                proﬁle of muscle activity occurs with fatigue.24,26
+pathologies reported.5                                        Stance time during the gait cycle is lengthened,
+  Adolescent athletes who performed a 26-week season          thereby placing elevated volume of mechanical stress
+of orienteering, were surveyed on the web for injury          on the musculoskeletal system.27 Fatigue increases
+                                         INJURY PREVENTION IN TRAIL RUNNING                                          e153
+
+                                                               obliquity, and protect against injury to the lumbopelvic
+                                                               regions and lateral ﬂexors.30,36 Gluteus medius stabili-
+                                                               zation and hip abductor-core muscle strengthening will
+                                                               help develop proximal control to counteract these is-
+                                                               sues.32 Distal movement control is also involved in
+                                                               injury onset. Excessive pronation and lateral roll-off
+                                                               during the push off phase is related to lower leg pain
+                                                               with running.37 Injured runners have 1.4 more peak
+                                                               rearfoot eversion than noninjured runners.34 Pre-
+                                                               habilitation should include exercises that target ankle
+                                                               and foot stability in all planes of movement, preferably
+                                                               coupled with unstable surface and balance elements.
+                                                               When landings on the ground occur with the knee
+Fig 1. Key mechanical stresses to the musculoskeletal system   angles close to full extension, as in steep decline slope
+during trail running and motion strategies required to miti-   terrain or hilly uneven surface, neuromuscular control
+gate injury risk.                                              of dynamic lower extremity valgus is critical.38 This
+                                                               control involves maintenance of normal hip adduction,
+loading at the lateral and medial areas of the heel, ﬁrst      knee abduction, and ankle eversion through mitigation
+metatarsal and hallux, and in lesser toes during push-         of knee valgus forces, and knee external rotation.39,40
+off in rearfoot strikers; among forefoot strikers, fatigue        Muscle stiffness is the ability of a muscle to resist
+increases the loading on the ﬁrst to third metatarsals         deformation with an applied force. The musculoskeletal
+and the medial-lateral force ratio during stance and           tissue complex of the lower extremities must generate
+push-off.27 Impact peaks and loading rates increase by         some stiffness properties to store elastic energy during
+6-11% during exhaustive running, with greatest force           the stance phase of gait and generate concentric force at
+changes occurring at the knee and calf/foot/ankle.28           push-off. Higher knee joint stiffness is the result of
+Inability to control running motion increases the risk         eccentric contraction of quadriceps, less knee ﬂexion, or
+for motion errors, asymmetries, and the capacity to            both, and inhibits energy dissipation, which can injure
+appropriately dissipate force. Better stability after          structures of the knee.41 High levels of stiffness lead to
+landing and a higher hamstring/quadricep ratio will            heightened injury risk to the proximal anterior tibia,42
+help control impact forces.29 For trail runners who            whereas low stiffness contributes to soft-tissue injury
+already have nagging musculoskeletal complaints,               (such as ACL, Achilles tendon) through excessive joint
+running through fatigue can exacerbate the mechanics           motion at the knee, ankle, and hip.42,43 Bilateral dif-
+that triggered the pain to begin with. Exercise that           ferences in leg stiffness are related to leg injuries to the
+promotes fatigue resistance may help mitigate pain and         hamstring, calf, groin, ankle, and quadriceps with
+injury progression.                                            running.44 Injury may occur with discordant stiffness
+                                                               control from the limb to individual joints; some evi-
+Abnormal Joint Motion                                          dence suggests that elevated overall leg stiffness and
+  Joint motion and excursion from the trunk to the foot        low ankle stiffness contributes to injury at the Achilles
+in the three planes of movement can become exag-               tendon.43 Messier et al.41 reported that excessive knee
+gerated with running speed,30 fatigue,31 and inade-            stiffness predicted injury over 2 years. This may be
+quate muscle strength.32,33 Forward trunk lean by w3          corrected in real time by shortening step lengths.41
+is associated with running injuries.34 Elevated contra-        Managing joint and leg stiffness may be more con-
+lateral pelvic drop (2.1 ) and anterior pelvic tilt (3.1 )   cerning among people with higher body weights;41,45
+and longer stance times are related to recurrent calf          additional adaptation time and slower progression
+strain injuries.35 Peak contralateral pelvic drop has also     rates with training may be required. Prehabilitation to
+been associated with patellofemoral pain, ITB syn-             develop appropriate stiffness and movement control
+drome, medial tibial stress syndrome and Achilles ten-         include plyometrics, jump landings, and eccentric
+dinopathy.34 Mechanistically, pelvic drop increases ITB        muscle training.
+tension and compression at the femoral condyle and
+increases lateral displacement of the patella. Pelvic drop     Running Through Noncritical, Chronic Pain
+will also shift the ground reaction force vector medially        Runners with persistent musculoskeletal pain
+and produce a bending force on the medial tibia.34             demonstrate altered mechanics. For example, patello-
+Sidestep cutting, which is encountered on trails, re-          femoral pain is related to elevated frontal plane knee
+quires generation of adequate lumbosacral lateral              excursion and less knee ﬂexion and less pelvic drop on
+ﬂexion torque and hip ﬂexor activation to neutralize           the unloaded side.46 Runners with ITB pain increase
+pelvic drop on the free side of the pelvis, prevent pelvic     hip adduction at foot contact, knee rotation during the
+e154                                                 H. K. VINCENT ET AL.
+
+
+
+
+Fig 2. Sample exercises for trail runners as part of prehabilitation and rehabilitation programs. (A) Dynamic multijoint ﬂexibility
+movements. (B) Neuromuscular strengthening and balance. (C) Plyometric activities.
+
+
+stance phase and knee abduction at push-off compared               should stop until pain-induced compensation to
+to runners without this pain.46 Running through pain               running form disappear (foot interaction with the
+can produce compensatory biomechanics and loading                  ground, limping, hiking a hip).47 These rules can guide
+at other anatomical sites. Our clinical experience is that         trail running participation to avoid serious injury in the
+runners with initial pain at one site who continue                 ﬁrst place.
+training develop secondary pain(s) elsewhere.
+                                                                   Evaluation of Running Mechanics
+                                                                     Prior to serious preparation for trail events, a medi-
+     Injury Prevention and Rehabilitation                          cally based running analysis should be performed to
+  Prevention of trail running injuries requires a                  identify deﬁcits in motion.48 Debrieﬁng with the runner
+multifaceted approach, including education, strength-              and gait-retraining sessions could be conducted that use
+ening, and ﬂexibility exercise, neuromotor control                 real-time visual feedback. Abnormal kinematics and
+exercise, and plyometrics. Sample exercises are pre-               pain associated with common running injuries can be
+sented in Fig 2.                                                   effectively addressed with 8-18 sessions over 2-6
+                                                                   weeks.49,50 Running motion analysis is also a critical
+Education About Musculoskeletal Pain                               part of the return-to-run program during rehabilitation
+  Four key rules can be used to educate runners before             postinjury.
+an injury becomes serious.47 Pain affects up to 79% of
+runners, but many do not know how to interpret pain                Incorporating Flexibility
+to determine continuation of training. These rules are               Conﬂicting evidence exists on frequency and type of
+1) running should be stopped immediately if pain in-               stretching to prevent overuse injury.41 Static measures
+creases during a run, or changes in quality from achy to           of ﬂexibility may not meaningfully translate to the
+sharp; 2) joint pain should not linger or increase by 24           dynamic processes in the running motion.51e54 Other
+hours after a run, as this indicates that the volume was           studies report that greater hamstring ﬂexibility can
+excessive and should be scaled back, 3) if preexisting             lower the risk for incurring a lower leg overuse
+pain is present (<3 points out of a 10-point numerical             injury.55 Prospective evidence shows that there is no
+pain rating scale), this pain should not increase during           difference in plantar ﬂexor, ankle dorsiﬂexor,
+the run or persist into the next day, and 4) run-training          hamstring, and quadricep ﬂexibility among runners
+                                         INJURY PREVENTION IN TRAIL RUNNING                                        e155
+
+who do and do not develop overuse injuries over two            footstep, the foot must be stable at foot strike and push-
+years.41 We propose a dynamic warm-up before                   off, and during stance, it must be adaptable to attenuate
+training or competition that includes some movements           loads and control motion.65 For trail runners, the
+from successful injury prevention programs (FIFA               neuromotor response must adapt quickly to variations
+11þ).56 These movements involve multisegment coor-             on the ground surface and changes in slope while
+dination and the lower body, such as A-skips, walking          dampening loading forces.
+lunges, vertical jumps, standing hip in-out circles, quick        A variety of exercises that foster muscle endurance,
+running forward and backwards, hip swings, and                 control of ankle motion, and activation of the intrinsic
+inchworm walk-out. (Fig 2, left panel)                         foot muscles can improve force transmission through
+                                                               the foot, increase arch stiffness improve vertical pro-
+Strengthening the Kinetic Chain                                pulsive forces, and effectively increase foot muscle
+  Kinetic chain strengthening from the foot through the        volume.66 Volume of the abductor hallucis, ﬂexor dig-
+trunk, neuromotor control, and plyometric exercise are         itorum brevis, and ﬂexor hallicus brevis can occur in as
+key components. An important point to note is that             little as 8 weeks.66 Speciﬁcally, barefoot standing and
+inadequate lower extremity strength (hip abductors,            seated and gait exercises should be incorporated on a
+knee ﬂexors/extensors, ankle plantar/dorsiﬂexors) is           regular basis for prevention of injury. Standing exer-
+commonly cited risk for increasing impact force trans-         cises include tapping with a ﬁxed heel, calf presses, and
+mission and running-related injuries.29,57 Yet, there is       plantar arch raises. From a seated position, performing
+inconsistent evidence supporting that low strength             alternation of inversion/eversion, grabbing a cotton
+metrics alone are associated with injury,41,57 hip an-         ball, rubber ball, or a pen with heel ﬁxed on the ground,
+gles,58 muscle activation, and neuromotor control.59,60        alternating in one foot pressing the hallux and little toe
+Low hip abduction strength may be related to ITB               on the ﬂoor slowly and with control, toe spreading
+syndrome, but not strongly to patellofemoral pain, tibial      though toe abduction and “short foot” or “doming”
+stress syndrome, or fracture or Achilles tendinopathy.32       exercise. Short foot exercise, or 5-second isometric
+Moreover, hip/knee strengthening intervention studies          contraction holds that raises the arch, (2-3  week for
+often use maximal strength measures to predict injury          4-8 weeks) can increase foot muscle volume and
+risk,61 rather than how that strength is used during           functionally improve foot stability.67 There is crossover
+running motion.                                                beneﬁt of short foot exercise on knee pain and hip
+  An overall strong movement and controlled motion             strength68 and knee ﬂexion torque, demonstrating
+through appropriate activation of the muscles along the        improved transfer through the body segments to faster
+kinetic chain during the gait cycle is more likely to          running speed.69 Finally, barefoot gait exercises that
+prevent injury rather than strength capacity. Reducing         use the toes differently than during normal walking are
+possible deﬁcits in stability after landing from the foot to   useful. A toe-grasping gait involves performing sets of
+the trunk (distal-to-proximal), developing hamstring           10 steps in which the toes of each foot grasp the ground
+and quadriceps strength in the elongated muscle range,         and hold for three seconds. A toe-abducted gait in-
+and maintaining a balanced ratio of hamstring/quadri-          volves performing sets of 10 steps forward and back-
+ceps strength could help to reduce the injury risk.29,62       ward with toes abducted until the foot lifts from the
+Inclusion of therapeutic exercises that increase               ground.66 These foot exercises train the foot to activate
+strength while enhancing proprioception and respon-            the small intrinsic muscles that help control the initial
+siveness to the environment is also vital for strong           impact loading and stability during stance and push-off.
+running motion. From the implementation perspective,           (Fig 2, middle panel)
+instruction of the movements may be more effective
+with external focus, which enables the athlete to              Trunk and Lower Body Neuromuscular Strength and
+perform the exercise without losing natural, automatic         Balance
+coordination.63 Instruction should foster positive               The trunk is an anchor for proximal control of running
+changes in motion in response to the environment               motion, and inadequate motor control is related to dy-
+around the runner.                                             namic instability and injuries.70 Developing optimal
+                                                               muscle activation patterns about the abdomen, back
+Foot Strengthening                                             paraspinals, and pelvis as a “core unit” can help control
+  Through the unique, complex arch structures and              the interaction of the body and ground. Athletes who
+strong intrinsic and extrinsic muscle activity, the foot       produce greater muscle activation at the gluteal muscles,
+provides postural corrections, stability, maintenance,         lumbar extensors and rectus abdominis incur fewer
+and control of foot arches and torque production for           hamstring injuries over time than athletes with less
+body movement.64,65 Moreover, the foot muscles store           muscle activation during running.71 This abdominal
+strain energy and return elastic energy, change arch           bracing counteracts buckling and shear instability.70
+stiffness, and provide sensorial feedback.65,66 With each      Effective movements that facilitate trunk strengthening
+e156                                              H. K. VINCENT ET AL.
+
+can be supine and standing, and they should include           with concentric and eccentric actions to the lower limb
+bridging (dual or single leg, on physioball, on wobbly        muscles includes squats (back, front, split), deadlifts,
+surface), quadruped with alternating leg/arm raises,          and lunges. These exercises are vital for muscle power,
+variations of the front and side plank, physioball exer-      plantarﬂexion, and knee extension strength75 and
+cises (seated or marching, spinal ﬂexion and extension        controlled descent with changes in terrain. Hamstring
+with a 5-10-pound medicine ball, abdominal rollout and        injury incidence can be mitigated through exercise
+pike tucks). Standing exercise should incorporate single-     performed twice per week, with no additive protective
+leg balance on a rocker board in all three planes, and        beneﬁt with more weekly sessions or progression in
+practicing “falling forward” into an unstable rocker          volume or intensity.76 Thus, for hamstrings, weekly
+board.70                                                      consistency of exercise to combat injury is critical.
+  Given the variability of the terrain and unanticipated      Incorporation of eccentric strengthening and stability/
+challenges on a course, neuromuscular control of the          balance-based exercise into prevention programs af-
+lower extremity is critical for safe trail running. Control   fords signiﬁcant protection on hamstring health.76 In-
+can be developed through exercises that involve               clusion of the Nordic hamstring exercise alone as part of
+simultaneous application of strength, ﬂexibility, and         prevention training cuts the incidence of hamstring
+balance-coordination. Improvement in postural stabil-         injuries by 51% in running athletes.77 These exercises
+ity at the trunk and reduction in movement error72 is         may improve intermuscular coordination and joint
+achieved through learned muscle coactivation that             stability and reduce knee valgus during load-bearing.78
+stabilizes joints along the kinetic chain during dynamic        Exercises involving core and trunk musculature, such
+motion. This type of exercise should be done routinely,       as quadruped alternate arm raises (Superman), side
+3-4 times a week. Beneﬁts on biomechanical injury risk        bridges, crossover crunches, hip thrust, unilateral calf
+reduction have been observed in studies ranging from          raises with dumbbells, and seated marching on a
+6-14 weeks of duration.39,72 Neuromuscular strength           physioball are critical.79,80 These exercise programs
+exercise with balance can include forward and lateral         were associated with performance gains on balance
+line jumps with deep holds on landing, single legged-         tests80 and a reduction in relative risk for lower ex-
+squats with deep hold, balancing on a BOSU Ball               tremity injury from 2.53 to .38, with greatest protection
+(single leg, squats, or box drops with a deep hold),          against medial tibial stress syndrome; some protection
+single-leg pelvic bridges (transition to performing on        was afforded against ankle sprain, knee tendinopathy,
+BOSU or physioball), walking lunges that transition to        and knee bursitis.79 After learning these exercises un-
+lunges with Swiss ball and trunk rotations, standing hip      der supervision from a physical therapist, the runner
+abductions with resistance, single-legged skater squats,      can perform these exercises at home with periodic
+Romanian deadlifts, and standing toe taps while on a          ﬁlming from sagittal and frontal views to ensure that
+single leg. 39 For some runners, initially performing         the form is retained outside of the therapeutic envi-
+these exercises is difﬁcult without assistance until          ronment. Adjustments can be made in real time to
+strength and coordination are developed. Runners with         correct any lingering movement deﬁcits (Fig 2, middle
+low strength who are prescribed single-leg squats may         panel).
+begin using a cable suspension system and perform
+partial squats to ensure the form is correct; as strength     Plyometrics
+improves over time, the runner can progressively                Plyometric training comprises movements with serial
+increase the depth of the squat or eliminate the sus-         stretch-shortening cycles that cause repeated length-
+pension support and perform the full exercise appro-          ening and shortening of muscle-tendon complexes.
+priately. Wobble board-based exercises (multiple times        These exercises commonly include variations of drop
+per week, up to 20 minutes) perturb balance and               jumps, tuck and scissor jumps, squat jumps, counter-
+require coordinated muscle activation to maintain bal-        movement jumps, and hopping (single- or dual-legged;
+ance and position, and can decrease the relative risk for     Fig 2, right panel).81 This exercise type enhances
+acute lower extremity and ankle injury to .71.73 During       neuromuscular reactivity through facilitation of the
+single-leg landing tasks, wobble board training (board        sensorimotor system. Adaptations include improved
+rocking in different planes, combined arm and leg             neural drive to agonists, improved intermuscular co-
+movement, single-leg squats, ball bouncing or                 ordination and activation strategies, and favorable
+throwing, air taps on balloon, eyes closed balance) can       changes to mechanical qualities and architecture of the
+increase the eccentric ankle work by 1.2-4.4 times in         muscle-tendon complex. Plyometrics can help reduce
+the frontal and transverse planes, and modify the             serious knee injuries.82 When coupled with prevention
+muscle recruitment to optimize early ankle stabilization      training programs, plyometrics can reduce ground re-
+after landing.74                                              action forces by 17-26% over 6-9 weeks.81 An inter-
+  Quadricep and lower-leg musculature must be strong          ventional program in elite orienteers included the
+for uphill and downhill navigation. Barbell exercise          incorporation of one-leg stance, runner’s pose, one leg
+Table 1. Overview of Rehabilitation Program Design for Trail Running-Related Injuries, Numbers Listed Are in Weeks from the Time Point of Diagnosis
+
+                                                    Core Stabilization Leg                                         Jump Training and          Walk-Jog Intervals Return-to-
+                         Rest from Running*               Strength               Nonimpact Conditioning               Plyometrics                         Run                             Hills
+Overuse
+ Soft tissue injuries   0 days- until running      Immediately, 0 days for      Immediately, 0 days             When able to jump pain        When able to jump and               >4 weeks after
+                          with normal                both                                                        free                          strengthen pain free                return to run
+
+
+
+
+                                                                                                                                                                                                           INJURY PREVENTION IN TRAIL RUNNING
+                          motion
+ Stress fracture        6-8 weeks                  Core: Immediately Leg:       When full weight bearing        w8 weeks or when able         w8-10 weeks once able to do         >4 weeks after
+ noncritical                                         >3 weeks                    (out of boot or off             to hop one-legged and         jump training, can introduce        return to run
+                                                                                 crutches)                       be palpated without           running intervals
+                                                                                                                 pain at site
+ Stress fracture        12 weeks (out to 6        Core: Immediately out        Can begin with full weight      >12 to 24 weeks when          w12-20 weeks once able to do        >5-6 weeks after
+ critical, high risk     months)                     to 8 weeks depending         bearing                        able to do hopping            jump training, can introduce        return to run
+                                                     on injury location                                          one-legged and be             running intervals
+                                                     Leg: 8-12 weeks or                                          palpated without pain
+                                                     when able to bear full                                      at site
+                                                     weight
+
+Acute                   7-10 day out to 8          Core: Immediately Leg:       Immediately, activities         As soon as stability and      As soon as stability and            When stability and
+                          weeks                      immediately,                 based on pain tolerance         proprioception are            proprioception are                 proprioception
+                                                     activities are based on                                      demonstrated                  demonstrated                       are shown
+                                                     pain tolerance
+  Note that when appropriate, the clearance to return to run can be accompanied by a medically based running analysis and education of pain responses and how to adjust running volume. A
+caveat is that these timelines are general for the population, and individual injuries may require changes to the timeline. Soft tissue injuries include ITB syndrome, plantar fasciitis, for example.
+  Noncritical stress fracture refers to medial tibia, ﬁbula, metatarsal 2, 3, or 4. Critical high-risk stress fractures refers to femoral neck tension side, ﬁfth metatarsal, anterior tibia, great toe,
+sesamoids, talus and tarsal navicular. Acute injuries refer to ankle sprain, for example.
+  *Relative rest from running, run only at levels that are not symptomatic that do not cause compensatory gait; if pain occurs in running and causes changes to normalcy of running form, do
+not jog or run until pain does not cause changes to gait.
+
+
+
+
+                                                                                                                                                                                                           e157
+e158                                            H. K. VINCENT ET AL.
+
+heel raise, and plyometric one-leg side hop with three                         Rehabilitation
+difﬁculty levels 4 times per week.83 These balance ex-        After injury, rehabilitation for the trail runner will
+ercises and plyometrics, when performed per protocol,       involve 1) symptom management and reduction of
+signiﬁcantly reduce the number of substantial injuries      loading, 2) recovery, 3) rebuilding, and 4) return to
+by 8.5% compared to the control group (deﬁned as any        sport.20 Depending on the type and severity of the
+physical complaint resulting in moderate or severe re-      injury, the content of the stages of rehabilitation will
+ductions in training volume, moderate or severe             vary (Table 1). For example, bony stress injuries (foot,
+reduction in performance, or complete inability to          tibia, femoral shaft, and pelvis) will involve relative or
+participate in sports). Low- or high-intensity plyomet-     absolute unloading for 6-24 weeks, graduated reloading
+rics should also be used as part of the rehabilitation      therapy protocols over a period of weeks and rebuilding
+programs for runners with joint injury to the ankle         of neuromuscular strength and balance from the trunk
+(ankle sprain, chronic ankle instability)72 and knee        to the foot. The exercises described in the previous
+(knee ligaments, anterior cruciate ligament strain).84,85   sections can be prescribed here and should be per-
+                                                            formed as soon as medically safe and continued during
+  When to Start Injury Prevention Before                    the rehabilitation process. In cases of high-risk stress
+                                                            fractures, where fracture progression, nonunion, and
+              Competition
+                                                            delayed healing are likely (femoral neck tension side,
+  Ideally, injury prevention exercise does not stop
+                                                            ﬁfth metatarsal, anterior tibia, great to sesamoids, talus
+throughout the year irrespective of run training volume
+                                                            and tarsal navicular) nonweight bearing and/or
+or season. At minimum, elite orienteers used a 6-8
+                                                            immobilization and surgery may be required.90 In
+week precompetition stage before competitive season to
+                                                            addition to physical therapy, rehabilitation may also
+allow neuromuscular and skeletal adaptations to occur
+                                                            involve sports nutrition, endocrinology, and psychology
+for short events.83 Longer trail events >100K will
+                                                            to help manage and treat the injury and runner,
+require more preparation, which may range from 6
+                                                            depending on overall clinical presentation. Initial
+months to 1 year depending on physical starting point,
+                                                            reduction of loading should be followed by pain-free
+habitual training distance, and body weight. Pre-
+                                                            participation during and after normal activities and
+habilitation should begin at the start of the training
+                                                            normal walking gait. Maintenance of cardiovascular
+process for any event.
+                                                            conditioning during phases 2 and 3 is achieved through
+                                                            body weight-supported cycling, deep-water running, or
+          Safe Training Participation                       antigravity treadmill training. The exercises described in
+  Four additional methods to improve safety on the trail    the previous sections will be applied here as part of the
+are presented here. First, during downhill sections of      phases 2-4 when the runner is cleared to rehabilitate.
+trail, elevations in joint loading and energy cost may be   During phase 4, there is a gradual reintroduction to 30
+attenuated by maintaining the cadence within 5% of         minutes of running with slow shift in running/walking
+the cadence normally adopted in level running.86            ratios out to 4 months, when continual jogging is
+Maintaining preferred cadence going downhill avoids         introduced. Slow progression from jogging to running
+increases in ground reaction force impulses and caloric     can occur, provided the runner is pain-free.91
+cost, both of which could compromise performance              For chronic soft tissue injuries, like patellofemoral
+over the event.86 Second, runners can acutely reduce        pain or ITB syndrome, symptoms may be managed
+their impact loading and patellofemoral joint force in      with therapy, and training volume may be better
+various terrain stretches by combining elevated step        maintained early in the rehabilitation program than
+rate and adopting a more forefoot strike.87,88 Third,       with bony injuries. The time frame for rehabilitation of
+during training and preparatory phases, trail runners       these soft tissue injuries is considerably shorter and is
+should practice navigating sections of trails that are      dependent on the pain tolerance of the runner.
+similar to the competition site. Evidence shows that        Symptom management that is initiated during stage 1
+trained runners learn to maintain dynamic stability         will continue during all stages of rehabilitation and
+through adjustment of leg stiffness and step and foot       involve education on pain monitoring.47 Consistent
+strike pattern when encountering obstacles in natural       performance of the exercises described in the previous
+settings.89 Sessions of repeated running practice on        sections should transition from rehabilitation to part of
+challenging sections of trail may help the runner learn     the normal running routine.
+adaptive movement and step-to-step stabilization when
+faced with these conditions on the trail. Fourth, delib-    Conclusions
+erate inclusion of brief rest intervals into the training     The most common region for musculoskeletal injury
+runs can help runners prevent running through fatigue       in trail running is the lower leg; over 70% of muscu-
+and refocus on the abdominal bracing and safe me-           loskeletal injuries are due to overuse, and ankle sprains
+chanics before restarting.                                  are the most common acute injury. Safe trail running
+                                             INJURY PREVENTION IN TRAIL RUNNING                                                e159
+
+participation can be achieved through appropriate                    13. von Rosen P, Heijne AI-LM, Frohm A. Injuries and asso-
+complete kinetic chain prehabilitation programs                          ciated risk factors among adolescent elite orienteerers: A
+(comprising dynamic ﬂexibility, neuromotor strength                      26-week prospective registration study. J Athl Train
+and balance, and plyometrics), practice on similar                       2016;51:321-328. doi:10.4085/1062-6050-51.5.01.
+                                                                     14. Roos L, Taube W, Zuest P, Clénin G, Wyss T. Musculo-
+terrain with hills, understanding of musculoskeletal
+                                                                         skeletal injuries and training patterns in junior elite
+pain cues, and acutely adapting running technique to
+                                                                         orienteering athletes. Biomed Res Int 2015;2015:259531.
+the route. Rehabilitation will involve similar exercise                  doi:10.1155/2015/259531.
+components, but it will incorporate rest and active rest             15. Linde F. Injuries in orienteering. Brit J Sports Med 1986;20:
+on the basis of type of injury.                                          125-127. doi:10.1136/bjsm.20.3.125.
+                                                                     16. Larsen P, Elsoe R, Graven-Nielsen T, Laessoe U,
+                        References                                       Rasmussen S. Decreased muscle strength is associated
+ 1. International Trail Running Association. Discover trail              with impaired long-term functional outcome after intra-
+    running,     https://itra.run/About/DiscoverTrailRunning.            medullary nailing of femoral shaft fracture. Eur J Trauma
+    Accessed August 11, 2021.                                            Emerg Surg 2015;41:673-681. doi:10.1007/s00068-014-
+ 2. Orienteering USA. What is Orienteering?, https://                    0488-2.
+    orienteeringusa.org/explore/what-is-orienteering/. Accessed      17. Moraes R. A model for selecting alternate foot placement
+    August 11, 2021.                                                     during human locomtion. Psychol Neurosci 2014;7:
+ 3. Viljoen CT, Sewry N, Schwellnus MP, Janse van                        319-329.
+    Rensburg DC, Swanevelder S, Jordaan E. Independent risk          18. Patla AE. Understanding the roles of vision in the control
+    factors predicting gradual onset injury in 2824 trail running        of human locomotion. Gait Posture 1997;5:54-69. doi:10.
+    race entrants: SAFER XVIII Study. Wilderness Environ Med             1016/S0966-6362(96)01109-5.
+    2021;32:293-301. doi:10.1016/j.wem.2021.04.002.                  19. Garcia MC, Gust G, Bazett-Jones DM. Tibial acceleration
+ 4. Viljoen CT, Janse van Rensburg DC, Verhagen E, et al.                and shock attenuation while running over different sur-
+    Epidemiology of injury and illness among trail runners: A            faces in a trail environment. J Sci Med Sport 2021;24:
+    systematic review. Sports Med 2021;51:917-943. doi:10.               1161-1165. doi:10.1016/j.jsams.2021.03.006.
+    1007/s40279-020-01418-1.                                         20. Silbernagel KG, Hanlon S, Sprague A. Current clinical
+ 5. Viljoen CT, Janse van Rensburg DCC, Jansen van                       concepts: Conservative management of Achilles tendin-
+    Rensburg A, et al. One in four trail running race entrants           opathy. J Athl Train 2020;55:438-447. doi:10.4085/1062-
+    sustained an injury in the 12 months training preceding              6050-356-19.
+    the 2019 SkyRun race. Phys Ther Sport 2021;47:120-126.           21. Aderem J, Louw QA. Biomechanical risk factors associ-
+    doi:10.1016/j.ptsp.2020.11.029.                                      ated with iliotibial band syndrome in runners: A system-
+ 6. Gajardo-Burgos       R,    Monrroy-Uarac       M,      Barría-       atic review. BMC Musculoskelet Disord 2015;16:356. doi:10.
+    Pailaquilén RM, et al. Frequency of injury and illness in            1186/s12891-015-0808-7.
+    the ﬁnal 4 weeks before a trail running competition. Int J       22. Chu JJ, Caldwell GE. Stiffness and damping response
+    Environ Res Public Health 2021;18:5431. doi:10.3390/                 assoiated with shock attenuation in downhill running.
+    ijerph18105431.                                                      J Appl Physiol 2004;20:291-308.
+ 7. Matos S, Silva B, Clemente FM, Pereira J. Running-               23. Giandolini M, Pavailler S, Samozino P, Morin J-B,
+    related injuries in Portuguese trail runners: A retrospec-           Horva N. Foot strike pattern and impact continuous
+    tive cohort study. J Sports Med Phys Fitness 2021;61:                measurements during a trail running race: proof of
+    420-427. doi:10.23736/S0022-4707.20.11304-5.                         concept in a world-class athlete. Footwear Sci 2015;7:
+ 8. Malliaropoulos N, Mertyri D, Tsaklis P. Prevalence of                127-137.
+    injury in ultra trail running. Human Movement 2015;16:           24. Mizrahi J, Verbitsky O, Isakov E. Shock accelerations and
+    52-59. doi:10.1515/humo-2015-0026.                                   attenuation in downhill and level running. Clin Biomech
+ 9. González-Lázaro J, Arribas-Cubero HF, Rodríguez-                     2000;15:15-20. doi:10.1016/S0268-0033(99)00033-9.
+    Marroyo JA. Muskuloskeletal injuries in mountain                 25. Turner CH, Wang T, Burr DB. Shear strength and fatigue
+    running races: A 5 seasons study. Injury 2021;52:747-749.            properties of human cortical bone determined from pure
+    doi:10.1016/j.injury.2020.10.045.                                    shear tests. Calcif Tissue Int 2001;69:373-378. doi:10.1007/
+10. Hoffman MD, Fogard K. Factors related to successful                  s00223-001-1006-1.
+    completion of a 161-km ultramarathon. Int J Sports Physiol       26. Hajiloo B, Anbarian M, Esmaeili H, Mirzapour M. The
+    Perform 2011;6:25-37. doi:10.1123/ijspp.6.1.25.                      effects of fatigue on synergy of selected lower limb mus-
+11. Scheer BV, Murray A Al. Andalus Ultra Trail: An obser-               cles during running. J Biomech 2020;103:109692. doi:10.
+    vation of medical interventions during a 219-km, 5-day               1016/j.jbiomech.2020.109692.
+    ultramarathon stage race. Clin J Sport Med 2011;21:              27. Hamzavi B, Esmaeili H. Effects of running-induced fatigue
+    444-446. doi:10.1097/JSM.0b013e318225b0df.                           on plantar pressure distribution in runners with different
+12. Linko PE, Blomberg HK, Frilander HM. Orienteering                    strike types. Gait Posture 2021;88:132-137. doi:10.1016/j.
+    competition injuries: injuries incurred in the Finnish               gaitpost.2021.05.018.
+    Jukola and Venla relay competitions. Br J Sports Med             28. Gerlach KE, White SC, Burton HW, Dorn JM, Leddy JJ,
+    1997;31:205-208. doi:10.1136/bjsm.31.3.205.                          Horvath PJ. Kinetic changes with fatigue and relationship
+e160                                                    H. K. VINCENT ET AL.
+
+    to injury in female runners. Med Sci Sports Exerc 2005;37:       43. Lorimer AV, Hume PA. Stiffness as a risk factor for
+    657-663. doi:10.1249/01.mss.0000158994.29358.71.                     Achilles tendon injury in running athletes. Sports Med
+29. Encarnación-Martínez A, Sanchis-Sanchis R, Pérez-                    2016;46:1921-1938. doi:10.1007/s40279-016-0526-9.
+    Soriano P, García-Gallart A. Relationship between                44. Pruyn EC, Watsford ML, Murphy AJ, et al. Relationship
+    muscular extensibility, strength and stability and the               between leg stiffness and lower body injuries in profes-
+    transmission of impacts during fatigued running. Sports              sional Australian football. J Sports Sci 2012;30:71-78. doi:
+    Biomech Published online August 2020;24:1-17. doi:10.                10.1080/02640414.2011.624540.
+    1080/14763141.2020.1797863.                                      45. Vincent HK, Kilgore JE, Chen C, Bruner M, Horodyski M,
+30. Sado N, Yoshioka S, Fukashiro S. A biomechanical study               Vincent KR. Impact of body mass index on biomechanics
+    of the relationship between running velocity and three-              of recreational runners. PM R 2020;12:1106-1112. doi:10.
+    dimensional lumbosacral kinetics. J Biomech 2019;94:                 1002/pmrj.12335.
+    158-164. doi:10.1016/j.jbiomech.2019.07.038.                     46. Haghighat F, Ebrahimi S, Rezaie M, et al. Trunk, pelvis,
+31. Hart JM, Kerrigan DC, Fritz JM, Ingersoll CD. Jogging ki-            and knee kinematics during running in females with and
+    nematics after lumbar paraspinal muscle fatigue. J Athl              without patellofemoral pain. Gait Posture 2021;89:80-85.
+    Train 2009;44:475-481. doi:10.4085/1062-6050-44.5.475.               doi:10.1016/j.gaitpost.2021.06.023.
+32. Mucha MD, Caldwell W, Schlueter EL, Walters C,                   47. Vincent HK, Vincent KR. When is it safe to run? Applying
+    Hassen A. Hip abductor strength and lower extremity                  four pain rules to running participation. Curr Sports Med
+    running related injury in distance runners: A systematic             Rep 2017;16:122. doi:10.1249/JSR.0000000000000362.
+    review. J Sci Med Sport 2017;20:349-355. doi:10.1016/j.          48. Vincent HK, Herman DC, Lear-Barnes L, et al. Setting
+    jsams.2016.09.002.                                                   standards for medically-based running analysis. Curr
+33. Souza RB, Powers CM. Differences in hip kinematics,                  Sports Med Rep 2014;13:275-283. doi:10.1249/JSR.
+    muscle strength, and muscle activation between subjects              0000000000000071.
+    with and without patellofemoral pain. J Orthop Sports Phys       49. Fyock M, Cortes N, Hulse A, Martin J. Gait retraining with
+    Ther 2009;39:12-19. doi:10.2519/jospt.2009.2885.                     real-time visual feedback to treat patellofemoral pain in
+34. Bramah C, Preece SJ, Gill N, Herrington L. Is there a                adult recreational runners: A critically appraised topic.
+    pathological gait associated with common soft tissue                 J Sport Rehabil 2020;29:675-679. doi:10.1123/jsr.2019-
+    running injuries? Am J Sports Med 2018;46:3023-3031.                 0094.
+    doi:10.1177/0363546518793657.                                    50. Barton CJ, Bonanno DR, Carr J, et al. Running retraining
+35. Bramah C, Preece SJ, Gill N, Herrington L. Kinematic                 to treat lower limb injuries: a mixed-methods study of
+    characteristics of male runners with a history of recurrent          current evidence synthesised with expert opinion. Br J
+    calf muscle strain injury. Int J Sports Phys Ther 2021;16:           Sports Med 2016;50:513-526. doi:10.1136/bjsports-2015-
+    732-740. doi:10.26603/001c.22971.                                    095278.
+36. Sado N, Yoshioka S, Fukashiro S. The sidestep cutting            51. McCrory JL, Martin DF, Lowery RB, et al. Etiologic factors
+    manoeuvre requires exertion of lumbosacral lateral                   associated with Achilles tendinitis in runners. Med Sci
+    ﬂexion torque to avoid excessive pelvic obliquity. Sports            Sports Exerc 1999;31:1374-1381. doi:10.1097/00005768-
+    Biomech 2019;18:135-145. doi:10.1080/14763141.2019.                  199910000-00003.
+    1572780.                                                         52. Messier SP, Edwards DG, Martin DF, et al. Etiology of
+37. Willems TM, De Clercq D, Delbaere K, Vanderstraeten G,               iliotibial band friction syndrome in distance runners. Med
+    De Cock A, Witvrouw E. A prospective study of gait related           Sci Sports Exerc 1995;27:951-960. doi:10.1249/00005768-
+    risk factors for exercise-related lower leg pain. Gait Posture       199507000-00002.
+    2006;23:91-98. doi:10.1016/j.gaitpost.2004.12.004.               53. Messier SP, Davis SE, Curl WW, Lowery RB, Pack RJ.
+38. Hewett TE, Myer GD, Ford KR, et al. Biomechanical                    Etiologic factors associated with patellofemoral pain in
+    measures of neuromuscular control and valgus loading of              runners. Med Sci Sports Exerc 1991;23:1008-1015.
+    the knee predict anterior cruciate ligament injury risk in       54. Messier SP, Legault C, Schoenlank CR, Newman JJ,
+    female athletes: A prospective study. Am J Sports Med                Martin DF, DeVita P. Risk factors and mechanisms of knee
+    2005;33:492-501. doi:10.1177/0363546504269591.                       injury in runners. Med Sci Sports Exerc 2008;40:1873-1879.
+39. Myer GD, Ford KR, McLean SG, Hewett TE. The effects of               doi:10.1249/MSS.0b013e31817ed272.
+    plyometric versus dynamic stabilization and balance              55. Hreljac A, Marshall RN, Hume PA. Evaluation of lower
+    training on lower extremity biomechanics. Am J Sports                extremity overuse injury potential in runners. Med Sci
+    Med 2006;34:445-455. doi:10.1177/0363546505281241.                   Sports Exerc 2000;32:1635-1641. doi:10.1097/00005768-
+40. Olsen O-E, Myklebust G, Engebretsen L, Bahr R. Injury                200009000-00018.
+    mechanisms for anterior cruciate ligament injuries in team       56. Mehl J, Diermeier T, Herbst E, et al. Evidence-based
+    handball: A systematic video analysis. Am J Sports Med               concepts for prevention of knee and ACL injuries. 2017
+    2004;32:1002-1012. doi:10.1177/0363546503261724.                     guidelines of the ligament committee of the German Knee
+41. Messier SP, Martin DF, Mihalko SL, et al. A 2-year prospec-          Society (DKG). Arch Orthop Trauma Surg 2018;138:51-61.
+    tive cohort study of overuse running injuries: The Runners           doi:10.1007/s00402-017-2809-5.
+    and Injury Longitudinal Study (TRAILS). Am J Sports Med          57. Dillon S, Burke A, Whyte EF, O’Connor S, Gore S,
+    2018;46:2211-2221. doi:10.1177/0363546518773755.                     Moran KA. Do injury-resistant runners have distinct dif-
+42. Wang L-I. Lower extremity stiffness modulation: Effect of            ferences in clinical measures compared to recently injured
+    impact load of a landing task from different drop heights.           runners? Med Sci Sports Exerc 2021;53:1807-1817. doi:10.
+    Int J Sports Med 2009;10:186-193.                                    1249/MSS.0000000000002649.
+                                           INJURY PREVENTION IN TRAIL RUNNING                                              e161
+
+58. Baggaley M, Willy RW, Meardon SA. Primary and sec-            71. Schuermans J, Danneels L, Van Tiggelen D, Palmans T,
+    ondary effects of real-time feedback to reduce vertical           Witvrouw E. Proximal neuromuscular control protects
+    loading rate during running. Scand J Med Sci Sports               against hamstring injuries in male soccer players: A pro-
+    2017;27:501-507. doi:10.1111/sms.12670.                           spective study with electromyography time-series analysis
+59. Brindle RA, Ebaugh DD, Willson JD, Finley MA,                     during maximal sprinting. Am J Sports Med 2017;45:
+    Shewokis PA, Milner CE. Relationships of hip abductor             1315-1325. doi:10.1177/0363546516687750.
+    strength, neuromuscular control, and hip width to             72. Huang P-Y, Jankaew A, Lin C-F. Effects of plyometric and
+    femoral length ratio with peak hip adduction angle in             balance training on neuromuscular control of recreational
+    healthy female runners. J Sports Sci 2020;38:2291-2297.           athletes with functional ankle instability: A randomized
+    doi:10.1080/02640414.2020.1779489.                                controlled laboratory study. Int J Environ Res Public Health
+60. Foch E, Brindle RA, Milner CE. Weak associations be-              2021;18:5269. doi:10.3390/ijerph18105269.
+    tween hip adduction angle and hip abductor muscle ac-         73. Emery CA, Rose MS, McAllister JR, Meeuwisse WH.
+    tivity during running. J Biomech 2020;110:109965. doi:10.         A prevention strategy to reduce the incidence of injury in
+    1016/j.jbiomech.2020.109965.                                      high school basketball: A cluster randomized controlled
+61. Mofﬁt TJ, Montgomery MM, Lockie RG, Pamukoff DN.                  trial. Clin J Sport Med 2007;17:17-24. doi:10.1097/JSM.
+    Association between knee- and hip-extensor strength and           0b013e31802e9c05.
+    running-related injury biomechanics in collegiate distance    74. Silva PB, Oliveira AS, Mrachacz-Kersting N, Kersting UG.
+    runners. J Athl Train 2020;55:1262-1269. doi:10.4085/             Effects of wobble board training on single-leg landing
+    1062-6050-0532.19.                                                neuromechanics. Scand J Med Sci Sports 2018;28:972-982.
+62. Dejong AF, Koldenhoven RM, Hertel J. Proximal adap-               doi:10.1111/sms.13027.
+    tations in chronic ankle instability: Systematic review and   75. Trowell D, Vicenzino B, Saunders N, Fox A, Bonacci J.
+    meta-analysis. Med Sci Sports Exerc 2020;52:1563-1575.            Effect of strength training on biomechanical and neuro-
+    doi:10.1249/MSS.0000000000002282.                                 muscular variables in distance runners: A systematic re-
+63. Benjaminse A, Welling W, Otten B, Gokeler A. Novel                view and meta-analysis. Sports Med 2020;50:133-150. doi:
+    methods of instruction in ACL injury prevention pro-              10.1007/s40279-019-01184-9.
+    grams. A systematic review. Phys Ther Sport 2015;16:          76. Vatovec R, Kozinc Z    
+                                                                                          , Sarabon  N. Exercise interventions to
+    176-186. doi:10.1016/j.ptsp.2014.06.003.                          prevent hamstring injuries in athletes: A systematic re-
+64. Matias AB, Taddei UT, Duarte M, Sacco ICN. Protocol for           view and meta-analysis. Eur J Sport Sci 2020;20:992-1004.
+    evaluating the effects of a therapeutic foot exercise pro-        doi:10.1080/17461391.2019.1689300.
+    gram on injury incidence, foot functionality and biome-       77. van Dyk N, Behan FP, Whiteley R. Including the Nordic
+    chanics in long-distance runners: a randomized controlled         hamstring exercise in injury prevention programmes
+    trial. BMC Musculoskel Disord 2016;17:160.                        halves the rate of hamstring injuries: A systematic review
+65. McKeon PO, Hertel J, Bramble D, Davis I. The foot core            and meta-analysis of 8459 athletes. Br J Sports Med
+    system: A new paradigm for understanding intrinsic foot           2019;53:1362-1370. doi:10.1136/bjsports-2018-100045.
+    muscle function. Br J Sports Med 2015;49:290. doi:10.         78. Hrysomallis C. Relationship between balance ability,
+    1136/bjsports-2013-092690.                                        training and sports injury risk. Sports Med 2007;37:
+66. Taddei UT, Matias AB, Ribeiro FIA, Bus SA, Sacco ICN.             547-556. doi:10.2165/00007256-200737060-00007.
+    Effects of a foot strengthening program on foot muscle        79. Mendez-Rebolledo G, Figueroa-Ureta R, Moya-Mura F,
+    morphology and running mechanics: A proof-of-concept,             Guzmán-Muñoz E, Ramirez-Campillo R, Lloyd RS. The
+    single-blind randomized controlled trial. Phys Ther Sport         protective effect of neuromuscular training on the medial
+    2020;42:107-115. doi:10.1016/j.ptsp.2020.01.007.                  tibial stress syndrome in youth female track-and-ﬁeld
+67. Jung D-Y, Koh E-K, Kwon O-Y. Effect of foot orthoses and          athletes: A clinical trial and cohort study. J Sport Rehabil
+    short-foot exercise on the cross-sectional area of the            In press. doi:10.1123/jsr.2020-0376.
+    abductor hallucis muscle in subjects with pes planus: a       80. Sandrey MA, Mitzel JG. Improvement in dynamic balance
+    randomized controlled trial. J Back Musculoskelet Rehabil         and core endurance after a 6-week core-stability-training
+    2011;24:225-231. doi:10.3233/BMR-2011-0299.                       program in high school track and ﬁeld athletes. J Sport
+68. Kısacık P, Tunay VB, Bek N, Atay ÖA, Selfe J,                     Rehabil 2013;22:264-271. doi:10.1123/jsr.22.4.264.
+    Karaduman AA. Short foot exercises have additional ef-        81. Sugimoto D, Myer GD, Foss KDB, Hewett TE. Speciﬁc
+    fects on knee pain, foot biomechanics, and lower ex-              exercise effects of preventive neuromuscular training
+    tremity muscle strength in patients with patellofemoral           intervention on anterior cruciate ligament injury risk
+    pain. J Back Musculoskelet Rehabil 2021;34:1093-1104. doi:        reduction in young females: meta-analysis and subgroup
+    10.3233/BMR-200255.                                               analysis. Br J Sports Med 2015;49:282-289. doi:10.1136/
+69. Sulowska I, Mika A, Oleksy Ł, Stolarczyk A. The inﬂuence          bjsports-2014-093461.
+    of plantar short foot muscle exercises on the lower ex-       82. Markovic G, Mikulic P. Neuro-musculoskeletal and per-
+    tremity muscle strength and power in proximal segments            formance adaptations to lower-extremity plyometric
+    of the kinematic chain in long-distance runners. Biomed           training. Sports Med 2010;40:859-895. doi:10.2165/
+    Res Int 2019;2019:6947273. doi:10.1155/2019/6947273.              11318370-000000000-00000.
+70. Fredericson M, Moore T. Muscular balance, core stability,     83. Halvarsson B, von Rosen P. Could a speciﬁc exercise
+    and injury prevention for middle- and long-distance               programme prevent injury in elite orienteerers? A rand-
+    runners. Phys Med Rehabil Clin N Am 2005;16:669-689.              omised controlled trial. Phys Ther Sport 2019;40:177-183.
+    doi:10.1016/j.pmr.2005.03.001.                                    doi:10.1016/j.ptsp.2019.09.010.
+e162                                                  H. K. VINCENT ET AL.
+
+84. Clarsen B, Myklebust G, Bahr R. Development and vali-              running. J Biomech 2019;86:102-109. doi:10.1016/j.jbio-
+    dation of a new method for the registration of overuse             mech.2019.01.058.
+    injuries in sports injury epidemiology: The Oslo Sports        88. Dos Santos AF, Nakagawa TH, Serrão FV, Ferber R.
+    Trauma Research Centre (OSTRC) Overuse Injury Ques-                Patellofemoral joint stress measured across three different
+    tionnaire. Br J Sports Med 2013;47:495-502. doi:10.1136/           running techniques. Gait Posture 2019;68:37-43. doi:10.
+    bjsports-2012-091524.                                              1016/j.gaitpost.2018.11.002.
+85. Chmielewski TL, George SZ, Tillman SM, et al. Low- versus      89. Larsen RJ, Jackson WH, Schmitt D. Mechanisms for
+    high-intensity plyometric exercise during rehabilitation           regulating step length while running towards and over an
+    after anterior cruciate ligament reconstruction. Am J Sports       obstacle. Hum Mov Sci 2016;49:186-195. doi:10.1016/j.
+    Med 2016;44:609-617. doi:10.1177/0363546515620583.                 humov.2016.07.002.
+86. Vincent HK, Massengill C, Harris A, et al. Cadence impact      90. McInnis KC, Ramey LN. High-risk stress fractures: diag-
+    on cardiopulmonary, metabolic and biomechanical                    nosis and management. PM R 2016;8:S113-S124. doi:10.
+    loading during downhill running. Gait Posture 2019;71:             1016/j.pmrj.2015.09.019 (3 Suppl).
+    186-191. doi:10.1016/j.gaitpost.2019.04.022.                   91. Warden SJ, Davis IS, Fredericson M. Management and
+87. Huang Y, Xia H, Chen G, Cheng S, Cheung RTH, Shull PB.             prevention of bone stress injuries in long-distance run-
+    Foot strike pattern, step rate, and trunk posture combined         ners. J Orthop Sports Phys Ther 2014;44:749-765. doi:10.
+    gait modiﬁcations to reduce impact loading during                  2519/jospt.2014.5334.
+

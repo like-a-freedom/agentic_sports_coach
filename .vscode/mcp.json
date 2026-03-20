@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "rusty-intervals-icu": {
+            "command": "intervals_icu_mcp",
+            "env": {
+                "INTERVALS_ICU_API_KEY": "${INTERVALS_ICU_API_KEY}",
+                "INTERVALS_ICU_ATHLETE_ID": "${INTERVALS_ICU_ATHLETE_ID}",
+                "RUST_LOG": "${RUST_LOG}",
+            },
+            "type": "stdio"
+        }
+    }
+}

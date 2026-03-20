@@ -1,0 +1,941 @@
+              sports
+Review
+Resistance Exercise for Improving Running Economy and
+Running Biomechanics and Decreasing Running-Related Injury
+Risk: A Narrative Review
+Anja Šuc 1 , Pija Šarko 1 , Jernej Pleša 1 and Žiga Kozinc 1,2, *
+
+                                           1   Faculty of Health Sciences, University of Primorska, Polje 42, SI-6310 Izola, Slovenia;
+                                               97210493@student.upr.si (A.Š.); 97210482@student.upr.si (P.Š.); 97200425@student.upr.si (J.P.)
+                                           2   Andrej Marušič Institute, University of Primorska, Muzejski trg 2, SI-6000 Koper, Slovenia
+                                           *   Correspondence: ziga.kozinc@fvz.upr.si
+
+
+                                           Abstract: It is well-accepted that at least a certain amount of resistance exercise (RE) is recommended
+                                           for most endurance athletes. In this review, we aim to summarize the evidence regarding the effects
+                                           of RE on running economy, running biomechanics, and running-related injury risk in endurance
+                                           runners. The evidence robustly shows that lower limb RE is effective for improving running economy
+                                           and performance, with a combination of strength and plyometric training being recommended to
+                                           improve RE. Isometric training is also emerging as a possible alternative to implement during periods
+                                           of high overall training load. Lower limb RE may change some aspects of joint kinematics during
+                                           running; however, the evidence regarding the effects on kinetics is limited. Lower limb RE may help
+                                           reduce running-related injury risk, but further evidence is needed.
+
+                                           Keywords: runners; biomechanics; training; prevention; exercise
+
+Citation: Šuc, A.; Šarko, P.; Pleša, J.;
+Kozinc, Ž. Resistance Exercise for
+Improving Running Economy and
+Running Biomechanics and
+                                           1. Introduction
+Decreasing Running-Related Injury                The utility of resistance exercise (RE) for endurance athletes has been a matter of
+Risk: A Narrative Review. Sports           debate among sport scientists for a long time. Today, it is well-accepted that at least a
+2022, 10, 98. https://doi.org/             certain amount of RE is recommended for most endurance athletes. In this paper, we focus
+10.3390/sports10070098                     on the evidence regarding the effects of RE for endurance runners. We address the effect of
+Academic Editor: Gregory
+                                           RE on running economy, running biomechanics, and injury risk.
+C. Bogdanis                                      Highly trained endurance runners normally have similar and very high V̇O2 max
+                                           values (70–80 mL/kg/min with relatively small variations between athletes [1,2]); therefore,
+Received: 31 May 2022                      their performance depends in large part on their running economy [3]. Running economy
+Accepted: 22 June 2022
+                                           is defined as the amount of oxygen consumed (V̇O2 ) at a given submaximal running speed
+Published: 24 June 2022
+                                           and is expressed in mL/kg−1 /min−1 [4]. Simply put, at a given speed, a runner with a
+Publisher’s Note: MDPI stays neutral       better running economy consumes less oxygen compared to a runner with a lower running
+with regard to jurisdictional claims in    economy [5]. Studies typically report a very strong correlation between running economy
+published maps and institutional affil-    and endurance running performance (r = 0.8–0.9) [6]. A plethora of modifiable determinants
+iations.                                   of running economy have been reported, including stride length, stride rates, contact times,
+                                           lower vertical oscillation, greater leg stiffness, lower limb kinematics, alignment of the
+                                           ground reaction force and lower limb axis during the propulsive phase, arm swing, lower
+                                           coactivation, and firm footwear [7–9]. In addition, several anthropometric characteristics
+Copyright: © 2022 by the authors.
+                                           such as height, limb dimensions, and body composition have been suggested to influence
+Licensee MDPI, Basel, Switzerland.
+                                           running economy [10]. In relation to this article, neuromuscular properties such as muscle
+This article is an open access article
+                                           strength, elastic energy utilization, eccentric power, and leg muscle stiffness are of primary
+distributed under the terms and
+                                           interest [11]. The reutilization of elastic energy is a mechanism that can substantially reduce
+conditions of the Creative Commons
+                                           energy consumption during running [12]. The ability to reuse elastic energy during the
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+                                           propulsive phase of the running cycle is determined by reactive strength and leg muscle
+4.0/).
+                                           stiffness [7,13]. Reactive strength is the ability of the musculoskeletal system to produce a
+
+
+
+
+Sports 2022, 10, 98. https://doi.org/10.3390/sports10070098                                                        https://www.mdpi.com/journal/sports
+Sports 2022, 10, 98                                                                                             2 of 16
+
+
+
+
+                      large force with concentric contraction immediately after rapid eccentric contraction, also
+                      known as eccentric–concentric contraction or the stretch–shortening cycle (SSC) [14].
+                            Muscle stiffness is defined as the ability of a system to resist deformation and is
+                      calculated as the ratio of the force produced to the change in muscle length. It represents
+                      the integrative action of muscles, tendons, and ligaments that work together as a spring
+                      that stores and reuses elastic force [15]. The greater the muscle stiffness, the less muscle
+                      activation is required to transfer energy during running, thus reducing energy expenditure
+                      and improving running economy [16]. Stiffness on the muscle level is difficult to assess
+                      during dynamic tasks, such as running. Consequently, studies have typically calculated
+                      quasi-stiffness, which is defined as the ability of the human body to resist displacement [17].
+                      For instance, vertical quasi-stiffness is defined as the ratio between changes in the ground
+                      reaction force and vertical displacement of the center of mass, while joint quasi-stiffness
+                      describes the angular displacement within a joint in relation to joint moments [18,19]. RE
+                      can increase reactive strength and quasi-stiffness (although the results on directly measured
+                      muscle stiffness are inconclusive [20]). The increase in quasi-stiffness is one of the primary
+                      candidates for underlying the improvement in running economy after RE [21], which is
+                      also corroborated by simulation studies demonstrating that a decrease in stiffness results in
+                      increased energy expenditure during running [22].
+                            Everything else being equal, stiffness is inversely related to flexibility; thus, it is not
+                      surprising that studies have shown an inverse relationship between flexibility and running
+                      economy [23,24]. On the other hand, it seems that if muscle stiffness is preserved after
+                      stretching intervention, running economy is not affected [25]. Given that sufficient range of
+                      motion (particularly at the hip and ankle joints) is needed for optimal running technique,
+                      performing some flexibility exercises in addition to RE could be beneficial. The interested
+                      reader is referred to the review paper on the acute and chronic effects of stretching on
+                      running economy by Carter et al. [25].
+                            The incidence of running-related injuries ranges between 3% and 85% [26]. The ma-
+                      jority of these injuries are overuse/chronic [27], with the highest incidence reported for
+                      iliotibial band syndrome (ITBS), patellofemoral pain syndrome (PFPS), Achilles tendinitis,
+                      plantar fasciitis, and medial tibial stress syndrome [28]. According to Troy et al. [29], sub-
+                      optimal biomechanics results in an uneven distribution of forces between body segments.
+                      This is seen particularly in people with PFPS and ITBS, where unevenly distributed forces
+                      increase stress on a particular part of a structure [30,31]. One study demonstrated that
+                      PFPS is associated with weak muscles that control the hip and muscles that regulate pelvic
+                      movement and external knee rotation [32]. Additionally, abnormal biomechanics has also
+                      been observed in these individuals. A similar finding was found in runners with ITBS, in
+                      whom increased internal knee rotation and increased hip displacement were observed [33].
+                            RE seems to be a promising tool to improve running economy and potentially for
+                      strengthening the weakened muscles that cause altered biomechanics and, by extension,
+                      increased injury risk. Therefore, the purpose of this narrative review is to summarize the
+                      evidence of the effect of RE on running economy, running biomechanics, and running-
+                      related injury risk. Systematic reviews to date have generally shown that RE improves
+                      running economy [34]; however, most of the recent reviews focused only on the effects
+                      of strength training in highly trained runners [35], such as concurrent heavy weight and
+                      explosive training [36]. Existing reviews on running biomechanics and injury-risk typically
+                      focus on multiple interventions or interventions other than RE [37–40]. The purpose of this
+                      paper is to summarize, in a narrative manner, the available evidence on effects of different
+                      RE modalities for different domains of application related to running. We believe that
+                      this paper will outline specific gaps in the literature and also help coaches and clinicians
+                      who work with runners to design RE programs for specific purposes and goals. A search
+                      of the literature was performed in January 2022. The following keywords were used
+                      in various combinations in PubMed and Scopus databases: running, runners, running-
+                      related, injury, biomechanics, performance, and economy. Upon retrieval of the relevant full
+                      texts, potentially useful references were retrieved from the reference lists of the included
+Sports 2022, 10, 98                                                                                           3 of 16
+
+
+
+
+                      articles. Both reviews and original research were considered. Studies were included if they
+                      analyzed runners, triathletes, or military personnel. Studies were excluded if the article was
+                      written in a language other than English. Although we primarily searched for randomized
+                      controlled trials and other experimental study types (i.e., assessing the effects of RE on
+                      running economy, running biomechanics, and injury-risk), we also included cross-sectional
+                      studies into the narrative where appropriate.
+
+                      2. Resistance Exercise for Improving Running Economy and Performance
+                            Running performance on middle and long distances depends on anthropometric,
+                      biomechanical, and physiological characteristics [41]. In his endurance performance model,
+                      Joyner considered three key physiological parameters—V̇O2 max, blood lactate concentra-
+                      tion, and running economy [42]. Paavolainen et al. suggested that among well-trained
+                      distance runners, running economy is a better predictor of performance than V̇O2 max [43].
+                      A recent systematic review showed improvements of running economy without changes in
+                      V̇O2 max and blood lactate concentration in pre-trained athletes after RE intervention [41].
+                      However, the results between studies differed considerably, which can be attributed to
+                      different running speeds being used for running economy assessments and other inconsis-
+                      tencies in the measurement protocols [41]. Di Prampero et al. demonstrated that runners
+                      improved running economy more while running at competitive speed [44]. After 8 weeks
+                      of concurrent explosive strength training and endurance training, young runners improved
+                      their anaerobic and neuromuscular properties without reducing their aerobic capacity [45].
+                      An older systematic review supports these findings with improved running economy (+8%)
+                      in elite long-distance runners after explosive strength training. However, in untrained run-
+                      ners, that was not the case, as they improved only in V̇O2 max [46]. In competitive runners,
+                      even a small improvement in running economy can have a major impact on long-distance
+                      running performance, especially in marathons and ultramarathons [46].
+                            Cross-sectional evidence shows that muscle strength and quasi-stiffness are positively
+                      related to running economy, which supports the use of RE to improve running economy.
+                      Li et al. [47] studied the relationship between the neuromuscular properties of the lower
+                      extremities and running economy at three different speeds (12, 14, and 16 km/h). Running
+                      economy at 12, 14, and 16 km/h was significantly affected by eccentric strength in leg
+                      press (r = 0.52–0.63), as well as reactive strength (r = 0.41–0.57) and leg quasi-stiffness
+                      (r = 0.68–0.76), determined from drop jump testing. During eccentric contractions, the
+                      muscle–tendon unit is stretched, absorbing mechanical energy, which is then reused dur-
+                      ing concentric contractions [48]. As mentioned before, the action of stretching, which is
+                      immediately followed by muscle contraction, has been termed as the stretch–shortening
+                      cycle (SSC). During the SSC, the muscle works as a spring and is able to produce more
+                      force in the concentric action (compared to concentric movement alone), which is crucial
+                      for running economy [48]. Up to a 50% increase in force can occur due to energy reuse
+                      during SSC actions [49]. These research findings describe potential underlying mechanisms
+                      of improvement in running economy and performance after RE in endurance runners. In
+                      the following sections, the effects of specific RE modalities are discussed.
+                            Although some forms of RE may elicit hypertrophic effects and consequently lead to
+                      an increase in body mass, such an effect has not been shown in most studies conducted on
+                      runners. Docherty & Sporer [50] described the concept of the interference phenomenon
+                      between concurrent endurance training and RE. Based on their review of the literature,
+                      simultaneously training for strength and endurance compromises the development of
+                      muscle strength (as compared to using only RE). However, the development of endurance
+                      (specifically aerobic power) appears to be unaffected by concurrent RE, which supports
+                      its use for endurance athletes. The fact that the body mass is unchanged in most RE
+                      intervention studies is important to point out, as the effect of RE could also be accompanied
+                      by an increased muscle mass and thus increased total body mass, which could negatively
+                      affect the relative physiological determinants of endurance, such as running economy
+                      and V̇O2 max [51]. Li et al. [11] studied the impact of complex training, which included
+Sports 2022, 10, 98                                                                                             4 of 16
+
+
+
+
+                      maximum strength training and plyometric training, on running economy and came to the
+                      same conclusion. Namely, body composition did not change with training, which indicated
+                      that the adjustment to resistance training was mainly due to adaptations on the level of the
+                      nervous system (e.g., increased frequency of motor unit firing and increased recruitment of
+                      motor units) [52].
+
+                      2.1. Strength Training
+                           Five studies included in a recent systematic review [35] reported a positive effect of
+                      strength training on running economy in highly trained endurance runners. The duration
+                      of the interventions ranged from 8 to 12 weeks, with one study using high loads (85%
+                      1RM) and the other four using moderate loads (40–70% 1RM). The addition of RE to
+                      the endurance training of well-trained endurance runners improved running economy
+                      (+4%) after 10 weeks without changes in body mass and V̇O2 [53]. In addition, an 8-week
+                      intervention of heavy weight training on well-trained endurance runners improved running
+                      economy (+5%) and postponed the time to exhaustion, while no changes in body mass were
+                      reported [54]. A study by Beattie et al. [51] performed on endurance runners also found
+                      that RE performed in addition to endurance training improved running economy and
+                      V̇O2 max without significant changes in body composition, which was also replicated in
+                      other research [41,55]. A recent study [55] found similar results in triathletes, who improved
+                      their maximal strength, cycling economy, and running economy in a 26-week concurrent
+                      endurance and RE program. Additionally, Alcaraz-Ibañez and Rodríguez-Pérez [41] found
+                      no signs of overtraining when RE was added onto the training schedule of previously
+                      trained endurance athletes. However, there were inconsistencies in improvements among
+                      athletes, which might be a consequence of different characteristics of the applied RE.
+
+                      2.2. Plyometric Training
+                            Several studies have also investigated the effects of plyometric training on running
+                      economy. A 9-week intervention of plyometric training in highly trained distance runners
+                      improved running economy at 18 km/h−1 (+4.1%; p = 0.02), accompanied by trends for
+                      improved 5-jump plyometric test performance (+14.7%; p = 0.11) and a lower VO2 max–
+                      speed slope (14%; p = 0.120) [56]. A 6-week plyometric training intervention improved
+                      running economy, CMJ height, 5-jump plyometric test performance, and lower leg quasi-
+                      stiffness [57]. Importantly, the increase in quasi-stiffness was correlated with improvements
+                      in running economy. Increasing lower leg quasi-stiffness and reactive strength through ply-
+                      ometric training enables better utilization of the SSC [11,57]. Interestingly, Turner et al. [58]
+                      reported that moderately trained endurance runners improved running economy after
+                      6 weeks of plyometric training; however, there was no improvement in vertical jump
+                      performance. This could have been due to the shorter duration of the plyometric training
+                      (10–15 min), which was not primarily focused on improving vertical jumping performance.
+                      In a systematic review of five articles [59], it was reported that both plyometric training
+                      and heavy weight RE improved running economy by ~5%. In some studies, a short-term
+                      (4-week) heavy weight training intervention improved running economy (+6.3%; 44.3 ± 4.9
+                      to 47.3 ± 6.8 mlkg−1 min−1 ), but plyometric training did not [60].
+
+                      2.3. Combination of Different RE Modialities
+                            Skovgaard et al. [61] studied the effect of a combination of strength training and speed
+                      endurance training on the athletic performance of runners. They concluded that this type
+                      of training improves running economy without increasing the risk of overtraining, which is
+                      consistent with other research findings [54,62]. Li et al. [11] found that 6 weeks of complex
+                      training, which combines heavy weight training and plyometric exercises with endurance
+                      training, improved maximum muscle strength and power, running economy, and velocity
+                      at VO2 max in well-trained endurance runners, which was not the case in resistance training,
+                      which consisted of only strength endurance exercises. A study by Barnes et al. [63] exam-
+                      ined the impact of heavy weight training and plyometric training on endurance runners
+Sports 2022, 10, 98                                                                                            5 of 16
+
+
+
+
+                      during the competitive period. They found that, in accordance to previous research, the
+                      body composition did not change, but there were some unexpected results—the effects
+                      of the intervention on running economy varied significantly between male and female
+                      participants. In particular, the addition of plyometric or heavy weight training during
+                      the competition period had a negative impact on the competitive performance in males,
+                      while a positive effect was seen in female endurance runners [63]. Further research is
+                      urgently needed to reveal possible differences in adaptations to RE between male and
+                      female runners.
+
+                      2.4. Isometric Training
+                            It has been suggested that isometric training could elicit similar or even higher adapta-
+                      tions in running economy than plyometric training. Two older studies reported an improve-
+                      ment in running economy (~4–7%) after isometric plantar flexor strength training [64,65].
+                      Recently, Lum et al. [66] directly compared the effects of isometric and plyometric train-
+                      ing in a 6-week interventional study. Although both training types improved running
+                      economy, the isometric group surprisingly improved more, which was also reflected in
+                      a higher maximal aerobic speed. It could be that isometric training is superior in terms
+                      of increasing muscle/tendon stiffness, which was indicated in some of the previous stud-
+                      ies [67]; however, leg quasi-stiffness during running in the study by Lum et al. [66] was not
+                      changed in either group. While further research is clearly needed, the authors concluded
+                      that isometric training could be a good alternative to plyometric training, especially during
+                      training cycles when runners already experience a high volume of load during their regular
+                      endurance training.
+
+                      2.5. RE Coupled with Vibration Training
+                           Another attractive avenue for research is the inclusion of vibration platforms into the
+                      training regimen. Vibration exposure is thought to affect the central and peripheral nerves
+                      and enhance neuromuscular activity, thereby increasing force production [68]. Among other
+                      things, the improvement of running economy is thought to be due to altered neuromuscular
+                      properties leading to increased muscle stiffness and the increased recruitment of motor
+                      units [69]. However, according to available evidence, performing RE on a vibrating platform
+                      has no particular contribution to improving running economy compared to RE alone [70].
+
+                      2.6. Effects of RE Program Interruption
+                           Interruption of the RE training results in the reduction of strength endurance, maxi-
+                      mum strength, and power [71]. Energy expenditure levels during running are maintained
+                      even after a 2-week period without training [72]. A recent study investigated the effects
+                      of an 8-week explosive RE program, followed by a 4-week interruption (only endurance
+                      training was conditioned) of training, on running economy, V̇O2 max, maximum strength,
+                      CMJ, and 3000 m running performance [71]. The 8-week program elicited significant im-
+                      provements in running economy (+5.7%), which were retained after the 4-week period
+                      without RE training. Importantly, 3000 m run times were reduced after the first period
+                      (−2.4%), with a possible further reduction after 4 weeks without RE training (−4.4%).
+                      While this research was conducted on a very small sample and should be interpreted with
+                      caution, the results indicate that the incorporation of RE should be emphasized in the
+                      pre-competition phase, with a possible detraining or cessation of RE before the competition.
+                      Berryman et al. [71] also found that neuromuscular abilities were maintained after the
+                      interruption period. A meta-analysis found that a short-term interruption of resistance
+                      training reduces muscle strength, while the magnitude of the effect varies according to the
+                      type of training, age, and duration of the interruption [73]. However, this meta-analysis
+                      was not specific to RE in endurance runners. According to current findings, additional
+                      research is clearly needed in this area [71].
+Sports 2022, 10, 98                                                                                           6 of 16
+
+
+
+
+                      2.7. Acute Effects of RE and Interference with Running Training
+                            It should also be pointed out that the acute effect of RE (both strength training and
+                      plyometric training) is associated with increased energy expenditure during running and
+                      thus reduced running economy, which could pose a problem for runners. Namely, RE could
+                      impact the quality of endurance training. Marcello et al. [74] examined the acute effects
+                      of a combination of strength and plyometric training on running economy in endurance
+                      runners. Elevated V̇O2 and post-workout energy expenditure indicated that strength and
+                      plyometric training reduced running economy at moderate running intensities; however,
+                      this negative effect disappeared in less than 24 h, which was also observed in a previous
+                      study [75]. Acutely, strength training leads to decreased muscle activation during running,
+                      leading to the reduced ability to produce force [76]. Similarly, activation inhibition occurs
+                      with plyometric training. Paschalis et al. [77] analyzed the effect of eccentric exercise on
+                      indirect indicators of muscle damage (delayed onset of muscle soreness, range of motion,
+                      and isometric force) and running economy. The training consisted of 12 × 10 repetitions
+                      of maximal voluntary contractions by each leg. Post-exercise indirect muscle damage
+                      markers were significantly altered after 24 to 72 h (p < 0.05), without significant changes in
+                      running economy (p > 0.05). Later, the same research group reported that after 48 h, post-
+                      exercise muscle damage indicators were significantly changed, while running economy
+                      (assessed at 70% VO2 max) remained unchanged [78]. Burt et al. [79] measured the impact
+                      of exercise-induced muscle damage after performing 100 squats (10 sets of 10 repetitions
+                      at 80% of body mass) on the submaximal running performance of recreational athletes.
+                      They recorded a significant increase in V̇O2, minute ventilation and blood lactate during
+                      submaximal running, as well as decreased maximum torque in hip extensors and lower
+                      vertical jump height 24–48 h post-training. Later, the same research group demonstrated
+                      that the repeated bout effect (the protective effect of an exercise session during subsequent
+                      bouts of muscle-damaging exercise [80]) also extends to running performance [81]. In
+                      sum, practitioners must keep the acute effects of RE in mind when designing RE programs
+                      for runners. The literature indicates that RE and the associated exercise-induced muscle
+                      damage may acutely interfere with running economy and that this effect is likely smaller
+                      after subsequent sessions of RE.
+
+                      2.8. Additional Considerations
+                            Strength, endurance, and energy expenditure during activity also affect triathlon
+                      performance [55]. In triathlons, each discipline has a negative impact on the amount
+                      of energy available for the next discipline [82]. One study [55] found increased cycling
+                      economy after endurance training; however, running economy was only improved with an
+                      addition of heavy weight RE. Concurrent resistance training and endurance training were
+                      presumed to increase musculoskeletal stiffness and to promote a greater recruitment of
+                      motor units, increasing the rate of force development and maximum strength [55], without
+                      changes in body mass. Similar findings were provided by other studies; for instance,
+                      Millet et al. [83] found that heavy weight training improved maximal strength and RE, but
+                      did not affect V̇O2 .
+                            In the current literature, there is a clear lack of studies investigating specific run-
+                      ning populations, such as trail runners and ultra-endurance runners. During later stages
+                      of ultra-endurance events and during uphill running, the energy cost of running is in-
+                      creased [84]. Future studies could investigate if RE can ameliorate this decrease. Recent
+                      research indicates that muscle strength and power tests may be sensitive to the running-
+                      related workload [85]. In addition to classic RE, uphill running training may also improve
+                      running economy [86]. Although the method of running uphill is often used to improve
+                      running speed and, consequently, running performance, there is a lack of research on this
+                      topic, especially in terms of physiological adaptations [87]. One study compared the effects
+                      of high-intensity uphill and ground-level running intervals on V̇O2 , blood lactate concen-
+                      tration, and muscle strength, and while there was an improvement in some outcomes (V̇O2 ,
+                      blood lactate concentration, and % V̇O2 max) after both training regimens, the changes
+Sports 2022, 10, 98                                                                                           7 of 16
+
+
+
+
+                      were very small [87]. Further research is needed to assess the effects of uphill running on
+                      running economy. As it currently stands, it seems that this method is inferior for improving
+                      running economy in comparison to RE.
+
+                      3. Resistance Exercise for Modifying Running Technique
+                            Running technique is an important aspect for movement economy and injury preven-
+                      tion. Several biomechanical factors were raised in the literature that may affect running
+                      economy. These factors can be categorized as spatiotemporal (parameters relating to
+                      changes in the phase of the gait cycle, such as ground contact time, stride length, etc.),
+                      lower limb kinematics (lower limb joint angles), kinetics (ground reaction forces), and
+                      neuromuscular factors (muscle activation and coactivation). Regarding the spatiotemporal
+                      factors, the literature reports that self-selected stride length and frequency is optimal or
+                      very near to being optimal for maximizing economy [88,89]. On the other hand, some of
+                      the literature reports that optimal stride length could be 3% shorter than preferred stride
+                      length for improving running economy [90,91]. Although there seems to be some merit in
+                      attempts to optimize stride frequency, such approaches are questionable for runners who
+                      have likely achieved optimal stride frequency through years of training. Stride length and
+                      stride frequency may also affect how far ahead of the body the foot strikes the ground. In
+                      running techniques with longer stride length and lower stride frequency, the foot strikes
+                      the ground far ahead of the body, with the first ground contact through the heels. Running
+                      on the heels is related to a higher breaking peak force [92] and could present an injury
+                      risk factor. On the other hand, a higher stride frequency decreases the length between the
+                      initial foot strike and center of mass (CoM), thus reducing peak braking and propulsive
+                      force [93]. Moreover, studies reported that a rear foot strike imposed higher biomechanical
+                      loads on overall ground impact and knee and patellofemoral joints, whereas a forefoot
+                      strike imposed higher biomechanical loads on the ankle joint and Achilles tendon [94].
+                      When designing RE programs, running technique should be taken into account in order to
+                      implement exercises that target specific muscles and tissues to prepare them for running
+                      loads. Similar to stride frequency and stride length, vertical oscillation can be altered.
+                      Acute intervention studies have shown that increasing vertical oscillation leads to an in-
+                      crease in V̇O2 [95,96]. It is important to mention that rearfoot striking is more prevalent
+                      with increased distance within a running session/race and occurs more commonly in less
+                      experienced runners [97,98].
+                            Furthermore, one of the reasons for the occurrence of overuse injuries is suboptimal
+                      running technique, resulting in poor lower limb kinematics [29,33], which results in the
+                      uneven distribution of forces between body segments. It is suggested that one of the
+                      contributing factors to the development of running-related injuries may be the suboptimal
+                      lower limb kinematics, especially the inability to control the motion of the lower extremity
+                      segments in the frontal and transverse planes. Examples from the literature include ex-
+                      cessive hip adduction and internal rotation, knee abduction, tibial internal rotation, and
+                      foot pronation [99]. Moreover, a poor dynamic alignment pattern of hip adduction and
+                      internal rotation, knee abduction, tibial internal rotation, and foot pronation during running
+                      may lead to injury [99,100]. Biomechanical studies report that hip abductors and external
+                      rotators play an important role in controlling the position of the entire lower extremity in
+                      the frontal and transverse planes in the single-leg stance, suggesting that strengthening
+                      those muscles may benefit running technique and reduce injury risk. This was supported
+                      by Bellchamber and Van Den Bogert [101], reporting that the energy flow during walking is
+                      oriented from proximal to distal, suggesting that the kinematics of proximal joints affect the
+                      kinematics of distal joints, thus highlighting the importance of pelvis and hip musculature
+                      for running and walking. Therefore, it is possible that increased hip strength may affect the
+                      lower extremity biomechanics in the frontal and transverse planes and therefore improve
+                      the dynamic alignment of lower extremity joints, thus improving running technique. How-
+                      ever, the literature on the effects of RE on running biomechanics is relatively scarce. The
+                      synthesis of the relevant studies is provided below.
+Sports 2022, 10, 98                                                                                           8 of 16
+
+
+
+
+                            Feltner et al. reported that an 8-week intervention consisting of exercise that directly
+                      strengthened the ankle and foot musculature (isokinetic eversion and inversion training)
+                      significantly reduced the inversion/eversion angle at heel strike and eversion range of
+                      motion [102]. However, this was not true for the functional training consisting of exercises
+                      such as step-ups, balance board exercises, and one- and two-leg jumps. Furthermore,
+                      Snyder et al. reported that a 6-week hip-strengthening program reduced foot eversion
+                      range of motion, hip internal range of motion, ankle inversion moment, and knee abduction
+                      moment, while there were no changes in pelvic range of motion in the frontal plane [103].
+                      Together, these findings demonstrate that strength training oriented towards strengthening
+                      the hip and ankle/foot musculature reduces eversion range of motion, while strengthening
+                      the hip musculature also reduces hip internal range of motion and knee abduction when
+                      running. This indicates that strength training may influence the lower extremity joint
+                      loading, thus improving running technique.
+                            Moffit et al. [104] found that maximal strength in squatting is associated with lower
+                      internal rotation of the knee during running. Contrary to those results, Willy and Davis
+                      reported that strength training intervention that improved hip abduction strength, hip exter-
+                      nal rotation strength, and single-leg squat mechanics did not alter running technique [105].
+                      Similar results were also reported by Snyder et al. [103], indicating that running technique
+                      is difficult to change by strength training alone. On the other hand, the literature reports
+                      that running technique could be improved with neuromuscular training with feedback
+                      regarding critical technique deficits, such as, for example, hip adduction, hip internal rota-
+                      tion, and contralateral pelvis drop [106]. Moreover, feedback interventions are promising
+                      for reducing ground reaction forces during running [107,108].
+                            In conclusion, RE for lower extremities may be beneficial for improving joint kinemat-
+                      ics during running, but the impact on overall running technique is questionable, and more
+                      research is needed. Nevertheless, the literature does not report negative effects of RE on
+                      running biomechanics, suggesting that for improving running technique, neuromuscular
+                      training with feedback regarding technique deficits could be a favorable option.
+
+                      4. Resistance Exercise for Reducing the Risk of Running-Related Injuries
+                            Running-related injuries remain a major problem for runners [109], and the best
+                      approach to prevention is still largely equivocal [37,39]. The most prevalent running-related
+                      injuries are medial tibial stress syndrome, Achilles tendinopathy, plantar fasciitis, patellar
+                      tendinopathy, iliotibial band syndrome, stress fractures of the tibia, and patellofemoral pain
+                      syndrome [28,110]. Very recently, a study conducted on more than 4000 runners reported
+                      virtually no benefit of a comprehensive prevention program on injury risk [111]. The
+                      implemented program included various pieces of advice pertaining to load progression
+                      and management, footwear, subjective aspects, and running-specific exercises. However,
+                      RE was not included. Some of the running injuries (e.g., ITBS and PFPS) are characterized
+                      by altered running mechanics and weakness of certain muscle groups. The purpose of
+                      this section is to summarize the available evidence of the effectiveness of RE for reducing
+                      the risk of running-related injuries. According to Vincent et al. [112], more than 70% of
+                      running injuries are of the overuse nature, but inadequate running techniques and poor
+                      neuromuscular control are also key mechanisms for the occurrence of injuries. In trail
+                      runners, running experience, neglecting warm-ups, having no specialized running plan,
+                      training on asphalt, and double training sessions per day contribute significantly to injury
+                      risk [113].
+
+                      4.1. Studies Investigating Running-Related Injuries in General
+                           In a recent study [114], track and field runners reduced the incidence of injuries,
+                      especially medial tibial stress syndrome (p = 0.012), after 6 weeks of neuromuscular train-
+                      ing, which included jumping, landing, strength, endurance, agility, and trunk training
+                      (p = 0.044), and they also improved their physical fitness. However, this was a very small
+                      study (n = 22), and the generalization of the effectiveness of such an exercise program
+Sports 2022, 10, 98                                                                                             9 of 16
+
+
+
+
+                      is limited. A study of 1538 soldiers found that a 12-week stretching program during
+                      warm-up work did not reduce the risk of injury to soldiers; however, they found that the
+                      soldiers’ physical fitness itself was a statistically significant predictor of risk of lower limb
+                      injury [115]. In another cohort of soldiers, performing RE at least three times a week was
+                      associated with a 54% lower risk of running-related injuries compared to performing no
+                      or less than one unit of RE per week (p < 0.001) [116]. A 12-month combined prevention
+                      training exercise with a concomitant increase in physical exertion in 1020 soldiers did not
+                      result in a statistically significant reduction in the incidence of injuries (p = 0.162) [117]. A
+                      12-week self-administered muscle strengthening program (included muscles: quadriceps,
+                      abductors, and trunk muscles), did not reduce the incidence of marathon injuries and the
+                      associated early end of the race (p = 0.90) [118].
+                            Strengthening the ankle and foot muscles reduced the incidence of running-related
+                      injuries [119]. This one-year intervention differed from other interventions, as it focused
+                      primarily on the ankle–foot complex. The intervention strengthened the muscles of the
+                      ankle and foot, which improved cushioning upon contact with the ground, reduced the
+                      cumulative load, improved the movement in the ankle, and thus reduced the occurrence of
+                      running injuries. The intervention improved tolerance for the load, as the author found a
+                      correlation between foot strength and the time to injury. Lastly, the incidence of running
+                      injuries was 2.42 times higher in the control group, which did not undergo the intervention.
+                      These findings support the previously proposed protocol to strengthen the foot muscles
+                      to increase the ability to cushion forces upon contact with the ground [120]. The foot
+                      placement index was found to correlate with the longer period to injury occurrence. An
+                      8-week foot and ankle muscle strengthening program increased the cross-section of the
+                      abductor hallucis and flexor digitorum brevis muscles in 31 healthy runners, but there were
+                      no changes in running biomechanics and toe muscle strength [121].
+                            Peterson et al. [122] found in a meta-analysis that running injuries may be associated
+                      with reduced knee extensor strength (p = 0.03) and lower hip adduction velocity during
+                      running (p = 0.04). Running injuries may also be associated with an imbalance between
+                      stronger hip abductors and weaker hip adductors [123]. A study conducted on high school
+                      cross-country runners found an association between the decreased strength of hip abductors
+                      (p = 0.046), knee flexors (p = 0.046), and knee extensors (p = 0.038), and a higher incidence of
+                      anterior knee pain [124]. Another study found an association between running injury rate
+                      and asymmetry of hip abductor strength in male student runners, while in female runners,
+                      the injuries were associated with decreased unilateral hip abductor strength and bilaterally
+                      decreased hip external rotator strength [125].
+
+                      4.2. Studies Assessing Specific Running-Related Injuries
+                            According to Mucha et al. [126], decreased hip flexor strength in endurance runners
+                      is associated with the risk of ITBS. A study of 24 endurance runners with ITBS found
+                      that the strength of the hip abductors of the injured leg was lower than the strength
+                      of the hip abductors of the intact leg as well as the strength of the hip abductors of
+                      runners in the control group. In the second part of the study, a 6-week rehabilitation was
+                      performed, mainly aimed at strengthening the gluteus medius muscle, which increased the
+                      hip abduction strength in runners (women: +34.9% and men: +51.4%), as well as eliminated
+                      pain, thereby allowing runners to return to running without a recurrence of symptoms [127].
+                      A recent pilot study [128] found that an 8-week strength program in people with ITBS,
+                      including hip-strengthening exercises with the gradual addition of complexity, reduced
+                      pain, increased muscle strength, and improved movement function compared to stretching
+                      and isolated hip exercises. The correct running technique is also of key importance in ITBS,
+                      as the kinetics and kinematics of the hip, knee, and ankle differ between runners with and
+                      without ITBS [129].
+                            An important factor in the development of PFPS is the weakness of the hip joint mus-
+                      cles, especially the hip abductors [130]. With an intervention that included a 3-week hip
+                      muscle strengthening program, hip abductor strength improved by 32.69%, which is com-
+Sports 2022, 10, 98                                                                                          10 of 16
+
+
+
+
+                      parable to another previous study [131]. Nevertheless, the study did not show a difference
+                      in running mechanics between the groups, so according to the researcher’s findings, the
+                      weakness of the hip abductors is not associated with altered running mechanics. A 14-week
+                      hip strengthening program on two subjects with increased hip adduction, internal hip
+                      rotation, and knee valgus, as well as decreased strength of the hip abductors, hip extensors,
+                      and external rotators of the hip, decreased knee pain and improved the mechanics of the
+                      lower limb when stepping down [131].
+                            Although more typical for team sports and related to sprinting [132,133], hamstring
+                      injuries also occur in distance runners [28]. The risk of hamstring injury can be reduced
+                      by flexibility training as well as strength training, as Wan et al. [134] found that mobility
+                      training statistically significantly lengthened the semimembranosus and long head of the
+                      biceps femoris (p ≤ 0.026) and reduced the maximum load on the hamstrings, while strength
+                      training increased the length and reduced maximum load on all hamstring muscles. In their
+                      literature review, Raya-Gonzalez et al. [135] found that, among many other approaches,
+                      the reduction of hamstring muscle injuries is thought to be largely influenced by eccentric
+                      and balance training. In two case reports performed on two different runners with an
+                      inflamed hamstring tendon, the eccentric exercise protocol for the posterior thigh muscle,
+                      stabilization exercise for the lumbo-pelvic area, and dry needling trigger points reduced
+                      pain and tenderness as well as restored full lower limb function and running without the
+                      onset of symptoms [136].
+                            Groin pain is a very common problem in professional athletes [137]. Due to the
+                      presence of specific anatomical structures in the groin area, the diagnosis of pain is often
+                      difficult, and the terminology appears to be inconsistent [138]. In the literature, sports
+                      hernias and chronic groin pain can also be found as synonyms for groin pain [137,138].
+                      The presence of other pathologies is usually also reported in athletes with chronic groin
+                      pain [137]. Although groin pain is more common in athletes who perform repetitive hip
+                      movements (e. g. kicking the ball) and rapidly change the direction of running (team sports
+                      such as football and basketball), groin pain sometimes occurs in runners, as well [138].
+                      Moran and Rogowski [138] performed exercises for hip stability and strengthening the
+                      pelvic and lumbar region on a female runner diagnosed with groin pain and labral lacera-
+                      tions. The intervention improved running cadence and stride, knee control, as a smaller
+                      knee valgus was observed, and decreased pelvic drop, enabling the runner to successfully
+                      return to competitions. After reviewing the literature, we found that very little literature
+                      has examined groin pain in runners and its association to running biomechanics [138].
+                      Future research to examine the effects of RE interventions to reduce the risk of groin pain
+                      or prevent its reoccurrence is needed.
+                            In female endurance runners, stress fractures are highly prevalent and may be asso-
+                      ciated with menstrual disorders. Hutson et al. [139] found that amenorrheic runners had
+                      a 2.25 higher incidence rate of stress fractures compared to eumenorrheic runners. In the
+                      same study, plyometric training did not seem to reduce the injury rate [139].
+                            In summary, some studies indicate a potentially beneficial effect of RE on running-
+                      related injury risk. However, several studies have used small sample sizes and many have
+                      been performed on military personnel; thus, the generalization of the results is questionable.
+                      Previous literature reviews on the topic also reported inconclusive results [39,140] and
+                      stressed that more research is needed.
+
+                      5. Conclusions
+                           The aim of this narrative review is to summarize the available evidence on the ef-
+                      fectiveness of RE for improving running economy, modifying running technique, and
+                      reducing the risk of running-related injuries. The evidence consistently shows that lower
+                      limb RE is effective for improving running economy. A combination of strength training
+                      and plyometric drills is recommended to improve RE. Isometric training is also emerging
+                      as a possible alternative and is recommend especially when the overall training load is
+                      already high. Lower limb RE may be beneficial for improving joint kinematics during run-
+Sports 2022, 10, 98                                                                                                                 11 of 16
+
+
+
+
+                                  ning; however, biofeedback training is probably more effective for altering overall running
+                                  biomechanics. RE may help reduce running-related injury risk, although the evidence is
+                                  scarce. In this regard, we recommend that all major lower limb muscle groups be targeted
+                                  if no specific deficits are present.
+
+                                  Author Contributions: Conceptualization, A.Š., P.Š., J.P. and Ž.K.; methodology, A.Š., P.Š., J.P. and
+                                  Ž.K.; investigation, A.Š., P.Š. and J.P.; data curation, A.Š., P.Š., J.P. and Ž.K.; writing—original draft
+                                  preparation, A.Š., P.Š. and J.P.; writing—review and editing, Ž.K.; visualization, A.Š., P.Š., J.P. and
+                                  Ž.K.; supervision, Ž.K. All authors have read and agreed to the published version of the manuscript.
+                                  Funding: This research received no external funding.
+                                  Institutional Review Board Statement: Not applicable.
+                                  Informed Consent Statement: Not applicable.
+                                  Data Availability Statement: Not applicable.
+                                  Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Nevill, A.M.; Brown, D.; Godfrey, R.; Johnson, P.J.; Romer, L.; Stewart, A.D.; Winter, E.M. Modeling Maximum Oxygen Uptake of
+      Elite Endurance Athletes. Med. Sci. Sports Exerc. 2003, 35, 488–494. [CrossRef]
+2.    Schneider, D.A.; Lacroix, K.A.; Atkinson, G.R.; Troped, P.J.; Pollack, J. Ventilatory Threshold and Maximal Oxygen Uptake during
+      Cycling and Running in Triathletes. Med. Sci. Sports Exerc. 1990, 22, 257–264. [CrossRef] [PubMed]
+3.    Beattie, K.; Kenny, I.C.; Lyons, M.; Carson, B.P. The Effect of Strength Training on Performance in Endurance Athletes. Sports Med.
+      2014, 44, 845–865. [CrossRef] [PubMed]
+4.    Anderson, T. Biomechanics and Running Economy. Sports Med. 1996, 22, 76–89. [CrossRef] [PubMed]
+5.    Thomas, D.Q.; Fernhall, B.; Granat, H. Changes in Running Economy during a 5-Km Run in Trained Men and Women Runners. J.
+      Strength Cond. Res. 1999, 13, 162–167. [CrossRef]
+6.    Di Prampero, P.E.; Capelli, C.; Pagliaro, P.; Antonutto, G.; Girardis, M.; Zamparo, P.; Soule, R.G. Energetics of Best Performances
+      in Middle-Distance Running. J. Appl. Physiol. 1993, 74, 2318–2324. [CrossRef]
+7.    Moore, I.S. Is There an Economical Running Technique? A Review of Modifiable Biomechanical Factors Affecting Running
+      Economy. Sports Med. 2016, 46, 793–807. [CrossRef]
+8.    Paavolainen, L.M.; Nummela, A.T.; Rusko, H.K. Neuromuscular Characteristics and Muscle Power as Determinants of 5-Km
+      Running Performance. Med. Sci. Sports Exerc. 1999, 31, 124–130. [CrossRef]
+9.    Nummela, A.T.; Paavolainen, L.M.; Sharwood, K.A.; Lambert, M.I.; Noakes, T.D.; Rusko, H.K. Neuromuscular Factors De-
+      termining 5 Km Running Performance and Running Economy in Well-Trained Athletes. Eur. J. Appl. Physiol. 2006, 97, 1.
+      [CrossRef]
+10.   Saunders, P.U.; Pyne, D.B.; Telford, R.D.; Hawley, J.A. Factors Affecting Running Economy in Trained Distance Runners. Sports
+      Med. 2004, 34, 465–485. [CrossRef]
+11.   Li, F.; Wang, R.; Newton, R.U.; Sutton, D.; Shi, Y.; Ding, H. Effects of Complex Training versus Heavy Resistance Training on
+      Neuromuscular Adaptation, Running Economy and 5-Km Performance in Well-Trained Distance Runners. PeerJ 2019, 7, e6787.
+      [CrossRef] [PubMed]
+12.   Sasaki, K.; Neptune, R.R. Muscle Mechanical Work and Elastic Energy Utilization during Walking and Running near the Preferred
+      Gait Transition Speed. Gait Posture 2006, 23, 383–390. [CrossRef] [PubMed]
+13.   Vogt, M.; Hoppeler, H.H. Eccentric Exercise: Mechanisms and Effects When Used as Training Regime or Training Adjunct. J. Appl.
+      Physiol. 2014, 116, 1446–1454. [CrossRef]
+14.   Beattie, K.; Carson, B.P.; Lyons, M.; Kenny, I.C. The Relationship between Maximal Strength and Reactive Strength. Int. J. Sports
+      Physiol. Perform. 2017, 12, 548–553. [CrossRef] [PubMed]
+15.   Butler, R.J.; Crowell, H.P.; Davis, I.M.C. Lower Extremity Stiffness: Implications for Performance and Injury. Clin. Biomech. 2003,
+      18, 511–517. [CrossRef]
+16.   Dumke, C.L.; Pfaffenroth, C.M.; McBride, J.M.; McCauley, G.O. Relationship between Muscle Strength, Power and Stiffness and
+      Running Economy in Trained Male Runners. Int. J. Sports Physiol. Perform. 2010, 5, 249–261. [CrossRef]
+17.   Latash, M.L.; Zatsiorsky, V.M. Joint Stiffness: Myth or Reality? Hum. Mov. Sci. 1993, 12, 653–692. [CrossRef]
+18.   Jaén-Carrillo, D.; Roche-Seruendo, L.E.; Felton, L.; Cartón-Llorente, A.; García-Pinillos, F. Stiffness in Running: A Narrative
+      Integrative Review. Strength Cond. J. 2021, 43, 104–115. [CrossRef]
+19.   Struzik, A.; Karamanidis, K.; Lorimer, A.; Keogh, J.W.L.; Gajewski, J. Application of Leg, Vertical, and Joint Stiffness in Running
+      Performance: A Literature Overview. Appl. Bionics Biomech. 2021, 2021, 9914278. [CrossRef]
+20.   Akagi, R.; Shikiba, T.; Tanaka, J.; Takahashi, H. A Six-Week Resistance Training Program Does Not Change Shear Modulus of the
+      Triceps Brachii. J. Appl. Biomech. 2016, 32, 373–378. [CrossRef]
+Sports 2022, 10, 98                                                                                                               12 of 16
+
+
+
+
+21.   Cornu, C.; Silveira, M.I.A.; Goubel, F. Influence of Plyometric Training on the Mechanical Impedance of the Human Ankle Joint.
+      Eur. J. Appl. Physiol. Occup. Physiol. 1997, 76, 282–288. [CrossRef] [PubMed]
+22.   Dalleau, G.; Belli, A.; Bourdin, M.; Lacour, J.R. The Spring-Mass Model and the Energy Cost of Treadmill Running. Eur. J. Appl.
+      Physiol. Occup. Physiol. 1998, 77, 257–263. [CrossRef] [PubMed]
+23.   Craib, M.W.; Mitchell, V.A.; Fields, K.B.; Cooper, T.R.; Hopewell, R.; Morgan, D.W. The Association between Flexibility and
+      Running Economy in Sub-Elite Male Distance Runners. Med. Sci. Sports Exerc. 1996, 28, 737–743. [CrossRef] [PubMed]
+24.   Trehearn, T.L.; Buresh, R.J. Sit-and-Reach Flexibility and Running Economy of Men and Women Collegiate Distance Runners. J.
+      Strength Cond. Res. 2009, 23, 158–162. [CrossRef] [PubMed]
+25.   Carter, J.; Greenwood, M. Does Flexibility Exercise Affect Running Economy? A Brief Review. Strength Cond. J. 2015, 37, 12–21.
+      [CrossRef]
+26.   Van Gent, R.N.; Siem, D.; Van Middeloop, M.; Van Os, A.G.; Bierma-Zeinstra, S.M.A.; Koes, B.W. Incidence and Determinants of
+      Lower Extremity Running Injuries in Long Distance Runners: A Systematic Review. Sport Geneeskd. 2007, 40, 16–29. [CrossRef]
+27.   Bertelsen, M.L.; Hulme, A.; Petersen, J.; Brund, R.K.; Sørensen, H.; Finch, C.F.; Parner, E.T.; Nielsen, R.O. A Framework for the
+      Etiology of Running-Related Injuries. Scand. J. Med. Sci. Sports 2017, 27, 1170–1180. [CrossRef]
+28.   Lopes, A.D.; Hespanhol, L.C.; Yeung, S.S.; Costa, L.O.P. What Are the Main Running-Related Musculoskeletal Injuries? A
+      Systematic Review. Sports Med. 2012, 42, 891–905. [CrossRef]
+29.   Troy, K.L.; Davis, I.S.; Tenforde, A.S. A Narrative Review of Metatarsal Bone Stress Injury in Athletic Populations: Etiology,
+      Biomechanics, and Management. PM R 2021, 13, 1281–1290. [CrossRef]
+30.   Neal, B.S.; Barton, C.J.; Gallie, R.; O’Halloran, P.; Morrissey, D. Runners with Patellofemoral Pain Have Altered Biomechanics
+      Which Targeted Interventions Can Modify: A Systematic Review and Meta-Analysis. Gait Posture 2016, 45, 69–82. [CrossRef]
+31.   Aderem, J.; Louw, Q.A. Biomechanical Risk Factors Associated with Iliotibial Band Syndrome in Runners: A Systematic Review.
+      BMC Musculoskelet. Disord. 2015, 16, 356. [CrossRef] [PubMed]
+32.   Boling, M.; Padua, D.; Creighton, R. Concentric and Eccentric Torque of the Hip Musculature in Individuals with and without
+      Patellofemoral Pain. J. Athl. Train. 2009, 44, 7–13. [CrossRef] [PubMed]
+33.   Ferber, R.; Noehren, B.; Hamill, J.; Davis, I. Competitive Female Runners with a History of Iliotibial Band Syndrome Demonstrate
+      Atypical Hip and Knee Kinematics. J. Orthop. Sports Phys. Ther. 2010, 40, 52–58. [CrossRef] [PubMed]
+34.   Barnes, K.R.; Kilding, A.E. Strategies to Improve Running Economy. Sports Med. 2015, 45, 37–56. [CrossRef] [PubMed]
+35.   Balsalobre-Fernández, C.; Santos-Concejero, J.; Grivas, G.V. Effects of Strength Training on Running Economy in Highly Trained
+      Runners: A Systematic Review with Meta-Analysis of Controlled Trials. J. Strength Cond. Res. 2016, 30, 2361–2368. [CrossRef]
+      [PubMed]
+36.   Denadai, B.S.; de Aguiar, R.A.; de Lima, L.C.R.; Greco, C.C.; Caputo, F. Explosive Training and Heavy Weight Training Are
+      Effective for Improving Running Economy in Endurance Athletes: A Systematic Review and Meta-Analysis. Sports Med. 2017,
+      47, 545–554. [CrossRef]
+37.   Napier, C.; Willy, R.W. The Prevention and Treatment of Running Injuries: A State of the Art. Int. J. Sports Phys. Ther. 2021,
+      16, 968–970. [CrossRef]
+38.   Napier, C.; Cochrane, C.K.; Taunton, J.E.; Hunt, M.A. Gait Modifications to Change Lower Extremity Gait Biomechanics in
+      Runners: A Systematic Review. Br. J. Sports Med. 2015, 49, 1382–1388. [CrossRef]
+39.   Yeung, S.S.; Yeung, E.W.; Gillespie, L.D. Interventions for Preventing Lower Limb Soft-Tissue Running Injuries. Cochrane Database
+      Syst. Rev. 2011, 6, CD001256. [CrossRef]
+40.   Baxter, C.; Mc Naughton, L.R.; Sparks, A.; Norton, L.; Bentley, D. Impact of Stretching on the Performance and Injury Risk of
+      Long-Distance Runners. Res. Sports Med. 2017, 25, 78–90. [CrossRef]
+41.   Alcaraz-Ibañez, M.; Rodríguez-Pérez, M. Effects of Resistance Training on Performance in Previously Trained Endurance Runners:
+      A Systematic Review. J. Sports Sci. 2018, 36, 613–629. [CrossRef] [PubMed]
+42.   Joyner, M.J. Modeling: Optimal Marathon Performance on the Basis of Physiological Factors. J. Appl. Physiol. 1991, 70, 683–687.
+      [CrossRef] [PubMed]
+43.   Paavolainen, L.; Hakkinen, K.; Hamalainen, I.; Nummela, A.; Rusko, H. Explosive-Strength Training Improves 5-Km Running
+      Time by Improving Running Economy and Muscle Power. Scand. J. Med. Sci. Sports 2003, 13, 272. [CrossRef]
+44.   di Prampero, P.E.; Atchou, G.; Brückner, J.-C.; Moia, C. The Energetics of Endurance Running. Eur. J. Appl. Physiol. Occup. Physiol.
+      1986, 55, 259–266. [CrossRef] [PubMed]
+45.   Mikkola, J.; Rusko, H.; Nummela, A.; Pollari, T.; Häkkinen, K. Concurrent Endurance and Explosive Type Strength Training
+      Improves Neuromuscular and Anaerobic Characteristics in Young Distance Runners. Int. J. Sports Med. 2007, 28, 602–611.
+      [CrossRef]
+46.   Jung, A.P. The Impact of Resistance Training on Distance Running Performance. Sports Med. 2003, 33, 539–552. [CrossRef]
+47.   Li, F.; Newton, R.U.; Shi, Y.; Sutton, D.; Ding, H. Correlation of Eccentric Strength, Reactive Strength, and Leg Stiffness with
+      Running Economy in Well-Trained Distance Runners. J. Strength Cond. Res. 2021, 35, 1491–1499. [CrossRef]
+48.   Lindstedt, S.L.; LaStayo, P.C.; Reich, T.E. When Active Muscles Lengthen. News Physiol. Sci. 2001, 16, 256–261.
+49.   Komi, P.V. Stretch-Shortening Cycle: A Powerful Model to Study Normal and Fatigued Muscle. J. Biomech. 2000, 33, 1197–1206.
+      [CrossRef]
+Sports 2022, 10, 98                                                                                                                13 of 16
+
+
+
+
+50.   Docherty, D.; Sporer, B. A Proposed Model for Examining the Interference Phenomenon between Concurrent Aerobic and
+      Strength Training. Sports Med. 2000, 30, 385–394. [CrossRef]
+51.   Beattie, K.; Carson, B.P.; Lyons, M.; Rossiter, A.; Kenny, I.C. The Effect of Strength Training on Performance Indicators in Distance
+      Runners. J. Strength Cond. Res. 2017, 31, 9–23. [CrossRef] [PubMed]
+52.   Cormie, P.; McGuigan, M.R.; Newton, R.U. Developing Maximal Neuromuscular Power: Part 1—Biological Basis of Maximal
+      Power Production. Sports Med. 2011, 41, 17–38. [CrossRef] [PubMed]
+53.   Johnston, R.E.; Quinn, T.J.; Kertzer, R.; Vroman, N.B. Strength Training in Female Distance Runners: Impact on Running Economy.
+      J. Strength Cond. Res. 1997, 11, 224–229. [CrossRef]
+54.   Støren, Ø.; Helgerud, J.; Støa, E.M.; Hoff, J. Maximal Strength Training Improves Running Economy in Distance Runners. Med.
+      Sci. Sports Exerc. 2008, 40, 1087–1092. [CrossRef] [PubMed]
+55.   Luckin-Baldwin, K.M.; Badenhorst, C.E.; Cripps, A.J.; Landers, G.J.; Merrells, R.J.; Bulsara, M.K.; Hoyne, G.F. Strength Training
+      Improves Exercise Economy in Triathletes during a Simulated Triathlon. Int. J. Sports Physiol. Perform. 2021, 16, 663–673.
+      [CrossRef]
+56.   Saunders, P.U.; Telford, R.D.; Pyne, D.B.; Peltola, E.M.; Cunningham, R.B.; Gore, C.J.; Hawley, J.A. Short-Term Plyometric Training
+      Improves Running Economy in Highly Trained Middle and Long Distance Runners. J. Strength Cond. Res. 2006, 20, 947–954.
+      [CrossRef]
+57.   Spurrs, R.W.; Murphy, A.J.; Watsford, M.L. The Effect of Plyometric Training on Distance Running Performance. Eur. J. Appl.
+      Physiol. 2003, 89, 1–7. [CrossRef]
+58.   Turner, A.; Owings, M.; Schwane, J. Improvement in Running Economy After 6 Weeks of Plyometric Training. J. Strength Cond.
+      Res. 2003, 17, 60–67. [CrossRef]
+59.   Yamamoto, L.M.; Lopez, R.M.; Klau, J.F.; Casa, D.J.; Kraemer, W.J.; Maresh, C.M. The Effects of Resistance Training on Endurance
+      Distance Running Performance among Highly Trained Runners: A Systematic Review. J. Strength Cond. Res. 2008, 22, 2036–2044.
+      [CrossRef]
+60.   Guglielmo, L.G.A.; Greco, C.C.; Denadai, B.S. Effects of Strength Training on Running Economy. Int. J. Sports Med. 2009, 30, 27–32.
+      [CrossRef]
+61.   Skovgaard, C.; Christensen, P.M.; Larsen, S.; Andersen, T.R.; Thomassen, M.; Bangsbo, J. Concurrent Speed Endurance and
+      Resistance Training Improves Performance, Running Economy, and Muscle NHE1 in Moderately Trained Runners. J. Appl.
+      Physiol. 2014, 117, 1097–1109. [CrossRef] [PubMed]
+62.   Bangsbo, J.; Gunnarsson, T.P.; Wendell, J.; Nybo, L.; Thomassen, M. Reduced Volume and Increased Training Intensity Elevate
+      Muscle Na+-K+ Pump A2-Subunit Expression as Well as Short- and Long-Term Work Capacity in Humans. J. Appl. Physiol. 2009,
+      107, 1771–1780. [CrossRef]
+63.   Barnes, K.R.; Hopkins, W.G.; Mcguigan, M.R.; Northuis, M.E.; Kilding, A.E. Effects of Resistance Training on Running Economy
+      and Cross-Country Performance. Med. Sci. Sports Exerc. 2013, 45, 2322–2331. [CrossRef] [PubMed]
+64.   Albracht, K.; Arampatzis, A. Exercise-Induced Changes in Triceps Surae Tendon Stiffness and Muscle Strength Affect Running
+      Economy in Humans. Eur. J. Appl. Physiol. 2013, 113, 1605–1615. [CrossRef] [PubMed]
+65.   Fletcher, J.R.; Esau, S.P.; MacIntosh, B.R. The Effect of Isometric Training on Muscle-Tendon Unit Stiffness of Medial Gastrocnemius
+      and the Economy of Locomotion in Highly-Trained Distance Runners. Med. Sci. Sports Exerc. 2008, 40, S392. [CrossRef]
+66.   Lum, D.; Barbosa, T.M.; Aziz, A.R.; Balasekaran, G. Effects of Isometric Strength and Plyometric Training on Running Performance:
+      A Randomized Controlled Study. Res. Q. Exerc. Sport 2022, 1–9. [CrossRef] [PubMed]
+67.   Kubo, K.; Ishigaki, T.; Ikebukuro, T. Effects of Plyometric and Isometric Training on Muscle and Tendon Stiffness In Vivo. Physiol.
+      Rep. 2017, 5, e13374. [CrossRef]
+68.   Abercromby, A.; Amonette, W.; Layne, C.; McFarlin, B.; Hinman, M.; Paloski, W. Vibration Exposure and Biodynamic Responses
+      during Whole-Body Vibration Training. Med. Sci. Sports Exerc. 2007, 39, 1794–1800. [CrossRef]
+69.   Luo, J.; McNamara, B.; Moran, K. The Use of Vibration Training to Enhance Muscle Strength and Power. Sports Med. 2005,
+      35, 23–41. [CrossRef]
+70.   Roschel, H.; Barroso, R.; Tricoli, V.; Batista, M.A.B.; Acquesta, F.M.; Serraõ, J.C.; Ugrinowitsch, C. Effects of Strength Training
+      Associated with Whole-Body Vibration Training on Running Economy and Vertical Stiffness. J. Strength Cond. Res. 2015,
+      29, 2215–2220. [CrossRef]
+71.   Berryman, N.; Mujika, I.; Bosquet, L. Effects of Short-Term Concurrent Training Cessation on the Energy Cost of Running and
+      Neuromuscular Performances in Middle-Distance Runners. Sports 2021, 9, 1. [CrossRef]
+72.   Houmard, J.A.; Hortobagyi, T.; Johns, R.A.; Bruno, N.J.; Nute, C.C.; Shinebarger, M.H.; Welborn, J. Effect of Short-Term Training
+      Cessation on Performance Measures in Distance Runners. Int. J. Sports Med. 1992, 13, 572–576. [CrossRef]
+73.   Bosquet, L.; Berryman, N.; Dupuy, O.; Mekary, S.; Arvisais, D.; Bherer, L.; Mujika, I. Effect of Training Cessation on Muscular
+      Performance: A Meta-Analysis. Scand. J. Med. Sci. Sports 2013, 23, e140–e149. [CrossRef]
+74.   Marcello, R.T.; Greer, B.K.; Greer, A.E. Acute Effects of Plyometric and Resistance Training on Running Economy in Trained
+      Runners. J. Strength Cond. Res. 2017, 31, 2432–2437. [CrossRef]
+75.   Palmer, C.D.; Sleivert, G.G. Running Economy Is Impaired Following a Single Bout of Resistance Exercise. J. Sci. Med. Sports 2001,
+      4, 447–459. [CrossRef]
+Sports 2022, 10, 98                                                                                                                 14 of 16
+
+
+
+
+76.  Warren, G.L.; Lowe, D.A.; Armstrong, R.B. Measurement Tools Used in the Study of Eccentric Contraction-Induced Injury. Sports
+     Med. 1999, 27, 43–59. [CrossRef]
+77. Paschalis, V.; Koutedakis, Y.; Baltzopoulos, V.; Mougios, V.; Jamurtas, A.Z.; Theoharis, V. The Effects of Muscle Damage on
+     Running Economy in Healthy Males. Int. J. Sports Med. 2005, 26, 827–831. [CrossRef]
+78. Paschalis, V.; Baltzopoulos, V.; Mougios, V.; Jamurtas, A.Z.; Theoharis, V.; Karatzaferi, C.; Koutedakis, Y. Isokinetic Eccentric
+     Exercise of Quadriceps Femoris Does Not Affect Running Economy. J. Strength Cond. Res. 2008, 22, 1222–1227. [CrossRef]
+79. Burt, D.; Lamb, K.; Nicholas, C.; Twist, C. Effects of Muscle-Damaging Exercise on Physiological, Metabolic, and Perceptual
+     Responses during Two Modes of Endurance Exercise. J. Exerc. Sci. Fit. 2012, 10, 70–77. [CrossRef]
+80. Jeon, S.; Kang, M.; Ye, X. Contralateral Protective Effect against Repeated Bout of Damaging Exercise: A Meta-Analysis. Res.
+     Sports Med. 2021. [CrossRef]
+81. Burt, D.; Lamb, K.; Nicholas, C.; Twist, C. Lower-Volume Muscle-Damaging Exercise Protects against High-Volume Muscle-
+     Damaging Exercise and the Detrimental Effects on Endurance Performance. Eur. J. Appl. Physiol. 2015, 115, 1523–1532. [CrossRef]
+82. Peeling, P.; Landers, G. Swimming Intensity during Triathlon: A Review of Current Research and Strategies to Enhance Race
+     Performance. J. Sports Sci. 2009, 27, 1079–1085. [CrossRef]
+83. Millet, G.P.; Jaouen, B.; Borrani, F.; Candau, R. Effects of Concurrent Endurance and Strength Training on Running Economy and
+     V̇O2 Kinetics. Med. Sci. Sports Exerc. 2002, 34, 1351–1359. [CrossRef]
+84. Scheer, V.; Vieluf, S.; Cramer, L.; Jakobsmeyer, R.; Heitkamp, H.C. Changes in Running Economy During a 65-Km Ultramarathon.
+     Front. Physiol. 2018, 9, 1809. [CrossRef]
+85. Matos, S.; Clemente, F.M.; Silva, R.; Pereira, J.; Bezerra, P.; Carral, J.M.C. Variations of Trail Runner’s Fitness Measures across a
+     Season and Relationships with Workload. Healthcare 2021, 9, 318. [CrossRef]
+86. Midgley, A.W.; McNaughton, L.R.; Jones, A.M. Training to Enhance the Physiological Determinants of Long-Distance Running
+     Performance: Can Valid Recommendations Be given to Runners and Coaches Based on Current Scientific Knowledge? Sports
+     Med. 2007, 37, 857–880. [CrossRef]
+87. Ferley, D.D.; Osborn, R.W.; Vukovich, M.D. The Effects of Incline and Level-Grade High-Intensity Interval Treadmill Training on
+     Running Economy and Muscle Power in Well-Trained Distance Runners. J. Strength Cond. Res. 2014, 28, 1298–1309. [CrossRef]
+88. Moore, I.; Jones, A.; Dixon, S. Mechanisms for Improved Running Economy in Beginner Runners. Med. Sci. Sports Exerc. 2012,
+     44, 1756–1763. [CrossRef]
+89. Williams, K.R.; Cavanagh, P.R. Relationship between Distance Running Mechanics, Running Economy, and Performance. J. Appl.
+     Physiol. 1985, 63, 1236–1245. [CrossRef]
+90. De Ruiter, C.J.; Verdijk, P.W.L.; Werker, W.; Zuidema, M.J.; de Haan, A. Stride Frequency in Relation to Oxygen Consumption in
+     Experienced and Novice Runners. Eur. J. Sports Sci. 2014, 14, 251–258. [CrossRef]
+91. Connick, M.J.; Li, F.X. Changes in Timing of Muscle Contractions and Running Economy with Altered Stride Pattern during
+     Running. Gait Posture 2014, 39, 634–637. [CrossRef]
+92. Arendse, R. A Biomechanical Basis for the Prescription of Orthoses in the Treatment of Common Running Injuries. Med. Hypotheses
+     2004, 62, 119–120. [CrossRef]
+93. Lieberman, D.E.; Warrener, A.G.; Wang, J.; Castillo, E.R. Effects of Stride Frequency and Foot Position at Landing on Braking
+     Force, Hip Torque, Impact Peak Force and the Metabolic Cost of Running in Humans. J. Exp. Biol. 2015, 218, 3406–3414. [CrossRef]
+94. Xu, Y.; Yuan, P.; Wang, R.; Wang, D.; Liu, J.; Zhou, H. Effects of Foot Strike Techniques on Running Biomechanics: A Systematic
+     Review and Meta-Analysis. Sports Health 2021, 13, 71–77. [CrossRef]
+95. Craighead, D.; Lehecka, N.; King Deborah, L. A Novel Running Mechanic’s Class Changes Kinematics but Not Running Economy.
+     J. Strength Cond. Res. 2014, 28, 3142–3150. [CrossRef]
+96. Tseh, W.; Caputo, J.L.; Morgan, D.W. Influence of Gait Manipulation on Running Economy in Female Distance Runners. J. Sport.
+     Sci. Med. 2008, 7, 91–95.
+97. Larson, P.; Higgins, E.; Kaminski, J.; Decker, T.; Preble, J.; Lyons, D.; McIntyre, K.; Normile, A. Foot Strike Patterns of Recreational
+     and Sub-Elite Runners in a Long-Distance Road Race. J. Sports Sci. 2011, 29, 1665–1673. [CrossRef]
+98. Bertelsen, M.; Jensen, J.; Nielsen, M.; Nielsen, R.O.; Rasmussen, S. Footstrike Patterns among Novice Runners Wearing a
+     Conventional, Neutral Running Shoe. Gait Posture 2013, 38, 354–356. [CrossRef]
+99. Powers, C.M. The Influence of Altered Lower-Extremity Kinematics on Patellofemoral Joint Dysfunction: A Theoretical Perspec-
+     tive. J. Orthop. Sports Phys. Ther. 2003, 33, 639–646. [CrossRef]
+100. Ireland, M.L.; Willson, J.D.; Ballantyne, B.T.; Davis, I.M.C. Hip Strength in Females with and without Patellofemoral Pain. J.
+     Orthop. Sports Phys. Ther. 2003, 33, 671–676. [CrossRef]
+101. Bellchamber, T.L.; Van Den Bogert, A.J. Contributions of Proximal and Distal Moments to Axial Tibial Rotation during Walking
+     and Running. J. Biomech. 2000, 33, 1397–1403. [CrossRef]
+102. Feltner, M.; Macrae, H.; Macrae, P.; Turner, N.; Hartman, C.; Summers, M.; MD, W. Strength Training Effects on Rearfoot Motion
+     in Running. Med. Sci. Sports Exerc. 1994, 26, 1021–1027. [CrossRef]
+103. Snyder, K.R.; Earl, J.E.; O’Connor, K.M.; Ebersole, K.T. Resistance Training Is Accompanied by Increases in Hip Strength and
+     Changes in Lower Extremity Biomechanics during Running. Clin. Biomech. 2009, 24, 26–34. [CrossRef]
+104. Moffit, T.J.; Montgomery, M.M.; Lockie, R.G.; Pamukoff, D.N. Association between Knee- And Hip-Extensor Strength and
+     Running-Related Injury Biomechanics in Collegiate Distance Runners. J. Athl. Train. 2020, 55, 1262–1269. [CrossRef]
+Sports 2022, 10, 98                                                                                                                15 of 16
+
+
+
+
+105. Willy, R.W.; Davis, I.S. The Effect of a Hip-Strengthening Program on Mechanics during Running and during a Single-Leg Squat.
+     J. Orthop. Sports Phys. Ther. 2011, 41, 625–632. [CrossRef]
+106. Noehren, B.; Scholz, J.; Davis, I. The Effect of Real-Time Gait Retraining on Hip Kinematics, Pain and Function in Subjects with
+     Patellofemoral Pain Syndrome. Br. J. Sports Med. 2011, 45, 691–696. [CrossRef]
+107. Cheung, R.T.H.; An, W.W.; Au, I.P.H.; Zhang, J.H.; Chan, Z.Y.S.; MacPhail, A.J. Control of Impact Loading during Distracted
+     Running before and after Gait Retraining in Runners. J. Sports Sci. 2018, 36, 1497–1501. [CrossRef]
+108. Da Silva Neto, W.C.; Lopes, A.D.; Ribeiro, A.P. Gait Retraining With Visual Biofeedback Reduces Rearfoot Pressure and Foot
+     Pronation in Recreational Runners. J. Sports Rehabil. 2022, 31, 165–173. [CrossRef]
+109. Videbæk, S.; Bueno, A.M.; Nielsen, R.O.; Rasmussen, S. Incidence of Running-Related Injuries Per 1000 h of Running in Different
+     Types of Runners: A Systematic Review and Meta-Analysis. Sports Med. 2015, 45, 1017–1026. [CrossRef]
+110. Kozinc, Ž.; Šarabon, N. Common Running Overuse Injuries and Prevention. Montenegrin J. Sports Sci. Med. 2017, 6, 67–74.
+     [CrossRef]
+111. Cloosterman, K.L.A.; Fokkema, T.; de Vos, R.-J.; Visser, E.; Krastman, P.; IJzerman, J.; Koes, B.W.; Verhaar, J.A.N.; Bierma-Zeinstra,
+     S.M.A.; van Middelkoop, M. Educational Online Prevention Programme (the SPRINT Study) Has No Effect on the Number of
+     Running-Related Injuries in Recreational Runners: A Randomised-Controlled Trial. Br. J. Sports Med. 2022, 56, 676–682. [CrossRef]
+112. Vincent, H.K.; Brownstein, M.; Vincent, K.R. Injury Prevention, Safe Training Techniques, Rehabilitation, and Return to Sport in
+     Trail Runners. Arthrosc. Sports Med. Rehabil. 2022, 4, e151–e162. [CrossRef]
+113. Viljoen, C.; Janse van Rensburg, D.C.C.; van Mechelen, W.; Verhagen, E.; Silva, B.; Scheer, V.; Besomi, M.; Gajardo-Burgos, R.;
+     Matos, S.; Schoeman, M.; et al. Trail Running Injury Risk Factors: A Living Systematic Review. Br. J. Sports Med. 2022, 56, 577–587.
+     [CrossRef]
+114. Mendez-Rebolledo, G.; Figueroa-Ureta, R.; Moya-Mura, F.; Guzmán-Muñoz, E.; Ramirez-Campillo, R.; Lloyd, R.S. The Protective
+     Effect of Neuromuscular Training on the Medial Tibial Stress Syndrome in Youth Female Track-and-Field Athletes: A Clinical
+     Trial and Cohort Study. J. Sports Rehabil. 2021, 30, 1019–10277. [CrossRef]
+115. Pope, R.P.; Herbert, R.D.; Kirwan, J.D.; Graham, B.J. A Randomized Trial of Preexercise Stretching for Prevention of Lower- Limb
+     Injury. Med. Sci. Sports Exerc. 2000, 32, 271–277. [CrossRef]
+116. Grier, T.L.; Cnham-Chervak, M.; Anderson, M.K.; Bushman, T.T.; Jones, B.H. Effects of Physical Training and Fitness on Running
+     Injuries in Physically Activeyoung Men. J. Strength Cond. Res. 2014, 34, 207–216.
+117. Brushøj, C.; Larsen, K.; Albrecht-Beste, E.; Nielsen, M.B.; Løye, F.; Hölmich, P. Prevention of Overuse Injuries by a Concurrent
+     Exercise Program in Subjects Exposed to an Increase in Training Load: A Randomized Controlled Trial of 1020 Army Recruits.
+     Am. J. Sports Med. 2008, 36, 663–670. [CrossRef]
+118. Toresdahl, B.G.; McElheny, K.; Metzl, J.; Ammerman, B.; Chang, B.; Kinderknecht, J. A Randomized Study of a Strength Training
+     Program to Prevent Injuries in Runners of the New York City Marathon. Sports Health 2020, 12, 74–79. [CrossRef]
+119. Taddei, U.T.; Matias, A.B.; Duarte, M.; Sacco, I.C.N. Foot Core Training to Prevent Running-Related Injuries: A Survival Analysis
+     of a Single-Blind, Randomized Controlled Trial. Am. J. Sports Med. 2020, 48, 3610–3619. [CrossRef]
+120. Kelly, L.; Cresswell, A.; Farris, D. The Energetic Behaviour of the Human Foot across a Range of Running Speeds. Sci. Rep. 2018,
+     8, 10576. [CrossRef]
+121. Taddei, U.T.; Matias, A.B.; Ribeiro, F.I.A.; Inoue, R.S.; Bus, S.A.; Sacco, I.C.N. Effects of a Therapeutic Foot Exercise Program on
+     Injury Incidence, Foot Functionality and Biomechanics in Long-Distance Runners: Feasibility Study for a Randomized Controlled
+     Trial. Phys. Ther. Sport 2018, 34, 216–226. [CrossRef]
+122. Peterson, B.; Hawke, F.; Spink, M.; Sadler, S.; Hawes, M.; Callister, R.; Chuter, V. Biomechanical and Musculoskeletal Measure-
+     ments as Risk Factors for Running-Related Injury in Non-Elite Runners: A Systematic Review and Meta-Analysis of Prospective
+     Studies. Sports Med. Open 2022, 8, 38. [CrossRef]
+123. Finnoff, J.T.; Hall, M.M.; Kyle, K.; Krause, D.A.; Lai, J.; Smith, J. Hip Strength and Knee Pain in High School Runners: A
+     Prospective Study. PM R 2011, 3, 792–801. [CrossRef]
+124. Luedke, L.E.; Heiderscheit, B.C.; Williams, D.S.B.; Rauh, M.J. Association of Isometric Strength of Hip and Knee Muscles With
+     Injury Risk in High School Cross Country Runners. Int. J. Sports Phys. Ther. 2015, 10, 868–876.
+125. Vannatta, C.; Kernozek, T. Normative Measures of Hip Strength and Relation to Previous Injury in Collegiate Cross-Country
+     Runners. J. Athl. Train. 2021, 56, 1072–1077. [CrossRef]
+126. Mucha, M.D.; Caldwell, W.; Schlueter, E.L.; Walters, C.; Hassen, A. Hip Abductor Strength and Lower Extremity Running Related
+     Injury in Distance Runners: A Systematic Review. J. Sci. Med. Sport 2017, 20, 349–355. [CrossRef]
+127. Fredericson, M.; Cookingham, C.L.; Chaudhari, A.M.; Dowdell, B.C.; Oestreicher, N.; Sahrmann, S.A. Hip Abductor Weakness in
+     Distance Runners with Iliotibial Band Syndrome. Clin. J. Sport Med. 2000, 10, 169–175. [CrossRef]
+128. McKay, J.; Maffulli, N.; Aicale, R.; Taunton, J. Iliotibial Band Syndrome Rehabilitation in Female Runners: A Pilot Randomized
+     Study. J. Orthop. Surg. Res. 2020, 15, 1–8. [CrossRef]
+129. Van Der Worp, M.P.; Van Der Horst, N.; De Wijer, A.; Backx, F.J.G.; Van Der Sanden, M.W.G.N. Iliotibial Band Syndrome in
+     Runners: A Systematic Review. Sports Med. 2012, 42, 969–992. [CrossRef]
+130. Bolgla, L.A.; Malone, T.R.; Umberger, B.R.; Uhl, T.L. Hip Strength and Hip and Knee Kinematics during Stair Descent in Females
+     with and without Patellofemoral Pain Syndrome. J. Orthop. Sports Phys. Ther. 2008, 38, 12–18. [CrossRef]
+Sports 2022, 10, 98                                                                                                              16 of 16
+
+
+
+
+131. Mascal, C.L.; Landel, R.; Powers, C. Management of Patellofemoral Pain Function: 2 Case Reports. J. Orthop. Sports Phys. Ther.
+     2003, 33, 647–660. [CrossRef]
+132. Kalema, R.N.; Schache, A.G.; Williams, M.D.; Heiderscheit, B.; Trajano, G.S.; Shield, A.J. Sprinting Biomechanics and Hamstring
+     Injuries: Is There a Link? A Literature Review. Sports 2021, 9, 141. [CrossRef]
+133. Yu, B.; Liu, H.; Garrett, W.E. Mechanism of Hamstring Muscle Strain Injury in Sprinting. J. Sport Health Sci. 2017, 6, 130–132.
+     [CrossRef] [PubMed]
+134. Wan, X.; Li, S.; Best, T.M.; Liu, H.; Li, H.; Yu, B. Effects of Flexibility and Strength Training on Peak Hamstring Musculotendinous
+     Strains during Sprinting. J. Sport Health Sci. 2021, 10, 222–229. [CrossRef] [PubMed]
+135. Raya-Gonzalez, J.; Castillo, D.; Clemente, F.M. Injury Prevention of Hamstring Injuries through Exercise Interventions. J. Sports
+     Med. Phys. Fitness 2021, 61, 1242–1251. [CrossRef]
+136. Jayaseelan, D.J.; Moats, N.; Ricardo, C.R. Rehabilitation of Proximal Hamstring Tendinopathy Utilizing Eccentric Training,
+     Lumbopelvic Stabilization, and Trigger Point Dry Needling: 2 Case Reports. J. Orthop. Sports Phys. Ther. 2014, 44, 198–205.
+     [CrossRef]
+137. Hegedus, E.J.; Stern, B.; Reiman, M.P.; Tarara, D.; Wright, A.A. A Suggested Model for Physical Examination and Conservative
+     Treatment of Athletic Pubalgia. Phys. Ther. Sport 2013, 14, 3–16. [CrossRef]
+138. Moran, M.W.; Rogowski, K.R. Hip and Pelvic Stability and Gait Retraining in the Management of Athletic Pubalgia and Hip
+     Labral Pathology in a Female Runner: A Case Report. Int. J. Sports Phys. Ther. 2020, 15, 1174–1183. [CrossRef]
+139. Hutson, M.J.; O’Donnell, E.; Petherick, E.; Brooke-Wavell, K.; Blagrove, R.C. Incidence of Bone Stress Injury Is Greater in
+     Competitive Female Distance Runners with Menstrual Disturbances Independent of Participation in Plyometric Training. J. Sports
+     Sci. 2021, 39, 2558–2566. [CrossRef]
+140. Kozinc, Ž.; Šarabon, N. Effectiveness of Movement Therapy Interventions and Training Modifications for Preventing Running
+     Injuries: A Meta-Analysis of Randomized Controlled Trials. J. Sports Sci. Med. 2017, 16, 421–428.
+
