@@ -301,7 +301,7 @@ Grading workouts: A (Superman) → F (не смог тренироваться)
 		- При назначении: включать техники/упражнения как дополнение к общему плану, особенно при признаках болей/изменений экономики бега.
 		- Ссылка: `knowledge/Science of Running Technique Analysis.txt`, см. разделы «Running form», «Strength», «Preventing injury».
 
-	- Протоколы МПК в `knowledge/` (например, `МПК_тест_Соловьев_Антон_20251009.md`)
+	- Протоколы МПК в `knowledge/` (например, `МПК-тест-2025-10-09.md`)
 		- Использовать как источник истины для AeT/LT/VO2/HRmax; перед изменением порогов сверяй значения и фиксируй источник для `mcp_rusty-interva_manage_profile`.
 
 	- `mtnath-com-essay-for-a-trail-runner.md`

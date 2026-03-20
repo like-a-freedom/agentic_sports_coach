@@ -346,7 +346,7 @@ Use this skill when the request involves:
 - **Ключевые разделы**: «Running form», «Strength», «Preventing injury»
 
 ### Протоколы МПК в `knowledge/`
-- **Например**: `МПК_тест_Соловьев_Антон_20251009.md`
+- **Например**: `МПК-тест-2025-10-09.md`
 - **Использование**: источник истины для AeT/LT/VO2/HRmax
 - Перед изменением порогов сверяй значения и фиксируй дату теста в changelog как источник для `mcp_rusty-interva_manage_profile`
 
