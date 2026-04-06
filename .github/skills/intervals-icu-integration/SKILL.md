@@ -1,9 +1,15 @@
 ---
 name: intervals-icu-integration
-description: Technical integration with Intervals.icu platform via MCP (rusty-intervals-mcp). Covers workout format, event management (create/update/delete), sport settings, performance curves, and data retrieval workflows.
+description: Use when creating or correcting Intervals.icu workouts, debugging Workout Builder parsing or rendering issues, managing calendar events, retrieving athlete data, or updating sport settings via MCP.
 ---
 
 # Intervals.icu Integration
+
+## Overview
+
+MCP-first guide for Intervals.icu planning and calendar edits.
+
+**Core principle:** workout text must be not only syntactically valid, but also parser-safe and predictable in Workout Builder UI.
 
 ## When to use this skill
 Use this skill when the request involves:
@@ -13,6 +19,8 @@ Use this skill when the request involves:
 - Managing sport settings (thresholds: AeT/LT/FTP/FTHR)
 - Applying threshold changes and recalculating historical data
 - Fetching athlete profile, upcoming workouts, calendar events
+- Debugging broken workout rendering, inflated workout duration, or missing warmup/cooldown blocks in Workout Builder
+- Fixing mixed target-type workouts (`HR` + `Pace`) that behave poorly when the user switches Builder mode
 
 ## Core principle: MCP-first approach
 **ВСЕГДА собирай данные через MCP-инструменты** перед созданием плана или корректировкой тренировок.
@@ -128,6 +136,39 @@ Weekly totals:
 
     Cooldown
     - 10m 50%
+
+#### Parser-safe notes and comments
+
+> ⚠️ **КРИТИЧНО**: любая строка, начинающаяся с `-`, воспринимается Workout Builder как шаг/интервал.
+
+Используй `-` **только** для настоящих шагов тренировки. Любые служебные комментарии (`Nutrition`, `Recovery`, `Fueling`, `Why`, длинные подсказки) не должны выглядеть как интервалы.
+
+**Плохо — заметка парсится как шаг:**
+
+    - Nutrition: start fueling at 15-20m; 45-60 g/h
+    - Recovery: within 30m take carbs + protein
+
+Такие строки могут:
+- раздувать расчётную длительность,
+- ломать структуру workout preview,
+- превращать текстовые заметки в псевдо-интервалы.
+
+**Хорошо — заметки вынесены в обычный текст:**
+
+    Warmup
+    - 10m Z1 HR
+
+    Main Set
+    - 100m Z2 HR
+
+    Cooldown
+    - 10m Z1 HR
+
+    Notes
+    Nutrition: start fueling early; CHO 45-60 g/h; fluid 450-750 ml/h
+    Recovery: within 30 min take 1.0-1.2 g/kg CHO + 20-30 g protein
+
+**Практическое правило:** если строка не должна стать шагом Workout Builder, не начинай её с `-`.
 
 #### Длительность
 
@@ -266,6 +307,39 @@ HR, Pace и Power можно комбинировать в одной трени
     Cooldown
     - 10m ramp 60-40% HR
 
+> ⚠️ **Практическая оговорка для бега:** синтаксически смешивание `HR` и `Pace` допустимо, но в Workout Builder это не всегда даёт предсказуемый UX.
+
+Для run workouts, которые пользователь будет открывать/редактировать в режиме `Pace`, смешение `HR + Pace` в одной сессии может приводить к тому, что warmup/cooldown или recovery-блоки отображаются неудобно или визуально «пропадают» при переключении режима.
+
+**Надёжное правило:**
+- если main set задан в `Pace`, то warmup/cooldown/recovery для этой сессии тоже предпочитай в `Pace`;
+- если workout в первую очередь HR-guided, держи всю сессию в `HR`;
+- смешивай типы только когда это действительно нужно, а не по умолчанию.
+
+#### Практическое правило для Pace-mode run workouts
+
+Для контрольных беговых сессий, time trials и pace-oriented workouts предпочитай **единый `Pace`-тип во всей сессии**.
+
+**Предпочтительный паттерн:**
+
+    Warmup
+    - 15m Z1 Pace
+
+    Main Set
+    - 46m Z4 Pace
+
+    Cooldown
+    - 10m Z1 Pace
+
+Для таких тренировок как 5K / 10K / HM tests обычно удобнее использовать **relative Pace**:
+- `Z3 Pace`
+- `Z4 Pace`
+- `88-92% Pace`
+
+а не абсолютный pace как дефолтный формат, если цель — стабильное отображение и редактирование в Builder `Pace` mode.
+
+Абсолютный pace (`4:50-4:35/km Pace`) остаётся валидным и полезным, когда нужен точный целевой диапазон, но relative Pace обычно надёжнее как стандартный формат для редактируемых running workouts.
+
 #### Полные примеры (бег)
 
 **Аэробная тренировка со страйдами:**
@@ -301,6 +375,13 @@ HR, Pace и Power можно комбинировать в одной трени
 - `- 3km 80% Pace`
 - `- 0.4km Z3 Pace` (400 метров)
 - `- 10m 7:15-7:00/km Pace` (абсолютный темп с единицами `/km`, `/mi`)
+
+## Common mistakes
+
+- Использовать `-` для обычных заметок (`Nutrition`, `Recovery`, `Fueling`) — Builder интерпретирует их как интервалы.
+- Писать duration-like токены (`15-20m`, `30m`) в псевдо-шагах с `-` — это может ломать preview и расчёт длительности.
+- Смешивать `HR` warmup/cooldown с `Pace` main set в тренировках, которые потом будут открываться в Builder `Pace` mode.
+- Использовать absolute Pace как единственный стандарт для editable run tests, когда relative Pace даёт более предсказуемое поведение UI.
 
 ### Силовые тренировки (Weight training)
 
