@@ -21,68 +21,81 @@ Use this skill when the request involves:
 - Fetching athlete profile, upcoming workouts, calendar events
 - Debugging broken workout rendering, inflated workout duration, or missing warmup/cooldown blocks in Workout Builder
 - Fixing mixed target-type workouts (`HR` + `Pace`) that behave poorly when the user switches Builder mode
+- Converting third-party workouts, screenshots, or loose prose into valid Workout Builder syntax
+- Generating uploadable workouts/plans incrementally with an LLM without syntax drift or truncation
 
 ## Core principle: MCP-first approach
-**ВСЕГДА собирай данные через MCP-инструменты** перед созданием плана или корректировкой тренировок.
-Не полагайся только на слова пользователя, если данные можно взять через MCP.
+**Always gather data via MCP tools** before creating a plan or modifying workouts.
+Do not rely solely on what the user tells you if the data can be fetched through MCP.
 
-## Token-эффективность и контракты MCP
+## Builder-safe text vs weekly-plan text
 
-### Важно про версии сервера
+This distinction matters for agentic scenarios:
 
-- MCP-контракты и имена инструментов могут меняться между версиями `rusty-interva`.
-- Перед вызовом всегда ориентируйся на актуальную схему конкретного инструмента в MCP.
+- A **weekly plan / calendar outline** may contain ordinary explanatory bullet lines, weekly totals, and text notes.
+- The **body of a specific workout destined for Workout Builder** must use `-` lines **only** for real steps/intervals.
 
-### Практика для экономии токенов
+When explanatory text is needed inside a workout:
+- use a `Notes` or `Fueling` section with plain lines that do **not** start with `-`; or
+- embed short cues as step cue / text prompt inside a valid step line.
 
-1. Сначала используй агрегированные/списочные инструменты (`list*`, `search*`), затем переходи к детальным (`get*`) только для целевых сущностей.
-2. Ограничивай диапазоны дат и объём выборки (`oldest/newest`, `limit`).
-3. Для кривых/гистограмм запрашивай только нужный диапазон и тип спорта.
+Failing to draw this distinction causes AI to produce "nicely formatted" text that breaks preview, calculated duration, or device export.
 
+## MCP token efficiency and contracts
 
-### Канонический стиль имен (low‑level, редкие случаи)
+### Server version awareness
 
-- **Главный ориентир** — intent-инструменты (`mcp_rusty-interva_*`), они покрывают большинство сценариев. Этот раздел описывает лишь low‑level вызовы, которые теперь считаются запасным вариантом.
+- MCP contracts and tool names may change between `rusty-interva` versions.
+- Always check the current schema of the specific tool before calling it.
 
+### Token-saving practices
 
-## Формат вывода: intervals.icu
+1. Use aggregate / list tools (`list*`, `search*`) first, then drill into detail tools (`get*`) only for target entities.
+2. Restrict date ranges and result sizes (`oldest/newest`, `limit`).
+3. For curves/histograms, request only the required time range and sport type.
 
-### ЖЁСТКИЙ КОНТРАКТ ВЫВОДА (важно для агентности)
+### Canonical naming (low-level, rare cases)
 
-**1) План тренировок (неделя/несколько недель):**
-Выводи ТОЛЬКО текст плана в формате intervals.icu (готовый для копирования и вставки):
-- Без Markdown-заголовков (##), без жирного (**), без code fences (```), без таблиц
-- Любые объяснения/«почему» встраивай внутрь описаний тренировок строками начинающимися с "-" (Purpose/Focus/Why)
-- Допустимы служебные строки внутри плана: "Weekly totals:", "Key decisions:", "What to track:" — но тоже без Markdown
+- The **primary interface** is intent tools (`mcp_rusty-interva_*`); they cover the vast majority of scenarios. This section describes only low-level calls, which are now considered a fallback.
 
-**2) Анализ/объяснения отдельно:**
-Сначала дай план в формате intervals.icu, а затем (после пустой строки) краткий анализ обычным текстом.
+## Output format: intervals.icu
 
-**3) Проверяй арифметику:**
-- AeT-LT gap (%) = (LT - AeT) / AeT × 100
-- Если в данных/примере есть несостыковки — явно исправляй и используй корректное значение
+### Strict output contract (important for agentic use)
 
-### Структура вывода для intervals.icu
+**1) Training plan (one or more weeks):**
+Output ONLY the plan text in intervals.icu format (ready to copy-paste):
+- No Markdown headings (##), no bold (**), no code fences (```), no tables
+- Embed any "why" explanations inside workout descriptions as lines starting with `-` (Purpose / Focus / Why)
+- Plain service lines are allowed inside a plan: "Weekly totals:", "Key decisions:", "What to track:" — but without Markdown
+
+**2) Analysis / explanations separately:**
+Output the intervals.icu plan first, then (after a blank line) a brief analysis in plain prose.
+
+**3) Check arithmetic:**
+- AeT-LT gap (%) = (LT − AeT) / AeT × 100
+- If data or examples are inconsistent, correct them explicitly and use the corrected value.
+
+### intervals.icu output structure
 
 ```
-#WEEK [номер недели]
-[День недели], [длительность], [название тренировки]
-- [описание/структура]
+#WEEK [week number]
+[Day of week], [duration], [workout name]
+- [description / structure]
 
 Weekly totals:
-- Time: [общее время]
-- Vertical gain: [вертикаль]
-- Zone distribution: [распределение по зонам]
+- Time: [total time]
+- Vertical gain: [elevation]
+- Zone distribution: [zone breakdown]
 ```
 
-**Обозначения:**
-- Длительность: `HH:MM` (например, `1:30` = 1 час 30 минут)
-- Длительность шагов Workout Builder: `30s`, `10m`, `1h10m`, `1m30` (используй "m" и "s", не "min/sec")
-- Зоны: `Z1`, `Z2`, `Z3`, `Z4`, `Z5`, `Recovery`
-- Структура: warm-up (разминка), main set (основная часть), cooldown (заминка)
-- `REST`: день отдыха
+**Notation:**
+- Duration: `HH:MM` (e.g. `1:30` = 1 hour 30 minutes)
+- Workout Builder step duration: `30s`, `10m`, `1h10m`, `1m30` (use "m" and "s", not "min/sec")
+- Zones: `Z1`, `Z2`, `Z3`, `Z4`, `Z5`, `Recovery`
+- Structure: warm-up, main set, cooldown
+- `REST`: rest day
 
-**Пример:**
+**Example:**
 
 ```
 #WEEK 1
@@ -116,16 +129,16 @@ Weekly totals:
 - Zone distribution: 85% Z1-Z2, 15% strides/pick-ups
 ```
 
-### Workout Builder синтаксис (справочник)
+### Workout Builder syntax reference
 
-#### Общая структура тренировки
+#### General workout structure
 
-Тренировка — простой текст. Делится на **секции** и **шаги**:
-- **Секции** — строки без `-` (заголовки блоков): `Warmup`, `Main Set 4x`, `Cooldown`
-- **Шаги** — строки, начинающиеся с `-`. Каждый шаг = один интервал
-- Между секциями рекомендуется пустая строка
+A workout is plain text divided into **sections** and **steps**:
+- **Sections** — lines without `-` (block headers): `Warmup`, `Main Set 4x`, `Cooldown`
+- **Steps** — lines starting with `-`. Each step = one interval
+- A blank line between sections is recommended
 
-Пример минимальной структуры:
+Minimal structure example:
 
     Warmup
     - 10m 60%
@@ -139,27 +152,27 @@ Weekly totals:
 
 #### Parser-safe notes and comments
 
-> ⚠️ **КРИТИЧНО**: любая строка, начинающаяся с `-`, воспринимается Workout Builder как шаг/интервал.
+> ⚠️ **CRITICAL**: any line starting with `-` is interpreted by Workout Builder as a step/interval.
 
-Используй `-` **только** для настоящих шагов тренировки. Любые служебные комментарии (`Nutrition`, `Recovery`, `Fueling`, `Why`, длинные подсказки) не должны выглядеть как интервалы.
+Use `-` **only** for real workout steps. Service comments (`Nutrition`, `Recovery`, `Fueling`, `Why`, long cues) must not look like intervals.
 
-**Плохо — заметка парсится как шаг:**
+**Bad — note is parsed as a step:**
 
     - Nutrition: start fueling at 15-20m; 45-60 g/h
     - Recovery: within 30m take carbs + protein
 
-Такие строки могут:
-- раздувать расчётную длительность,
-- ломать структуру workout preview,
-- превращать текстовые заметки в псевдо-интервалы.
+These lines can:
+- inflate calculated duration,
+- break the workout preview structure,
+- turn text notes into pseudo-intervals.
 
-**Хорошо — заметки вынесены в обычный текст:**
+**Good — notes placed in plain text:**
 
     Warmup
     - 10m Z1 HR
 
     Main Set
-    - 100m Z2 HR
+    - 100mtr Z2 HR
 
     Cooldown
     - 10m Z1 HR
@@ -168,62 +181,85 @@ Weekly totals:
     Nutrition: start fueling early; CHO 45-60 g/h; fluid 450-750 ml/h
     Recovery: within 30 min take 1.0-1.2 g/kg CHO + 20-30 g protein
 
-**Практическое правило:** если строка не должна стать шагом Workout Builder, не начинай её с `-`.
+**Practical rule:** if a line is not meant to become a Workout Builder step, do not start it with `-`.
 
-#### Длительность
+For AI generation the safest default is:
+- first produce a **clean workout body** without any prose bullets;
+- then, if the user needs explanations, append them in a `Notes`/`Why`/`Fueling` section as plain text.
 
-| Синтаксис | Значение |
-|-----------|----------|
-| `30s` | 30 секунд |
-| `5m` | 5 минут |
-| `1h` | 1 час |
-| `1m30` | 1 мин 30 сек |
-| `1h10m` | 1 час 10 минут |
-| `1h30m59s` | 1 час 30 минут 59 секунд |
-| `5'` | 5 минут (альтернатива) |
-| `30"` | 30 секунд (альтернатива) |
+#### Duration
 
-#### Дистанция
+| Syntax | Meaning |
+|--------|---------|
+| `30s` | 30 seconds |
+| `90s` | 90 seconds |
+| `5m` | 5 minutes |
+| `1h` | 1 hour |
+| `5m30s` | 5 minutes 30 seconds |
+| `1m30` | 1 min 30 sec |
+| `1h10m` | 1 hour 10 minutes |
+| `1h30m59s` | 1 hour 30 minutes 59 seconds |
+| `5'` | 5 minutes (alternative) |
+| `30"` | 30 seconds (alternative) |
 
-| Синтаксис | Значение |
-|-----------|----------|
-| `2km` | 2 километра |
-| `1mi` | 1 миля |
-| `0.4km` | 400 метров |
-| `400mtr` | 400 метров |
+#### Distance
 
-> ⚠️ **КРИТИЧНО**: `m` = минуты, НЕ метры! Для метров: `0.4km` или `400mtr`. Никогда `400m` — это 400 минут!
+| Syntax | Meaning |
+|--------|---------|
+| `2km` / `2 km` | 2 kilometres |
+| `1mi` / `1 mile` | 1 mile |
+| `0.4km` | 400 metres |
+| `400mtr` / `400 meters` | 400 metres |
 
-#### Интенсивность
+> ⚠️ **CRITICAL**: `m` = minutes, NOT metres! Use `0.4km` or `400mtr` for metres. Never write `400m` — that means 400 minutes!
 
-**Велосипед (% от FTP):**
+Supported distance units: `km`, `mi`, `mile`, `miles`, `mtr`, `meters`, `yrd`, `yards`, `y`.
+A space between number and unit is allowed: `1km` and `1 km` are both valid.
+
+#### Intensity
+
+**Cycling (% of FTP):**
 
     - 10m 75%           # 75% FTP
-    - 5m 95-105%        # диапазон 95–105% FTP
-    - 8m 220w           # абсолютные ватты
-    - 6m 200-240w       # диапазон в ваттах
-    - 60m Z2            # зона 2 (мощность)
+    - 5m 95-105%        # range 95–105% FTP
+    - 8m 220w           # absolute watts
+    - 6m 200-240w       # watt range
+    - 60m Z2            # zone 2 (power)
+    - 6m Z3-Z4          # zone range
+    - 4m CZ2            # custom zone
+    - 4m CZ2-CZ3        # custom zone range
+    - 5m 60% MMP 5m     # % of best effort / MMP anchor
 
-**Бег (темп):**
+**Running (pace):**
 
-    - 6km 90-92% pace        # % от порогового темпа
-    - 3km Z3 Pace            # зона 3 темпа
-    - 10m 7:15-7:00/km Pace  # абсолютный темп
+    - 6km 90-92% pace        # % of threshold pace
+    - 3km Z3 Pace            # pace zone 3
+    - 8m Z2-Z3 Pace          # pace zone range
+    - 10m 7:15-7:00/km Pace  # absolute pace
+    - 10m 5:00-4:45/400m Pace  # track units also supported
 
-**Пульс (HR):**
+**Heart rate (HR):**
 
-    - 60m Z2 HR         # зона 2 по ЧСС
-    - 20m 70% HR        # 70% от макс. ЧСС
-    - 10m 90-95% LTHR   # 90–95% от порогового ЧСС
+    - 60m Z2 HR         # HR zone 2
+    - 20m 70% HR        # 70% of max HR
+    - 10m 90-95% LTHR   # 90–95% of threshold HR
+    - 12m Z2-Z3 HR      # HR zone range
 
-> ⚠️ Для бега ВСЕГДА уточняй тип цели: `Z2 HR` или `Z2 Pace` — без уточнения может интерпретироваться как power.
+> ⚠️ For running, ALWAYS specify the target type: `Z2 HR` or `Z2 Pace` — without qualification the parser may interpret it as power.
 
-#### Таблицы зон
+**Advanced target notes:**
 
-**Велосипед (% от FTP):**
+- `MMP` targets are supported, e.g. `60% MMP 5m`.
+- `CZ1`, `CZ2-CZ3` etc. are supported for **custom zones**.
+- Custom zones depend on the athlete's zone configuration and anchors; if unsure whether they are set up, prefer standard `Z1-Z6`.
+- Absolute pace is a great option for athlete-specific workouts generated outside Intervals.icu, but it is **not portable between athletes**. For general-purpose library workouts, `Zx Pace` or `% Pace` is usually safer.
 
-| Зона | Название | % FTP |
-|------|----------|-------|
+#### Zone tables
+
+**Cycling (% of FTP):**
+
+| Zone | Name | % FTP |
+|------|------|-------|
 | Z1 | Recovery | < 55% |
 | Z2 | Endurance | 56–75% |
 | Z3 | Tempo | 76–90% |
@@ -231,10 +267,10 @@ Weekly totals:
 | Z5 | VO2 Max | 106–120% |
 | Z6 | Anaerobic | > 120% |
 
-**Бег (% от порогового темпа):**
+**Running (% of threshold pace):**
 
-| Зона | Название | % Pace |
-|------|----------|--------|
+| Zone | Name | % Pace |
+|------|------|--------|
 | Z1 | Recovery | 70–75% |
 | Z2 | Easy | 76–80% |
 | Z3 | Tempo | 81–88% |
@@ -242,60 +278,107 @@ Weekly totals:
 | Z5 | VO2 Max | 96–105% |
 | Z6 | Sprint | > 105% |
 
-#### Повторения (Repeats)
+#### Repeats
 
-Два способа:
-1. В заголовке секции: `Main Set 5x`
-2. Отдельной строкой перед шагами:
+Two ways to specify repeats:
+1. In the section header: `Main Set 5x`
+2. As a standalone line before the steps:
 
        5x
        - 3m 120%
        - 2m Z1
 
-> ⚠️ Вложенные повторения (nested repeats) не поддерживаются.
+> 💡 For readability and more reliable AI generation, leave a blank line before and after every repeat block (`Main Set 5x` or standalone `5x`).
 
-#### Рампы (Ramp)
+> ⚠️ Nested repeats are not supported.
 
-Плавное нарастание/спад — ключевое слово `ramp`:
+Make sure the repeat label does not get separated from its steps. An orphaned `3x` / `5x` is a common LLM generation mistake.
 
-    - 10m ramp 50%-75%        # разминка: нарастание мощности
-    - 10m ramp 60-80% pace    # нарастание темпа (бег)
-    - 8m ramp 50%-40%         # спад на заминке
-    - 15m ramp 60%-90% 85rpm  # нарастание + каденс (велосипед)
+#### Ramps
 
-Особенно полезны для плавных разминок/заминок вместо ступенчатых переходов.
+Gradual increase or decrease — keyword `ramp`:
 
-#### Каденс (только велосипед)
+    - 10m ramp 50%-75%        # warmup: power ramp up
+    - 10m ramp 60-80% pace    # pace ramp up (running)
+    - 8m ramp 50%-40%         # ramp down on cooldown
+    - 15m ramp 60%-90% 85rpm  # ramp up + cadence (cycling)
 
-Добавляется в конец строки как `NNrpm` или диапазон:
+Especially useful for smooth warmups/cooldowns instead of stepped transitions.
 
-    - 10m 75% 90rpm       # фиксированный 90 об/мин
-    - 12m 85% 90-100rpm   # диапазон каденса
-    - 15m ramp 60-90% 85rpm  # рамп + каденс
+#### Cadence (cycling only)
 
-#### Text Prompts (подсказки на устройство)
+Appended at the end of the line as `NNrpm` or a range:
 
-Текст перед первым указанием длительности = подсказка на Garmin/Wahoo:
+    - 10m 75% 90rpm          # fixed 90 rpm
+    - 12m 85% 90-100rpm      # cadence range
+    - 15m ramp 60-90% 85rpm  # ramp + cadence
+
+#### Text Prompts (device cues)
+
+Text before the first duration or power token becomes the device cue (sent to Garmin/Wahoo):
 
     - Recovery 30s 50%
     - Zone 4 interval 5m 95-105%
     - Low cadence 4m 100%
 
-#### Timed Prompts (тайминговые подсказки)
+The repeat section header also becomes cue text. For example, `Main Set 6x` typically produces cues like `Main Set 1/6`, `Main Set 2/6`, etc.
 
-Сообщения в конкретный момент внутри шага (секунды от начала), разделитель `<!>` обязателен:
+#### Timed Prompts (time-offset messages)
 
-    - Start sprint 30^ Relax 60^ Final push <!> 1m30 120%
+Messages triggered at a specific second within a step; the `<!>` separator is required:
+
+    - First prompt at 0s 33^Second prompt at 33s <!> 10m ramp 25-75%
+    - First 60^30 Second 120^30 Third <!> 10m 65%
+    - 20^Fuel now <!> 5m 85%
+
+Rules:
+- `33^Second prompt` = show `Second prompt` at second 33 of the step.
+- `60^30 Second` = show `Second` at second 60, for 30 seconds.
+- `<!>` separates the timed-prompt part from the actual step; always include it in new AI-generated workouts.
+
+Platform caveats:
+- Full functionality works primarily with `ZWO` / Zwift sync.
+- On non-ZWO platforms, messages are typically concatenated into a single step text.
+- In repeat / `IntervalsT` scenarios, timed prompts may degrade to one combined cue.
+- Do not mix timed prompts with localised multi-language step syntax such as `en/Hello fr/Bonjour` — they are incompatible.
 
 #### Freeride (ERG off)
 
-Шаг без управления мощностью — свободное педалирование:
+A step with no power target — free pedalling:
 
     - 20m freeride
 
-#### Смешивание типов целей
+#### Rich formatting inside workout text
 
-HR, Pace и Power можно комбинировать в одной тренировке:
+Workout Builder can ignore some formatting markup if it does not look like a workout step. This helps readability, but should not replace the actual step structure.
+
+Generally safe for display:
+- Markdown headings: `#`, `###`
+- Emphasis: `**bold**`, `*italic*`
+- Links: `[label](https://example.com)`
+- Tables
+- Visual separators: `---`
+- Some Vuetify classes, e.g. `<span class="d-none">...</span>`
+
+Practical recommendations:
+- For automated generation, default to **plain and boring** output: steps plus minimal notes.
+- Do not use HTML comments / hidden metadata as an internal-storage mechanism for device-synced workouts. According to the forum, this can break display on Garmin and similar devices.
+- If you need to persist service metadata, keep it outside the workout body: in MCP, a separate field, a calendar event description, or an external store.
+
+#### LLM workflow recommendations
+
+When a workout is generated by an AI/LLM:
+
+1. Produce **plain-text Workout Builder syntax** first, not JSON.
+2. Verify repeats, units, pace targets, and cue text before converting to an API payload if needed.
+3. For a macro plan, first generate the annual/mesocycle outline, then materialise uploadable workouts in chunks of **1–3 weeks**.
+4. For exotic constructs (`timed prompts`, `absolute pace`, `Press lap`, `CZ`, `MMP`), cross-check against known-good examples or the `Add Step` form.
+
+This reduces the risk of truncation, orphaned repeat labels, wrong bullet glyphs, and "almost correct" syntax that breaks on export.
+
+#### Mixing target types
+
+HR, Pace, and Power can be combined in one workout:
 
     Warmup
     - 10m Z1 HR
@@ -307,20 +390,20 @@ HR, Pace и Power можно комбинировать в одной трени
     Cooldown
     - 10m ramp 60-40% HR
 
-> ⚠️ **Практическая оговорка для бега:** синтаксически смешивание `HR` и `Pace` допустимо, но в Workout Builder это не всегда даёт предсказуемый UX.
+> ⚠️ **Practical caveat for running:** mixing `HR` and `Pace` is syntactically valid, but does not always produce a predictable UX in Workout Builder.
 
-Для run workouts, которые пользователь будет открывать/редактировать в режиме `Pace`, смешение `HR + Pace` в одной сессии может приводить к тому, что warmup/cooldown или recovery-блоки отображаются неудобно или визуально «пропадают» при переключении режима.
+For run workouts that the user will open or edit in `Pace` mode, mixing `HR + Pace` in one session can cause warmup/cooldown/recovery blocks to display awkwardly or visually disappear when switching mode.
 
-**Надёжное правило:**
-- если main set задан в `Pace`, то warmup/cooldown/recovery для этой сессии тоже предпочитай в `Pace`;
-- если workout в первую очередь HR-guided, держи всю сессию в `HR`;
-- смешивай типы только когда это действительно нужно, а не по умолчанию.
+**Reliable rule:**
+- if the main set uses `Pace`, prefer `Pace` for warmup/cooldown/recovery in the same session too;
+- if the workout is primarily HR-guided, keep the entire session in `HR`;
+- mix types only when genuinely needed, not as a default.
 
-#### Практическое правило для Pace-mode run workouts
+#### Practical rule for Pace-mode run workouts
 
-Для контрольных беговых сессий, time trials и pace-oriented workouts предпочитай **единый `Pace`-тип во всей сессии**.
+For test sessions, time trials, and pace-oriented workouts, prefer a **single `Pace` type throughout the session**.
 
-**Предпочтительный паттерн:**
+**Preferred pattern:**
 
     Warmup
     - 15m Z1 Pace
@@ -331,18 +414,18 @@ HR, Pace и Power можно комбинировать в одной трени
     Cooldown
     - 10m Z1 Pace
 
-Для таких тренировок как 5K / 10K / HM tests обычно удобнее использовать **relative Pace**:
+For workouts such as 5K / 10K / HM tests, **relative Pace** is usually more convenient:
 - `Z3 Pace`
 - `Z4 Pace`
 - `88-92% Pace`
 
-а не абсолютный pace как дефолтный формат, если цель — стабильное отображение и редактирование в Builder `Pace` mode.
+rather than absolute pace as the default, when the goal is stable display and editing in Builder `Pace` mode.
 
-Абсолютный pace (`4:50-4:35/km Pace`) остаётся валидным и полезным, когда нужен точный целевой диапазон, но relative Pace обычно надёжнее как стандартный формат для редактируемых running workouts.
+Absolute pace (`4:50-4:35/km Pace`) remains valid and useful when a precise target range is needed, but relative Pace is generally more reliable as the standard format for editable running workouts.
 
-#### Полные примеры (бег)
+#### Complete examples (running)
 
-**Аэробная тренировка со страйдами:**
+**Aerobic run with strides:**
 
     Warmup
     - 15m Z1 HR
@@ -357,7 +440,7 @@ HR, Pace и Power можно комбинировать в одной трени
     Cooldown
     - 13m Z1 HR
 
-**Интервалы по дистанции:**
+**Distance-based intervals:**
 
     Warmup
     - 1mi Z1 HR
@@ -369,45 +452,50 @@ HR, Pace и Power можно комбинировать в одной трени
     Cooldown
     - 1mi Z1 Pace
 
-#### Дистанционные шаги (сводка единиц)
+#### Distance step unit summary
 
-Поддерживаются: `km`, `mi`,`meters`, `yrd`, `y`
+Supported: `km`, `mi`, `meters`, `yrd`, `y`
 - `- 3km 80% Pace`
-- `- 0.4km Z3 Pace` (400 метров)
-- `- 10m 7:15-7:00/km Pace` (абсолютный темп с единицами `/km`, `/mi`)
+- `- 0.4km Z3 Pace` (400 metres)
+- `- 10m 7:15-7:00/km Pace` (absolute pace with `/km`, `/mi` units)
 
 ## Common mistakes
 
-- Использовать `-` для обычных заметок (`Nutrition`, `Recovery`, `Fueling`) — Builder интерпретирует их как интервалы.
-- Писать duration-like токены (`15-20m`, `30m`) в псевдо-шагах с `-` — это может ломать preview и расчёт длительности.
-- Смешивать `HR` warmup/cooldown с `Pace` main set в тренировках, которые потом будут открываться в Builder `Pace` mode.
-- Использовать absolute Pace как единственный стандарт для editable run tests, когда relative Pace даёт более предсказуемое поведение UI.
+- Using `-` for plain notes (`Nutrition`, `Recovery`, `Fueling`) — Builder treats them as intervals.
+- Writing duration-like tokens (`15-20m`, `30m`) in pseudo-steps starting with `-` — this can break preview and duration calculation.
+- Using `100m` / `400m` when metres are intended, not minutes. Use `mtr` / `meters` / `km` for metres.
+- Mixing `HR` warmup/cooldown with a `Pace` main set in workouts that will later be opened in Builder `Pace` mode.
+- Using absolute Pace as the sole standard for editable run tests when relative Pace gives more predictable UI behaviour.
+- Leaving orphaned `3x` / `5x`, or placing a repeat marker before the wrong block.
+- Using bullet symbol `•` instead of the plain `-` in step lines.
+- Trying to generate a very long JSON / full-year upload payload in a single LLM request — better to materialise in 1–3 week chunks.
+- Storing hidden comments / HTML metadata inside the workout body and expecting all devices to safely ignore it.
 
-### Силовые тренировки (Weight training)
+### Strength training (Weight training)
 
-**Формат событий в Intervals.icu:**
-- В календаре указываем краткую строку вида: `* 1h 40-70% HR (72-125bpm)`
-  - Первая часть это длительность
-  - Далее целевой диапазон по %HR
-  - Ориентировочные абсолютные bpm
+**Calendar event format in Intervals.icu:**
+- Use a brief line in the calendar such as: `* 1h 40-70% HR (72-125bpm)`
+  - First part is duration
+  - Then the target %HR range
+  - Absolute bpm as a reference
 
-**В Workout Builder:**
-- Используем одну основную строку с длительностью и целью: `* 1h 40-70% HR`
-- Добавляем подпункты с упражнениями и сетами
+**In Workout Builder:**
+- Use one main line with duration and goal: `* 1h 40-70% HR`
+- Add sub-lines with exercises and sets
 
-**В `workout_doc`:**
-- step: `duration: 3600` и `hr` с `units: "%hr"`, `start: 40`, `end: 70`
-- Это нужно чтобы Intervals корректно рассчитывал moving_time и зону
+**In `workout_doc`:**
+- step: `duration: 3600` and `hr` with `units: "%hr"`, `start: 40`, `end: 70`
+- This allows Intervals.icu to correctly calculate moving_time and zone
 
-**В описании тренировки:**
-- Добавляем структуру (упражнения, подходы, отдых)
-- Примечание с абсолютными bpm для ориентира (например 72-125 bpm)
+**In workout description:**
+- Add structure (exercises, sets, rest periods)
+- Note with absolute bpm as a reference (e.g. 72-125 bpm)
 
-## Интеграция с Intervals.icu через MCP (rusty-intervals-mcp, intent-модель v2+)
+## Intervals.icu MCP integration (rusty-intervals-mcp, intent model v2+)
 
-### Intent-first контракт
+### Intent-first contract
 
-Используй intent-инструменты как основной интерфейс:
+Use intent tools as the primary interface:
 
 - `mcp_rusty-interva_plan_training`
 - `mcp_rusty-interva_analyze_training`
@@ -418,111 +506,118 @@ HR, Pace и Power можно комбинировать в одной трени
 - `mcp_rusty-interva_manage_gear`
 - `mcp_rusty-interva_analyze_race`
 
-### Обязательный сбор контекста перед планированием
+### Required context gathering before planning
 
-Перед планом на неделю и более всегда выполни:
+Before generating a plan for one or more weeks, always run:
 
-1. `mcp_rusty-interva_manage_profile` (`action: get`) — профиль, зоны, пороги
-2. `mcp_rusty-interva_analyze_training` (`target_type: period`) — фактический объём/интенсивность
+1. `mcp_rusty-interva_manage_profile` (`action: get`) — profile, zones, thresholds
+2. `mcp_rusty-interva_analyze_training` (`target_type: period`) — actual volume/intensity
 3. `mcp_rusty-interva_assess_recovery` — readiness + red flags
-4. При необходимости: `mcp_rusty-interva_compare_periods` (7/30/90 дней)
+4. If needed: `mcp_rusty-interva_compare_periods` (7/30/90 days)
 
-### Планирование и изменения
+### Planning and modifications
 
-- Если пользователь просит создать план (неделя/блок) — используй `mcp_rusty-interva_plan_training`.
-- Если нужно скорректировать существующую тренировку — используй `mcp_rusty-interva_modify_training`.
-- Для destructive операций (`action: delete`, массовые правки) сначала `dry_run: true`, потом явное подтверждение пользователя.
+- When the user asks to create a plan (week or block), use `mcp_rusty-interva_plan_training`.
+- When adjusting an existing workout, use `mcp_rusty-interva_modify_training`.
+- For destructive operations (`action: delete`, bulk edits) first run `dry_run: true`, then ask for explicit user confirmation.
 
-### Управление порогами/зонами
+### Managing thresholds and zones
 
-Изменяй пороги только если:
-1) пользователь явно просит; или
-2) есть новый МПК-протокол и пользователь подтвердил применение.
+Only change thresholds if:
+1) the user explicitly requests it; or
+2) a new VO2max lab protocol is available and the user has confirmed applying it.
 
 Workflow:
 
-1. `mcp_rusty-interva_manage_profile` (`action: get`) — собрать текущие пороги, сделать diff
+1. `mcp_rusty-interva_manage_profile` (`action: get`) — collect current thresholds, make a diff
 2. `mcp_rusty-interva_manage_profile` (`action: update_thresholds`, `thresholds_source`)
-3. Применять к истории только после согласия пользователя: `apply_to_activities: true`
-4. Проверить эффект через:
+3. Apply to historical data only after user consent: `apply_to_activities: true`
+4. Verify the effect via:
    - `mcp_rusty-interva_manage_profile` (`action: get`)
    - `mcp_rusty-interva_analyze_training` (`target_type: period`)
    - `mcp_rusty-interva_assess_recovery`
 
-### Анализ тренировок и прогресса
+### Analysing training and progress
 
-- Детальный разбор одной сессии: `mcp_rusty-interva_analyze_training` (`target_type: single`, `analysis_type: detailed|intervals|streams`)
-  - `detailed` — зоны + основные метрики
-  - `intervals` — анализ интервалов (для интервальных тренировок)
-  - `streams` — потоковые данные по секундам (HR, pace, power)
-  - `include_best_efforts: true` — сравнение с best efforts
-  - `include_histograms: true` — гистограммы по метрикам
-  - `metrics: [...]` — специфичные метрики: time, distance, vertical, tss, pace, hr
-- Периодный анализ: `mcp_rusty-interva_analyze_training` (`target_type: period`)
-- Сравнение блоков: `mcp_rusty-interva_compare_periods`
+- Detailed single-session breakdown: `mcp_rusty-interva_analyze_training` (`target_type: single`, `analysis_type: detailed|intervals|streams`)
+  - `detailed` — zones + key metrics
+  - `intervals` — interval analysis (for interval workouts)
+  - `streams` — second-by-second stream data (HR, pace, power)
+  - `include_best_efforts: true` — comparison with best efforts
+  - `include_histograms: true` — HR/pace/power histograms
+  - `metrics: [...]` — specific metrics: time, distance, vertical, tss, pace, hr
+- Period analysis: `mcp_rusty-interva_analyze_training` (`target_type: period`)
+- Block comparison: `mcp_rusty-interva_compare_periods`
 
-### Актуальный контракт `mcp_rusty-interva_analyze_race`
+### Current `mcp_rusty-interva_analyze_race` contract
 
-Используй `mcp_rusty-interva_analyze_race` для **post-race debrief**, оценки стратегии и поиска зон для улучшения после завершённой гонки.
+Use `mcp_rusty-interva_analyze_race` for **post-race debrief**, strategy evaluation, and identifying areas for improvement after a completed race.
 
-**Входные поля по текущему контракту:**
+**Input fields per current contract:**
 - `date?: "YYYY-MM-DD" | "last_race"`
 - `description_contains?: string`
 - `analysis_type?: "performance" | "strategy" | "recovery"` (default: `performance`)
 - `compare_to_planned?: boolean` (default: `true`)
 
-**Практическое правило:**
-- Основной рабочий селектор сейчас — `description_contains`.
-- Если `description_contains` не передан, текущая реализация берёт самую свежую активность из недавнего списка.
-- Поэтому **не полагайся только на `date` / `analysis_type` / `compare_to_planned`** для выбора нужной гонки или изменения логики ответа — обязательно проверь, что в ответе совпали `name`, дата и ID гонки.
+**Practical rule:**
+- The primary working selector is `description_contains`.
+- If `description_contains` is not provided, the current implementation picks the most recent activity from a recent list.
+- Therefore **do not rely solely on `date` / `analysis_type` / `compare_to_planned`** to select the right race or change output logic — always verify that the response's `name`, date, and ID match the intended race.
 
-**Что intent подтягивает автоматически:**
-- recent activities (поиск гонки)
+**What the intent fetches automatically:**
+- recent activities (to locate the race)
 - workout details
 - intervals
 - streams
 - fitness summary
-- wellness за 7 дней
+- wellness for the last 7 days
 
-**Что обычно есть в ответе:**
-- `Race Analysis` + метаданные гонки
-- таблица результатов (distance, time, avg HR)
+**What is typically in the response:**
+- `Race Analysis` + race metadata
+- result table (distance, time, avg HR)
 - `Execution Pattern` (segments, average HR note, Efficiency Factor, Aerobic Decoupling)
-- `Post-Race Load Context` (например, рекомендация по recovery block на основе TSB)
-- `Data Availability` (полный режим или degraded mode)
+- `Post-Race Load Context` (e.g. recovery block recommendation based on TSB)
+- `Data Availability` (full mode or degraded mode)
 - `suggestions` / `next_actions`
 
-**Ограничения текущей реализации:**
-- `compare_to_planned` присутствует в схеме, но не даёт гарантированного полноценного planned-vs-actual diff — не обещай пользователю того, чего intent пока не строит явно.
-- `analysis_type` принят схемой, но не должен интерпретироваться как надёжный переключатель разных форматов вывода без проверки фактического ответа.
-- При отсутствии подходящей гонки intent возвращает мягкие suggestions/next actions, а не аварийную ошибку.
+**Current implementation limitations:**
+- `compare_to_planned` is in the schema but does not guarantee a full planned-vs-actual diff — do not promise the user something the intent does not currently build explicitly.
+- `analysis_type` is accepted by the schema but should not be treated as a reliable switch between different output formats without checking the actual response.
+- When no matching race is found, the intent returns soft suggestions/next actions rather than a hard error.
 
-**Рекомендуемый workflow после гонки:**
-1. `mcp_rusty-interva_analyze_race` с `description_contains`
-2. Проверить `Data Availability` и понизить уверенность выводов, если нет streams/intervals/wellness
-3. `mcp_rusty-interva_assess_recovery` (`period_days: 7` или `14`)
-4. При необходимости `mcp_rusty-interva_plan_training` для recovery week / next block
+**Recommended post-race workflow:**
+1. `mcp_rusty-interva_analyze_race` with `description_contains`
+2. Check `Data Availability` and lower confidence of conclusions if streams/intervals/wellness are absent
+3. `mcp_rusty-interva_assess_recovery` (`period_days: 7` or `14`)
+4. If needed: `mcp_rusty-interva_plan_training` for recovery week / next block
 
-**Когда нужен более глубокий drill-down:**
-- Если нужен детальный разбор потоков/интервалов сверх race debrief, дополни анализ `mcp_rusty-interva_analyze_training` для целевой сессии и сопоставь выводы.
+**When deeper drill-down is needed:**
+- If a detailed breakdown of streams/intervals beyond the race debrief is required, supplement with `mcp_rusty-interva_analyze_training` for the target session and reconcile the findings.
 
-### Правила write-операций
+### Write operation rules
 
-- Никогда не выполняй mutating intent без явного указания пользователя.
-- Перед любым изменением календаря/плана коротко подтверждай, что будет изменено.
-- Если пользователь просит «только текст»/«не трогай календарь» — выдавай только текстовый план в формате intervals.icu.
+- Never execute a mutating intent without explicit user instruction.
+- Before any calendar or plan change, briefly confirm what will be modified.
+- If the user asks for "text only" / "don't touch the calendar", output only the intervals.icu text plan.
 
-## Документация Intervals.icu
+## Intervals.icu documentation
 
-Официальная документация по построению тренировок доступна по ссылкам:
+Official documentation for Workout Builder:
 - https://forum.intervals.icu/t/workout-builder/1163
+- https://forum.intervals.icu/t/workout-builder-syntax-quick-guide/123701
+- https://www.intervals.icu/features/workout-builder/
+- https://forum.intervals.icu/t/text-events-are-now-supported-in-the-workout-builder/96016
+- https://forum.intervals.icu/t/specify-workouts-using-absolute-pace/115846
+- https://forum.intervals.icu/t/distanced-based-workouts-supported/9973
+- https://www.intervals.icu/features/custom-zones/
+- https://forum.intervals.icu/t/using-ia-chatgpt-to-write-intervals-icu-workouts/85094
 - https://forum.intervals.icu/t/computed-activity-fields/25673
 - https://forum.intervals.icu/t/custom-interval-fields/25942
 - https://forum.intervals.icu/t/custom-activity-charts/28627
 - https://intervals.icu/api-docs.html
 
-## Когда обращаться к другим skills
+## When to use other skills
 
-- **Периодизация, зоны, силовая подготовка**: см. `periodization-coach` skill
-- **Мониторинг восстановления, красные флаги, работа с МПК**: см. `athlete-monitoring` skill
-- **Травмопрофилактика, evidence-based practice**: см. `kinesiology-foundations` skill
+- **Periodization, zones, strength training**: see `periodization-coach` skill
+- **Recovery monitoring, red flags, VO2max lab results**: see `athlete-monitoring` skill
+- **Injury prevention, evidence-based practice**: see `kinesiology-foundations` skill

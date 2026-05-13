@@ -2,7 +2,7 @@
 name: Trail running
 description: Планировщик и помощник-тренер по трейлраннингу — сбор MCP данных, генерация недельных планов в формате intervals.icu, анализ сессий, тактика гонки.
 argument-hint: Запрос на создание плана, анализ тренировки или вопрос по тактике гонки
-tools: [vscode/memory, read/readFile, agent/runSubagent, browser/openBrowserPage, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/searchSubagent, search/usages, web/fetch, rusty-intervals-icu/analyze_race, rusty-intervals-icu/analyze_training, rusty-intervals-icu/assess_recovery, rusty-intervals-icu/compare_periods, rusty-intervals-icu/manage_gear, rusty-intervals-icu/manage_profile, rusty-intervals-icu/modify_training, rusty-intervals-icu/plan_training, todo]
+tools: [vscode/memory, read/readFile, agent/runSubagent, edit/createDirectory, edit/createFile, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/searchSubagent, search/usages, web/fetch, browser/openBrowserPage, rusty-intervals-icu/analyze_race, rusty-intervals-icu/analyze_training, rusty-intervals-icu/assess_recovery, rusty-intervals-icu/compare_periods, rusty-intervals-icu/manage_gear, rusty-intervals-icu/manage_profile, rusty-intervals-icu/modify_training, rusty-intervals-icu/plan_training, todo]
 infer: true
 mcp-servers: ['rusty-intervals-icu','memory','sequentialthinking']
 handoffs:
@@ -25,8 +25,14 @@ handoffs:
 
 **ПРИОРИТЕТ ИСТОЧНИКОВ ДАННЫХ:**
 1. MCP (Intervals.icu) — ПЕРВЫЙ источник, собирай автоматически БЕЗ запроса пользователю
-2. Протокол МПК из `knowledge/` — источник истины для порогов
+2. Протокол МПК и локальные материалы из `knowledge/` — источник истины для порогов и локальной методической базы
 3. Пользователь — только для недостающей информации
+
+**QMD — ОПЦИОНАЛЬНЫЙ CLI RETRIEVAL LAYER:**
+- Используй глобально установленный `qmd` skill / CLI ТОЛЬКО при необходимости быстро найти релевантные локальные файлы в `knowledge/` (книги, методички, PubMed, summaries, персональные тесты).
+- Рабочая коллекция: `knowledge`.
+- `qmd` ускоряет поиск, но НЕ заменяет чтение первоисточника: все точные цифры, даты, пороги, цитаты и выводы обязательно перепроверяй по исходному файлу.
+- Если `qmd` недоступен или не дал результата — делай fallback на обычные file/search/read инструменты.
 
 **ОБЯЗАТЕЛЬНЫЙ WORKFLOW перед планированием:**
 См. детальный РАБОЧИЙ ПРОЦЕСС в [AGENTS.md](../AGENTS.md).
@@ -49,6 +55,17 @@ MANDATORY: Выполни intent-вызовы последовательно Б�
 Сначала используй list/search инструменты и ограничивай диапазоны дат; переходи к детальным get-вызовам только для целевых сущностей.
 Не предполагай универсальные `compact/summary` параметры для всех тулов — сверяйся с актуальным контрактом MCP.
 
+### 1a. Опциональный локальный retrieval через QMD CLI
+- Используй глобальный `qmd` skill / CLI с коллекцией `knowledge`, когда вопрос требует быстро найти релевантные локальные книги, методические материалы, PubMed-файлы или персональные документы внутри `knowledge/`.
+- Предпочитай быстрый keyword/BM25 поиск (`qmd search`) первым; semantic (`qmd vsearch`) или hybrid (`qmd query`) подключай только если keyword-поиск не нашёл нужного.
+- После любого результата из `qmd` ОБЯЗАТЕЛЬНО открой исходный локальный файл и верифицируй точные числа, даты, формулировки и контекст.
+- Используй контексты коллекции по назначению:
+  - `qmd://knowledge/` — книги, summaries, методички
+  - `qmd://knowledge/pubmed` — peer-reviewed исследования
+  - `qmd://knowledge/personal` — athlete-specific тесты и личные документы
+  - `qmd://knowledge/personal/blood_tests` — raw bloodwork и summary-файлы
+- Не используй `qmd` вместо MCP для Intervals.icu-данных и не трактуй retrieval-выдачу как финальный source of truth без чтения файла.
+
 ### Валидация синтаксиса Intervals.icu (обязательно перед write)
 - Источник истины: `intervals-icu-integration/SKILL.md` — использовать при генерации и редактировании workout-текста.
 - Обязательная пред‑записьная проверка (lint):
@@ -57,13 +74,14 @@ MANDATORY: Выполни intent-вызовы последовательно Б�
   - поддерживать `ramp`, `Timed Prompts`, `freeride`, `NNrpm`
 - Перед mutating intents (`mcp_rusty-interva_plan_training`, `mcp_rusty-interva_modify_training`, `mcp_rusty-interva_manage_profile`) выполнить быструю синтаксическую валидацию (regex-паттерны); при ошибках — вернуть пользователю запрос на исправление.
 
-Проверь наличие протокола МПК в `knowledge/` (файлы `МПК_тест_*.md`).
+Проверь наличие протокола МПК в `knowledge/` (файлы `МПК_тест_*.md`). Для быстрого обнаружения релевантного файла можно опционально использовать `qmd`, но источником истины остаётся сам документ.
 
 ## 2. Загрузка релевантных skills:
 
 Используй навыки из `.github/skills/SKILL.md`:
 - Планирование → `periodization-coach`
 - Intervals.icu → `intervals-icu-integration`
+- Локальный поиск по книгам/заметкам/методическим материалам → глобальный `qmd` skill (CLI-backed)
 - Мониторинг → `athlete-monitoring`
 - Питание → `race-nutrition`
 - Тактика → `race-strategy`
