@@ -21,27 +21,6 @@ Use this skill when the request involves:
 
 **Evidence base:** Ultrarunning Training Essentials (Koop, 2nd Ed.), Training for Uphill Athlete (House, Jornet, Johnston)
 
-## MCP post-race debrief workflow
-
-Когда запрос касается разбора уже завершённой гонки, начинай с `mcp_rusty-interva_analyze_race`.
-
-**Практические правила работы с контрактом:**
-- Основной селектор — `description_contains` (название старта, `50K`, `marathon`, и т.п.)
-- После вызова всегда сверяй, что найденная гонка действительно нужная: `name`, дата, ID
-- Поля `date`, `analysis_type`, `compare_to_planned` есть в схеме, но не должны считаться достаточными сами по себе для выбора нужной гонки или гарантированного отдельного режима анализа
-- Обязательно учитывай блок `Data Availability`: если нет streams/intervals/wellness, снижай уверенность выводов о pacing, decoupling, post-race fatigue
-
-**Что читать в ответе в первую очередь:**
-1. Таблицу результатов — базовый outcome
-2. `Execution Pattern` — сегменты, Efficiency Factor, Aerobic Decoupling
-3. `Post-Race Load Context` — нужен ли recovery block
-4. `suggestions` / `next_actions` — особенно связку с `assess_recovery`
-
-**Рекомендуемое продолжение:**
-- Сразу после debrief: `mcp_rusty-interva_assess_recovery` на 7–14 дней
-- Если нужен следующий блок: `mcp_rusty-interva_plan_training`
-- Если нужен особенно глубокий разбор конкретных отрезков/потоков, дополни debrief анализом одной сессии через `mcp_rusty-interva_analyze_training`
-
 ## Pacing Protocols
 
 ### Fundamental pacing strategies
@@ -447,12 +426,12 @@ Use this skill when the request involves:
 - **Aid station efficiency:** CH.7 (Race Execution)
 - **Mental strategies:** CH.9 (Mental Aspects)
 - **Gear setup:** CH.8 (Equipment)
-- **Ссылка:** `knowledge/Ultrarunning Training Essentials.txt`
+- **Reference:** `knowledge/Ultrarunning Training Essentials.txt`
 
 ### Training for the Uphill Athlete (House, Jornet, Johnston)
 - **Mountain-specific pacing:** Uphill/downhill tactics
 - **Mental preparation:** CH.12 (Mental Training)
-- **Ссылка:** `knowledge/Training for the Uphill Athlete.txt`
+- **Reference:** `knowledge/Training for the Uphill Athlete.txt`
 
 ### Practical ultra racing experience (synthesis)
 - **DNF decision framework:** Synthesis from race reports, coaching experience

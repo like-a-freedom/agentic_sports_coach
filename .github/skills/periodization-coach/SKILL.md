@@ -17,223 +17,209 @@ Use this skill when the request involves:
 ## Core methodology: Training for the Uphill Athlete
 Based on Steve House, Kilian Jornet, and Scott Johnston's approach to mountain/trail endurance training.
 
-### Специфичность по 4 дисциплинам ультры/трейла
+### Key Planning Principles
 
-При планировании горных и ультрадистанций раскладывай подготовку минимум на 4 дисциплины:
-- flat / runnable terrain
-- uphill running
-- downhill running
-- power hiking
+#### Aerobic Base Development
+- **80-90% of annual volume in Zone 1-2** (below AeT — aerobic threshold)
+- Repeatability rule: if the athlete can repeat yesterday's workout today, tomorrow, and the day after — the load is correct
+- **Metric priority** (in order of importance): time on feet → vertical gain → distance
 
-**Практические следствия:**
-- Матчь не только общий объём и vertical gain, но и долю hiking/спусков/бегового terrain к целевой гонке.
-- Power hiking — отдельный навык и отдельная нагрузка, а не "просто когда устал".
-- Downhill-specific подготовка учитывается отдельно из-за высокой эксцентрической стоимости и более долгого восстановления.
-- Для большинства trail-атлетов quality-сессии безопаснее и продуктивнее ставить на подъём, а downhill использовать дозированно для адаптации, техники и RBE.
+#### AeT-LT Gap Assessment for Focus Selection
+**Calculation:** `AeT-LT gap (%) = (LT - AeT) / AeT × 100`
 
-### Ключевые принципы планирования
+- **Gap >20%**: pronounced aerobic deficit
+  - → 100% focus on Z1-Z2, no Z3-Z4 for at least 12 weeks
 
-#### Аэробная база (Aerobic Base Development)
-- **80-90% годового объёма в Zone 1-2** (ниже AeT — аэробного порога)
-- Правило повторяемости: если спортсмен может повторить вчерашнюю тренировку сегодня, завтра и послезавтра — нагрузка правильная
-- **Приоритет метрик** (в порядке важности): время на ногах → вертикальный набор → дистанция
+- **Gap 10-20%**: moderate deficit
+  - → 95% Z1-Z2, can add strides/hill sprints (neuromuscular work without lactate load)
 
-#### Оценка AeT-LT gap для выбора фокуса
-**Расчёт:** `AeT-LT gap (%) = (LT - AeT) / AeT × 100`
+- **Gap <10%**: good aerobic base
+  - → Z3 can be introduced after 6-8 weeks of consistent base
 
-- **Gap >20%**: выраженный аэробный дефицит
-  - → 100% фокус на Z1-Z2, никакой Z3-Z4 минимум 12 недель
-  
-- **Gap 10-20%**: умеренный дефицит
-  - → 95% Z1-Z2, можно добавить strides/hill sprints (нейромышечная работа без лактатной нагрузки)
-  
-- **Gap <10%**: хорошая аэробная база
-  - → можно вводить Z3 после 6-8 недель последовательной базы
+### High-Intensity Training
 
-### Интенсивность (High-Intensity Training)
+#### Criteria for Readiness to Add Z3
+Add Zone 3 (Tempo/SteadyState) ONLY after meeting ALL criteria:
 
-#### Критерии готовности к добавлению Z3
-Добавляй Zone 3 (Tempo/SteadyState) ТОЛЬКО после выполнения ВСЕХ критериев:
+1. **Minimum 6-8 weeks of consistent aerobic base** (no gaps >3 consecutive days)
+2. **AeT-LT gap <10%** (otherwise continue base work)
+3. **Stable CTL** (non-declining trend) and positive or neutral TSB
+4. **No signs of overtraining**: resting HR normal, sleep >7h, no chronic fatigue
 
-1. **Минимум 6-8 недель последовательной аэробной базы** (без пропусков >3 дней подряд)
-2. **AeT-LT gap <10%** (иначе продолжай базовую работу)
-3. **Стабильный CTL** (не падающий тренд) и положительный или нейтральный TSB
-4. **Отсутствие признаков перетренированности**: resting HR в норме, сон >7ч, нет хронической усталости
+#### Intensity Progression
+- **Zone 3**: start at 5% of weekly volume, increase by 2-3% every 2-3 weeks (max ~15% in Specific Period)
+- **Zone 4** (Intervals): add only when Z3 is ~10% of weekly volume AND the athlete has adapted to Z3 (2-4 weeks)
+- When adding intensity: reduce Zone 2, maintain or increase Zone 1 (total Z1+Z2+Z3 volume may decrease slightly for adaptation)
 
-#### Прогрессия интенсивности
-- **Zone 3**: начинай с 5% недельного объёма, увеличивай на 2-3% каждые 2-3 недели (макс ~15% в Specific Period)
-- **Zone 4** (Intervals): добавляй только когда Z3 составляет ~10% недельного объёма И атлет адаптировался к Z3 (2-4 недели)
-- При добавлении интенсивности: снижай Zone 2, сохраняй или увеличивай Zone 1 (общий объём Z1+Z2+Z3 может немного снизиться для адаптации)
+### Intensity Zones (Detailed Description)
 
-### Зоны интенсивности (детальное описание)
+**Recovery**: very easy, effortless conversation
 
-**Recovery**: очень лёгкая, разговор без усилий
+**Zone 1**: easy, nasal breathing possible
 
-**Zone 1**: лёгкая, дыхание через нос возможно
+**Zone 2**: moderate, BELOW AeT (upper Z2 boundary = AeT HR), full sentences, nasal breathing at the limit
+- Typical Z2 HR cap: AeT HR (e.g., 155 bpm if AeT=155)
+- Z2 pace should feel "comfortably moderate", not "easy" (that's Z1)
 
-**Zone 2**: умеренная, ДО AeT (верхняя граница Z2 = AeT HR), полные предложения, носовое дыхание на грани возможного
-- Типичный HR cap для Z2: AeT HR (например, 155 bpm если AeT=155)
-- Темп в Z2 должен ощущаться "комфортно-умеренно", не "легко" (это Z1)
+**Zone 3**: tempo, between AeT and LT (lactate threshold), 5-7 words
+- Lower boundary: AeT HR + 1 bpm
+- Upper boundary: LT HR
+- Pace feels "comfortably hard", sustainable but requires focus
 
-**Zone 3**: темповая, между AeT и LT (лактатным порогом), 5-7 слов
-- Нижняя граница: AeT HR + 1 уд/мин
-- Верхняя граница: LT HR (ПАНО)
-- Темп ощущается "комфортно-тяжело", устойчивый, но требует концентрации
+**Zone 4**: intervals, above LT, 2-3 words
 
-**Zone 4**: интервалы, выше LT, 2-3 слова
+**Zone 5**: maximal, sprints, one word
 
-**Zone 5**: максимальная, спринты, одно слово
+### Energy Systems and Adaptations
 
-### Энергетические системы и адаптации
+**Aerobic System (Zone 1-2)**:
+- Mitochondrial development
+- Capillarization: long runs
+- Fat metabolism
+- Mitochondrial density: base endurance
 
-**Аэробная система (Zone 1-2)**:
-- Развитие митохондрий
-- Капилляризация (capillarization): долгие забеги
-- Жировой обмен
-- Mitochondrial density: базовая выносливость
-
-**Лактатный порог (Zone 3)**:
-- Увеличение устойчивой мощности
-- Lactate threshold: устойчивая скорость
+**Lactate Threshold (Zone 3)**:
+- Increased sustainable power
+- Lactate threshold: sustainable speed
 
 **VO2max (Zone 4)**:
-- Максимальная аэробная мощность
-- Stroke volume (ударный объём сердца): увеличивается через Zone 4
+- Maximum aerobic power
+- Stroke volume: increases through Zone 4
 
-**Анаэробная мощность (Zone 5)**:
+**Anaerobic Power (Zone 5)**:
 - Hill sprints
 - Neuromuscular power
 
-### Вертикальный набор
+### Vertical Gain
 
-**Прогрессия для новичков:**
-- Начинай с 1/3 - 1/2 вертикального набора целевой гонки
-- Пик: минимум полный вертикальный набор гонки в двух неделях позднего базового периода
-- В recovery weeks снижай на 40-60%
+**Progression for beginners:**
+- Start at 1/3 - 1/2 of the target race vertical gain
+- Peak: at least the full race vertical gain in two weeks of the late base period
+- In recovery weeks, reduce by 40-60%
 
-**Правило безопасности:**
-- Не увеличивай вертикальный набор и объём одновременно более чем на 5% каждый
-- После большого вертикального набора (>1500m) — следующий день Z1 или отдых
+**Safety rule:**
+- Do not increase vertical gain and volume simultaneously by more than 5% each
+- After significant vertical gain (>1500m) — next day Z1 or rest
 
-### Силовые тренировки
+### Strength Training
 
-#### Принципы прогрессии (источник: Training for the Uphill Athlete, ch.6-8)
+#### Progression Principles (source: Training for the Uphill Athlete, ch.6-8)
 
 **General Strength (Stage 1→2→3):**
-- Освой Stage 1 полностью перед переходом к Stage 2
-- Критерий перехода: выполнение всех упражнений Stage с правильной техникой без компенсаций
-- **2 раза в неделю** в Transition Period
-- Разнесение от ключевых беговых тренировок: минимум 6 часов, идеально — в разные дни
+- Master Stage 1 completely before moving to Stage 2
+- Transition criterion: performing all Stage exercises with correct technique without compensation
+- **2 times per week** in Transition Period
+- Separate from key running workouts: minimum 6 hours, ideally on different days
 
-**Max Strength (ранний Base Period):**
-- **2x/нед**, 3-5 подходов × 3-6 повторов на 85-95% от 1RM
-- Снижай до **1x/нед** в позднем Base при росте бегового объёма
+**Max Strength (early Base Period):**
+- **2x/week**, 3-5 sets × 3-6 reps at 85-95% of 1RM
+- Reduce to **1x/week** in late Base as running volume increases
 
-**Muscular Endurance (ME) в специфичной фазе перед гонкой:**
+**Muscular Endurance (ME) in the pre-race specific phase:**
 - ME workouts: hill sprints, long climbs at race effort, strength circuits
-- Частота: 1-2x/нед, интегрируй в беговые тренировки когда возможно
+- Frequency: 1-2x/week, integrate into running workouts when possible
 
-#### Связь с травмопрофилактикой
-- **Foot/ankle strength** (см. Science of Running) обязательна при объёме >8ч/нед
-- **Hip/glute stability** важна для спусков и технического рельефа
-- **Core stability** поддерживает экономичность бега на длинных дистанциях
+#### Injury Prevention Connection
+- **Foot/ankle strength** (see Science of Running) mandatory when volume >8h/week
+- **Hip/glute stability** important for descents and technical terrain
+- **Core stability** supports running economy on long distances
 
-### Периодизация (фазы тренировочного цикла)
+### Periodization (Training Cycle Phases)
 
-#### Transition Period (2-8 недель)
-Восстановление, general strength, аэробная база
+#### Transition Period (2-8 weeks)
+Recovery, general strength, aerobic base
 
-- **Объём**: 50-70% от пикового
-- **Интенсивность**: только Z1-Z2
-- **Силовая**: General Strength 2x/нед (Stage 1→2→3)
+- **Volume**: 50-70% of peak
+- **Intensity**: Z1-Z2 only
+- **Strength**: General Strength 2x/week (Stage 1→2→3)
 
-#### Base Period (8-16+ недель)
-Наращивание объёма Zone 1-2, добавление Zone 3
+#### Base Period (8-16+ weeks)
+Building Zone 1-2 volume, adding Zone 3
 
-**Ранний Base (4-8 нед):**
-- Фокус на объёме Z1-Z2
-- Силовая: Max Strength 2x/нед
+**Early Base (4-8 wks):**
+- Focus on Z1-Z2 volume
+- Strength: Max Strength 2x/week
 
-**Поздний Base (4-8 нед):**
-- Пик объёма
-- Введение Z3 (5→10%)
-- Снижение силовой до 1x/нед
+**Late Base (4-8 wks):**
+- Peak volume
+- Introduce Z3 (5→10%)
+- Reduce strength to 1x/week
 
-#### Specific Period (4-8 недель)
+#### Specific Period (4-8 weeks)
 Zone 4 intervals, race-specific workouts
 
-- **Объём**: 85-95% от пикового
-- **Z3**: ~10-15%, **Z4**: 5-10% (начиная с 2-3%)
-- **Силовая**: Muscular Endurance (ME) 1-2x/нед или поддерживающая
+- **Volume**: 85-95% of peak
+- **Z3**: ~10-15%, **Z4**: 5-10% (starting at 2-3%)
+- **Strength**: Muscular Endurance (ME) 1-2x/week or maintenance
 
-#### Taper (7-21 день в зависимости от дистанции гонки)
-Снижение объёма с сохранением нейромышечного тонуса
+#### Taper (7-21 days depending on race distance)
+Volume reduction while maintaining neuromuscular tone
 
-- **50K и меньше**: 7-10 дней
-- **100K**: 10-14 дней
-- **100+ миль**: 14-21 день
-- Снижение объёма на 40-60%, сохранение 1-2 коротких интенсивных сессий для поддержания нейромушечного тонуса
+- **50K and under**: 7-10 days
+- **100K**: 10-14 days
+- **100+ miles**: 14-21 days
+- Reduce volume by 40-60%, maintain 1-2 short intense sessions to preserve neuromuscular tone
 
-**Детальные протоколы**: см. раздел "Taper Protocols" ниже
+**Detailed protocols**: see "Taper Protocols" section below
 
-### Правила прогрессии нагрузки
+### Load Progression Rules
 
-#### Еженедельный прирост объёма
-**НИКОГДА не увеличивай объём >7-10% в неделю** без явного запроса
+#### Weekly Volume Increase
+**NEVER increase volume >7-10% per week** without explicit request
 
-- Правило 7-10% применяется к **ВРЕМЕНИ** (часам), не к дистанции или TSS
-- После recovery week допустим возврат к пред-recovery уровню (не считается приростом)
-- После болезни/травмы: начинай с 50% от последнего здорового объёма, прогрессируй по 10-15%/нед
+- The 7-10% rule applies to **TIME** (hours), not distance or TSS
+- After a recovery week, returning to pre-recovery level is allowed (not considered an increase)
+- After illness/injury: start at 50% of the last healthy volume, progress by 10-15%/week
 
-#### Recovery weeks
-- **Каждые 3-4 недели** снижай объём на 40-60%
-- Сохраняй частоту тренировок (количество дней)
-- Цель: адаптация, суперкомпенсация, снижение риска перетренированности
+#### Recovery Weeks
+- **Every 3-4 weeks** reduce volume by 40-60%
+- Maintain training frequency (number of days)
+- Goal: adaptation, supercompensation, reducing overtraining risk
 
-### Дополнения из Ultrarunning Training Essentials (Jason Koop)
+### Additions from Ultrarunning Training Essentials (Jason Koop)
 
 #### Long-range planning (Chapter 10)
-- Планируй макроцикл в разрезе: Base → Build/Specific → Peak/Taper
-- Задавай ключевые B/A гонки заблаговременно
-- Разбей на mesocycles (4–8 недель): каждая фаза имеет целевые метрики (часы/вертикаль/ключевые тренировки)
-- Проверяй устойчивость прогрессии (не >7–10% времени/нед) и коррелируй с CTL/TSB прежде чем вводить новый блок интенсивности
+- Plan the macrocycle as: Base → Build/Specific → Peak/Taper
+- Set key B/A races well in advance
+- Break into mesocycles (4-8 weeks): each phase has target metrics (hours/vertical/key workouts)
+- Verify progression sustainability (not >7-10% time/week) and correlate with CTL/TSB before introducing a new intensity block
 
 #### Short-range planning (Chapter 12)
-**Шаблон недели** (пример для 5-дневного расписания):
-- **Mon**: REST или лёгкая активность
+**Weekly template** (example for 5-day schedule):
+- **Mon**: REST or easy activity
 - **Tue**: Quality (intervals / tempo / hill repeats)
 - **Wed**: Recovery run + strength
-- **Thu**: Endurance run (Z2) или steady effort
+- **Thu**: Endurance run (Z2) or steady effort
 - **Fri**: REST or easy + mobility
 - **Sat**: Long endurance run (Time on feet + vertical)
 - **Sun**: Recovery run or easy cross-training
 
-Располагай ключевые сессии так, чтобы между ними был минимум 48–72ч для восстановления.
+Place key sessions so that there is at least 48-72h between them for recovery.
 
 #### Strength training specifics (Chapter 11)
-- Поддерживай general strength 1–2x/нед в Transition
-- Max strength 2x/нед (ранний Base) — 3–5 подходов x 3–6 повторов @85–95% 1RM
-- До race-specific phase переводи силовую в ME / endurance: hill-specific circuits, single-leg strength, core and ankle work
-- Включай mobility и prehab (foot/ankle, hips) как регулярную часть программы
+- Maintain general strength 1-2x/week in Transition
+- Max strength 2x/week (early Base) — 3-5 sets x 3-6 reps @85-95% 1RM
+- Before the race-specific phase, transition strength to ME/endurance: hill-specific circuits, single-leg strength, core and ankle work
+- Include mobility and prehab (foot/ankle, hips) as a regular part of the program
 
-## Методологические источники
+## Methodological Sources
 
 ### Training for the Uphill Athlete (House, Jornet, Johnston)
-- **Основной источник**: периодизация, аэробная база, силовая подготовка (Stage 1-3), вертикальное наращивание
-- **Ссылка**: `knowledge/Training for the Uphill Athlete.txt`
-- **Ключевые разделы**: «Aerobic Base Development», «Periodization», «Strength and the Uphill Athlete»
+- **Primary source**: periodization, aerobic base, strength training (Stage 1-3), vertical gain
+- **Link**: `knowledge/Training for the Uphill Athlete.txt`
+- **Key sections**: «Aerobic Base Development», «Periodization», «Strength and the Uphill Athlete»
 
 ### Ultrarunning Training Essentials (Jason Koop)
-- **Дополнительно**: практическое планирование (long-range/short-range), шаблоны недельных расписаний, детали силовых тренировок
-- **Ссылка**: `knowledge/Ultrarunning Training Essentials.txt`
-- **Ключевые главы**: CH.6 (Tracking), CH.10 (Long-range planning), CH.11 (Strength), CH.12 (Short-range planning)
+- **Additional**: practical planning (long-range/short-range), weekly schedule templates, strength training details
+- **Link**: `knowledge/Ultrarunning Training Essentials.txt`
+- **Key chapters**: CH.6 (Tracking), CH.10 (Long-range planning), CH.11 (Strength), CH.12 (Short-range planning)
 
-## Ключевые послания (философия тренировок)
+## Key Messages (Training Philosophy)
 
-- **"Volume is the key"** — объём аэробной базы важнее интенсивности
-- **"If in doubt, go long and easy"** — в сомнениях выбирай долгие лёгкие пробежки
-- **"Listen to your body"** — усталость — это сигнал, не игнорируй его (Kilian Jornet: "Sometimes you realize you need to stop before the prescribed time is over")
-- **"Training is not competition"** — не превращай каждую тренировку в гонку
+- **"Volume is the key"** — aerobic base volume matters more than intensity
+- **"If in doubt, go long and easy"** — when in doubt, choose long easy runs
+- **"Listen to your body"** — fatigue is a signal, don't ignore it (Kilian Jornet: "Sometimes you realize you need to stop before the prescribed time is over")
+- **"Training is not competition"** — don't turn every workout into a race
 
 ## Taper Protocols (Evidence-Based)
 
@@ -437,8 +423,8 @@ Zone 4 intervals, race-specific workouts
 
 **Source:** Millet et al. (2020), Frontiers in Physiology, https://doi.org/10.3389/fphys.2020.01140
 
-## Когда обращаться к другим skills
-- **Мониторинг восстановления, красные флаги, работа с МПК**: см. `athlete-monitoring` skill
-- **Nutrition/fueling protocols (gut training, race-day, carb-loading)**: см. `race-nutrition` skill
-- **Формат вывода Intervals.icu, MCP-инструменты**: см. `intervals-icu-integration` skill
-- **Травмопрофилактика, evidence-based practice**: см. `kinesiology-foundations` skill
+## When to Refer to Other Skills
+- **Recovery monitoring, red flags, VO2max work**: see `athlete-monitoring` skill
+- **Nutrition/fueling protocols (gut training, race-day, carb-loading)**: see `race-nutrition` skill
+- **Intervals.icu output format, MCP tools**: see `intervals-icu-integration` skill
+- **Injury prevention, evidence-based practice**: see `kinesiology-foundations` skill

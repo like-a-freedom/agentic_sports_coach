@@ -1,15 +1,9 @@
 ---
 name: intervals-icu-integration
-description: Use when creating or correcting Intervals.icu workouts, debugging Workout Builder parsing or rendering issues, managing calendar events, retrieving athlete data, or updating sport settings via MCP.
+description: Technical integration with Intervals.icu platform via MCP (rusty-intervals-mcp). Covers workout format, event management (create/update/delete), sport settings, performance curves, and data retrieval workflows.
 ---
 
 # Intervals.icu Integration
-
-## Overview
-
-MCP-first guide for Intervals.icu planning and calendar edits.
-
-**Core principle:** workout text must be not only syntactically valid, but also parser-safe and predictable in Workout Builder UI.
 
 ## When to use this skill
 Use this skill when the request involves:
@@ -19,77 +13,58 @@ Use this skill when the request involves:
 - Managing sport settings (thresholds: AeT/LT/FTP/FTHR)
 - Applying threshold changes and recalculating historical data
 - Fetching athlete profile, upcoming workouts, calendar events
-- Debugging broken workout rendering, inflated workout duration, or missing warmup/cooldown blocks in Workout Builder
-- Fixing mixed target-type workouts (`HR` + `Pace`) that behave poorly when the user switches Builder mode
-- Converting third-party workouts, screenshots, or loose prose into valid Workout Builder syntax
-- Generating uploadable workouts/plans incrementally with an LLM without syntax drift or truncation
 
 ## Core principle: MCP-first approach
-**Always gather data via MCP tools** before creating a plan or modifying workouts.
-Do not rely solely on what the user tells you if the data can be fetched through MCP.
+**ALWAYS collect data via MCP tools** before creating a plan or adjusting workouts.
+Do not rely solely on the user's words if the data can be obtained via MCP.
 
-## Builder-safe text vs weekly-plan text
+## Token efficiency and MCP contracts
 
-This distinction matters for agentic scenarios:
+### Important about server versions
 
-- A **weekly plan / calendar outline** may contain ordinary explanatory bullet lines, weekly totals, and text notes.
-- The **body of a specific workout destined for Workout Builder** must use `-` lines **only** for real steps/intervals.
+- MCP contracts and tool names may change between versions of `rusty-interva`.
+- Do not use legacy aliases as source of truth (e.g. old `snake_case` names in old notes).
+- Before calling, always refer to the current schema of the specific tool in MCP.
 
-When explanatory text is needed inside a workout:
-- use a `Notes` or `Fueling` section with plain lines that do **not** start with `-`; or
-- embed short cues as step cue / text prompt inside a valid step line.
+### Practice for token efficiency
 
-Failing to draw this distinction causes AI to produce "nicely formatted" text that breaks preview, calculated duration, or device export.
-
-## MCP token efficiency and contracts
-
-### Server version awareness
-
-- MCP contracts and tool names may change between `rusty-interva` versions.
-- Always check the current schema of the specific tool before calling it.
-
-### Token-saving practices
-
-1. Use aggregate / list tools (`list*`, `search*`) first, then drill into detail tools (`get*`) only for target entities.
-2. Restrict date ranges and result sizes (`oldest/newest`, `limit`).
-3. For curves/histograms, request only the required time range and sport type.
-
-### Canonical naming (low-level, rare cases)
-
-- The **primary interface** is intent tools (`mcp_rusty-interva_*`); they cover the vast majority of scenarios. This section describes only low-level calls, which are now considered a fallback.
+1. First use high-level intents (`analyze_training`, `assess_recovery`, `manage_profile`), then move to detailed analysis via `target_type`/`analysis_type` parameters.
+2. Limit date ranges via `period_start`/`period_end` (analyze_training period) or `period_days` (assess_recovery).
+3. Use `analyze_training` target_type: "period" for period context (calendar included), "single" for detailed review (with analysis_type for depth).
+4. For curves/histograms use `analyze_training` with `include_histograms: true` and/or period analysis (ESPE/TID/Power Curve).
 
 ## Output format: intervals.icu
 
-### Strict output contract (important for agentic use)
+### STRICT OUTPUT CONTRACT (important for agency)
 
-**1) Training plan (one or more weeks):**
-Output ONLY the plan text in intervals.icu format (ready to copy-paste):
-- No Markdown headings (##), no bold (**), no code fences (```), no tables
-- Embed any "why" explanations inside workout descriptions as lines starting with `-` (Purpose / Focus / Why)
-- Plain service lines are allowed inside a plan: "Weekly totals:", "Key decisions:", "What to track:" — but without Markdown
+**1) Training plan (week/multiple weeks):**
+Output ONLY the plan text in intervals.icu format (ready to copy and paste):
+- Without Markdown headers (##), without bold (**), without code fences (```), without tables
+- Embed any explanations/"why" inside workout descriptions using lines starting with "-" (Purpose/Focus/Why)
+- Service lines inside the plan are allowed: "Weekly totals:", "Key decisions:", "What to track:" — but also without Markdown
 
-**2) Analysis / explanations separately:**
-Output the intervals.icu plan first, then (after a blank line) a brief analysis in plain prose.
+**2) Analysis/explanations separately:**
+First provide the plan in intervals.icu format, then (after a blank line) a brief analysis in plain text.
 
 **3) Check arithmetic:**
-- AeT-LT gap (%) = (LT − AeT) / AeT × 100
-- If data or examples are inconsistent, correct them explicitly and use the corrected value.
+- AeT-LT gap (%) = (LT - AeT) / AeT × 100
+- If there are inconsistencies in the data/example — explicitly correct and use the correct value
 
-### intervals.icu output structure
+### Output structure for intervals.icu
 
 ```
 #WEEK [week number]
 [Day of week], [duration], [workout name]
-- [description / structure]
+- [description/structure]
 
 Weekly totals:
 - Time: [total time]
-- Vertical gain: [elevation]
-- Zone distribution: [zone breakdown]
+- Vertical gain: [vertical gain]
+- Zone distribution: [zone distribution]
 ```
 
 **Notation:**
-- Duration: `HH:MM` (e.g. `1:30` = 1 hour 30 minutes)
+- Duration: `HH:MM` (e.g., `1:30` = 1 hour 30 minutes)
 - Workout Builder step duration: `30s`, `10m`, `1h10m`, `1m30` (use "m" and "s", not "min/sec")
 - Zones: `Z1`, `Z2`, `Z3`, `Z4`, `Z5`, `Recovery`
 - Structure: warm-up, main set, cooldown
@@ -129,16 +104,16 @@ Weekly totals:
 - Zone distribution: 85% Z1-Z2, 15% strides/pick-ups
 ```
 
-### Workout Builder syntax reference
+### Workout Builder syntax (reference)
 
 #### General workout structure
 
-A workout is plain text divided into **sections** and **steps**:
+A workout is plain text. It is divided into **sections** and **steps**:
 - **Sections** — lines without `-` (block headers): `Warmup`, `Main Set 4x`, `Cooldown`
 - **Steps** — lines starting with `-`. Each step = one interval
 - A blank line between sections is recommended
 
-Minimal structure example:
+Example of minimal structure:
 
     Warmup
     - 10m 60%
@@ -150,52 +125,13 @@ Minimal structure example:
     Cooldown
     - 10m 50%
 
-#### Parser-safe notes and comments
-
-> ⚠️ **CRITICAL**: any line starting with `-` is interpreted by Workout Builder as a step/interval.
-
-Use `-` **only** for real workout steps. Service comments (`Nutrition`, `Recovery`, `Fueling`, `Why`, long cues) must not look like intervals.
-
-**Bad — note is parsed as a step:**
-
-    - Nutrition: start fueling at 15-20m; 45-60 g/h
-    - Recovery: within 30m take carbs + protein
-
-These lines can:
-- inflate calculated duration,
-- break the workout preview structure,
-- turn text notes into pseudo-intervals.
-
-**Good — notes placed in plain text:**
-
-    Warmup
-    - 10m Z1 HR
-
-    Main Set
-    - 100mtr Z2 HR
-
-    Cooldown
-    - 10m Z1 HR
-
-    Notes
-    Nutrition: start fueling early; CHO 45-60 g/h; fluid 450-750 ml/h
-    Recovery: within 30 min take 1.0-1.2 g/kg CHO + 20-30 g protein
-
-**Practical rule:** if a line is not meant to become a Workout Builder step, do not start it with `-`.
-
-For AI generation the safest default is:
-- first produce a **clean workout body** without any prose bullets;
-- then, if the user needs explanations, append them in a `Notes`/`Why`/`Fueling` section as plain text.
-
 #### Duration
 
 | Syntax | Meaning |
 |--------|---------|
 | `30s` | 30 seconds |
-| `90s` | 90 seconds |
 | `5m` | 5 minutes |
 | `1h` | 1 hour |
-| `5m30s` | 5 minutes 30 seconds |
 | `1m30` | 1 min 30 sec |
 | `1h10m` | 1 hour 10 minutes |
 | `1h30m59s` | 1 hour 30 minutes 59 seconds |
@@ -206,15 +142,12 @@ For AI generation the safest default is:
 
 | Syntax | Meaning |
 |--------|---------|
-| `2km` / `2 km` | 2 kilometres |
-| `1mi` / `1 mile` | 1 mile |
-| `0.4km` | 400 metres |
-| `400mtr` / `400 meters` | 400 metres |
+| `2km` | 2 kilometers |
+| `1mi` | 1 mile |
+| `0.4km` | 400 meters |
+| `400mtr` | 400 meters |
 
-> ⚠️ **CRITICAL**: `m` = minutes, NOT metres! Use `0.4km` or `400mtr` for metres. Never write `400m` — that means 400 minutes!
-
-Supported distance units: `km`, `mi`, `mile`, `miles`, `mtr`, `meters`, `yrd`, `yards`, `y`.
-A space between number and unit is allowed: `1km` and `1 km` are both valid.
+> ⚠️ **CRITICAL**: `m` = minutes, NOT meters! For meters: `0.4km` or `400mtr`. Never `400m` — that is 400 minutes!
 
 #### Intensity
 
@@ -225,34 +158,30 @@ A space between number and unit is allowed: `1km` and `1 km` are both valid.
     - 8m 220w           # absolute watts
     - 6m 200-240w       # watt range
     - 60m Z2            # zone 2 (power)
-    - 6m Z3-Z4          # zone range
-    - 4m CZ2            # custom zone
-    - 4m CZ2-CZ3        # custom zone range
-    - 5m 60% MMP 5m     # % of best effort / MMP anchor
+    - 20m 85-95% MMP 5m # % of 5-minute max power
+    - 60m CZ1           # custom zone 1
 
 **Running (pace):**
 
     - 6km 90-92% pace        # % of threshold pace
     - 3km Z3 Pace            # pace zone 3
-    - 8m Z2-Z3 Pace          # pace zone range
     - 10m 7:15-7:00/km Pace  # absolute pace
-    - 10m 5:00-4:45/400m Pace  # track units also supported
 
-**Heart rate (HR):**
+**Heart Rate (HR):**
 
-    - 60m Z2 HR         # HR zone 2
+    - 60m Z2 HR         # zone 2 by HR
     - 20m 70% HR        # 70% of max HR
     - 10m 90-95% LTHR   # 90–95% of threshold HR
-    - 12m Z2-Z3 HR      # HR zone range
 
-> ⚠️ For running, ALWAYS specify the target type: `Z2 HR` or `Z2 Pace` — without qualification the parser may interpret it as power.
+**Custom zones:**
 
-**Advanced target notes:**
+All activity streams support custom zones (CZ prefix):
 
-- `MMP` targets are supported, e.g. `60% MMP 5m`.
-- `CZ1`, `CZ2-CZ3` etc. are supported for **custom zones**.
-- Custom zones depend on the athlete's zone configuration and anchors; if unsure whether they are set up, prefer standard `Z1-Z6`.
-- Absolute pace is a great option for athlete-specific workouts generated outside Intervals.icu, but it is **not portable between athletes**. For general-purpose library workouts, `Zx Pace` or `% Pace` is usually safer.
+    - 60m CZ1           # custom zone 1 (power)
+    - 45m CZ2-CZ3 HR    # custom zone 2-3 by HR
+    - 30m CZ2 Pace      # custom zone 2 by pace
+
+> ⚠️ For running ALWAYS specify the target type: `Z2 HR` or `Z2 Pace` — without specification it may be interpreted as power.
 
 #### Zone tables
 
@@ -261,7 +190,7 @@ A space between number and unit is allowed: `1km` and `1 km` are both valid.
 | Zone | Name | % FTP |
 |------|------|-------|
 | Z1 | Recovery | < 55% |
-| Z2 | Endurance | 56–75% |
+| Z2 | Endurance | 55–75% |
 | Z3 | Tempo | 76–90% |
 | Z4 | Threshold | 91–105% |
 | Z5 | VO2 Max | 106–120% |
@@ -280,105 +209,80 @@ A space between number and unit is allowed: `1km` and `1 km` are both valid.
 
 #### Repeats
 
-Two ways to specify repeats:
-1. In the section header: `Main Set 5x`
-2. As a standalone line before the steps:
+Two ways:
+1. In section header: `Main Set 5x`
+2. On a separate line before the steps:
 
        5x
        - 3m 120%
        - 2m Z1
 
-> 💡 For readability and more reliable AI generation, leave a blank line before and after every repeat block (`Main Set 5x` or standalone `5x`).
-
+> ⚠️ Leave one empty line before and after every repeat block.
 > ⚠️ Nested repeats are not supported.
 
-Make sure the repeat label does not get separated from its steps. An orphaned `3x` / `5x` is a common LLM generation mistake.
+#### Ramp
 
-#### Ramps
+Gradual increase/decrease — keyword `ramp`:
 
-Gradual increase or decrease — keyword `ramp`:
+    - 10m ramp 50%-75%        # warm-up: power ramp
+    - 10m ramp 60-80% pace    # pace ramp (running)
+    - 8m ramp 50%-40%         # cooldown ramp
+    - 15m ramp 60%-90% 85rpm  # ramp + cadence (cycling)
 
-    - 10m ramp 50%-75%        # warmup: power ramp up
-    - 10m ramp 60-80% pace    # pace ramp up (running)
-    - 8m ramp 50%-40%         # ramp down on cooldown
-    - 15m ramp 60%-90% 85rpm  # ramp up + cadence (cycling)
-
-Especially useful for smooth warmups/cooldowns instead of stepped transitions.
+Especially useful for smooth warm-ups/cooldowns instead of step transitions.
 
 #### Cadence (cycling only)
 
-Appended at the end of the line as `NNrpm` or a range:
+Add to the end of a line as `NNrpm` or a range:
 
-    - 10m 75% 90rpm          # fixed 90 rpm
-    - 12m 85% 90-100rpm      # cadence range
+    - 10m 75% 90rpm       # fixed 90 rpm
+    - 12m 85% 90-100rpm   # cadence range
     - 15m ramp 60-90% 85rpm  # ramp + cadence
 
-#### Text Prompts (device cues)
+#### Text Prompts (device display)
 
-Text before the first duration or power token becomes the device cue (sent to Garmin/Wahoo):
+Text before the first duration specification = prompt on Garmin/Wahoo:
 
     - Recovery 30s 50%
     - Zone 4 interval 5m 95-105%
     - Low cadence 4m 100%
 
-The repeat section header also becomes cue text. For example, `Main Set 6x` typically produces cues like `Main Set 1/6`, `Main Set 2/6`, etc.
+#### Timed Prompts
 
-#### Timed Prompts (time-offset messages)
+Messages at a specific moment within a step (seconds from start), separator `<!>` required:
 
-Messages triggered at a specific second within a step; the `<!>` separator is required:
+    - Start sprint 30^ Relax 60^ Final push <!> 1m30 120%
 
-    - First prompt at 0s 33^Second prompt at 33s <!> 10m ramp 25-75%
-    - First 60^30 Second 120^30 Third <!> 10m 65%
-    - 20^Fuel now <!> 5m 85%
+#### Formatting text inside workout steps
 
-Rules:
-- `33^Second prompt` = show `Second prompt` at second 33 of the step.
-- `60^30 Second` = show `Second` at second 60, for 30 seconds.
-- `<!>` separates the timed-prompt part from the actual step; always include it in new AI-generated workouts.
+Intervals.icu supports standard Markdown and Vuetify classes for readability. These are ignored during parsing:
 
-Platform caveats:
-- Full functionality works primarily with `ZWO` / Zwift sync.
-- On non-ZWO platforms, messages are typically concatenated into a single step text.
-- In repeat / `IntervalsT` scenarios, timed prompts may degrade to one combined cue.
-- Do not mix timed prompts with localised multi-language step syntax such as `en/Hello fr/Bonjour` — they are incompatible.
+    # Title
+    **bold** *italic* ***bold italic***
+    [link](https://example.com)
+    ---
+    <p class="text-red">This text is red</p>
+    <span class="d-none">This text is hidden</span>
+
+Can be mixed with workout steps in the same event description.
 
 #### Freeride (ERG off)
 
-A step with no power target — free pedalling:
+A step without power control — free pedaling:
 
     - 20m freeride
 
-#### Rich formatting inside workout text
+#### Lap button (Garmin sync)
 
-Workout Builder can ignore some formatting markup if it does not look like a workout step. This helps readability, but should not replace the actual step structure.
+End a step when the lap button is pressed on device — append `Press lap`:
 
-Generally safe for display:
-- Markdown headings: `#`, `###`
-- Emphasis: `**bold**`, `*italic*`
-- Links: `[label](https://example.com)`
-- Tables
-- Visual separators: `---`
-- Some Vuetify classes, e.g. `<span class="d-none">...</span>`
+    - 1h Z2 Press lap
 
-Practical recommendations:
-- For automated generation, default to **plain and boring** output: steps plus minimal notes.
-- Do not use HTML comments / hidden metadata as an internal-storage mechanism for device-synced workouts. According to the forum, this can break display on Garmin and similar devices.
-- If you need to persist service metadata, keep it outside the workout body: in MCP, a separate field, a calendar event description, or an external store.
-
-#### LLM workflow recommendations
-
-When a workout is generated by an AI/LLM:
-
-1. Produce **plain-text Workout Builder syntax** first, not JSON.
-2. Verify repeats, units, pace targets, and cue text before converting to an API payload if needed.
-3. For a macro plan, first generate the annual/mesocycle outline, then materialise uploadable workouts in chunks of **1–3 weeks**.
-4. For exotic constructs (`timed prompts`, `absolute pace`, `Press lap`, `CZ`, `MMP`), cross-check against known-good examples or the `Add Step` form.
-
-This reduces the risk of truncation, orphaned repeat labels, wrong bullet glyphs, and "almost correct" syntax that breaks on export.
+Only works on workouts pushed to Garmin devices via Garmin Connect integration.
 
 #### Mixing target types
 
-HR, Pace, and Power can be combined in one workout:
+HR, Pace, and Power can be combined in a single workout:
 
     Warmup
     - 10m Z1 HR
@@ -390,42 +294,9 @@ HR, Pace, and Power can be combined in one workout:
     Cooldown
     - 10m ramp 60-40% HR
 
-> ⚠️ **Practical caveat for running:** mixing `HR` and `Pace` is syntactically valid, but does not always produce a predictable UX in Workout Builder.
-
-For run workouts that the user will open or edit in `Pace` mode, mixing `HR + Pace` in one session can cause warmup/cooldown/recovery blocks to display awkwardly or visually disappear when switching mode.
-
-**Reliable rule:**
-- if the main set uses `Pace`, prefer `Pace` for warmup/cooldown/recovery in the same session too;
-- if the workout is primarily HR-guided, keep the entire session in `HR`;
-- mix types only when genuinely needed, not as a default.
-
-#### Practical rule for Pace-mode run workouts
-
-For test sessions, time trials, and pace-oriented workouts, prefer a **single `Pace` type throughout the session**.
-
-**Preferred pattern:**
-
-    Warmup
-    - 15m Z1 Pace
-
-    Main Set
-    - 46m Z4 Pace
-
-    Cooldown
-    - 10m Z1 Pace
-
-For workouts such as 5K / 10K / HM tests, **relative Pace** is usually more convenient:
-- `Z3 Pace`
-- `Z4 Pace`
-- `88-92% Pace`
-
-rather than absolute pace as the default, when the goal is stable display and editing in Builder `Pace` mode.
-
-Absolute pace (`4:50-4:35/km Pace`) remains valid and useful when a precise target range is needed, but relative Pace is generally more reliable as the standard format for editable running workouts.
-
 #### Complete examples (running)
 
-**Aerobic run with strides:**
+**Aerobic workout with strides:**
 
     Warmup
     - 15m Z1 HR
@@ -440,7 +311,7 @@ Absolute pace (`4:50-4:35/km Pace`) remains valid and useful when a precise targ
     Cooldown
     - 13m Z1 HR
 
-**Distance-based intervals:**
+**Distance intervals:**
 
     Warmup
     - 1mi Z1 HR
@@ -452,172 +323,367 @@ Absolute pace (`4:50-4:35/km Pace`) remains valid and useful when a precise targ
     Cooldown
     - 1mi Z1 Pace
 
-#### Distance step unit summary
+#### Distance steps (unit summary)
 
-Supported: `km`, `mi`, `meters`, `yrd`, `y`
+Supported: `km`, `mi`, `meters`, `mtr`, `yrd`, `y`
 - `- 3km 80% Pace`
-- `- 0.4km Z3 Pace` (400 metres)
-- `- 10m 7:15-7:00/km Pace` (absolute pace with `/km`, `/mi` units)
+- `- 0.4km Z3 Pace` (400 meters)
+- `- 10m 7:15-7:00/km Pace` (absolute pace with units `/km`, `/mi`)
+- Absolute pace distance units: `/100m`, `/100y`, `/km`, `/mi`, `/500m`, `/400m`, `/250m`
 
-## Common mistakes
+### Weight training
 
-- Using `-` for plain notes (`Nutrition`, `Recovery`, `Fueling`) — Builder treats them as intervals.
-- Writing duration-like tokens (`15-20m`, `30m`) in pseudo-steps starting with `-` — this can break preview and duration calculation.
-- Using `100m` / `400m` when metres are intended, not minutes. Use `mtr` / `meters` / `km` for metres.
-- Mixing `HR` warmup/cooldown with a `Pace` main set in workouts that will later be opened in Builder `Pace` mode.
-- Using absolute Pace as the sole standard for editable run tests when relative Pace gives more predictable UI behaviour.
-- Leaving orphaned `3x` / `5x`, or placing a repeat marker before the wrong block.
-- Using bullet symbol `•` instead of the plain `-` in step lines.
-- Trying to generate a very long JSON / full-year upload payload in a single LLM request — better to materialise in 1–3 week chunks.
-- Storing hidden comments / HTML metadata inside the workout body and expecting all devices to safely ignore it.
-
-### Strength training (Weight training)
-
-**Calendar event format in Intervals.icu:**
-- Use a brief line in the calendar such as: `* 1h 40-70% HR (72-125bpm)`
-  - First part is duration
-  - Then the target %HR range
-  - Absolute bpm as a reference
+**Event format in Intervals.icu:**
+- In the calendar, specify a short string like: `* 1h 40-70% HR (72-125bpm)`
+  - First part is the duration
+  - Then the target HR% range
+  - Approximate absolute bpm
 
 **In Workout Builder:**
-- Use one main line with duration and goal: `* 1h 40-70% HR`
-- Add sub-lines with exercises and sets
+- Use one main line with duration and target: `* 1h 40-70% HR`
+- Add sub-items with exercises and sets
 
 **In `workout_doc`:**
 - step: `duration: 3600` and `hr` with `units: "%hr"`, `start: 40`, `end: 70`
-- This allows Intervals.icu to correctly calculate moving_time and zone
+- This ensures Intervals correctly calculates moving_time and zone
 
-**In workout description:**
-- Add structure (exercises, sets, rest periods)
-- Note with absolute bpm as a reference (e.g. 72-125 bpm)
+**In the workout description:**
+- Add structure (exercises, sets, rest)
+- A note with absolute bpm for reference (e.g. 72-125 bpm)
 
-## Intervals.icu MCP integration (rusty-intervals-mcp, intent model v2+)
+## Integration with Intervals.icu via MCP (rusty-intervals-mcp)
 
-### Intent-first contract
+Intent-driven architecture: use 9 high-level tools (intents) instead of 100+ API endpoints.
 
-Use intent tools as the primary interface:
+### List of intent tools
 
-- `mcp_rusty-interva_plan_training`
-- `mcp_rusty-interva_analyze_training`
-- `mcp_rusty-interva_modify_training`
-- `mcp_rusty-interva_compare_periods`
-- `mcp_rusty-interva_assess_recovery`
-- `mcp_rusty-interva_manage_profile`
-- `mcp_rusty-interva_manage_gear`
-- `mcp_rusty-interva_analyze_race`
+| Intent | Purpose | Mutates? |
+|--------|---------|----------|
+| `plan_training` | Create plans (week — year) with periodization | ✅ |
+| `analyze_training` | Analyze workout (single/period) | ❌ |
+| `modify_training` | Modify/create/delete events | ✅ |
+| `compare_periods` | Compare two periods | ❌ |
+| `assess_recovery` | Assess recovery + ADE | ❌ |
+| `manage_profile` | Profile, zones, thresholds | ✅ |
+| `manage_gear` | Gear | ✅ |
+| `analyze_race` | Post-race analysis | ❌ |
+| `track_progress` | CTL plateau detection, TID drift, stagnation hypotheses | ❌ |
 
-### Required context gathering before planning
+### Required context collection before planning
 
-Before generating a plan for one or more weeks, always run:
+1. `manage_profile` action: "get", sections: ["overview", "zones", "thresholds", "metrics"] — profile, thresholds, CTL/ATL/TSB
+2. `analyze_training` target_type: "period" for 4-8 weeks — volume, zones, trends, NDLI, ACWR, TID, power curve comparison
+3. `assess_recovery` period_days: 14 — sleep, HRV, resting HR, ADE system state, recovery quality
+4. `analyze_training` target_type: "period" for the planning period — existing calendar events (included in the response)
+5. `track_progress` (optional) — if there is suspicion of stagnation or before transitioning between training periods
 
-1. `mcp_rusty-interva_manage_profile` (`action: get`) — profile, zones, thresholds
-2. `mcp_rusty-interva_analyze_training` (`target_type: period`) — actual volume/intensity
-3. `mcp_rusty-interva_assess_recovery` — readiness + red flags
-4. If needed: `mcp_rusty-interva_compare_periods` (7/30/90 days)
+### Plateau detection and progress monitoring
 
-### Planning and modifications
+Use `track_progress` when diagnosing the cause of stagnation:
 
-- When the user asks to create a plan (week or block), use `mcp_rusty-interva_plan_training`.
-- When adjusting an existing workout, use `mcp_rusty-interva_modify_training`.
-- For destructive operations (`action: delete`, bulk edits) first run `dry_run: true`, then ask for explicit user confirmation.
+- **Parameters:** `period_weeks` (4-24, default 12), `hypothesis_mode` (default true)
+- **Returns:**
+  - Plateau detection: start date, duration (days), slope/week, trend (Rising/Flat/Declining)
+  - Load context: ACWR ratio + state (underloaded/productive/watch/overreaching), monotony, strain
+  - HRV context: HRV ratio (1.0 = recovered), HRV trend state, lnRMSSD 7-day rollup (mean, CV, trend slope, sample count)
+  - TID drift: weekly 3-zone samples, Shannon entropy recent 4w vs prior 4w, drift state (stable/converging/polarizing), dominant zone
+  - Coaching hypotheses: volume (with flat CTL + ACWR productive/underloaded), intensity distribution (with flat CTL + high monotony + converging TID), recovery (with declining CTL + ACWR watch/overreaching + suppressed HRV)
+  - Recommendations with confidence scores
+- **Integration:** combine with `assess_recovery` to check: if CTL plateau + HRV suppressed = recovery microcycle
 
-### Managing thresholds and zones
+### Creating a plan
 
-Only change thresholds if:
-1) the user explicitly requests it; or
-2) a new VO2max lab protocol is available and the user has confirmed applying it.
+Use `plan_training`. Parameters: `period_start`, `period_end`, `focus` (aerobic_base/intensity/specific/taper/recovery), `max_hours_per_week`, `target_race`.
 
-Workflow:
+**Important:** `plan_training` creates all events itself — do not call createEvent separately.
 
-1. `mcp_rusty-interva_manage_profile` (`action: get`) — collect current thresholds, make a diff
-2. `mcp_rusty-interva_manage_profile` (`action: update_thresholds`, `thresholds_source`)
-3. Apply to historical data only after user consent: `apply_to_activities: true`
-4. Verify the effect via:
-   - `mcp_rusty-interva_manage_profile` (`action: get`)
-   - `mcp_rusty-interva_analyze_training` (`target_type: period`)
-   - `mcp_rusty-interva_assess_recovery`
+Exception: if the user says "text only" / "don't touch the calendar".
 
-### Analysing training and progress
+**Validation:** run the [Pre-submission validation checklist](#pre-submission-validation-checklist) on every event description in the plan before calling `plan_training`.
 
-- Detailed single-session breakdown: `mcp_rusty-interva_analyze_training` (`target_type: single`, `analysis_type: detailed|intervals|streams`)
-  - `detailed` — zones + key metrics
-  - `intervals` — interval analysis (for interval workouts)
-  - `streams` — second-by-second stream data (HR, pace, power)
-  - `include_best_efforts: true` — comparison with best efforts
-  - `include_histograms: true` — HR/pace/power histograms
-  - `metrics: [...]` — specific metrics: time, distance, vertical, tss, pace, hr
-- Period analysis: `mcp_rusty-interva_analyze_training` (`target_type: period`)
-- Block comparison: `mcp_rusty-interva_compare_periods`
+### Creating a single event
 
-### Current `mcp_rusty-interva_analyze_race` contract
+Use `modify_training` action: "create":
+- `target_date` (YYYY-MM-DD)
+- `new_name`, `new_description`, `new_duration` (HH:MM)
+- `new_category` (usually "Workout"), `new_type` (e.g. "Run", "Ride", "WeightTraining")
+- **MUST** run the [Pre-submission validation checklist](#pre-submission-validation-checklist) first
+- First call **MUST** use `dry_run: true` — verify the response content matches intent
 
-Use `mcp_rusty-interva_analyze_race` for **post-race debrief**, strategy evaluation, and identifying areas for improvement after a completed race.
+### Modifying existing events (Update Workflow)
 
-**Input fields per current contract:**
-- `date?: "YYYY-MM-DD" | "last_race"`
-- `description_contains?: string`
-- `analysis_type?: "performance" | "strategy" | "recovery"` (default: `performance`)
-- `compare_to_planned?: boolean` (default: `true`)
+**CRITICALLY IMPORTANT:**
+- ✅ **USE** `modify_training` action: "modify" to change fields of an existing event
+- ❌ **DO NOT** delete + recreate (delete+create is the wrong pattern)
 
-**Practical rule:**
-- The primary working selector is `description_contains`.
-- If `description_contains` is not provided, the current implementation picks the most recent activity from a recent list.
-- Therefore **do not rely solely on `date` / `analysis_type` / `compare_to_planned`** to select the right race or change output logic — always verify that the response's `name`, date, and ID match the intended race.
+**Workflow:**
+1. Find the event via `analyze_training` target_type: "period" (calendar is included in the response)
+2. Run the [Pre-submission validation checklist](#pre-submission-validation-checklist) on the new description
+3. Call `modify_training` with action: "modify", `target_date`, `target_description_contains` (for searching), and fields to update (`new_name`, `new_description`, `new_date`, `new_duration`, `new_category`, `new_type`)
+4. **MUST** use `dry_run: true` first — verify the response
+5. Confirm the changes have been applied
 
-**What the intent fetches automatically:**
-- recent activities (to locate the race)
-- workout details
-- intervals
-- streams
-- fitness summary
-- wellness for the last 7 days
+### Deleting events
 
-**What is typically in the response:**
-- `Race Analysis` + race metadata
-- result table (distance, time, avg HR)
-- `Execution Pattern` (segments, average HR note, Efficiency Factor, Aerobic Decoupling)
-- `Post-Race Load Context` (e.g. recovery block recommendation based on TSB)
-- `Data Availability` (full mode or degraded mode)
-- `suggestions` / `next_actions`
+Use `modify_training` action: "delete". ONLY in exceptional cases. Always warn the user before deleting.
 
-**Current implementation limitations:**
-- `compare_to_planned` is in the schema but does not guarantee a full planned-vs-actual diff — do not promise the user something the intent does not currently build explicitly.
-- `analysis_type` is accepted by the schema but should not be treated as a reliable switch between different output formats without checking the actual response.
-- When no matching race is found, the intent returns soft suggestions/next actions rather than a hard error.
+### Managing thresholds/zones (Sport Settings)
 
-**Recommended post-race workflow:**
-1. `mcp_rusty-interva_analyze_race` with `description_contains`
-2. Check `Data Availability` and lower confidence of conclusions if streams/intervals/wellness are absent
-3. `mcp_rusty-interva_assess_recovery` (`period_days: 7` or `14`)
-4. If needed: `mcp_rusty-interva_plan_training` for recovery week / next block
+Use `manage_profile` action: "update_thresholds" with parameters:
+- `new_aet_hr` — new AeT HR (bpm)
+- `new_lt_hr` — new LT HR (bpm)
+- `thresholds_source` — "manual" or "lab_test"
+- `apply_to_activities` (default: true) — apply to historical activities
 
-**When deeper drill-down is needed:**
-- If a detailed breakdown of streams/intervals beyond the race debrief is required, supplement with `mcp_rusty-interva_analyze_training` for the target session and reconcile the findings.
+**IMPORTANT:** Execute ONLY in one of two cases:
+1. **The user (athlete) explicitly asked** to update thresholds/zones
+2. A new VO2max protocol was found in `knowledge/` and the user confirmed
 
-### Write operation rules
+**Never run an update without explicit user confirmation.**
 
-- Never execute a mutating intent without explicit user instruction.
-- Before any calendar or plan change, briefly confirm what will be modified.
-- If the user asks for "text only" / "don't touch the calendar", output only the intervals.icu text plan.
+#### Process:
 
-## Intervals.icu documentation
+1. **Preparation:** get current settings via `manage_profile` action: "get", sections: ["zones", "thresholds"] and make a diff of old/new values
+2. **Request confirmation:** summary of changes (old→new values), source (test date)
+3. **Update:** `manage_profile` action: "update_thresholds" with new values
+4. **Verification:** check results via `manage_profile` action: "get", sections: ["metrics"]
 
-Official documentation for Workout Builder:
+### Managing training plans (Training Plan Folders)
+
+Folder management is available via low-level OpenAPI tools (not intent-driven). Use them as needed.
+
+#### 1) Creating a folder
+
+Use `createFolder` (available via dynamic runtime) when:
+- The athlete asks "organize my training plans"
+- A structured storage for a periodized plan is needed
+
+**Parameters:** `name`, `description`.
+
+#### 2) Viewing folders
+
+Use `listFolders` (dynamic runtime) to get all folders.
+
+#### 3) Updating a folder
+
+Use `updateFolder` (dynamic runtime) to rename or change the description.
+
+**Parameters:** `folder_id`, `fields` (JSON with name, description).
+
+#### 4) Deleting a folder
+
+Use `deleteFolder` (dynamic runtime). NEVER delete without explicit user confirmation.
+
+**WARNING:** Deleting a folder may delete all events inside it — warn the user.
+
+#### 5) Best practices for folder organization
+
+**Structure by periods (recommended for long-term plans):**
+```
+2026 Trail Training
+├── Q1 - Base Period (weeks 1-13, Jan-Mar)
+│   ├── Week 1-4: Low volume intro
+│   ├── Week 5-9: Aerobic base development
+│   └── Week 10-13: Transition to building
+├── Q2 - Build Period (weeks 14-26, Apr-Jun)
+│   ├── Week 14-18: Vertical focus
+│   ├── Week 19-22: Intensity introduction (Z3/Z4)
+│   └── Week 23-26: Build completion
+├── Q3 - Specific Period (weeks 27-33, Jul-Aug)
+│   └── Target race specific workouts
+└── Q4 - Taper & Deload (weeks 34-39, Sep-Oct)
+    └── Taper protocol + recovery
+```
+
+**Structure by types (alternative):**
+```
+Training Library
+├── Long Run Templates
+├── Interval Sets
+├── Strength & Power
+├── Recovery Protocols
+└── Race Simulations
+```
+
+**Integration with plan creation workflow:**
+1. When creating a new plan → create a folder with the period and goal description
+2. When creating events → specify `folder_id` for automatic organization
+3. When adjusting a plan → update the folder description with new metrics/goals
+4. When completing a period → archive the folder (rename to "[old name] - ARCHIVED") or delete
+
+#### 6) Workflow: Creating a structured 12-week plan
+
+**Example: athlete asks "create a 12-week plan for a 50km race"**
+
+1. First gather context via MCP (`manage_profile`, `analyze_training`, `assess_recovery`)
+2. Create a folder:
+   ```json
+   {"name": "50km Race Prep - 12 weeks", "description": "Target: [race date]. Focus: [goal]. Weekly structure: [number of days/volume/vertical]."}
+   ```
+3. Get `folder_id` from the response
+4. Create events (workouts) for each week with `folder_id`: this automatically organizes everything into the folder
+5. After closing the plan → update the folder with the result (e.g., add a comment about progress/adaptations)
+
+**Important:** Always verify `folder_id` before using it in other operations — an incorrect ID may apply events to the wrong folder.
+
+### Recovery and training analysis
+
+**Recovery assessment:** use `assess_recovery` with the period_days parameter (7–30 days).
+- Returns: sleep, HRV, resting HR, HRV trend slope, recovery quality index, HRV suppression flag, ADE system state (LoadAccepting/RecoveryPriority), red flags, readiness for easy/intensity/long/race
+- Sharp increase in stress / drop in sleep / rise in resting HR → reduce intensity
+- HRV trend slope ↗ = improvement, ↘ = deterioration; recovery quality ≥0.8 = Good, ≥0.5 = Fair, <0.5 = Low
+
+**Calendar view:** use `analyze_training` target_type: "period" for the desired range.
+- Calendar events (workouts/races/notes) are always included in the response
+- No need to call a separate `listEvents`
+
+**Power/Running/HR curves and zone distribution:** built into `analyze_training` period analysis:
+- **Pace/Power/HR curves:** ESPE power curve comparison shows deltas at 1m/5m/20m/60m with rotation index and system status, as well as derived metrics: aerobic durability (P60/P5), durability gradient (P60/P20), balance score, VO2 reserve ratio (P5/eFTP)
+- **HR curves:** NDLI displays neural density with IF/EF/VI explanations; heat stress — thermal load with heat index
+- **TID model:** classification pyramidal/threshold/polarized with Z1/Z2/Z3 distribution and polarization index
+- Use `analyze_training` target_type: "period" for 30–90 days for trend assessment
+
+### Key workout analysis
+
+Use `analyze_training` target_type: "single":
+- analysis_type: "detailed" — ESPE anchors (eFTP/W'/pMax with explanations), WDRM (W' depletion with context), ISDM (signed decoupling negative=improving/positive=drifting), Z2 stability, terrain index, nutrition demand, curve profile
+- analysis_type: "intervals" — interval breakdown (HR/power/pace per rep)
+- analysis_type: "streams" — stream insights (min/max/avg for HR/power/pace)
+
+When suggesting adjustments (volume/intensity/recovery), rely on actual data from MCP:
+- Zone distribution
+- Duration and vertical
+- Training stress (TSS)
+- CTL/ATL/TSB
+
+### Important rule for applying update/create
+
+**Never apply modify_training/plan_training without explicit instruction from the user**
+
+Examples of explicit instructions:
+- "update my plan for next week"
+- "move Tuesday to Wednesday"
+- "create a plan and add it to the calendar"
+
+If the user asks "show me the plan", "what should I do" — output only text in intervals.icu format, do not touch the calendar.
+
+## Pre-submission validation checklist
+
+**MANDATORY: STOP. Run this entire checklist before ANY `modify_training` or `plan_training` call.**
+
+Do not proceed if any check fails. Fix the issue first, then re-check.
+
+### Step 1: Dry-run first, always
+
+```plaintext
+[✅/❌] First call uses dry_run: true
+[✅/❌] dry_run response shows the correct event content (name, description, duration, date)
+[✅/❌] User has explicitly approved the workout (not just "looks good" — explicit "apply it")
+```
+
+**Hard rule:** No `dry_run: false` on the first attempt. Ever.
+
+### Step 2: Duration & distance syntax
+
+| Check | Rule | Wrong | Correct |
+|-------|------|-------|---------|
+| `[✅/❌]` | Use `m`/`s`/`h` — NEVER `min`/`sec`/`minutes`/`seconds` | `10min 60%` | `10m 60%` |
+| `[✅/❌]` | `m` = minutes, NOT meters | `400m Z2` | `400mtr Z2` or `0.4km Z2` |
+| `[✅/❌]` | Combined: `1m30`, `5m30s`, `1h30m` — colon `:` is NOT used in steps | `1:30` | `1h30m` |
+| `[✅/❌]` | Distance valid units: `km`, `mi`, `mtr`, `yrd`, `y` | `500m` | `500mtr` or `0.5km` |
+
+### Step 3: Target syntax
+
+| Check | Rule | Wrong | Correct |
+|-------|------|-------|---------|
+| `[✅/❌]` | Power `%` always present: `95-105%` not `95-105` | `- 5m 95-105` | `- 5m 95-105%` |
+| `[✅/❌]` | Running zones ALWAYS have `HR` or `Pace` suffix | `Z2` in running | `Z2 HR` or `Z2 Pace` |
+| `[✅/❌]` | HR uses `% HR` or `% LTHR` or `Z2 HR` | `- 20m 70%` (unclear type) | `- 20m 70% HR` |
+| `[✅/❌]` | Pace uses `% Pace`, `Z2 Pace`, or `mm:ss/unit Pace` | `- 3km Z3` | `- 3km Z3 Pace` |
+| `[✅/❌]` | Cadence format: `NNrpm` (cycling only) | `90 rpm` (space) | `90rpm` |
+| `[✅/❌]` | Range separator is hyphen `-`, not `–` or `to` | `95–105%` | `95-105%` |
+
+### Step 4: Structure
+
+| Check | Rule | Wrong | Correct |
+|-------|------|-------|---------|
+| `[✅/❌]` | Steps start with `- ` (dash + space) | `10m 60%` | `- 10m 60%` |
+| `[✅/❌]` | Section headers have NO `-` prefix | `- Warmup` | `Warmup` |
+| `[✅/❌]` | Blank line before and after each repeat block | see below | see below |
+| `[✅/❌]` | No nested repeats | `Main Set 3x 5x` | unwrap or flatten |
+| `[✅/❌]` | Ramp uses lowercase `ramp` | `Ramp 50-75%` | `- 10m ramp 50-75%` |
+| `[✅/❌]` | `ramp` boundaries use `%`: `ramp 50%-75%` not `ramp 50-75` | `ramp 50-75` | `ramp 50%-75%` |
+
+**Correct repeat structure:**
+
+```text
+Warmup
+- 10m 60%
+
+                         ← blank line
+Main Set 5x              ← or standalone `5x`
+                         ← blank line
+- 3m 120%
+- 2m Z1
+
+                         ← blank line
+Cooldown
+- 10m 50%
+```
+
+### Step 5: Special steps
+
+| Check | Rule | Wrong | Correct |
+|-------|------|-------|---------|
+| `[✅/❌]` | Timed prompts use `<!>` separator | `- 30^ cue <!> 1m30` | `- Start 30^ Cue <!> 1m30 120%` |
+| `[✅/❌]` | Freeride = `freeride` keyword | `- 20m free ride` | `- 20m freeride` |
+| `[✅/❌]` | Press lap = `Press lap` at end | `- 1h Z2 press lap` (lowercase) | `- 1h Z2 Press lap` |
+
+### Step 6: Event-level rules
+
+| Check | Rule | Wrong | Correct |
+|-------|------|-------|---------|
+| `[✅/❌]` | `new_name` = short readable name (NOT builder syntax) | `- 10m 60%` | `Endurance Run` |
+| `[✅/❌]` | Workout syntax goes in `new_description`, not `new_name` | name contains `- 10m` | name is readable |
+| `[✅/❌]` | No Markdown headers (`##`, `**`) inside `new_description` | `## Warmup` | `Warmup` |
+| `[✅/❌]` | Duration arithmetic adds up | day says `1:30` but steps sum to 1:15 | steps sum to total |
+| `[✅/❌]` | `target_description_contains` uses a real text fragment from the existing description | searching by `10m` (generic) | searching by `Endurance` or `Recovery` |
+
+### Step 7: Output the pre-flight summary
+
+Before the real call, output:
+
+```text
+PRE-FLIGHT CHECK:
+duration_syntax:   ✅/❌  (list any failures)
+target_syntax:     ✅/❌  (list any failures)
+structure:         ✅/❌  (list any failures)
+special_steps:     ✅/❌  (list any failures)
+event_level:       ✅/❌  (list any failures)
+dry_run_result:    ✅/❌  (dry_run response matches intent)
+
+=> STOP if any ❌. Fix and re-check.
+```
+
+### Failure recovery
+
+If a check fails:
+1. Fix the identified issue
+2. Re-run all checks (not just the failed one — fixes can introduce new issues)
+3. Re-run `dry_run: true`
+4. Only then proceed to `dry_run: false`
+
+## Intervals.icu Documentation
+
+Official documentation on workout building is available at:
 - https://forum.intervals.icu/t/workout-builder/1163
-- https://forum.intervals.icu/t/workout-builder-syntax-quick-guide/123701
-- https://www.intervals.icu/features/workout-builder/
-- https://forum.intervals.icu/t/text-events-are-now-supported-in-the-workout-builder/96016
-- https://forum.intervals.icu/t/specify-workouts-using-absolute-pace/115846
-- https://forum.intervals.icu/t/distanced-based-workouts-supported/9973
-- https://www.intervals.icu/features/custom-zones/
-- https://forum.intervals.icu/t/using-ia-chatgpt-to-write-intervals-icu-workouts/85094
 - https://forum.intervals.icu/t/computed-activity-fields/25673
 - https://forum.intervals.icu/t/custom-interval-fields/25942
 - https://forum.intervals.icu/t/custom-activity-charts/28627
 - https://intervals.icu/api-docs.html
 
-## When to use other skills
+## When to refer to other skills
 
 - **Periodization, zones, strength training**: see `periodization-coach` skill
-- **Recovery monitoring, red flags, VO2max lab results**: see `athlete-monitoring` skill
+- **Recovery monitoring, red flags, VO2max work**: see `athlete-monitoring` skill
 - **Injury prevention, evidence-based practice**: see `kinesiology-foundations` skill
