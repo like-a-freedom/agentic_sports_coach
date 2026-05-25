@@ -29,9 +29,15 @@ Do not rely solely on the user's words if the data can be obtained via MCP.
 ### Practice for token efficiency
 
 1. First use high-level intents (`analyze_training`, `assess_recovery`, `manage_profile`), then move to detailed analysis via `target_type`/`analysis_type` parameters.
-2. Limit date ranges via `period_start`/`period_end` (analyze_training period) or `period_days` (assess_recovery).
-3. Use `analyze_training` target_type: "period" for period context (calendar included), "single" for detailed review (with analysis_type for depth).
-4. For curves/histograms use `analyze_training` with `include_histograms: true` and/or period analysis (ESPE/TID/Power Curve).
+2. **Collect data in tiers** to avoid redundant calls:
+   - **Tier 1:** `manage_profile` (overview+zones+thresholds+metrics) + `analyze_training period summary` + `assess_recovery`
+   - **Tier 2:** `analyze_training period` with `analysis_type: "intervals"` or `"streams"` — ONLY if tier 1 left gaps
+   - **Tier 3:** `analyze_training single` for 2-3 key dates — only after tiers 1-2 show what needs closer look
+   - **Avoid** calling the same period with 3 different `analysis_type` values (summary + intervals + streams) — pick one that fits the question
+3. Limit date ranges via `period_start`/`period_end` (analyze_training period) or `period_days` (assess_recovery).
+4. Use `analyze_training` target_type: "period" for period context (calendar included), "single" for detailed review (with analysis_type for depth).
+5. For curves/histograms use `analyze_training` with `include_histograms: true` and/or period analysis (ESPE/TID/Power Curve).
+6. **Memory tool discipline:** No more than 2 consecutive memory write calls without an MCP mutation or a response to the user. If you need to "fix" a memory entry 3+ times, stop and re-assess what's wrong instead of looping.
 
 ## Output format: intervals.icu
 
@@ -619,7 +625,7 @@ Do not proceed if any check fails. Fix the issue first, then re-check.
 ```text
 Warmup
 - 10m 60%
-
+xw
                          ← blank line
 Main Set 5x              ← or standalone `5x`
                          ← blank line
@@ -648,6 +654,7 @@ Cooldown
 | `[✅/❌]` | No Markdown headers (`##`, `**`) inside `new_description` | `## Warmup` | `Warmup` |
 | `[✅/❌]` | Duration arithmetic adds up | day says `1:30` but steps sum to 1:15 | steps sum to total |
 | `[✅/❌]` | `target_description_contains` uses a real text fragment from the existing description | searching by `10m` (generic) | searching by `Endurance` or `Recovery` |
+| `[✅/❌]` | Event duration in dry_run response matches expected `new_duration` | dry_run returns `1:15` but expected `1:45` | match or fix description |
 
 ### Step 7: Output the pre-flight summary
 
@@ -660,10 +667,23 @@ target_syntax:     ✅/❌  (list any failures)
 structure:         ✅/❌  (list any failures)
 special_steps:     ✅/❌  (list any failures)
 event_level:       ✅/❌  (list any failures)
+event_duration:    ✅/❌  (dry_run duration matches new_duration)
 dry_run_result:    ✅/❌  (dry_run response matches intent)
 
 => STOP if any ❌. Fix and re-check.
 ```
+
+### Duration parsing trap
+
+**Known issue:** Intervals.icu may recalculate event duration from structured workout steps (`Warmup / Main Set / Cooldown`) independently of the `new_duration` field. The calendar may show a different duration than what you set in `new_duration`.
+
+**Symptoms:**
+- `new_duration: "1:45"` but dry_run response shows 1:15 or some other value
+- This happens because the parser sums step durations and ignores `new_duration` field
+
+**Workarounds (pick one):**
+1. **Preferred:** Use a flat single step: `- 1h45m Z2 HR` when exact duration is critical
+2. **Alternative:** Verify `new_duration` in the dry_run response — if it differs from expected, adjust the description (not the duration field)
 
 ### Failure recovery
 

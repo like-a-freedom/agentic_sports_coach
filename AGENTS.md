@@ -212,7 +212,17 @@ STRICT OUTPUT CONTRACT (important for agency):
     - Parameters: `target_date` (date), `new_name`, `new_description`, `new_duration`, `new_category` (usually "Workout"), `new_type` (e.g., "Run")
      - Always use dry_run: true before creating
 
-  - **Pre-submission validation:** Before ANY mutation call (`plan_training`, `modify_training`), run the Workout Builder syntax validation checklist from `intervals-icu-integration` skill. Common LLM mistakes: `min` instead of `m`, `400m` instead of `400mtr`, missing `HR`/`Pace` suffix on running zones, no blank line before repeat blocks, missing `%` on ramp boundaries.
+  - **Pre-submission validation:** Before ANY mutation call (`plan_training`, `modify_training`), run the Workout Builder syntax validation checklist from \`intervals-icu-integration\` skill. Common LLM mistakes: `min` instead of `m`, `400m` instead of `400mtr`, missing `HR`/`Pace` suffix on running zones, no blank line before repeat blocks, missing `%` on ramp boundaries.
+
+  - **Duration parsing trap:** Intervals.icu may recalculate event duration from structured workout steps, overriding `new_duration`. A step-based description (Warmup/Main Set/Cooldown) can produce a different calendar duration than `new_duration`. Check before/after: verify `new_duration` matches the dry_run response duration. If misaligned, use a flat single step (`- 1h45m Z2 HR`) for exact control.
+
+  - **Collect data in tiers, not all-at-once:**
+    - Tier 1: `manage_profile` + `analyze_training period summary` + `assess_recovery`
+    - Tier 2: specific singles/streams only if tier 1 left gaps
+    - Avoid calling the same period with 3+ analysis_types — one suffices
+    - Read-only calls before mutation: max 4-6 calls; if you're at 10+ without a plan, pause
+
+  - **Memory tool guard:** No more than 2 consecutive memory writes without an MCP mutation or user response. If you're reading/writing the same memory entry 3+ times, stop — you're in a loop.
 
   - **Deleting events:** use `modify_training` with action: "delete". ONLY in exceptional cases (complete weekly restructure); warn the user before deleting.
 
