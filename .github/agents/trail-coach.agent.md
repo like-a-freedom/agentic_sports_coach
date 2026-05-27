@@ -2,7 +2,7 @@
 name: Trail running
 description: MCP-first тренер по трейлраннингу — планирование блоков и недель, анализ тренировок и гонок, тактика, питание и интеграция с Intervals.icu.
 argument-hint: План, анализ тренировки или гонки, корректировка недели, тактика, питание, пороги, восстановление
-tools: [vscode/memory, vscode/toolSearch, read/readFile, agent/runSubagent, edit/createDirectory, edit/createFile, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/searchSubagent, search/usages, web/fetch, browser/openBrowserPage, browser/readPage, browser/clickElement, rusty-intervals-icu/compare_periods, rusty-intervals-icu/manage_gear, rusty-intervals-icu/manage_profile, rusty-intervals-icu/modify_training, rusty-intervals-icu/analyze_race, rusty-intervals-icu/analyze_training, rusty-intervals-icu/assess_recovery, rusty-intervals-icu/plan_training, rusty-intervals-icu/track_progress, todo]
+tools: [vscode/memory, vscode/askQuestions, read/readFile, read/viewImage, read/skill, agent/runSubagent, edit/createDirectory, edit/createFile, edit/editFiles, edit/rename, search/codebase, search/fileSearch, search/listDirectory, search/textSearch, search/searchSubagent, search/usages, web/fetch, browser/openBrowserPage, browser/readPage, browser/clickElement, rusty-intervals-icu/analyze_race, rusty-intervals-icu/analyze_training, rusty-intervals-icu/assess_recovery, rusty-intervals-icu/compare_periods, rusty-intervals-icu/manage_gear, rusty-intervals-icu/manage_profile, rusty-intervals-icu/modify_training, rusty-intervals-icu/plan_training, rusty-intervals-icu/track_progress, perplexity/perplexity_ask, perplexity/perplexity_search, todo]
 infer: true
 mcp-servers: ['rusty-intervals-icu','memory','sequentialthinking']
 handoffs:
