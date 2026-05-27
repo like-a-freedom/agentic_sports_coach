@@ -1,6 +1,6 @@
 ---
 name: intervals-icu-integration
-description: Technical integration with Intervals.icu platform via MCP (rusty-intervals-mcp). Covers workout format, event management (create/update/delete), sport settings, performance curves, and data retrieval workflows.
+description: Technical integration with Intervals.icu platform via MCP. Covers workout format, event management (create/update/delete), sport settings, performance curves, and data retrieval workflows.
 ---
 
 # Intervals.icu Integration
@@ -22,8 +22,8 @@ Do not rely solely on the user's words if the data can be obtained via MCP.
 
 ### Important about server versions
 
-- MCP contracts and tool names may change between versions of `rusty-interva`.
-- Do not use legacy aliases as source of truth (e.g. old `snake_case` names in old notes).
+- Use the current Intervals MCP contract exposed in this workspace.
+- Do not use legacy aliases or older OpenAPI examples as source of truth.
 - Before calling, always refer to the current schema of the specific tool in MCP.
 
 ### Practice for token efficiency
@@ -31,13 +31,29 @@ Do not rely solely on the user's words if the data can be obtained via MCP.
 1. First use high-level intents (`analyze_training`, `assess_recovery`, `manage_profile`), then move to detailed analysis via `target_type`/`analysis_type` parameters.
 2. **Collect data in tiers** to avoid redundant calls:
    - **Tier 1:** `manage_profile` (overview+zones+thresholds+metrics) + `analyze_training period summary` + `assess_recovery`
+        - Period summaries can be sparse; sometimes you only get basic totals (time, distance, elevation, weekly average).
    - **Tier 2:** `analyze_training period` with `analysis_type: "intervals"` or `"streams"` — ONLY if tier 1 left gaps
    - **Tier 3:** `analyze_training single` for 2-3 key dates — only after tiers 1-2 show what needs closer look
    - **Avoid** calling the same period with 3 different `analysis_type` values (summary + intervals + streams) — pick one that fits the question
 3. Limit date ranges via `period_start`/`period_end` (analyze_training period) or `period_days` (assess_recovery).
 4. Use `analyze_training` target_type: "period" for period context (calendar included), "single" for detailed review (with analysis_type for depth).
-5. For curves/histograms use `analyze_training` with `include_histograms: true` and/or period analysis (ESPE/TID/Power Curve).
+5. For curves/histograms use `analyze_training` only when the current response returns those fields; otherwise stick to the raw summary/interval data that is actually present.
 6. **Memory tool discipline:** No more than 2 consecutive memory write calls without an MCP mutation or a response to the user. If you need to "fix" a memory entry 3+ times, stop and re-assess what's wrong instead of looping.
+
+### Current MCP data surfaces
+
+Only treat the following fields as available when the current MCP response actually returns them:
+
+- `manage_profile get`: overview, zones, thresholds, metrics
+- `analyze_training period`: always at least time, distance, elevation, weekly avg; richer trend/load fields (trend context, load context, NDLI, heat stress, load patterns, terrain specificity) may appear when enough data is available
+- `analyze_training single` / `intervals` / `streams`: rep-level HR/power/pace, duration, cadence, TSS/load, decoupling, W′, pMax, histograms, best efforts, Z2 stability, and stream-level details
+- `manage_gear list`: gear tables grouped by type when available (for example shoes), usually with name/distance/remaining/status columns plus next-actions
+- `assess_recovery`: sleep, resting HR, HRV, TSB, recovery quality, recovery index, readiness, red flags
+- `analyze_race`: only returns a race analysis when the activity is actually found/tagged; otherwise expect a no-match response
+- `compare_periods`: may return a 429/rate-limit error on broader or repeated comparisons; narrow the windows and retry if needed. If one or both windows are empty, expect zero totals and `zones` marked unavailable/n/a.
+- `track_progress`: plateau detection and hypotheses are conditional on available history; insufficient CTL or wellness history can produce unavailable fields and warnings
+
+If a field is not present in the current MCP response, mark it `unavailable` instead of inferring it.
 
 ## Output format: intervals.icu
 
@@ -357,7 +373,7 @@ Supported: `km`, `mi`, `meters`, `mtr`, `yrd`, `y`
 - Add structure (exercises, sets, rest)
 - A note with absolute bpm for reference (e.g. 72-125 bpm)
 
-## Integration with Intervals.icu via MCP (rusty-intervals-mcp)
+## Integration with Intervals.icu via MCP
 
 Intent-driven architecture: use 9 high-level tools (intents) instead of 100+ API endpoints.
 
@@ -378,7 +394,7 @@ Intent-driven architecture: use 9 high-level tools (intents) instead of 100+ API
 ### Required context collection before planning
 
 1. `manage_profile` action: "get", sections: ["overview", "zones", "thresholds", "metrics"] — profile, thresholds, CTL/ATL/TSB
-2. `analyze_training` target_type: "period" for 4-8 weeks — volume, zones, trends, NDLI, ACWR, TID, power curve comparison
+2. `analyze_training` target_type: "period" for 4-8 weeks — volume, zones, and any returned trend/load fields; use intervals/streams when you need more detail
 3. `assess_recovery` period_days: 14 — sleep, HRV, resting HR, ADE system state, recovery quality
 4. `analyze_training` target_type: "period" for the planning period — existing calendar events (included in the response)
 5. `track_progress` (optional) — if there is suspicion of stagnation or before transitioning between training periods
@@ -401,7 +417,7 @@ Use `track_progress` when diagnosing the cause of stagnation:
 
 Use `plan_training`. Parameters: `period_start`, `period_end`, `focus` (aerobic_base/intensity/specific/taper/recovery), `max_hours_per_week`, `target_race`.
 
-**Important:** `plan_training` creates all events itself — do not call createEvent separately.
+**Important:** `plan_training` creates calendar entries directly in the current MCP contract — do not assume a separate create-event API exists.
 
 Exception: if the user says "text only" / "don't touch the calendar".
 
@@ -454,83 +470,9 @@ Use `manage_profile` action: "update_thresholds" with parameters:
 3. **Update:** `manage_profile` action: "update_thresholds" with new values
 4. **Verification:** check results via `manage_profile` action: "get", sections: ["metrics"]
 
-### Managing training plans (Training Plan Folders)
+### Unsupported older examples
 
-Folder management is available via low-level OpenAPI tools (not intent-driven). Use them as needed.
-
-#### 1) Creating a folder
-
-Use `createFolder` (available via dynamic runtime) when:
-- The athlete asks "organize my training plans"
-- A structured storage for a periodized plan is needed
-
-**Parameters:** `name`, `description`.
-
-#### 2) Viewing folders
-
-Use `listFolders` (dynamic runtime) to get all folders.
-
-#### 3) Updating a folder
-
-Use `updateFolder` (dynamic runtime) to rename or change the description.
-
-**Parameters:** `folder_id`, `fields` (JSON with name, description).
-
-#### 4) Deleting a folder
-
-Use `deleteFolder` (dynamic runtime). NEVER delete without explicit user confirmation.
-
-**WARNING:** Deleting a folder may delete all events inside it — warn the user.
-
-#### 5) Best practices for folder organization
-
-**Structure by periods (recommended for long-term plans):**
-```
-2026 Trail Training
-├── Q1 - Base Period (weeks 1-13, Jan-Mar)
-│   ├── Week 1-4: Low volume intro
-│   ├── Week 5-9: Aerobic base development
-│   └── Week 10-13: Transition to building
-├── Q2 - Build Period (weeks 14-26, Apr-Jun)
-│   ├── Week 14-18: Vertical focus
-│   ├── Week 19-22: Intensity introduction (Z3/Z4)
-│   └── Week 23-26: Build completion
-├── Q3 - Specific Period (weeks 27-33, Jul-Aug)
-│   └── Target race specific workouts
-└── Q4 - Taper & Deload (weeks 34-39, Sep-Oct)
-    └── Taper protocol + recovery
-```
-
-**Structure by types (alternative):**
-```
-Training Library
-├── Long Run Templates
-├── Interval Sets
-├── Strength & Power
-├── Recovery Protocols
-└── Race Simulations
-```
-
-**Integration with plan creation workflow:**
-1. When creating a new plan → create a folder with the period and goal description
-2. When creating events → specify `folder_id` for automatic organization
-3. When adjusting a plan → update the folder description with new metrics/goals
-4. When completing a period → archive the folder (rename to "[old name] - ARCHIVED") or delete
-
-#### 6) Workflow: Creating a structured 12-week plan
-
-**Example: athlete asks "create a 12-week plan for a 50km race"**
-
-1. First gather context via MCP (`manage_profile`, `analyze_training`, `assess_recovery`)
-2. Create a folder:
-   ```json
-   {"name": "50km Race Prep - 12 weeks", "description": "Target: [race date]. Focus: [goal]. Weekly structure: [number of days/volume/vertical]."}
-   ```
-3. Get `folder_id` from the response
-4. Create events (workouts) for each week with `folder_id`: this automatically organizes everything into the folder
-5. After closing the plan → update the folder with the result (e.g., add a comment about progress/adaptations)
-
-**Important:** Always verify `folder_id` before using it in other operations — an incorrect ID may apply events to the wrong folder.
+Older Intervals API docs may mention folder-management helpers. They are not part of the current MCP contract in this workspace, so do not assume `createFolder`, `listFolders`, `updateFolder`, or `deleteFolder` exist unless the MCP schema explicitly exposes them.
 
 ### Recovery and training analysis
 
@@ -539,20 +481,16 @@ Training Library
 - Sharp increase in stress / drop in sleep / rise in resting HR → reduce intensity
 - HRV trend slope ↗ = improvement, ↘ = deterioration; recovery quality ≥0.8 = Good, ≥0.5 = Fair, <0.5 = Low
 
-**Calendar view:** use `analyze_training` target_type: "period" for the desired range.
-- Calendar events (workouts/races/notes) are always included in the response
-- No need to call a separate `listEvents`
+**Calendar view:** use `analyze_training` target_type: "period" for the desired range. The current contract already returns calendar events in that response, so there is no separate event-listing tool to call.
 
-**Power/Running/HR curves and zone distribution:** built into `analyze_training` period analysis:
-- **Pace/Power/HR curves:** ESPE power curve comparison shows deltas at 1m/5m/20m/60m with rotation index and system status, as well as derived metrics: aerobic durability (P60/P5), durability gradient (P60/P20), balance score, VO2 reserve ratio (P5/eFTP)
-- **HR curves:** NDLI displays neural density with IF/EF/VI explanations; heat stress — thermal load with heat index
-- **TID model:** classification pyramidal/threshold/polarized with Z1/Z2/Z3 distribution and polarization index
-- Use `analyze_training` target_type: "period" for 30–90 days for trend assessment
+**Period analysis:** rely on the load/trend fields actually present in the response (time, distance, elevation, weekly avg, ACWR, monotony, strain, stress tolerance, NDLI, heat stress, load patterns, terrain specificity).
+
+**Single-session detailed / intervals / streams:** use these when you need rep-by-rep HR/power/pace, cadence, decoupling, W′/pMax, histograms, best efforts, or stream-level inspection. Do not invent curve fields unless the response returns them.
 
 ### Key workout analysis
 
 Use `analyze_training` target_type: "single":
-- analysis_type: "detailed" — ESPE anchors (eFTP/W'/pMax with explanations), WDRM (W' depletion with context), ISDM (signed decoupling negative=improving/positive=drifting), Z2 stability, terrain index, nutrition demand, curve profile
+- analysis_type: "detailed" — power-duration anchors (eFTP/W'/pMax when returned), WDRM (W' depletion with context), ISDM (signed decoupling negative=improving/positive=drifting), Z2 stability, cadence/terrain context, nutrition demand, and curve profile when available
 - analysis_type: "intervals" — interval breakdown (HR/power/pace per rep)
 - analysis_type: "streams" — stream insights (min/max/avg for HR/power/pace)
 
@@ -583,7 +521,7 @@ Do not proceed if any check fails. Fix the issue first, then re-check.
 
 ```plaintext
 [✅/❌] First call uses dry_run: true
-[✅/❌] dry_run response shows the correct event content (name, description, duration, date)
+[✅/❌] dry_run response shows the correct event content (at minimum name, date, duration; description may be abbreviated in the preview)
 [✅/❌] User has explicitly approved the workout (not just "looks good" — explicit "apply it")
 ```
 

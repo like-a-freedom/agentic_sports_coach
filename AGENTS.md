@@ -218,6 +218,7 @@ STRICT OUTPUT CONTRACT (important for agency):
 
   - **Collect data in tiers, not all-at-once:**
     - Tier 1: `manage_profile` + `analyze_training period summary` + `assess_recovery`
+      - Period summaries can be sparse; sometimes you only get basic totals (time, distance, elevation, weekly average).
     - Tier 2: specific singles/streams only if tier 1 left gaps
     - Avoid calling the same period with 3+ analysis_types — one suffices
     - Read-only calls before mutation: max 4-6 calls; if you're at 10+ without a plan, pause
@@ -231,7 +232,7 @@ STRICT OUTPUT CONTRACT (important for agency):
     - **IMPORTANT:** do not trigger the update automatically — always ask for user confirmation with a diff of old/new values
 
   - **Post-race analysis:** use `analyze_race` with parameters `date`, `description_contains`, `analysis_type` (performance/strategy/recovery)
-    - Returns: Race Readiness score (score/100 + tier), execution pattern, comparison with plan, recovery outlook
+    - Returns: Race Readiness score (score/100 + tier), execution pattern, comparison with plan, recovery outlook when the activity is actually found/tagged; otherwise expect a no-match response
 
   - **Recovery assessment:** use `assess_recovery` before assigning key workouts
     - Returns: HRV ratio/trend/recovery quality, ADE system state (LoadAccepting/RecoveryPriority), red flags, readiness for easy/intensity/long/race
@@ -241,12 +242,13 @@ STRICT OUTPUT CONTRACT (important for agency):
     - Returns: ESPE anchors (eFTP, W', pMax — with explanations), WDRM, ISDM (with decoupling sign interpretation), Z2 HR stability, terrain context, nutrition demand, curve profile
     - analysis_type: "detailed" (+execution context with efficiency factor), "intervals" (+interval breakdown), "streams" (+stream insights)
 
-  - **Power/Running curves:** built into `analyze_training` period analysis (ESPE power curve comparison with aerobic durability, durability gradient, balance score, VO2 reserve ratio; TID distribution with classification; ultra-specific tokens)
+  - **Power/Running curves:** richer `analyze_training` period responses may include ESPE power curve comparison with aerobic durability, durability gradient, balance score, VO2 reserve ratio; TID distribution with classification; ultra-specific tokens
     - For period comparison: `compare_periods` — compares volume, intensity, zones
+    - Note: period summaries can be sparse; sometimes you only get basic totals (time, distance, elevation, weekly average), broader comparisons can hit API rate limits on larger or repeated windows, and empty windows may return zero totals with `zones` unavailable/n/a.
 
   - **Plateau and progress detection:** use `track_progress` when the athlete reports stagnation, lack of progress, or for regular monitoring before transitioning between periods
     - Parameters: `period_weeks` (4-24, default 12), `hypothesis_mode` (on/off coaching hypotheses)
-    - Returns: CTL plateau detection (start date, duration, slope/week), load context (ACWR, monotony, strain), HRV context (ratio, trend, lnRMSSD rollup with CV and trend slope), TID drift (Shannon entropy recent 4w vs prior 4w, drift state, dominant zone), coaching hypotheses (volume/intensity/recovery) with confidence scores and recommendations
+    - Returns: CTL plateau detection when sufficient CTL history exists (otherwise unavailable), load context (ACWR, monotony, strain), HRV context (ratio, trend, lnRMSSD rollup when supported), TID drift (Shannon entropy recent 4w vs prior 4w, drift state, dominant zone), coaching hypotheses when enough history exists, plus warnings if history is insufficient
     - Use for: answering "why did I stop progressing?", determining readiness to transition from Base to Specific period, checking the impact of volume/intensity increases on CTL
     - Combine with `assess_recovery` for the full picture: CTL plateau + worsening recovery = signal for a recovery microcycle
 
@@ -267,8 +269,8 @@ STRICT OUTPUT CONTRACT (important for agency):
     - caps for Z2 (HR cap at AeT) and target zone descriptions in workouts
     - pace/threshold references (if the user asks for pace — use LT pace from the test)
   - Compare extracted thresholds with current sport settings in Intervals.icu via MCP. If the test is newer and there are discrepancies:
-    - update thresholds/zones via `mcp_rusty-interva_updateSettings` (or create via `mcp_rusty-interva_createSettings`)
-    - then, after explicit user confirmation, call `mcp_rusty-interva_applyToActivities` for the corresponding `id` of the settings
+    - update thresholds/zones via the current Intervals MCP `manage_profile` action: `update_thresholds`
+    - then, after explicit user confirmation, use the same `update_thresholds` call with `apply_to_activities: true` if historical recalculation is desired
     - for major changes, warn in advance about recalculation of historical metrics.
   - Fallback (if no test): use sport settings from Intervals.icu (via MCP). If those are also empty — ask the user for AeT HR and LT HR before planning.
 
@@ -295,7 +297,7 @@ Methodological sources and references (how to use the literature in the `knowled
     - Reference: `knowledge/Science of Running Technique Analysis.txt`, see sections "Running form", "Strength", "Preventing injury".
 
   - VO2max protocols in `knowledge/` (e.g., `VO2max_test_Soloviev_Anton_20251009.md`)
-    - Use as source of truth for AeT/LT/VO2/HRmax; before changing thresholds, cross-check values and record the source for `mcp_rusty-interva_applyToActivities`.
+    - Use as source of truth for AeT/LT/VO2/HRmax; before changing thresholds, cross-check values and record the source for the current Intervals MCP `manage_profile` action: `update_thresholds`.
 
 How to include sources in the workflow:
   - Always add a short footnote in change descriptions/commits/logs, e.g.: "Source: knowledge/Training for the Uphill Athlete.txt — Base Period (ch.11)".
@@ -307,7 +309,7 @@ Supplement from `Ultrarunning Training Essentials.txt` (Koop) — practical reco
     - Use CTL/ATL/TSB as the primary context when deciding to introduce intensity: avoid sharp CTL increase with worsening wellness.
     - Apply Normalized Graded Pace (NGP) / Grade Adjusted Pace for comparing effort on varied terrain.
     - Track HR drift, HRV, and RPE together — no single metric replaces context; compare 7/30/90-day trends.
-    - For pace references, use `mcp_rusty-interva_listAthletePaceCurves` and `mcp_rusty-interva_listAthleteHRCurves` (time windows 30–90 days).
+    - For pace references, use the current `analyze_training` single/period responses and `compare_periods` if you need trend context; do not rely on separate pace-curve list tools.
   - Long-range planning (Chapter 10):
     - Plan the macrocycle across: Base → Build/Specific → Peak/Taper; schedule key B/A races well in advance.
     - Break into mesocycles (4–8 weeks): each phase has target metrics (hours/vertical/key workouts).
@@ -321,7 +323,7 @@ Supplement from `Ultrarunning Training Essentials.txt` (Koop) — practical reco
       - Fri: REST or easy + mobility
       - Sat: Long endurance run (Time on feet + vertical)
       - Sun: Recovery run or easy cross-training
-    - Position key sessions so there is at least 48–72h between them for recovery; use `mcp_rusty-interva_listEvents` to avoid calendar conflicts.
+    - Position key sessions so there is at least 48–72h between them for recovery; use `analyze_training` target_type: `period` to inspect the current calendar window and avoid conflicts.
   - Strength training specifics (Chapter 11):
     - Maintain general strength 1–2x/week in Transition; max strength 2x/week (early Base) — 3–5 sets x 3–6 reps @85–95% 1RM.
     - Before the race-specific phase, transition strength to ME / endurance: hill-specific circuits, single-leg strength, core and ankle work.

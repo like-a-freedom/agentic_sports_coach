@@ -67,6 +67,8 @@ Use this skill when the request involves:
 3. **Pace/threshold references**
    - If the user asks by pace — use LT pace from the test
 
+**MCP rule:** If the current MCP response does not include a field you need, do not infer it. Switch analysis type (single/intervals/streams), check a different date range, or mark the field `unavailable`.
+
 ### Synchronization with Intervals.icu
 
 **Cross-check extracted thresholds against current sport settings in Intervals.icu via MCP.**
@@ -109,6 +111,36 @@ If the test is newer and there are discrepancies:
 - Series of C/D grades (2+ consecutive) = reduce load by 20-30%
 - One F grade = one-off rest, monitor
 - Repeated D/F = sign of overtraining, red flag
+
+**Interval-session interpretation:**
+- A/B = the prescription was completed and outputs stayed repeatable
+- C = the work was completed but rep quality clearly decayed or recovery got expensive
+- D = the workout was cut short, outputs collapsed, or the target was missed in a meaningful way
+- F = the session could not be completed
+
+### Interval Session Review Protocol
+
+When reviewing an interval session, prefer the actual MCP outputs rather than averages alone:
+
+1. Retrieve the session with `analyze_training`:
+   - `analysis_type: "intervals"` for rep-by-rep breakdown
+   - `analysis_type: "detailed"` when you need W′, decoupling, cadence, power anchors, or nutrition context
+   - `include_best_efforts: true` and `include_histograms: true` when you need distribution or benchmark context
+2. Check the prescription first:
+   - intended goal (VO2max, threshold, muscular endurance, speed, or maintenance)
+   - total work time
+   - work:rest ratio
+   - target type (HR, pace, or power)
+3. Check execution next:
+   - rep-to-rep stability in HR/power/pace
+   - cadence drift or form fade
+   - whether recovery intervals were long enough to repeat the target
+   - decoupling, W′ depletion, or abnormal HR response when present
+4. Cross-check readiness with `assess_recovery`:
+   - sleep, resting HR, HRV, TSB, red flags, and activity-specific readiness
+5. Grade the session and name the next action:
+   - maintain / repeat / progress / back off
+6. If a metric is unavailable in the response, say so rather than guessing.
 
 ### CTL/ATL/TSB (Chronic Training Load / Acute Training Load / Training Stress Balance)
 
